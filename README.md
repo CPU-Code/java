@@ -1,7 +1,7 @@
 # java
 
 ## 介绍
-
+java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
 ## 文件目录
 
@@ -17,7 +17,7 @@
 * [accuracy__byte数据精度丢失](basics/accuracy.java)
 * [byte_assign__byte加法](basics/byte_assign.java)
 * [scope__作用域](basics/scope.java)
-
+* [type_auto__自动类型转换](basics/type_auto.java)
 
 ---------------------------
 
