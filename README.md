@@ -1,4 +1,19 @@
+<!--
+ * @Author: cpu_code
+ * @Date: 2020-07-06 20:17:11
+ * @LastEditTime: 2020-07-07 12:03:56
+ * @FilePath: \java\README.md
+ * @Gitee: https://gitee.com/cpu_code
+ * @CSDN: https://blog.csdn.net/qq_44226094
+--> 
 # java
+
+ * @Author: cpu_code
+ * @Date: 2020-07-06 20:17:11
+ * @LastEditTime: 2020-07-07 12:03:41
+ * @FilePath: \java\README.md
+ * @Gitee: https://gitee.com/cpu_code
+ * @CSDN: https://blog.csdn.net/qq_44226094
 
 ## 介绍
 java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
@@ -44,6 +59,8 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 * [rectangle__打印矩形](basics/rectangle.java)
 * [print_rectangle__打印矩形](basics/print_rectangle.java)
 * [area__矩形面积](basics/area.java)
+* [add__调用加法](basics/add.java)
+* [array__数组](basics/array.java)
 
 --------
 
