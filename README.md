@@ -1,7 +1,7 @@
 <!--
  * @Author: cpu_code
  * @Date: 2020-07-06 20:17:11
- * @LastEditTime: 2020-07-07 12:03:56
+ * @LastEditTime: 2020-07-07 22:19:30
  * @FilePath: \java\README.md
  * @Gitee: https://gitee.com/cpu_code
  * @CSDN: https://blog.csdn.net/qq_44226094
@@ -10,7 +10,7 @@
 
  * @Author: cpu_code
  * @Date: 2020-07-06 20:17:11
- * @LastEditTime: 2020-07-07 12:03:41
+ * @LastEditTime: 2020-07-07 22:18:48
  * @FilePath: \java\README.md
  * @Gitee: https://gitee.com/cpu_code
  * @CSDN: https://blog.csdn.net/qq_44226094
@@ -61,8 +61,12 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 * [area__矩形面积](basics/area.java)
 * [add__调用加法](basics/add.java)
 * [array__数组](basics/array.java)
+* [array_assign__数组赋值](basics/array_assign.java)
+* [array_init__数组初始化](basics/array_init.java)
 
---------
+
+-----------------
+
 
 ## [_面对对象](_面对对象)
 
