@@ -41,6 +41,9 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 * [Break__跳出循环](basics/Break.java)
 * [break_out__跳出外循环](basics/break_out.java)
 * [Continue__跳过本循环](basics/Continue.java)
+* [rectangle__打印矩形](basics/rectangle.java)
+* [print_rectangle__打印矩形](basics/print_rectangle.java)
+* [area__矩形面积](basics/area.java)
 
 --------
 
