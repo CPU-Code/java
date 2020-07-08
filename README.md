@@ -1,7 +1,7 @@
 <!--
  * @Author: cpu_code
  * @Date: 2020-07-06 20:17:11
- * @LastEditTime: 2020-07-08 10:03:43
+ * @LastEditTime: 2020-07-08 11:43:42
  * @FilePath: \java\README.md
  * @Gitee: https://gitee.com/cpu_code
  * @CSDN: https://blog.csdn.net/qq_44226094
@@ -67,6 +67,9 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 * [point_excep__空指针异常](basics/point_excep.java)
 * [for_array__for循环遍历数组](basics/for_array.java)
 * [array_max__查找数组中最大的](basics/array_max.java)
+* [bubble_sort__冒泡排序](basics/bubble_sort.java)
+* [Checklist__商城库存清单程序](basics/Checklist.java)
+* [two_dimen_array__二维数组的使用](basics/two_dimen_array.java)
 
 -----------------
 
