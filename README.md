@@ -1,7 +1,7 @@
 <!--
  * @Author: cpu_code
  * @Date: 2020-07-06 20:17:11
- * @LastEditTime: 2020-07-08 11:43:42
+ * @LastEditTime: 2020-07-08 14:09:05
  * @FilePath: \java\README.md
  * @Gitee: https://gitee.com/cpu_code
  * @CSDN: https://blog.csdn.net/qq_44226094
@@ -70,6 +70,8 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 * [bubble_sort__冒泡排序](basics/bubble_sort.java)
 * [Checklist__商城库存清单程序](basics/Checklist.java)
 * [two_dimen_array__二维数组的使用](basics/two_dimen_array.java)
+* [guess_num__猜数](basics/guess_num.java)
+* [call_name__点名](basics/call_name.java)
 
 -----------------
 
