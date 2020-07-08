@@ -1,7 +1,7 @@
 <!--
  * @Author: cpu_code
  * @Date: 2020-07-06 20:17:11
- * @LastEditTime: 2020-07-07 22:19:30
+ * @LastEditTime: 2020-07-08 10:03:43
  * @FilePath: \java\README.md
  * @Gitee: https://gitee.com/cpu_code
  * @CSDN: https://blog.csdn.net/qq_44226094
@@ -10,7 +10,7 @@
 
  * @Author: cpu_code
  * @Date: 2020-07-06 20:17:11
- * @LastEditTime: 2020-07-07 22:18:48
+ * @LastEditTime: 2020-07-08 10:03:29
  * @FilePath: \java\README.md
  * @Gitee: https://gitee.com/cpu_code
  * @CSDN: https://blog.csdn.net/qq_44226094
@@ -63,7 +63,10 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 * [array__数组](basics/array.java)
 * [array_assign__数组赋值](basics/array_assign.java)
 * [array_init__数组初始化](basics/array_init.java)
-
+* [array_excep__数组越界异常](basics/array_excep.java)
+* [point_excep__空指针异常](basics/point_excep.java)
+* [for_array__for循环遍历数组](basics/for_array.java)
+* [array_max__查找数组中最大的](basics/array_max.java)
 
 -----------------
 
