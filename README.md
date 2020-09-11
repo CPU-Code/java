@@ -1,7 +1,7 @@
 <!--
  * @Author: cpu_code
  * @Date: 2020-07-06 20:17:11
- * @LastEditTime: 2020-09-11 14:25:09
+ * @LastEditTime: 2020-09-11 14:27:00
  * @FilePath: \java\README.md
  * @Gitee: https://gitee.com/cpu_code
  * @CSDN: https://blog.csdn.net/qq_44226094
@@ -82,7 +82,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [ ] [enpty_object__空对象](object/enpty_object.java)
 - [ ] [object_mem__访问对象成员](object/object_mem.java)
 - [x] [wrong_access__错误访问](object/wrong_access.java)
-
+- [x] [call_method__调用接口](object/call_method.java)
 ------------------------
 
 ## [_javaAPI](_javaAPI)
