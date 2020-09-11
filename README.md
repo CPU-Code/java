@@ -1,7 +1,7 @@
 <!--
  * @Author: cpu_code
  * @Date: 2020-07-06 20:17:11
- * @LastEditTime: 2020-09-11 14:47:33
+ * @LastEditTime: 2020-09-11 14:54:35
  * @FilePath: \java\README.md
  * @Gitee: https://gitee.com/cpu_code
  * @CSDN: https://blog.csdn.net/qq_44226094
@@ -85,6 +85,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [call_method__调用接口](object/call_method.java)
 - [x] [call_private__调用private接口](object/call_private.java)
 - [x] [parameter_binding__参数绑定](object/parameter_binding.java)
+- [x] [quote_paramater__引用参数](object/quote_paramater.java)
 
 ------------------------
 
