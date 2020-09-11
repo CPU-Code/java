@@ -1,7 +1,7 @@
 <!--
  * @Author: cpu_code
  * @Date: 2020-07-06 20:17:11
- * @LastEditTime: 2020-09-11 14:27:00
+ * @LastEditTime: 2020-09-11 14:42:02
  * @FilePath: \java\README.md
  * @Gitee: https://gitee.com/cpu_code
  * @CSDN: https://blog.csdn.net/qq_44226094
@@ -83,6 +83,8 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [ ] [object_mem__访问对象成员](object/object_mem.java)
 - [x] [wrong_access__错误访问](object/wrong_access.java)
 - [x] [call_method__调用接口](object/call_method.java)
+- [x] [call_private__调用private接口](object/call_private.java)
+
 ------------------------
 
 ## [_javaAPI](_javaAPI)
