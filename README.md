@@ -1,7 +1,7 @@
 <!--
  * @Author: cpu_code
  * @Date: 2020-07-06 20:17:11
- * @LastEditTime: 2020-09-11 15:07:03
+ * @LastEditTime: 2020-09-11 15:20:12
  * @FilePath: \java\README.md
  * @Gitee: https://gitee.com/cpu_code
  * @CSDN: https://blog.csdn.net/qq_44226094
@@ -87,6 +87,8 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [parameter_binding__参数绑定](object/parameter_binding.java)
 - [x] [quote_paramater__引用参数](object/quote_paramater.java)
 - [x] [quote_paramater2__引用参数](object/quote_paramater2.java)
+- [x] [construction_method__构造方法](object/construction_method.java)
+
 
 ------------------------
 
