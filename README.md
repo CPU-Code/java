@@ -1,21 +1,20 @@
 <!--
+ * @由于个人水平有限, 难免有些错误, 还请指点:  
  * @Author: cpu_code
- * @Date: 2020-07-06 20:17:11
- * @LastEditTime: 2020-09-12 11:45:16
+ * @Date: 2020-07-12 12:03:11
+ * @LastEditTime: 2020-09-12 11:52:43
  * @FilePath: \java\README.md
- * @Gitee: https://gitee.com/cpu_code
- * @CSDN: https://blog.csdn.net/qq_44226094
---> 
+ * @Gitee: [https://gitee.com/cpu_code](https://gitee.com/cpu_code)
+ * @Github: [https://github.com/CPU-Code](https://github.com/CPU-Code)
+ * @CSDN: [https://blog.csdn.net/qq_44226094](https://blog.csdn.net/qq_44226094)
+ * @Gitbook: [https://923992029.gitbook.io/cpucode/](https://923992029.gitbook.io/cpucode/)
+-->
+
 # java
 
- * @Author: cpu_code
- * @Date: 2020-07-06 20:17:11
- * @LastEditTime: 2020-07-08 10:03:29
- * @FilePath: \java\README.md
- * @Gitee: https://gitee.com/cpu_code
- * @CSDN: https://blog.csdn.net/qq_44226094
 
 ## 介绍
+
 java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
 ---------------
@@ -99,6 +98,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [string_capital__string转换为大写](javaAPI/string_capital.java)
 - [x] [error_string_compare__错误string比较](javaAPI/error_string_compare.java)
 - [x] [string_compare__string比较](javaAPI/string_compare.java)
+- [ ] [format__替换占位符](javaAPI/format.java)
 
 -----------------
 
