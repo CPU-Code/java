@@ -2,7 +2,7 @@
  * @由于个人水平有限, 难免有些错误, 还请指点:  
  * @Author: cpu_code
  * @Date: 2020-07-12 12:03:11
- * @LastEditTime: 2020-09-12 18:39:01
+ * @LastEditTime: 2020-09-12 20:09:35
  * @FilePath: \java\README.md
  * @Gitee: [https://gitee.com/cpu_code](https://gitee.com/cpu_code)
  * @Github: [https://github.com/CPU-Code](https://github.com/CPU-Code)
@@ -112,7 +112,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [print_random__随机数](javaAPI/Random/print_random.java)
 - [x] [guess_random__猜随机数](javaAPI/Random/guess_random.java)
 
-###  [ArrayList](javaAPI/ArrayList)
+### [ArrayList](javaAPI/ArrayList)
 
 - [x] [object_array__对象数组](javaAPI/ArrayList/object_array.java)
 - [x] [ArrayListMethod__集合对象](javaAPI/ArrayList/ArrayListMethod.java)
@@ -121,6 +121,13 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [ArrayList_object__对象添加到集合](javaAPI/ArrayList/ArrayList_object.java)
 - [x] [print_ArrayList__打印集合](javaAPI/ArrayList/print_ArrayList.java)
 - [x] [get_ArrayList__获取集合方法](javaAPI/ArrayList/get_ArrayList.java)
+
+### [String](javaAPI/String)
+
+- [x] [string_compare__字符串比较](javaAPI/String/string_compare.java)
+
+
+
 
 -----------------------
 
