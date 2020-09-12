@@ -2,7 +2,7 @@
  * @由于个人水平有限, 难免有些错误, 还请指点:  
  * @Author: cpu_code
  * @Date: 2020-07-12 12:03:11
- * @LastEditTime: 2020-09-12 12:16:22
+ * @LastEditTime: 2020-09-12 12:16:29
  * @FilePath: \java\README.md
  * @Gitee: [https://gitee.com/cpu_code](https://gitee.com/cpu_code)
  * @Github: [https://github.com/CPU-Code](https://github.com/CPU-Code)
@@ -99,7 +99,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [error_string_compare__错误string比较](javaAPI/error_string_compare.java)
 - [x] [string_compare__string比较](javaAPI/string_compare.java)
 - [ ] [format__替换占位符](javaAPI/format.java)
-- [ ] [conversion_char__转化为char](javaAPI/conversion_char.java)
+- [x] [conversion_char__转化为char](javaAPI/conversion_char.java)
 
 -----------------------
 
