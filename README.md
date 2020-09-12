@@ -2,7 +2,7 @@
  * @由于个人水平有限, 难免有些错误, 还请指点:  
  * @Author: cpu_code
  * @Date: 2020-07-12 12:03:11
- * @LastEditTime: 2020-09-12 17:11:53
+ * @LastEditTime: 2020-09-12 18:18:17
  * @FilePath: \java\README.md
  * @Gitee: [https://gitee.com/cpu_code](https://gitee.com/cpu_code)
  * @Github: [https://github.com/CPU-Code](https://github.com/CPU-Code)
@@ -118,6 +118,8 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [ArrayListMethod__集合对象](javaAPI/ArrayList/ArrayListMethod.java)
 - [x] [Integer_array__Integer集合对象](javaAPI/ArrayList/Integer_array.java)
 - [x] [ArrayList_number__数值添加到集合](javaAPI/ArrayList/ArrayList_number.java)
+- [x] [ArrayList_object__对象添加到集合](javaAPI/ArrayList/ArrayList_object.java)
+- [x] [print_ArrayList__打印集合](javaAPI/ArrayList/print_ArrayList.java)
 
 -----------------------
 
