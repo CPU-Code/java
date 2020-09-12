@@ -1,7 +1,7 @@
 <!--
  * @Author: cpu_code
  * @Date: 2020-07-06 20:17:11
- * @LastEditTime: 2020-09-12 11:34:31
+ * @LastEditTime: 2020-09-12 11:40:27
  * @FilePath: \java\README.md
  * @Gitee: https://gitee.com/cpu_code
  * @CSDN: https://blog.csdn.net/qq_44226094
@@ -94,11 +94,10 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
 ------------------------
 
-## [_javaAPI](_javaAPI)
+## [javaAPI](javaAPI)
 
-
-
-
+- [x] [string_capital__string转换为大写](javaAPI/string_capital.java)
+- [x] [string_compare__string比较](javaAPI/string_compare.java)
 
 -----------------
 
