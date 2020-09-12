@@ -1,7 +1,7 @@
 <!--
  * @Author: cpu_code
  * @Date: 2020-07-06 20:17:11
- * @LastEditTime: 2020-09-11 15:20:50
+ * @LastEditTime: 2020-09-12 11:34:31
  * @FilePath: \java\README.md
  * @Gitee: https://gitee.com/cpu_code
  * @CSDN: https://blog.csdn.net/qq_44226094
@@ -89,10 +89,14 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [quote_paramater2__引用参数](object/quote_paramater2.java)
 - [x] [construction_method__构造方法](object/construction_method.java)
 - [x] [error_construction__错误构造方法](object/error_construction.java)
+- [x] [multiple_construction__多种构造方法](object/multiple_construction.java)
+
 
 ------------------------
 
 ## [_javaAPI](_javaAPI)
+
+
 
 
 
