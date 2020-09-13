@@ -2,7 +2,7 @@
  * @由于个人水平有限, 难免有些错误, 还请指点:  
  * @Author: cpu_code
  * @Date: 2020-07-12 12:03:11
- * @LastEditTime: 2020-09-13 15:56:51
+ * @LastEditTime: 2020-09-13 16:12:50
  * @FilePath: \java\README.md
  * @Gitee: [https://gitee.com/cpu_code](https://gitee.com/cpu_code)
  * @Github: [https://github.com/CPU-Code](https://github.com/CPU-Code)
@@ -100,6 +100,8 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [extend4__继承成员方法不重名](object/Extends/extend4.java)
 - [x] [extend5__继承成员方法重名重写](object/Extends/extend5.java)
 - [x] [extend6__重写的应用](object/Extends/extend6.java)
+- [x] [extend7__继承构造方法](object/Extends/extend7.java)
+- [x] [extend8__继承调用子父类](object/Extends/extend8.java)
 
 ------------------------
 
