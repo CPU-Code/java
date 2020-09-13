@@ -2,7 +2,7 @@
  * @由于个人水平有限, 难免有些错误, 还请指点:  
  * @Author: cpu_code
  * @Date: 2020-07-12 12:03:11
- * @LastEditTime: 2020-09-13 16:12:50
+ * @LastEditTime: 2020-09-13 17:38:41
  * @FilePath: \java\README.md
  * @Gitee: [https://gitee.com/cpu_code](https://gitee.com/cpu_code)
  * @Github: [https://github.com/CPU-Code](https://github.com/CPU-Code)
@@ -102,6 +102,12 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [extend6__重写的应用](object/Extends/extend6.java)
 - [x] [extend7__继承构造方法](object/Extends/extend7.java)
 - [x] [extend8__继承调用子父类](object/Extends/extend8.java)
+
+
+### [abstract__抽象类](object/abstract)
+
+- [x] [abstract1__抽象类](object/abstract/abstract1.java)
+- [ ] [abstract2__继承的综合案例](object/abstract/abstract2)
 
 ------------------------
 
