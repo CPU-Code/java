@@ -2,7 +2,7 @@
  * @由于个人水平有限, 难免有些错误, 还请指点:  
  * @Author: cpu_code
  * @Date: 2020-07-12 12:03:11
- * @LastEditTime: 2020-09-13 11:20:31
+ * @LastEditTime: 2020-09-13 14:10:11
  * @FilePath: \java\README.md
  * @Gitee: [https://gitee.com/cpu_code](https://gitee.com/cpu_code)
  * @Github: [https://github.com/CPU-Code](https://github.com/CPU-Code)
@@ -105,6 +105,9 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [ ] [anonymous1__匿名对象参数](javaAPI/anonymous1.java)
 - [ ] [anonymous2__匿名对象返回值](javaAPI/anonymous2.java)
 
+### [Scanner](javaAPI/Scanner)
+
+- [ ] [scanner_nextint__输入数据](javaAPI/Scanner/scanner_nextint.java)
 
 ### [Random](javaAPI/Random)
 
@@ -146,6 +149,8 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 ### [Math](javaAPI/Math)
 
 - [x] [math_abs_ceil__绝对值整数](javaAPI/Math/math_abs_ceil.java)
+
+
 
 -----------------------
 
