@@ -2,7 +2,7 @@
  * @由于个人水平有限, 难免有些错误, 还请指点:  
  * @Author: cpu_code
  * @Date: 2020-07-12 12:03:11
- * @LastEditTime: 2020-09-13 14:10:11
+ * @LastEditTime: 2020-09-13 14:16:10
  * @FilePath: \java\README.md
  * @Gitee: [https://gitee.com/cpu_code](https://gitee.com/cpu_code)
  * @Github: [https://github.com/CPU-Code](https://github.com/CPU-Code)
@@ -99,15 +99,16 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [string_compare__string比较](javaAPI/string_compare.java)
 - [ ] [format__替换占位符](javaAPI/format.java)
 - [x] [conversion_char__转化为char](javaAPI/conversion_char.java)
-- [x] [nextInt_int__输入整数](javaAPI/nextInt_int.java)
-- [x] [nextInt_sum__和](javaAPI/nextInt_sum.java)
-- [x] [nextInt_max__最大值](javaAPI/nextInt_max.java)
-- [ ] [anonymous1__匿名对象参数](javaAPI/anonymous1.java)
-- [ ] [anonymous2__匿名对象返回值](javaAPI/anonymous2.java)
+
 
 ### [Scanner](javaAPI/Scanner)
 
-- [ ] [scanner_nextint__输入数据](javaAPI/Scanner/scanner_nextint.java)
+- [x] [scanner_nextint__输入数据](javaAPI/Scanner/scanner_nextint.java)
+- [x] [nextInt_int__输入整数](javaAPI/Scanner/nextInt_int.java)
+- [x] [nextInt_sum__和](javaAPI/Scanner/nextInt_sum.java)
+- [x] [nextInt_max__最大值](javaAPI/Scanner/nextInt_max.java)
+- [ ] [anonymous1__匿名对象参数](javaAPI/Scanner/anonymous1.java)
+- [ ] [anonymous2__匿名对象返回值](javaAPI/Scanner/anonymous2.java)
 
 ### [Random](javaAPI/Random)
 
