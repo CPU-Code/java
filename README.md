@@ -2,7 +2,7 @@
  * @由于个人水平有限, 难免有些错误, 还请指点:  
  * @Author: cpu_code
  * @Date: 2020-07-12 12:03:11
- * @LastEditTime: 2020-09-14 19:06:41
+ * @LastEditTime: 2020-09-14 20:34:59
  * @FilePath: \java\README.md
  * @Gitee: [https://gitee.com/cpu_code](https://gitee.com/cpu_code)
  * @Github: [https://github.com/CPU-Code](https://github.com/CPU-Code)
@@ -140,12 +140,12 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
 - [ ] [Inner_class1__成员内部类](object/Inner_class/Inner_class1.java)
 - [x] [Inner_class2__匿名内部类](object/Inner_class/Inner_class2.java)
-- [ ] [Inner_class3__匿名内部类作为参数传递](object/Inner_class/Inner_class3.java)
+- [x] [Inner_class3__匿名内部类作为参数传递](object/Inner_class/Inner_class3.java)
+- [ ] [Inner_class4__简化匿名内部类作为参数传递](object/Inner_class/Inner_class4.java)
 
+### [__引用类型](object/)
 
-### [Inner_class__引用类型](object/Inner_class)
-
-
+- [ ] [Inner_class4__简化匿名内部类作为参数传递](object/Inner_class/class_.java)
 
 ### [Inner_class__综合案例——发红包](object/Inner_class)
 
@@ -213,17 +213,22 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
 - [x] [math_abs_ceil__绝对值整数](javaAPI/Math/math_abs_ceil.java)
 
+### [Object](javaAPI/Object)
+
 
 
 -----------------------
 
 ## [异常处理](Exception)
 
-- [x] [Exception1__捕获异常](javaAPI/Exception/Exception1.java)
-- [x] [Exception2__错误捕获异常](javaAPI/Exception/Exception2.java)
-- [x] [Exception3__错误捕获异常](javaAPI/Exception/Exception3.java)
-- [x] [Exception4__捕获异常并处理](javaAPI/Exception/Exception4.java)
-- [x] [Exception5__捕获异常并处理](javaAPI/Exception/Exception5.java)
+- [x] [Exception1__捕获异常](Exception/Exception1.java)
+- [x] [Exception2__错误捕获异常](Exception/Exception2.java)
+- [x] [Exception3__错误捕获异常](Exception/Exception3.java)
+- [x] [Exception4__捕获异常并处理](Exception/Exception4.java)
+- [x] [Exception5__捕获异常并处理](Exception/Exception5.java)
+- [x] [Exception6__捕获异常](Exception/Exception6.java)
+- [x] [Exception7__异常的传播](Exception/Exception7.java)
+
 
 ------------
 
@@ -241,7 +246,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
 -----------------
 
-## [_集合](_集合)
+## [_集合]()
 
 
 
