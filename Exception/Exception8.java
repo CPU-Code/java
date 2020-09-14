@@ -1,9 +1,9 @@
 /*
  * @由于个人水平有限, 难免有些错误, 还请指点:  
  * @Author: cpu_code
- * @Date: 2020-09-14 20:32:11
- * @LastEditTime: 2020-09-14 20:35:56
- * @FilePath: \java\Exception\Exception7.java
+ * @Date: 2020-09-14 21:09:54
+ * @LastEditTime: 2020-09-14 21:14:33
+ * @FilePath: \java\Exception\Exception8.java
  * @Gitee: [https://gitee.com/cpu_code](https://gitee.com/cpu_code)
  * @Github: [https://github.com/CPU-Code](https://github.com/CPU-Code)
  * @CSDN: [https://blog.csdn.net/qq_44226094](https://blog.csdn.net/qq_44226094)
@@ -11,30 +11,33 @@
  */
 package Exception;
 
-public class Exception7 {
+public class Exception8 {
     public static void main(String[] args){
         try{
             process1();
         } catch(Exception e){
+            // 捕获 IllegalArgumentException ，我们看看打印的异常栈
             e.printStackTrace();
         }
     }
 
-    static void process1(){
-        process2();
+    static void process1() {
+        try{
+            process2();
+        } catch(NullPointerException e) {
+            // 被process1()捕获，然后抛出 IllegalArgumentException()
+            throw new IllegalArgumentException();
+        }
     }
 
     static void process2(){
-        Integer.parseInt(null);     // 会抛出NumberFormatException
+        // 抛出 NullPointerException
+        throw new NullPointerException();
     }
 }
 
 /*
-java.lang.NumberFormatException: null
-	at java.base/java.lang.Integer.parseInt(Integer.java:614)
-	at java.base/java.lang.Integer.parseInt(Integer.java:770)
-	at com.company.Main.process2(Main.java:25)
-	at com.company.Main.process1(Main.java:21)
+java.lang.IllegalArgumentException
+	at com.company.Main.process1(Main.java:24)
 	at com.company.Main.main(Main.java:14)
-
 */
