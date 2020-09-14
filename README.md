@@ -2,7 +2,7 @@
  * @由于个人水平有限, 难免有些错误, 还请指点:  
  * @Author: cpu_code
  * @Date: 2020-07-12 12:03:11
- * @LastEditTime: 2020-09-14 18:07:54
+ * @LastEditTime: 2020-09-14 19:06:41
  * @FilePath: \java\README.md
  * @Gitee: [https://gitee.com/cpu_code](https://gitee.com/cpu_code)
  * @Github: [https://github.com/CPU-Code](https://github.com/CPU-Code)
@@ -139,7 +139,15 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 ### [Inner_class__内部类](object/Inner_class)
 
 - [ ] [Inner_class1__成员内部类](object/Inner_class/Inner_class1.java)
-- [ ] [Inner_class2__匿名内部类](object/Inner_class/Inner_class2.java)
+- [x] [Inner_class2__匿名内部类](object/Inner_class/Inner_class2.java)
+- [ ] [Inner_class3__匿名内部类作为参数传递](object/Inner_class/Inner_class3.java)
+
+
+### [Inner_class__引用类型](object/Inner_class)
+
+
+
+### [Inner_class__综合案例——发红包](object/Inner_class)
 
 ------------------------
 
