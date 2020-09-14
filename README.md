@@ -2,7 +2,7 @@
  * @由于个人水平有限, 难免有些错误, 还请指点:  
  * @Author: cpu_code
  * @Date: 2020-07-12 12:03:11
- * @LastEditTime: 2020-09-14 16:45:51
+ * @LastEditTime: 2020-09-14 17:11:00
  * @FilePath: \java\README.md
  * @Gitee: [https://gitee.com/cpu_code](https://gitee.com/cpu_code)
  * @Github: [https://github.com/CPU-Code](https://github.com/CPU-Code)
@@ -207,6 +207,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 ## [异常处理](Exception)
 
 - [x] [Exception1__捕获异常](javaAPI/Exception/Exception1.java)
+- [x] [Exception2__错误捕获异常](javaAPI/Exception/Exception2.java)
 
 ------------
 
