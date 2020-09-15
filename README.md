@@ -2,7 +2,7 @@
  * @由于个人水平有限, 难免有些错误, 还请指点:  
  * @Author: cpu_code
  * @Date: 2020-07-12 12:03:11
- * @LastEditTime: 2020-09-15 18:33:57
+ * @LastEditTime: 2020-09-15 19:20:12
  * @FilePath: \java\README.md
  * @Gitee: [https://gitee.com/cpu_code](https://gitee.com/cpu_code)
  * @Github: [https://github.com/CPU-Code](https://github.com/CPU-Code)
@@ -299,9 +299,11 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
 ## [Lambda表达式](Lambda)
 
-- [x] [lambda1__冗余的Runnable代码](thread/lambda1.java)
-- [x] [lambda2__Lambda优写](thread/lambda2.java)
-- [x] [lambda3__使用实现类](thread/lambda3.java)
+- [x] [lambda1__冗余的Runnable代码](Lambda/lambda1.java)
+- [x] [lambda2__Lambda优写](Lambda/lambda2.java)
+- [x] [lambda3__使用实现类](Lambda/lambda3.java)
+- [x] [lambda4__使用匿名内部类](Lambda/lambda4.java)
+- [x] [lambda5__Lambda标准格式的无参无返回](Lambda/lambda5.java)
 
 
 -----------
