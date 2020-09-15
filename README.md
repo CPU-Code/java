@@ -2,7 +2,7 @@
  * @由于个人水平有限, 难免有些错误, 还请指点:  
  * @Author: cpu_code
  * @Date: 2020-07-12 12:03:11
- * @LastEditTime: 2020-09-15 20:32:14
+ * @LastEditTime: 2020-09-15 20:45:24
  * @FilePath: \java\README.md
  * @Gitee: [https://gitee.com/cpu_code](https://gitee.com/cpu_code)
  * @Github: [https://github.com/CPU-Code](https://github.com/CPU-Code)
@@ -306,7 +306,8 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [lambda5__Lambda标准格式的无参无返回](Lambda/lambda5.java)
 - [x] [lambda6__Lambda的参数和返回值](Lambda/lambda6.java)
 - [x] [lambda7__Lambda写法](Lambda/lambda7.java)
-- [ ] [lambda8__Lambda标准格式的有参有返回](Lambda/lambda8.java)
+- [x] [lambda8__Lambda标准格式的有参有返回](Lambda/lambda8.java)
+- [x] [lambda9__Lambda省略格式](Lambda/lambda9.java)
 
 -----------
 
