@@ -2,7 +2,7 @@
  * @由于个人水平有限, 难免有些错误, 还请指点:  
  * @Author: cpu_code
  * @Date: 2020-07-12 12:03:11
- * @LastEditTime: 2020-09-15 18:11:48
+ * @LastEditTime: 2020-09-15 18:33:57
  * @FilePath: \java\README.md
  * @Gitee: [https://gitee.com/cpu_code](https://gitee.com/cpu_code)
  * @Github: [https://github.com/CPU-Code](https://github.com/CPU-Code)
@@ -301,7 +301,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
 - [x] [lambda1__冗余的Runnable代码](thread/lambda1.java)
 - [x] [lambda2__Lambda优写](thread/lambda2.java)
-
+- [x] [lambda3__使用实现类](thread/lambda3.java)
 
 
 -----------
