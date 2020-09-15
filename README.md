@@ -2,7 +2,7 @@
  * @由于个人水平有限, 难免有些错误, 还请指点:  
  * @Author: cpu_code
  * @Date: 2020-07-12 12:03:11
- * @LastEditTime: 2020-09-14 21:09:38
+ * @LastEditTime: 2020-09-14 22:31:38
  * @FilePath: \java\README.md
  * @Gitee: [https://gitee.com/cpu_code](https://gitee.com/cpu_code)
  * @Github: [https://github.com/CPU-Code](https://github.com/CPU-Code)
@@ -229,6 +229,12 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Exception6__捕获异常](Exception/Exception6.java)
 - [x] [Exception7__异常的传播](Exception/Exception7.java)
 - [x] [Exception8__抛出异常](Exception/Exception8.java)
+- [x] [Exception9__追踪到完整的异常栈](Exception/Exception9.java)
+- [x] [Exception10__异常的产生过程](Exception/Exception10.java)
+- [x] [Exception11__抛出异常throw](Exception/Exception11.java)
+- [x] [Exception12__声明异常throws](Exception/Exception12.java)
+- [x] [Exception13__异常类的声明](Exception/Exception13.java)
+- [x] [Exception14__捕获异常try_catch](Exception/Exception14.java)
 
 ------------
 
