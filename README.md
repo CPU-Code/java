@@ -2,7 +2,7 @@
  * @由于个人水平有限, 难免有些错误, 还请指点:  
  * @Author: cpu_code
  * @Date: 2020-07-12 12:03:11
- * @LastEditTime: 2020-09-16 16:25:44
+ * @LastEditTime: 2020-09-16 16:31:01
  * @FilePath: \java\README.md
  * @Gitee: [https://gitee.com/cpu_code](https://gitee.com/cpu_code)
  * @Github: [https://github.com/CPU-Code](https://github.com/CPU-Code)
@@ -284,7 +284,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
 - [x] [aggregation1__Collection](aggregation/aggregation1.java)
 - [x] [aggregation2__Iterator迭代器](aggregation/aggregation2.java)
-
+- [x] [aggregation3__遍历数组](aggregation/aggregation3.java)
 
 ---------------
 
