@@ -2,7 +2,7 @@
  * @由于个人水平有限, 难免有些错误, 还请指点:  
  * @Author: cpu_code
  * @Date: 2020-07-12 12:03:11
- * @LastEditTime: 2020-09-16 18:20:49
+ * @LastEditTime: 2020-09-16 18:25:38
  * @FilePath: \java\README.md
  * @Gitee: [https://gitee.com/cpu_code](https://gitee.com/cpu_code)
  * @Github: [https://github.com/CPU-Code](https://github.com/CPU-Code)
@@ -282,6 +282,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Generic2__泛型的引入](Generic/Generic2.java)
 - [x] [Generic3__定义和使用含有泛型的类](Generic/Generic3.java)
 - [x] [Generic4__泛型的方法](Generic/Generic4.java)
+- [x] [Generic5__泛型的接口](Generic/Generic5.java)
 
 -----------------
 
