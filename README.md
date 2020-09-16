@@ -2,7 +2,7 @@
  * @由于个人水平有限, 难免有些错误, 还请指点:  
  * @Author: cpu_code
  * @Date: 2020-07-12 12:03:11
- * @LastEditTime: 2020-09-16 09:32:32
+ * @LastEditTime: 2020-09-16 09:37:13
  * @FilePath: \java\README.md
  * @Gitee: [https://gitee.com/cpu_code](https://gitee.com/cpu_code)
  * @Github: [https://github.com/CPU-Code](https://github.com/CPU-Code)
@@ -229,7 +229,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 ### [System类](javaAPI/system)
 
 - [x] [system1__currentTimeMillis](javaAPI/system/system1.java)
-
+- [x] [system2__currentTimeMillis使用的时间](javaAPI/system/system2.java)
 
 
 ### [StringBuilder类](javaAPI/stringBuilder)
