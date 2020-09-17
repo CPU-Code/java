@@ -1,9 +1,9 @@
 /*
  * @由于个人水平有限, 难免有些错误, 还请指点:  
  * @Author: cpu_code
- * @Date: 2020-09-17 12:50:49
- * @LastEditTime: 2020-09-17 12:52:58
- * @FilePath: \java\aggregation\aggregation13.java
+ * @Date: 2020-09-17 12:54:31
+ * @LastEditTime: 2020-09-17 12:59:02
+ * @FilePath: \java\aggregation\aggregation14.java
  * @Gitee: [https://gitee.com/cpu_code](https://gitee.com/cpu_code)
  * @Github: [https://github.com/CPU-Code](https://github.com/CPU-Code)
  * @CSDN: [https://blog.csdn.net/qq_44226094](https://blog.csdn.net/qq_44226094)
@@ -13,19 +13,28 @@ package aggregation;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 
-public class aggregation13 {
+public class aggregation14 {
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<String>();
 
         list.add("cpucode");
         list.add("cpu");
+        list.add("hello");
 
-        Collections.sort(list);
+        //排序方法 按照第一个单词的降序
+        Collections.sort(list, new Comparator<String>() {
+            @Override
+            public int compare(String o1, String o2) {
+                return o2.charAt(0) - o1.charAt(0);
+            }
+        });
+
         System.out.println(list);
     }
 }
 
 /*
-[cpu, cpucode]
+[hello, cpucode, cpu]
 */
