@@ -2,7 +2,7 @@
  * @由于个人水平有限, 难免有些错误, 还请指点:  
  * @Author: cpu_code
  * @Date: 2020-07-12 12:03:11
- * @LastEditTime: 2020-09-17 09:05:40
+ * @LastEditTime: 2020-09-17 09:23:50
  * @FilePath: \java\README.md
  * @Gitee: [https://gitee.com/cpu_code](https://gitee.com/cpu_code)
  * @Github: [https://github.com/CPU-Code](https://github.com/CPU-Code)
@@ -297,7 +297,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [aggregation6__List接口](aggregation/aggregation6.java)
 - [x] [aggregation7__LinkedList集合](aggregation/aggregation7.java)
 - [x] [aggregation8__HashSet集合](aggregation/aggregation8.java)
-
+- [ ] [aggregation9__自定义类型元素](aggregation/aggregation9.java)
 
 ---------------
 
