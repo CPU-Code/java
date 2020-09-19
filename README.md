@@ -2,7 +2,7 @@
  * @由于个人水平有限, 难免有些错误, 还请指点:  
  * @Author: cpu_code
  * @Date: 2020-07-12 12:03:11
- * @LastEditTime: 2020-09-19 14:47:53
+ * @LastEditTime: 2020-09-19 14:50:19
  * @FilePath: \java\README.md
  * @Gitee: [https://gitee.com/cpu_code](https://gitee.com/cpu_code)
  * @Github: [https://github.com/CPU-Code](https://github.com/CPU-Code)
@@ -344,6 +344,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [io26__写出字符](IO/io26.java)
 - [x] [io27__关闭和刷新](IO/io27.java)
 - [x] [io28__写出字符数组](IO/io28.java)
+- [x] [io29__写出字符串](IO/io29.java)
 
 --------------
 
