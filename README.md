@@ -2,7 +2,7 @@
  * @由于个人水平有限, 难免有些错误, 还请指点:  
  * @Author: cpu_code
  * @Date: 2020-07-12 12:03:11
- * @LastEditTime: 2020-09-19 11:42:26
+ * @LastEditTime: 2020-09-19 11:46:24
  * @FilePath: \java\README.md
  * @Gitee: [https://gitee.com/cpu_code](https://gitee.com/cpu_code)
  * @Github: [https://github.com/CPU-Code](https://github.com/CPU-Code)
@@ -339,6 +339,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [io21__字节数组获取有效的字节](IO/io21.java)
 - [x] [io22__复制图片文件](IO/io22.java)
 - [x] [io23__读取字符](IO/io23.java)
+- [x] [io24__字符数组读取](IO/io24.java)
 
 --------------
 
