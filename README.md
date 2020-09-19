@@ -2,7 +2,7 @@
  * @由于个人水平有限, 难免有些错误, 还请指点:  
  * @Author: cpu_code
  * @Date: 2020-07-12 12:03:11
- * @LastEditTime: 2020-09-19 22:27:54
+ * @LastEditTime: 2020-09-19 22:34:30
  * @FilePath: \java\README.md
  * @Gitee: [https://gitee.com/cpu_code](https://gitee.com/cpu_code)
  * @Github: [https://github.com/CPU-Code](https://github.com/CPU-Code)
@@ -409,3 +409,8 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
 - [x] [Clienttcp1__客户端向服务器发送数据_客户端实现](network/Clienttcp1.java)
 - [x] [Servertcp1__客户端向服务器发送数据_服务端实现](network/Servertcp1.java)
+- [x] [Servertcp2__服务器向客户端回写数据_服务端实现](network/Servertcp2.java)
+- [x] [Clienttcp2__服务器向客户端回写数据_客户端实现](network/Clienttcp2.java)
+
+
+
