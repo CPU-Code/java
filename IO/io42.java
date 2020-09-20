@@ -16,7 +16,7 @@ import java.io.IOException;
 
 public class io42 {
     public static void main(String[] args) throws IOException {
-        FileReader fileReader = new FileReader("cpucode.txt");
+        FileReader fileReader = new FileReader("cpucode_gbk.txt");
         int read;
 
         while ((read = fileReader.read()) != -1) {

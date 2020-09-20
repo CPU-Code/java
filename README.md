@@ -2,7 +2,7 @@
  * @由于个人水平有限, 难免有些错误, 还请指点:  
  * @Author: cpu_code
  * @Date: 2020-07-12 12:03:11
- * @LastEditTime: 2020-09-20 17:05:33
+ * @LastEditTime: 2020-09-20 17:10:42
  * @FilePath: \java\README.md
  * @Gitee: [https://gitee.com/cpu_code](https://gitee.com/cpu_code)
  * @Github: [https://github.com/CPU-Code](https://github.com/CPU-Code)
@@ -353,7 +353,8 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [io39__字符缓冲流readLine方法](IO/io39.java)
 - [x] [io40__字符缓冲流newLine方法](IO/io40.java)
 - [x] [io41__文本排序](IO/io41.java)
-- [ ] [io42__编码引出的问题](IO/io42.java)
+- [x] [io42__编码引出的问题](IO/io42.java)
+- [ ] [io43__指定编码读取](IO/io43.java)
 
 --------------
 
