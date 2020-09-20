@@ -2,7 +2,7 @@
  * @由于个人水平有限, 难免有些错误, 还请指点:  
  * @Author: cpu_code
  * @Date: 2020-07-12 12:03:11
- * @LastEditTime: 2020-09-20 19:34:56
+ * @LastEditTime: 2020-09-20 20:09:47
  * @FilePath: \java\README.md
  * @Gitee: [https://gitee.com/cpu_code](https://gitee.com/cpu_code)
  * @Github: [https://github.com/CPU-Code](https://github.com/CPU-Code)
@@ -360,6 +360,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [io46__序列化写出对象](IO/io46.java)
 - [x] [io47__反序列化操作](IO/io47.java)
 - [x] [io48__序列化集合](IO/io48.java)
+- [x] [io49__改变打印流向](IO/io49.java)
 
 --------------
 
