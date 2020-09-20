@@ -2,7 +2,7 @@
  * @由于个人水平有限, 难免有些错误, 还请指点:  
  * @Author: cpu_code
  * @Date: 2020-07-12 12:03:11
- * @LastEditTime: 2020-09-20 10:57:54
+ * @LastEditTime: 2020-09-20 11:32:03
  * @FilePath: \java\README.md
  * @Gitee: [https://gitee.com/cpu_code](https://gitee.com/cpu_code)
  * @Github: [https://github.com/CPU-Code](https://github.com/CPU-Code)
@@ -415,4 +415,6 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Servertcp3__文件上传案例_服务端实现](network/Servertcp3.java)
 - [x] [Clienttcp4__文件上传优化分析_客户端实现](network/Clienttcp4.java)
 - [x] [Servertcp4__文件上传优化分析_服务端实现](network/Servertcp4.java)
+- [x] [Clienttcp5__信息回写分析_客户端实现](network/Clienttcp5.java)
+- [x] [Servertcp5__信息回写分析_服务端实现](network/Servertcp5.java)
 
