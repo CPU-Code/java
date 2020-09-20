@@ -2,7 +2,7 @@
  * @由于个人水平有限, 难免有些错误, 还请指点:  
  * @Author: cpu_code
  * @Date: 2020-07-12 12:03:11
- * @LastEditTime: 2020-09-20 17:36:30
+ * @LastEditTime: 2020-09-20 17:48:45
  * @FilePath: \java\README.md
  * @Gitee: [https://gitee.com/cpu_code](https://gitee.com/cpu_code)
  * @Github: [https://github.com/CPU-Code](https://github.com/CPU-Code)
@@ -357,6 +357,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [io43__指定编码读取](IO/io43.java)
 - [x] [io44__指定编码写出](IO/io44.java)
 - [x] [io45__转换文件编码](IO/io45.java)
+- [x] [io46__序列化写出对象](IO/io46.java)
 
 --------------
 
