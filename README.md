@@ -2,7 +2,7 @@
  * @由于个人水平有限, 难免有些错误, 还请指点:  
  * @Author: cpu_code
  * @Date: 2020-07-12 12:03:11
- * @LastEditTime: 2020-09-21 15:41:12
+ * @LastEditTime: 2020-09-21 15:44:39
  * @FilePath: \java\README.md
  * @Gitee: [https://gitee.com/cpu_code](https://gitee.com/cpu_code)
  * @Github: [https://github.com/CPU-Code](https://github.com/CPU-Code)
@@ -430,3 +430,4 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [jdk83__Lambda的更优写法](jdk8/jdk83.java)
 - [x] [jdk84__Lambda的延迟](jdk8/jdk84.java)
 - [x] [jdk85__Lambda作为参数和返回值](jdk8/jdk85.java)
+- [x] [jdk86__Lambda作为参数和返回值2](jdk8/jdk86.java)
