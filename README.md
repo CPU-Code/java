@@ -2,7 +2,7 @@
  * @由于个人水平有限, 难免有些错误, 还请指点:  
  * @Author: cpu_code
  * @Date: 2020-07-12 12:03:11
- * @LastEditTime: 2020-09-21 18:40:46
+ * @LastEditTime: 2020-09-21 21:10:13
  * @FilePath: \java\README.md
  * @Gitee: [https://gitee.com/cpu_code](https://gitee.com/cpu_code)
  * @Github: [https://github.com/CPU-Code](https://github.com/CPU-Code)
@@ -433,7 +433,8 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [jdk86__Lambda作为参数和返回值2](jdk8/jdk86.java)
 - [x] [jdk87__Supplier接口](jdk8/jdk87.java)
 - [x] [jdk88__求数组元素最大值](jdk8/jdk88.java)
-- [x] [jdk89__Consumer接口抽象方法accept](jdk8/jdk89.java)
-- [x] [jdk810__Consumer接口默认方法andThen](jdk8/jdk810.java)
+- [x] [jdk89__Consumer接口_抽象方法accept](jdk8/jdk89.java)
+- [x] [jdk810__Consumer接口_默认方法andThen](jdk8/jdk810.java)
 - [x] [jdk811__格式化打印信息](jdk8/jd.k811.java)
-
+- [x] [jdk812__Predicate接口_抽象方法test](jdk8/jd.k812.java)
+- [x] [jdk813__Predicate接口_默认方法and](jdk8/jd.k813.java)
