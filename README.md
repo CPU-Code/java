@@ -2,7 +2,7 @@
  * @由于个人水平有限, 难免有些错误, 还请指点:  
  * @Author: cpu_code
  * @Date: 2020-07-12 12:03:11
- * @LastEditTime: 2020-09-21 21:41:40
+ * @LastEditTime: 2020-09-21 22:05:48
  * @FilePath: \java\README.md
  * @Gitee: [https://gitee.com/cpu_code](https://gitee.com/cpu_code)
  * @Github: [https://github.com/CPU-Code](https://github.com/CPU-Code)
@@ -440,3 +440,6 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [jdk813__Predicate接口_默认方法and](jdk8/jd.k813.java)
 - [x] [jdk814__Predicate接口_默认方法or](jdk8/jd.k814.java)
 - [x] [jdk815__Predicate接口_默认方法negat](jdk8/jd.k815.java)
+- [ ] [jdk816__集合信息筛选](jdk8/jd.k816.java)
+- [x] [jdk817__Function接口_抽象方法apply](jdk8/jd.k817.java)
+
