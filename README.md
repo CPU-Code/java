@@ -2,7 +2,7 @@
  * @由于个人水平有限, 难免有些错误, 还请指点:  
  * @Author: cpu_code
  * @Date: 2020-07-12 12:03:11
- * @LastEditTime: 2020-09-21 14:21:59
+ * @LastEditTime: 2020-09-21 15:30:10
  * @FilePath: \java\README.md
  * @Gitee: [https://gitee.com/cpu_code](https://gitee.com/cpu_code)
  * @Github: [https://github.com/CPU-Code](https://github.com/CPU-Code)
@@ -426,3 +426,4 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 ## [JDK8](jdk8)
 
 - [x] [jdk81__自定义函数式接口](jdk8/jdk81.java)
+- [x] [jdk82__性能浪费的日志案例](jdk8/jdk82.java)
