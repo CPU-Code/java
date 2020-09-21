@@ -2,7 +2,7 @@
  * @由于个人水平有限, 难免有些错误, 还请指点:  
  * @Author: cpu_code
  * @Date: 2020-07-12 12:03:11
- * @LastEditTime: 2020-09-21 22:19:12
+ * @LastEditTime: 2020-09-21 22:42:42
  * @FilePath: \java\README.md
  * @Gitee: [https://gitee.com/cpu_code](https://gitee.com/cpu_code)
  * @Github: [https://github.com/CPU-Code](https://github.com/CPU-Code)
@@ -435,12 +435,13 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [jdk88__求数组元素最大值](jdk8/jdk88.java)
 - [x] [jdk89__Consumer接口_抽象方法accept](jdk8/jdk89.java)
 - [x] [jdk810__Consumer接口_默认方法andThen](jdk8/jdk810.java)
-- [x] [jdk811__格式化打印信息](jdk8/jd.k811.java)
-- [x] [jdk812__Predicate接口_抽象方法test](jdk8/jd.k812.java)
-- [x] [jdk813__Predicate接口_默认方法and](jdk8/jd.k813.java)
-- [x] [jdk814__Predicate接口_默认方法or](jdk8/jd.k814.java)
-- [x] [jdk815__Predicate接口_默认方法negat](jdk8/jd.k815.java)
-- [ ] [jdk816__集合信息筛选](jdk8/jd.k816.java)
-- [x] [jdk817__Function接口_抽象方法apply](jdk8/jd.k817.java)
-- [ ] [jdk818__Function接口_默认方法andThen](jdk8/jd.k818.java)
-- [ ] [jdk819__自定义函数模型拼接](jdk8/jd.k819.java)
+- [x] [jdk811__格式化打印信息](jdk8/jdk811.java)
+- [x] [jdk812__Predicate接口_抽象方法test](jdk8/jdk812.java)
+- [x] [jdk813__Predicate接口_默认方法and](jdk8/jdk813.java)
+- [x] [jdk814__Predicate接口_默认方法or](jdk8/jdk814.java)
+- [x] [jdk815__Predicate接口_默认方法negat](jdk8/jdk815.java)
+- [ ] [jdk816__集合信息筛选](jdk8/jdk816.java)
+- [x] [jdk817__Function接口_抽象方法apply](jdk8/jdk817.java)
+- [ ] [jdk818__Function接口_默认方法andThen](jdk8/jdk818.java)
+- [ ] [jdk819__自定义函数模型拼接](jdk8/jdk819.java)
+- [ ] [jdk820__传统集合的多步遍历](jdk8/jdk820.java)
