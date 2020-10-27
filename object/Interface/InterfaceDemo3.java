@@ -9,7 +9,7 @@
  * @CSDN: [https://blog.csdn.net/qq_44226094](https://blog.csdn.net/qq_44226094)
  * @Gitbook: [https://923992029.gitbook.io/cpucode/](https://923992029.gitbook.io/cpucode/)
  */
-package Interface;
+package object.Interface;
 
 public class InterfaceDemo3 {
     public static void mian(String[] args){
@@ -17,20 +17,22 @@ public class InterfaceDemo3 {
 
         a.fly();
     }
+
+    interface LiveAble{
+        public default void fly(){
+            System.out.println("飞飞呀");
+        }
+    }
+
+    static class Animal implements LiveAble{
+        @Override
+        public void fly(){
+            System.out.println("cpucode");
+        }
+    }
+
 }
 
-interface LiveAble{
-    public default void fly(){
-        System.out.println("飞飞呀");
-    }
-}
-
-class Animal implements LiveAble{
-    @Override
-    public void fly(){
-        System.out.println("cpucode");
-    }
-}
 
 /*
 cpucode

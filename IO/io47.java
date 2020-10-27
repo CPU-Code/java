@@ -43,17 +43,19 @@ public class io47 {
         System.out.println("Addrees :" + e.address);
         System.out.println("age" + e.age);
     }
-}
 
-class Employee implements java.io.Serializable {
-    public String name;
-    public String address;
-    public  transient int age;
+    class Employee implements java.io.Serializable {
+        public String name;
+        public String address;
+        public  transient int age;
 
-    public void addressCheck() {
-        System.out.println("Address check :" + name + " -- " + address);
+        public void addressCheck() {
+            System.out.println("Address check :" + name + " -- " + address);
+        }
     }
 }
+
+
 
 /*
 Name :cpucode

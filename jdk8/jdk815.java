@@ -13,7 +13,7 @@ package jdk8;
 
 import java.util.function.Predicate;
 
-public class jd.k815 {
+public class jdk815 {
     public static void main(String[] args) {
         method(s -> s.length() < 5);
     }

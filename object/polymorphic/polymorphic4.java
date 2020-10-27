@@ -21,31 +21,33 @@ public class polymorphic4 {
         Dog d = (Dog)a;
         d.watchHouse(); // 调用的是 Dog 的 watchHouse 【运行报错】
     }
-}
 
-abstract class Animal {
-    abstract void eat();
-}
-
-class Cat extends Animal{
-    public void eat(){
-        System.out.println("吃鱼");
+    abstract static class Animal {
+        abstract void eat();
     }
 
-    public void catchMouse(){
-        System.out.println("抓老鼠");
+    static class Cat extends Animal{
+        public void eat(){
+            System.out.println("吃鱼");
+        }
+
+        public void catchMouse(){
+            System.out.println("抓老鼠");
+        }
+    }
+
+    class Dog extends Animal{
+        public void eat(){
+            System.out.println("吃骨头");
+        }
+
+        public void watchHouse(){
+            System.out.println("看家");
+        }
     }
 }
 
-class Dog extends Animal{
-    public void eat(){
-        System.out.println("吃骨头");
-    }
 
-    public void watchHouse(){
-        System.out.println("看家");
-    }
-}
 
 /*
 吃鱼

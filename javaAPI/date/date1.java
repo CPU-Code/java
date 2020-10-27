@@ -11,6 +11,8 @@
  */
 package javaAPI.date;
 
+import java.util.Date;
+
 public class date1 {
     public static void main(String[] args){
         // 创建日期对象，把当前的时间

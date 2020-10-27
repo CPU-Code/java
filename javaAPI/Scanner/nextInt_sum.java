@@ -11,6 +11,8 @@
  */
 package javaAPI;
 
+import java.util.Scanner;
+
 public class nextInt_sum {
     public static void main(String[] args) {
         //创建对象

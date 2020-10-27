@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
 
-public class jd.k816 {
+public class jdk816 {
     public static void main(String[] args) {
         String[] array = {"cpucode, 男", "cpu, 女", "流弊, 男"};
         List<String> list = filter(array,

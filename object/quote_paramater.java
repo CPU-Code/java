@@ -25,19 +25,21 @@ public class quote_paramater {
         // 引用类型参数的传递，调用方的变量，和接收方的参数变量，指向的是同一个对象。
         // 双方任意一方对这个对象的修改，都会影响对方（因为指向同一个对象嘛）
     }
+
+    static class Person {
+        private String[] name;
+
+        public String getName() {
+            return this.name[0] + " " + this.name[1];
+        }
+
+        public void setName(String[] name) {
+            this.name = name;
+        }
+    }
 }
 
-class Person {
-    private String[] name;
 
-    public String getName() {
-        return this.name[0] + " " + this.name[1];
-    }
-
-    public void setName(String[] name) {
-        this.name = name;
-    }
-}
 
 /*
 cpucode NB

@@ -28,8 +28,8 @@ public class Generic1 {
 
         while (it.hasNext()){
             //需要打印每个字符串的长度,就要把迭代出来的对象转成String类型
-            String str = (String) it.next();
-            System.out.println(str.length());
+            //String str = (String) it.next();
+            //System.out.println(str.length());
         }
     }
 }

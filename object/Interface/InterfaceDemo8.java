@@ -18,31 +18,33 @@ public class InterfaceDemo8 {
 
         c.method();
     }
-}
 
-// 定义接口
-interface A {
-    public default void method() {
-        System.out.println("cpucode");
+    // 定义接口
+    interface A {
+        public default void method() {
+            System.out.println("cpucode");
+        }
+    }
+
+    interface B {
+        public default void method() {
+            System.out.println("cpu");
+        }
+    }
+
+    interface C extends A, B{
+        @Override
+        public default void method() {
+            System.out.println("cpu_code");
+        }
+    }
+
+    static class D implements C{
+
     }
 }
 
-interface B {
-    public default void method() {
-        System.out.println("cpu");
-    }
-}
 
-interface C extends A, B{
-    @Override
-    public default void method() {
-        System.out.println("cpu_code");
-    }
-}
-
-class D implements C{
-
-}
 
 /*
 cpu_code

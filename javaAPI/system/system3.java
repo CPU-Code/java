@@ -9,6 +9,7 @@
  * @CSDN: [https://blog.csdn.net/qq_44226094](https://blog.csdn.net/qq_44226094)
  * @Gitbook: [https://923992029.gitbook.io/cpucode/](https://923992029.gitbook.io/cpucode/)
  */
+/*
 package javaAPI.system;
 
 public class system3 {
@@ -27,7 +28,7 @@ public class system3 {
         System.out.print(dest[i]);
     }
 }
-
+*/
 /*
 12345
 123910

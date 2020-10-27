@@ -15,24 +15,26 @@ public class extend7 {
     public static void main(String[] args){
         Zi zi = new Zi();
     }
-}
 
-class Fu{
-    private int n;
+    static class Fu{
+        private int n;
 
-    Fu() {
-        System.out.println("Fu()");
+        Fu() {
+            System.out.println("Fu()");
+        }
+    }
+
+    static class Zi extends Fu{
+        Zi(){
+            // super（），调用父类构造方法
+            super();
+
+            System.out.println("Zi()");
+        }
     }
 }
 
-class Zi extends Fu{
-    Zi(){
-        // super（），调用父类构造方法
-        super();
 
-        System.out.println("Zi()");
-    }
-}
 
 /*
 Fu()

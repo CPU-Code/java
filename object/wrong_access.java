@@ -15,14 +15,16 @@ public class wrong_access {
         ming.name = "Xiao Ming"; // 对字段name赋值
         ming.age = 12; // 对字段age赋值
     }
+
+    static class Person {
+
+        // 拒绝外部访问
+        private String name;
+        private int age;
+    }
 }
 
-class Person {
 
-    // 拒绝外部访问
-    private String name;
-    private int age;
-}
 
 /*
 java: name 在 com.company.Person 中是 private 访问控制

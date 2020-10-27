@@ -11,6 +11,11 @@
  */
 package aggregation;
 
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Objects;
+import java.util.Set;
+
 public class aggregation19 {
     public static void main(String[] args) {
         //1,创建Hashmap集合对象
@@ -32,57 +37,59 @@ public class aggregation19 {
             System.out.println(key.toString() + "值是 :" + value);
         }
     }
-}
 
-class Student {
-    private String name;
-    private int age;
+    static class Student {
+        private String name;
+        private int age;
 
-    public Student() {
+        public Student() {
 
-    }
-
-    public Student(String name, int age){
-        this.age = age;
-        this.name = name;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if(this == o) {
-            return true;
         }
 
-        if(o == null || getClass() != o.getClass()){
-            return false;
+        public Student(String name, int age){
+            this.age = age;
+            this.name = name;
         }
 
-        Student student = (Student) o;
+        public int getAge() {
+            return age;
+        }
 
-        return age == student.age && Objects.equals(name, student.name);
-    }
+        public void setAge(int age) {
+            this.age = age;
+        }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(name, age);
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        @Override
+        public boolean equals(Object o) {
+            if(this == o) {
+                return true;
+            }
+
+            if(o == null || getClass() != o.getClass()){
+                return false;
+            }
+
+            Student student = (Student) o;
+
+            return age == student.age && Objects.equals(name, student.name);
+        }
+
+        @Override
+        public int hashCode() {
+            return Objects.hash(name, age);
+        }
     }
 }
+
+
 
 /*
 com.company.Student@1e1c5acd值是 :4

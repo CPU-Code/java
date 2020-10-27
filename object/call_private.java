@@ -18,45 +18,47 @@ public class call_private {
         System.out.println(ming.getName());
         System.out.println(ming.getAge());
     }
-}
 
-class Person {
-    private String name;
-    private int birth;
+    static class Person {
+        private String name;
+        private int birth;
 
-    // 方法间接修改private字段
-    public String getName() {
+        // 方法间接修改private字段
+        public String getName() {
 
-        // 隐含的变量 this，它始终指向当前实例
-        return this.name;
-    }
-
-    public void setName(String name) {
-
-        // 不允许传入null和空字符串
-        if (name == null || name.isBlank()) {
-            throw new IllegalArgumentException("invalid name");
+            // 隐含的变量 this，它始终指向当前实例
+            return this.name;
         }
 
-        // 前面的this不可少，少了就变成局部变量name了
-        this.name = name;
-    }
+        public void setName(String name) {
 
-    public int getAge() {
+            // 不允许传入null和空字符串
+            if (name == null || name.isBlank()) {
+                throw new IllegalArgumentException("invalid name");
+            }
 
-        // 方法可以封装一个类的对外接口
-        return calcAge(2020); // 调用private方法
-    }
+            // 前面的this不可少，少了就变成局部变量name了
+            this.name = name;
+        }
 
-    public void setBirth(int birth) {
-        this.birth = birth;
-    }
+        public int getAge() {
 
-    // private方法: 内部方法是, 不允许外部调用
-    private int calcAge(int currentYear) {
-        return currentYear - this.birth;
+            // 方法可以封装一个类的对外接口
+            return calcAge(2020); // 调用private方法
+        }
+
+        public void setBirth(int birth) {
+            this.birth = birth;
+        }
+
+        // private方法: 内部方法是, 不允许外部调用
+        private int calcAge(int currentYear) {
+            return currentYear - this.birth;
+        }
     }
 }
+
+
 
 /*
 cpucode

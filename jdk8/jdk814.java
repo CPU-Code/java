@@ -13,7 +13,7 @@ package jdk8;
 
 import java.util.function.Predicate;
 
-public class jd.k814 {
+public class jdk814 {
     public static void main(String[] args) {
         method(s -> s.contains("c"), s -> s.contains("p"));
     }

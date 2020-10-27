@@ -11,8 +11,11 @@
  */
 package Exception;
 
+import java.io.UnsupportedEncodingException;
+import java.util.Arrays;
+
 public class Exception3 {
-    public static void main(String[] args){
+    public static void main(String[] args) throws UnsupportedEncodingException {
         byte[] bs = toGBK("中文");
         System.out.println(Arrays.toString(bs));
     }

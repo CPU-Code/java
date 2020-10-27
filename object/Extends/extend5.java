@@ -23,21 +23,23 @@ public class extend5 {
         // 子类中有show方法，只执行重写后的show方法
         z.show();
     }
-}
 
-class Fu{
-    public void show(){
-        System.out.println("Fu show");
+    static class Fu{
+        public void show(){
+            System.out.println("Fu show");
+        }
+    }
+
+    static class Zi extends Fu{
+
+        //子类重写了父类的show方法
+        public void show(){
+            System.out.println("Zi show");
+        }
     }
 }
 
-class Zi extends Fu{
 
-    //子类重写了父类的show方法
-    public void show(){
-        System.out.println("Zi show");
-    }
-}
 
 /*
 Zi show

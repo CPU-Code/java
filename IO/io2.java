@@ -24,6 +24,5 @@ public class io2 {
 }
 
 /*
-D:\Date\github\java\IO\test.txt
-C:\Users\cpucode\IdeaProjects\untitled\test.txt
+
 */

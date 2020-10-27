@@ -11,6 +11,8 @@
  */
 package Lambda;
 
+import java.util.Arrays;
+
 public class lambda7 {    public static void main(String[] args){
 
     // 本来年龄乱序的对象数组
@@ -26,26 +28,28 @@ public class lambda7 {    public static void main(String[] args){
     for (Person person : array) {
         System.out.println(person);
     }
+
+    class Person{
+        private String name;
+        private int age;
+
+        public Person(String name, int age) {
+            this.name = name;
+            this.age = age;
+        }
+
+        public void setAge(int age) {
+            this.age = age;
+        }
+
+        public int getAge() {
+            return age;
+        }
+    }
 }
 }
 
-class Person{
-    private String name;
-    private int age;
 
-    public Person(String name, int age) {
-        this.name = name;
-        this.age = age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public int getAge() {
-        return age;
-    }
-}
 
 /*
 com.company.Person@4e50df2e

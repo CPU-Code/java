@@ -9,7 +9,7 @@
  * @CSDN: [https://blog.csdn.net/qq_44226094](https://blog.csdn.net/qq_44226094)
  * @Gitbook: [https://923992029.gitbook.io/cpucode/](https://923992029.gitbook.io/cpucode/)
  */
-package Interface;
+package object.Interface;
 
 public class InterfaceDemo4 {
     public static void main(String[] args){
@@ -18,18 +18,20 @@ public class InterfaceDemo4 {
         // Animal.run(); // 【错误】无法继承方法,也无法调用
         LiveAble.run();
     }
-}
 
+    interface LiveAble{
+        public static void run(){
+            System.out.println("cpucode");
+        }
+    }
 
-interface LiveAble{
-    public static void run(){
-        System.out.println("cpucode");
+    class Animal implements LiveAble{
+        //无法重写静态方法
     }
 }
 
-class Animal implements LiveAble{
-    //无法重写静态方法
-}
+
+
 
 /*
 cpucode

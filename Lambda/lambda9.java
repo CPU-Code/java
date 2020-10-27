@@ -12,6 +12,13 @@
 package Lambda;
 
 public class lambda9 {
+
+    /* 使用Lambda必须具有接口，且要求接口中有且仅有一个抽象方法 */
+
+    interface Cook{
+        void makeFood();
+    }
+
     public static void main(String[] args){
         invokeCalc(() -> System.out.println("吃饭"));
     }
@@ -21,11 +28,7 @@ public class lambda9 {
     }
 }
 
-/* 使用Lambda必须具有接口，且要求接口中有且仅有一个抽象方法 */
 
-interface Cook{
-    void makeFood();
-}
 
 /*
 吃饭

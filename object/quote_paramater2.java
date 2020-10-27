@@ -20,19 +20,21 @@ public class quote_paramater2 {
         bob = "cpu"; // bob改名为Alice
         System.out.println(p.getName()); // "cpu"还是"cpucode"?
     }
+
+    static class Person {
+        private String name;
+
+        public String getName() {
+            return this.name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+    }
 }
 
-class Person {
-    private String name;
 
-    public String getName() {
-        return this.name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-}
 
 /*
 cpucode

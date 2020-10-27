@@ -24,23 +24,25 @@ public class thread2 {
             System.out.println("旺财" + i);
         }
     }
-}
 
-class MyThread extends Thread {
+    static class MyThread extends Thread {
 
-    // 利用继承中的特点 , 将线程名称传递 进行设置
-    public MyThread(String name){
-        super(name);
-    }
+        // 利用继承中的特点 , 将线程名称传递 进行设置
+        public MyThread(String name){
+            super(name);
+        }
 
-    // 重写run方法, 定义线程要执行的代码
-    public void run() {
-        for(int i = 0; i < 3; i++){
-            //getName()方法 来自父亲
-            System.out.println(getName() + i);
+        // 重写run方法, 定义线程要执行的代码
+        public void run() {
+            for(int i = 0; i < 3; i++){
+                //getName()方法 来自父亲
+                System.out.println(getName() + i);
+            }
         }
     }
 }
+
+
 
 /*
 这是main线程

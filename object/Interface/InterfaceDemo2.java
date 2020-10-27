@@ -18,19 +18,21 @@ public class InterfaceDemo2 {
         // 调用默认方法
         a.fly();
     }
-}
 
+    interface LiveAble{
+        // 继承默认方法
+        public default void fly(){
+            System.out.println("飞呀");
+        }
+    }
 
-interface LiveAble{
-    // 继承默认方法
-    public default void fly(){
-        System.out.println("飞呀");
+    static class Animal implements LiveAble{
+        // 继承，什么都不用写，直接调用
     }
 }
 
-class Animal implements LiveAble{
-    // 继承，什么都不用写，直接调用
-}
+
+
 
 /*
 飞呀

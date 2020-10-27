@@ -11,9 +11,11 @@
  */
 package javaAPI.Arrays;
 
+import java.util.Arrays;
+
 public class tostring {
 
-    public static void main(Stirng[] args){
+    public static void main(String[] args){
         // 定义int 数组
         int[] arr = {2, 34, 35, 4, 657, 8, 69, 9};
         // 打印数组,输出地址值

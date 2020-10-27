@@ -26,11 +26,13 @@ public class Inner_class4 {
     public static void showFly(FlyAble f) {
         f.fly();
     }
+
+    abstract static class FlyAble{
+        public abstract void fly();
+    }
+
 }
 
-abstract class FlyAble{
-    public abstract void fly();
-}
 
 /*
 我飞了~~~

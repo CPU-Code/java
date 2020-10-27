@@ -25,16 +25,17 @@ public class member
 		p1.speak(); // 调用对象的方法
 		p2.speak();
     }
+
+    static class Person
+    {
+        int age; // 定义int类型的变量age
+
+        // 定义 speak() 方法
+        void speak()
+        {
+            System.out.println("大家好，我今年" + age + "岁!");
+        }
+    }
     
 }
 
-class Person 
-{
-    int age; // 定义int类型的变量age
-
-    // 定义 speak() 方法
-    void speak() 
-    {
-        System.out.println("大家好，我今年" + age + "岁!");
-    }
-}

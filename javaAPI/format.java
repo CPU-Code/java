@@ -11,7 +11,7 @@
  */
 package javaAPI;
 
-public class string_capital {
+public class format {
     public static void main(String[] args) {
         String s = "cpucode";
         System.out.println(s);

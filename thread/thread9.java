@@ -26,27 +26,29 @@ public class thread9 {
         t2.start();;
         t3.start();
     }
-}
 
-class MyThread extends Thread{
-    public void run() {
-        for(int i = 0; i < 5; i++){
-            if((i) %4 == 0){
-                System.out.println("------" + i);
-            }
+    static class MyThread extends Thread{
+        public void run() {
+            for(int i = 0; i < 5; i++){
+                if((i) %4 == 0){
+                    System.out.println("------" + i);
+                }
 
-            System.out.println(i);
+                System.out.println(i);
 
-            try{
-                Thread.sleep(1000);
-                System.out.println("线程睡眠 1秒 \n");
-            } catch(InterruptedException e) {
-                e.printStackTrace();
+                try{
+                    Thread.sleep(1000);
+                    System.out.println("线程睡眠 1秒 \n");
+                } catch(InterruptedException e) {
+                    e.printStackTrace();
+                }
             }
         }
-    }
 
+    }
 }
+
+
 
 /*
 ------0

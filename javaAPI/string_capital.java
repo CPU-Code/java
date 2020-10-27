@@ -15,7 +15,7 @@ public class string_capital {
     public static void main(String[] args) {
         String s = "my name is %s , age is %d!";
 
-        System.out.println(s.formatted("cpucode", 21));
+        //System.out.println(s.formatted("cpu_code", 21));
         System.out.println(String.format("my name is %s , age is %d!","cpu", 22));
     }
 }

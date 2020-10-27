@@ -12,7 +12,7 @@
 
 import javax.security.auth.login.LoginException;
 
-package Exception;
+//package Exception;
 
 public class Exception16 {
     //// 模拟数据库中已存在账号
@@ -25,7 +25,7 @@ public class Exception16 {
             // 可能出现异常的代码
             checkUsername("nill");
             System.out.println("注册成功");//如果没有异常就是注册成功
-        } catch(RegisterException e){
+        } catch(LoginException | RegisterException e){
             //处理异常
             e.printStackTrace();
         }
@@ -33,7 +33,7 @@ public class Exception16 {
 
     //判断当前注册账号是否存在
     //因为是编译期异常，又想调用者去处理 所以声明该异常
-    public static boolean checkUsername(String uname) throws LoginException {
+    public static boolean checkUsername(String uname) throws LoginException, RegisterException {
         for (String name : names) {
             if(name.equals(uname)){//如果名字在这里面 就抛出登陆异常
                 throw new RegisterException("亲"+name+"已经被注册了！");

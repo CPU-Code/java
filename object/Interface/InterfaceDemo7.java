@@ -17,25 +17,29 @@ public class InterfaceDemo7 {
 
         c.methodA();
     }
-}
 
-// 定义接口
-interface A {
-    public default void methodA() {
-        System.out.println("cpucode");
+    // 定义接口
+    interface A {
+        public default void methodA() {
+            System.out.println("cpucode");
+        }
+    }
+
+    //定义父类
+    static class B {
+        public void methodA() {
+            System.out.println("cpu");
+        }
+    }
+
+    static class C extends B implements A {
+        public void methodA() {
+        }
+        // 未重写methodA方法
     }
 }
 
-//定义父类
-class B {
-    public void methodA() {
-        System.out.println("cpu");
-    }
-}
 
-class C extends B implements A {
-    // 未重写methodA方法
-}
 
 /*
 cpu

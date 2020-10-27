@@ -40,25 +40,27 @@ public class polymorphic2 {
     public static void showAnimalEat(Animal a){
         a.eat();
     }
-}
 
-//定义父类
-abstract class Animal{
-    public abstract void eat();
-}
+    //定义父类
+    abstract static class Animal{
+        public abstract void eat();
+    }
 
-//定义子类
-class Cat extends Animal{
-    public void eat(){
-        System.out.println("吃鱼");
+    //定义子类
+    static class Cat extends Animal{
+        public void eat(){
+            System.out.println("吃鱼");
+        }
+    }
+
+    static class Dog extends Animal{
+        public void eat(){
+            System.out.println("吃骨头");
+        }
     }
 }
 
-class Dog extends Animal{
-    public void eat(){
-        System.out.println("吃骨头");
-    }
-}
+
 
 /*
 吃鱼

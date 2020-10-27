@@ -24,19 +24,21 @@ public class parameter_binding {
         // 基本类型参数的传递，是调用方值的复制。双方各自的后续修改，互不影响
         System.out.println(p.getAge()); // 15还是20?
     }
+
+    static class Person {
+        private int age;
+
+        public int getAge() {
+            return this.age;
+        }
+
+        public void setAge(int age) {
+            this.age = age;
+        }
+    }
 }
 
-class Person {
-    private int age;
 
-    public int getAge() {
-        return this.age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-}
 
 /*
 15

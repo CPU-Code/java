@@ -10,26 +10,33 @@
  * @Gitbook: [https://923992029.gitbook.io/cpucode/](https://923992029.gitbook.io/cpucode/)
  */
 public class error_construction {
+
+
+    static class Person {
+        private String name;
+        private int age;
+
+        public Person(String name, int age) {
+            this.name = name;
+            this.age = age;
+        }
+
+        public Person() {
+
+        }
+
+        public String getName() {
+            return this.name;
+        }
+
+        public int getAge() {
+            return this.age;
+        }
+    }
+
     public static void main(String[] args) {
         // 自定义了一个构造方法，那么，编译器就不再自动创建默认构造方法
         Person p = new Person(); // 编译错误:找不到这个构造方法
     }
 }
 
-class Person {
-    private String name;
-    private int age;
-
-    public Person(String name, int age) {
-        this.name = name;
-        this.age = age;
-    }
-    
-    public String getName() {
-        return this.name;
-    }
-
-    public int getAge() {
-        return this.age;
-    }
-}

@@ -11,6 +11,9 @@
  */
 package Abstract.abstract2;
 
+import object.Abstract.abstract2.Member;
+import object.Abstract.abstract2.QunZhu;
+
 import java.util.Scanner;
 import java.util.ArrayList;
 

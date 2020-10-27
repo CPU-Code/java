@@ -7,20 +7,22 @@
  * @CSDN: https://blog.csdn.net/qq_44226094
  */ 
 
-/**
- * 垃圾对象
- */
-class Person
-{
-	// 创建say()方法，输出一句话
-	void say() 
-	{ 
-		System.out.println("我是一个人!");
-	}
-}
+
 
 class empty_object 
 {
+	/**
+	 * 垃圾对象
+	 */
+	static class Person
+	{
+		// 创建say()方法，输出一句话
+		void say()
+		{
+			System.out.println("我是一个人!");
+		}
+	}
+
     public static void main(String[] args) 
 	{
 		Person p2 = new Person(); // 创建Person2对象

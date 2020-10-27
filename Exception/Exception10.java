@@ -19,17 +19,19 @@ public class Exception10 {
         System.out.println("num =" + num);
         System.out.println("over");
     }
-}
 
-public class ArrayTools {
-    // 对给定的数组通过给定的角标获取元素
-    public static int getElenment(int[] arr, int index){
-        // 产生一个数组索引越界异常 ArrayIndexOfBoundsException
-        int element = arr[index];
+    static class ArrayTools {
+        // 对给定的数组通过给定的角标获取元素
+        public static int getElenment(int[] arr, int index){
+            // 产生一个数组索引越界异常 ArrayIndexOfBoundsException
+            int element = arr[index];
 
-        return element;
+            return element;
+        }
     }
 }
+
+
 
 /*
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 4 out of bounds for length 3

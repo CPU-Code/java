@@ -28,7 +28,7 @@ public class math_abs_ceil {
             // 获取绝对值并判断
             if(Math.abs(i) > 6 || Math.abs(i) < 2.1){
                 // 计数
-                System.out.println("Math.abs(i) ==", Math.abs(i));
+                //System.out.println("Math.abs(i) == ", Math.abs(i));
                 count++;
             }
         }

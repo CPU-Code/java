@@ -9,7 +9,7 @@
  * @CSDN: [https://blog.csdn.net/qq_44226094](https://blog.csdn.net/qq_44226094)
  * @Gitbook: [https://923992029.gitbook.io/cpucode/](https://923992029.gitbook.io/cpucode/)
  */
-package Interface;
+package object.Interface;
 
 public class InterfaceDemo6 {
     public static void main(String[] args){
@@ -17,33 +17,35 @@ public class InterfaceDemo6 {
 
         c.method();
     }
+
+    interface A {
+        public default void methodA(){
+
+        }
+        public default void method(){
+
+        }
+    }
+
+    interface B {
+        public default void methodB(){
+
+        }
+        public default void method(){
+
+        }
+    }
+
+    static class C implements A, B{
+        @Override
+        public void method(){
+            System.out.println("method");
+        }
+
+    }
 }
 
-interface A {
-    public default void methodA(){
 
-    }
-    public default void method(){
-
-    }
-}
-
-interface B {
-    public default void methodB(){
-
-    }
-    public default void method(){
-
-    }
-}
-
-class C implements A, B{
-    @Override
-    public void method(){
-        System.out.println("method");
-    }
-
-}
 
 /*
 method

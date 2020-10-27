@@ -18,25 +18,27 @@ public class extend3 {
         // 调用子类中的show方法
         z.show();
     }
-}
 
-class Fu{
-    // Fu中的成员变量
-    int num = 5;
-}
+    static class Fu{
+        // Fu中的成员变量
+        int num = 5;
+    }
 
-class Zi extends Fu {
-    // Zi中的成员变量
-    int num = 6;
+    static class Zi extends Fu {
+        // Zi中的成员变量
+        int num = 6;
 
-    public void show() {
-        //访问父类中的num
-        System.out.println("Fu num = " + super.num);
+        public void show() {
+            //访问父类中的num
+            System.out.println("Fu num = " + super.num);
 
-        //访问子类中的num
-        System.out.println("Zi num = " + this.num);
+            //访问子类中的num
+            System.out.println("Zi num = " + this.num);
+        }
     }
 }
+
+
 
 /*
 Fu num = 5

@@ -13,7 +13,7 @@ package jdk8;
 
 import java.util.function.Function;
 
-public class jd.k817 {
+public class jdk817 {
     public static void main(String[] args) {
         method(s -> Integer.parseInt(s));
     }

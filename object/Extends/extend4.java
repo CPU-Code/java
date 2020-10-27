@@ -19,19 +19,21 @@ public class extend4 {
         z.show();
         z.show2();
     }
-}
 
-class Fu{
-    public void show(){
-        System.out.println("Fu类中的show方法执行");
+    static class Fu{
+        public void show(){
+            System.out.println("Fu类中的show方法执行");
+        }
+    }
+
+    static class Zi extends Fu{
+        public void show2(){
+            System.out.println("Zi类 show2方法执行");
+        }
     }
 }
 
-class Zi extends Fu{
-    public void show2(){
-        System.out.println("Zi类 show2方法执行");
-    }
-}
+
 
 /*
 Fu类中的show方法执行

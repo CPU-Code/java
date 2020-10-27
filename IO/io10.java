@@ -11,6 +11,8 @@
  */
 package IO;
 
+import java.io.File;
+
 public class io10 {
     public static void main(String[] args) {
         // 创建File对象

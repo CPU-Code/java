@@ -13,7 +13,7 @@ package jdk8;
 
 import java.util.function.Function;
 
-public class jd.k819 {
+public class jdk819 {
     public static void main(String[] args) {
         String str = "cpucode, 22";
 

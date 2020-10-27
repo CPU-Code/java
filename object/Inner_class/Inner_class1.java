@@ -9,7 +9,7 @@
  * @CSDN: [https://blog.csdn.net/qq_44226094](https://blog.csdn.net/qq_44226094)
  * @Gitbook: [https://923992029.gitbook.io/cpucode/](https://923992029.gitbook.io/cpucode/)
  */
-package Inner_class;
+package object.Inner_class;
 
 public class Inner_class1 {
     public static void main(String[] args) {
@@ -17,7 +17,7 @@ public class Inner_class1 {
         Person p = new Person();
 
         // 创建内部类对象
-        Heart heart = p.new Heart();
+        Person.Heart heart = p.new Heart();
 
         // 调用内部类方法
         heart.jump();
@@ -28,28 +28,29 @@ public class Inner_class1 {
         // 调用内部类方法
         heart.jump();
     }
-}
 
-class Person{
-    private boolean live = true;
+    static class Person{
+        private boolean live = true;
 
-    class Heart{
-        public void jump(){
+        class Heart{
+            public void jump(){
 
-            // 直接访问外部类成员
-            if(live) {
-                System.out.println("心跳");
-            } else{
-                System.out.println("心跳不跳");
+                // 直接访问外部类成员
+                if(live) {
+                    System.out.println("心跳");
+                } else{
+                    System.out.println("心跳不跳");
+                }
             }
         }
-    }
 
-    public boolean isLive() {
-        return live;
-    }
+        public boolean isLive() {
+            return live;
+        }
 
-    public void setLive(boolean live){
-        this.live = live;
+        public void setLive(boolean live){
+            this.live = live;
+        }
     }
 }
+

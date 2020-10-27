@@ -13,7 +13,7 @@ package jdk8;
 
 import java.util.function.Consumer;
 
-public class jd.k811 {
+public class jdk811 {
     public static void main(String[] args) {
         String[] array = {"cpucode, 男", "cpu, 女"};
         printInfo(

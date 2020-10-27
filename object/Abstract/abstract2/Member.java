@@ -9,7 +9,7 @@
  * @CSDN: [https://blog.csdn.net/qq_44226094](https://blog.csdn.net/qq_44226094)
  * @Gitbook: [https://923992029.gitbook.io/cpucode/](https://923992029.gitbook.io/cpucode/)
  */
-package Abstract.abstract2;
+package object.Abstract.abstract2;
 
 import java.util.ArrayList;
 import java.util.Random;

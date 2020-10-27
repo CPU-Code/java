@@ -13,7 +13,7 @@ package jdk8;
 
 import java.util.function.Function;
 
-public class jd.k818 {
+public class jdk818 {
     public static void main(String[] args) {
         method(str -> Integer.parseInt(str) + 10, i -> i *= 10);
     }

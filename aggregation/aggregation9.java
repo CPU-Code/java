@@ -30,57 +30,59 @@ public class aggregation9 {
             System.out.println(stu2);
         }
     }
-}
 
-class Student{
-    private String name;
-    private int age;
+    static class Student{
+        private String name;
+        private int age;
 
-    public Student(){
+        public Student(){
 
-    }
-
-    public Student(String name, int age){
-        this.name = name;
-        this.age = age;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    @Override
-    public boolean equals(Object o){
-        if(this == o){
-            return true;
         }
 
-        if(o == null || getClass() != o.getClass()){
-            return false;
+        public Student(String name, int age){
+            this.name = name;
+            this.age = age;
         }
 
-        Student student = (Student) o;
+        public String getName() {
+            return name;
+        }
 
-        return age == student.age && Objects.equals(name, student.name);
-    }
+        public void setName(String name) {
+            this.name = name;
+        }
 
-    @Override
-    public int hashCode(){
-        return Objects.hash(name, age);
+        public int getAge() {
+            return age;
+        }
+
+        public void setAge(int age) {
+            this.age = age;
+        }
+
+        @Override
+        public boolean equals(Object o){
+            if(this == o){
+                return true;
+            }
+
+            if(o == null || getClass() != o.getClass()){
+                return false;
+            }
+
+            Student student = (Student) o;
+
+            return age == student.age && Objects.equals(name, student.name);
+        }
+
+        @Override
+        public int hashCode(){
+            return Objects.hash(name, age);
+        }
     }
 }
+
+
 
 /*
 com.company.Student@b73a054f

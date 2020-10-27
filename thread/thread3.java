@@ -25,15 +25,16 @@ public class thread3 {
             System.out.println("旺财" + i);
         }
     }
-}
 
-
-class MyRunnable implements Runnable{
-    // 重写该接口
-    @Override
-    public void run() {
-        for(int i = 0; i < 4; i++){
-            System.out.println(Thread.currentThread().getName() + " " + i);
+    static class MyRunnable implements Runnable{
+        // 重写该接口
+        @Override
+        public void run() {
+            for(int i = 0; i < 4; i++){
+                System.out.println(Thread.currentThread().getName() + " " + i);
+            }
         }
     }
 }
+
+
