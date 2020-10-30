@@ -35,8 +35,9 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
 ## [basics__基础](basics)
 
-- [ ] [first__hello](basics/first.java)
-- [ ] [FirstSample__发消息到控制台](basics/FirstSample.java)
+- [x] [first__hello](basics/first.java)
+- [x] [FirstSample__发消息到控制台](basics/FirstSample.java)
+- [x] [variable__变量使用](basics/variable.java)
 - [ ] [type_conver__强制类型转换](basics/type_conver.java)
 - [ ] [accuracy__byte数据精度丢失](basics/accuracy.java)
 - [ ] [byte_assign__byte加法](basics/byte_assign.java)
@@ -77,9 +78,9 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
 ## [object_面对对象](object)
 
-- [ ] [member__访问成员](object/member.java)
+- [x] [member__访问成员](object/member.java)
 - [ ] [enpty_object__空对象](object/enpty_object.java)
-- [ ] [enpty_object__空对象](object/enpty_object.java)
+- [ ] [Private_field__私有成员变量](object/Private_field.java)
 - [ ] [object_mem__访问对象成员](object/object_mem.java)
 - [x] [wrong_access__错误访问](object/wrong_access.java)
 - [x] [call_method__调用接口](object/call_method.java)
