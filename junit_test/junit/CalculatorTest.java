@@ -9,6 +9,9 @@ public class CalculatorTest {
         //调用
         int result = c.sub(4, 1);
         System.out.println(result);
-
     }
 }
+
+/*
+* 3
+* */
