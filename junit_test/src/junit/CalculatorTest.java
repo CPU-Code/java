@@ -1,4 +1,4 @@
-package junit;
+package src.junit;
 
 public class CalculatorTest {
     public static void main(String[] args){

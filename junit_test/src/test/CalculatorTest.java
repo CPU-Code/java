@@ -1,11 +1,10 @@
-package test;
+package src.test;
 
-import junit.Calculator;
+import src.junit.Calculator;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.omg.Messaging.SYNC_WITH_TRANSPORT;
 
 public class CalculatorTest {
 

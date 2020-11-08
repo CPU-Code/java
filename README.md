@@ -448,8 +448,8 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
 ## [单元测试](junit_test)
 
-- [x] [CalculatorTest__测试](junit_test/junit/CalculatorTest.java)
-- [x] [CalculatorTest__单元测试](junit_test/test/CalculatorTest.java)
+- [x] [CalculatorTest__测试](junit_test/src/junit/CalculatorTest.java)
+- [x] [CalculatorTest__单元测试](junit_test/src/test/CalculatorTest.java)
 
 ------------
 

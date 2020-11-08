@@ -1,4 +1,4 @@
-package junit;
+package src.junit;
 
 /**
  * 计算器类
