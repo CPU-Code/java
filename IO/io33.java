@@ -21,8 +21,9 @@ public class io33 {
         final FileReader fr = new FileReader("cpucode.txt");
         FileWriter fw = new FileWriter("cpu.txt");
 
+        /*
         // 引入到try中
-        try (fr; fw){
+        try (fr : fw){
             // 定义变量
             int b;
             // 读取数据
@@ -33,6 +34,7 @@ public class io33 {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        */
     }
 }
 

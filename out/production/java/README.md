@@ -80,7 +80,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
 - [x] [member__访问成员](object/member.java)
 - [ ] [enpty_object__空对象](object/enpty_object.java)
-- [ ] [Private_field__私有成员变量](object/Private_field.java)
+- [x] [Private_field__私有成员变量](object/Private_field.java)
 - [ ] [object_mem__访问对象成员](object/object_mem.java)
 - [x] [wrong_access__错误访问](object/wrong_access.java)
 - [x] [call_method__调用接口](object/call_method.java)
