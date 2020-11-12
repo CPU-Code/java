@@ -12,7 +12,6 @@
 
 # java
 
-
 ## 介绍
 
 个人java语言的学习路线 , 希望自己的code可以给你带来点灵感 
@@ -566,6 +565,8 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
 - [x] [Java_Doc__java文档](annotation/src/javaDoc/Java_Doc.java)
 - [x] [Annotation__注解](annotation/src/annotation/Annotation.java)
+- [x] [Worker__自定义注解](annotation/src/customize/Worker.java)
+
 
 - [返回目录](#文件目录)
 
