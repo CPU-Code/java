@@ -22,22 +22,23 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
 ## 文件目录
 
-- [ ] [basics__基础](#basics__基础)
-- [ ] [object_面对对象](#object_面对对象)
-- [ ] [javaAPI](#javaAPI)
-- [ ] [异常处理](#异常处理)
-- [ ] [泛型](#泛型)
-- [ ] [集合](#集合)
-- [ ] [IO](#IO)
-- [ ] [GUI](#GUI)
-- [ ] [JD8C](#JD8C)
-- [ ] [多线程](#多线程)
-- [ ] [Lambda表达式](#Lambda表达式)
-- [ ] [网络编程](#网络编程)
-- [ ] [JDK8](#JDK8)
-- [ ] [单元测试](#单元测试)
-- [ ] [反射](#反射)
-- [ ] [注解](#注解)
+- [basics__基础](#basics__基础)
+- [object_面对对象](#object_面对对象)
+- [javaAPI](#javaAPI)
+- [异常处理](#异常处理)
+- [泛型](#泛型)
+- [集合](#集合)
+- [IO](#IO)
+- [GUI](#GUI)
+- [JD8C](#JD8C)
+- [多线程](#多线程)
+- [Lambda表达式](#Lambda表达式)
+- [网络编程](#网络编程)
+- [JDK8](#JDK8)
+- [单元测试](#单元测试)
+- [反射](#反射)
+- [注解](#注解)
+
 
 ----------
 
@@ -45,7 +46,8 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
 - [x] [first__hello](basics/first.java)
 - [x] [FirstSample__发消息到控制台](basics/FirstSample.java)
-- [x] [variable__变量使用](basics/variable.java)
+- [x] [variable__变量使用](basics/src/variable/variable.java)
+- [x] [All_variable__所有变量](basics/src/variable/All_variable.java)
 - [ ] [type_conver__强制类型转换](basics/type_conver.java)
 - [ ] [accuracy__byte数据精度丢失](basics/accuracy.java)
 - [ ] [byte_assign__byte加法](basics/byte_assign.java)
@@ -102,7 +104,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [error_construction__错误构造方法](object/error_construction.java)
 - [x] [multiple_construction__多种构造方法](object/multiple_construction.java)
 
-- [返回目录](#文件目录)
+- [返回object](#object_面对对象)
 
 
 ### [Extends__继承](object/Extends)
@@ -117,7 +119,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [extend7__继承构造方法](object/Extends/extend7.java)
 - [x] [extend8__继承调用子父类](object/Extends/extend8.java)
 
-- [返回目录](#文件目录)
+- [返回object](#object_面对对象)
 
 
 ### [abstract__抽象类](object/abstract)
@@ -125,7 +127,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [abstract1__抽象类](object/abstract/abstract1.java)
 - [ ] [abstract2__继承的综合案例](object/abstract/abstract2)
 
-- [返回目录](#文件目录)
+- [返回object](#object_面对对象)
 
 
 ### [Interface__接口](object/Interface)
@@ -139,7 +141,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [InterfaceDemo7__多接口静态方法](object/Interface/InterfaceDemo7.java)
 - [x] [InterfaceDemo8__接口的多继承](object/Interface/InterfaceDemo8.java)
 
-- [返回目录](#文件目录)
+- [返回object](#object_面对对象)
 
 
 ### [polymorphic__多态](object/polymorphic)
@@ -151,7 +153,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [polymorphic5__多态转型异常判断](object/polymorphic/polymorphic5.java)
 - [x] [polymorphic6__接口多态的综合案例](object/polymorphic/polymorphic6)
 
-- [返回目录](#文件目录)
+- [返回object](#object_面对对象)
 
 
 ### [Final__关键字](object/Final)
@@ -159,7 +161,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Final1__局部变量的基本类型](object/Final/Final1.java)
 - [x] [Final2__局部变量的引用类型](object/Final/Final2.java)
 
-- [返回目录](#文件目录)
+- [返回object](#object_面对对象)
 
 
 ### [Inner_class__内部类](object/Inner_class)
@@ -169,19 +171,19 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Inner_class3__匿名内部类作为参数传递](object/Inner_class/Inner_class3.java)
 - [ ] [Inner_class4__简化匿名内部类作为参数传递](object/Inner_class/Inner_class4.java)
 
-- [返回目录](#文件目录)
+- [返回object](#object_面对对象)
 
 
 ### [__引用类型](object/)
 
 - [ ] [Inner_class4__简化匿名内部类作为参数传递](object/Inner_class/class_.java)
 
-- [返回目录](#文件目录)
+- [返回object](#object_面对对象)
 
 
 ### [Inner_class__综合案例——发红包](object/Inner_class)
 
-- [返回目录](#文件目录)
+- [返回object](#object_面对对象)
 
 
 ------------------------
@@ -208,7 +210,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [ ] [anonymous3__匿名对象](javaAPI/Scanner/anonymous3.java)
 - [ ] [anonymous4__匿名对象](javaAPI/Scanner/anonymous4.java)
 
-- [返回目录](#文件目录)
+- [返回javaAPI](#javaAPI)
 
 
 ### [Random](javaAPI/Random)
@@ -217,7 +219,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [for_print_random__随机数](javaAPI/Random/for_print_random.java)
 - [x] [guess_random__猜随机数](javaAPI/Random/guess_random.java)
 
-- [返回目录](#文件目录)
+- [返回javaAPI](#javaAPI)
 
 
 ### [ArrayList](javaAPI/ArrayList)
@@ -230,7 +232,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [print_ArrayList__打印集合](javaAPI/ArrayList/print_ArrayList.java)
 - [x] [get_ArrayList__获取集合方法](javaAPI/ArrayList/get_ArrayList.java)
 
-- [返回目录](#文件目录)
+- [返回javaAPI](#javaAPI)
 
 
 ### [String](javaAPI/String)
@@ -242,7 +244,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [concat_string__拼接字符串](javaAPI/String/concat_string.java)
 - [x] [charAt_String__统计字符个数](javaAPI/String/charAt_String.java)
 
-- [返回目录](#文件目录)
+- [返回javaAPI](#javaAPI)
 
 
 ### [static](javaAPI/static)
@@ -250,7 +252,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [class_variable__类变量](javaAPI/static/class_variable.java)
 - [x] [class_method__类方法](javaAPI/static/class_method.java)
 
-- [返回目录](#文件目录)
+- [返回javaAPI](#javaAPI)
 
 
 ### [Arrays](javaAPI/Arrays)
@@ -259,14 +261,14 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [string_sort__数组升序排序](javaAPI/Arrays/string_sort.java)
 - [x] [tochararray__字符串装数组升序排序](javaAPI/Arrays/tochararray_sort.java)
 
-- [返回目录](#文件目录)
+- [返回javaAPI](#javaAPI)
 
 
 ### [Math](javaAPI/Math)
 
 - [x] [math_abs_ceil__绝对值整数](javaAPI/Math/math_abs_ceil.java)
 
-- [返回目录](#文件目录)
+- [返回javaAPI](#javaAPI)
 
 
 ### [日期时间](javaAPI/date)
@@ -282,7 +284,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [date9__Calendar_add](javaAPI/date/date9.java)
 - [x] [date10__Calendar_getTime](javaAPI/date/date10.java)
 
-- [返回目录](#文件目录)
+- [返回javaAPI](#javaAPI)
 
 
 ### [System类](javaAPI/system)
@@ -291,7 +293,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [system2__currentTimeMillis使用的时间](javaAPI/system/system2.java)
 - [x] [system3__arraycopy](javaAPI/system/system3.java)
 
-- [返回目录](#文件目录)
+- [返回javaAPI](#javaAPI)
 
 
 ### [StringBuilder类](javaAPI/stringBuilder)
@@ -301,14 +303,14 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [stringBuilder3__append](javaAPI/stringBuilder/stringBuilder3.java)
 - [x] [stringBuilder4__ toString](javaAPI/stringBuilder/stringBuilder4.java)
 
-- [返回目录](#文件目录)
+- [返回javaAPI](#javaAPI)
 
 
 ### [包装类](javaAPI/WrapperParse)
 
 - [x] [WrapperParse1__parseInt](javaAPI/WrapperParse/WrapperParse1.java)
 
-- [返回目录](#文件目录)
+- [返回javaAPI](#javaAPI)
 
 
 -----------------------

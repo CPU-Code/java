@@ -1,4 +1,4 @@
-package basics;
+package src.variable;
 
 /*
 	变量定义格式：
