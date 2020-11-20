@@ -48,6 +48,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [FirstSample__发消息到控制台](basics/FirstSample.java)
 - [x] [variable__变量使用](basics/src/variable/variable.java)
 - [x] [All_variable__所有变量](basics/src/variable/All_variable.java)
+- [x] [Constant__常量](basics/src/variable/Constant.java)
 - [ ] [type_conver__强制类型转换](basics/type_conver.java)
 - [ ] [accuracy__byte数据精度丢失](basics/accuracy.java)
 - [ ] [byte_assign__byte加法](basics/byte_assign.java)

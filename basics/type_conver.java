@@ -22,3 +22,7 @@ public class type_conver
 		System.out.println(b);
 	}
 }
+
+/*
+b == 4
+* */
