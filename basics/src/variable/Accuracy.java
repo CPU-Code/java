@@ -12,7 +12,7 @@
  * a == 1
  * b == 257
  */
-public class accuracy 
+public class Accuracy
 {
     public static void main(String[] args)
     {

@@ -50,7 +50,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [All_variable__所有变量](basics/src/variable/All_variable.java)
 - [x] [Constant__常量](basics/src/variable/Constant.java)
 - [x] [Type_conver__强制类型转换](basics/src/variable/Type_conver.java)
-- [ ] [accuracy__byte数据精度丢失](basics/accuracy.java)
+- [x] [Accuracy__byte数据精度丢失](basics/src/variable/Accuracy.java)
 - [ ] [byte_assign__byte加法](basics/byte_assign.java)
 - [ ] [scope__作用域](basics/scope.java)
 - [ ] [type_auto__自动类型转换](basics/type_auto.java)
