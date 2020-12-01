@@ -9,9 +9,9 @@
  * @CSDN: [https://blog.csdn.net/qq_44226094](https://blog.csdn.net/qq_44226094)
  * @Gitbook: [https://923992029.gitbook.io/cpucode/](https://923992029.gitbook.io/cpucode/)
  */
-package basics;
+package src.variable;
 
-public class print_var {
+public class Print_var {
     public static void main(String[] args){
         // 定义了一个整型int类型的变量, 初始值为1
         int x = 100; // 定义int类型变量x，并赋予初始值100

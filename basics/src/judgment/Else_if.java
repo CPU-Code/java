@@ -1,3 +1,4 @@
+package src.judgment;
 /*
  * @Author: cpu_code
  * @Date: 2020-07-07 08:52:44
@@ -11,7 +12,7 @@
  * if…else if…else语句的使用
  * 该成绩的等级为良
  */
-public class else_if 
+public class Else_if
 {
     public static void main(String[] args) 
 	{

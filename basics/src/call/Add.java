@@ -1,4 +1,4 @@
-/*
+package src.call;/*
  * @Author: cpu_code
  * @Date: 2020-07-07 11:44:13
  * @LastEditTime: 2020-07-07 11:46:09
@@ -14,7 +14,7 @@ sum1=3
 sum2=6
 sum3=3.5
  */
-public class add 
+public class Add
 {
     public static void main(String[] args) 
     {

@@ -1,3 +1,4 @@
+package src.array;
 /*
  * @Author: cpu_code
  * @Date: 2020-07-07 22:28:07
@@ -10,9 +11,8 @@
 /**
  * 数组越界异常
  */
-public class array_excep 
+public class Array_excep
 {
-    
 	public static void main(String[] args) 
 	{
 		int[] arr = new int[4]; // 定义一个长度为4的数组
@@ -20,3 +20,8 @@ public class array_excep
 		System.out.println("arr[0]=" + arr[4]); // 通过角标4访问数组元素
 	}
 }
+
+/*
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 4
+	at src.array.Array_excep.main(Array_excep.java:20)
+* */

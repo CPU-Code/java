@@ -11,7 +11,7 @@
  * if判断
  * x == 6
  */
-public class if_add 
+public class If_add
 {
     public static void main(String[] args) 
 	{

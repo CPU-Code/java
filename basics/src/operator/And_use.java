@@ -31,10 +31,8 @@ y == 2
 b == false
 z == 1
  */
-public class and_use
-{
-    public static void main(String[] args) 
-	{
+public class And_use {
+    public static void main(String[] args) {
 		int x = 0; // 定义变量x
 		int y = 1; // 定义变量y
 		int z = 1; // 定义变量z

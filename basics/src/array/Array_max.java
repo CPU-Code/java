@@ -1,4 +1,4 @@
-/*
+package src.array;/*
  * @Author: cpu_code
  * @Date: 2020-07-08 10:00:46
  * @LastEditTime: 2020-07-08 10:01:53
@@ -11,7 +11,7 @@
  * 获取数组中元素的最大值
  * max == 9
  */
-public class array_max 
+public class Array_max
 {
     public static void main(String[] args) 
     {

@@ -1,4 +1,4 @@
-/*
+package src.array;/*
  * @Author: cpu_code
  * @Date: 2020-07-07 11:46:56
  * @LastEditTime: 2020-07-07 22:11:49
@@ -14,7 +14,7 @@ arr[1]=0
 arr[2]=0
 数组的长度是：3
  */
-public class array 
+public class Array
 {
     public static void main(String[] args) 
     {

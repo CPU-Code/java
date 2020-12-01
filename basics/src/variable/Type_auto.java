@@ -12,7 +12,7 @@
  * 赋值运算符中的自动类型转换
  * s == 8
  */
-public class type_auto 
+public class Type_auto
 {
 	public static void main(String[] args) 
 	{

@@ -11,7 +11,7 @@
  * if...else...语句的使用
  * num是一个偶数
  */
-public class if_else
+public class If_else
 {
     public static void main(String[] args)
     {

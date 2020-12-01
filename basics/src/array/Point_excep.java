@@ -1,4 +1,4 @@
-/*
+package src.array;/*
  * @Author: cpu_code
  * @Date: 2020-07-07 22:31:36
  * @LastEditTime: 2020-07-07 22:32:30
@@ -13,7 +13,7 @@
 Exception in thread "main" java.lang.NullPointerException
         at point_excep.main(point_excep.java:24)
  */
-public class point_excep 
+public class Point_excep
 {
     public static void main(String[] args) 
 	{

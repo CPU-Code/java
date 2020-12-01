@@ -1,4 +1,4 @@
-/*
+package src.array;/*
  * @Author: cpu_code
  * @Date: 2020-07-07 22:15:09
  * @LastEditTime: 2020-07-07 22:16:19
@@ -14,7 +14,7 @@ arr[1]=2
 arr[2]=0
 arr[3]=0
  */
-public class array_assign 
+public class Array_assign
 {
     public static void main(String[] args) 
     {

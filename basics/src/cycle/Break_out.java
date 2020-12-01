@@ -15,7 +15,7 @@
 ****
 itcast
  */
-public class break_out 
+public class Break_out
 {
 	public static void main(String[] args) 
 	{

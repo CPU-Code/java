@@ -1,4 +1,4 @@
-/*
+package src.array;/*
  * @Author: cpu_code
  * @Date: 2020-07-08 10:30:49
  * @LastEditTime: 2020-07-08 10:34:51
@@ -14,7 +14,7 @@
 第3小组销售额为：130 万元。
 总销售额为: 219 万元。
  */
-public class two_dimen_array 
+public class Two_dimen_array
 {
     public static void main(String[] args) 
 	{

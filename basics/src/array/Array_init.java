@@ -1,3 +1,4 @@
+package src.array;
 /*
  * @Author: cpu_code
  * @Date: 2020-07-07 22:17:22
@@ -14,7 +15,7 @@ arr[1] = 2
 arr[2] = 3
 arr[3] = 4
  */
-public class array_init 
+public class Array_init
 {
     public static void main(String[] args) 
 	{

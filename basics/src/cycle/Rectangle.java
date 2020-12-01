@@ -1,4 +1,4 @@
-/*
+package src.cycle;/*
  * @Author: cpu_code
  * @Date: 2020-07-07 11:17:15
  * @LastEditTime: 2020-07-07 11:18:31
@@ -23,7 +23,7 @@
 **********
 **********
  */
-public class rectangle 
+public class Rectangle
 {
     public static void main(String[] args) 
     {

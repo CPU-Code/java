@@ -1,3 +1,4 @@
+package src.array;
 /*
  * @Author: cpu_code
  * @Date: 2020-07-07 22:41:25
@@ -15,7 +16,7 @@
 4
 5
  */
-public class for_array 
+public class For_array
 {
     public static void main(String[] args) 
     {

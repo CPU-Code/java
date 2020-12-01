@@ -41,12 +41,12 @@ public class Checklist
 
 		// 列表顶部
 		System.out.println("--------------------------Checklist--------------------------------");
-		System.out.println("types 		Price 		num");
+		System.out.println("types 		         Price 	   num");
 
 		// 列表中部
-		System.out.println(macBrand + "	 " + macPrice  + "    	" + macCount);
-		System.out.println(thinkpadBrand+ "    " + thinkpadPrice + "		" + thinkpadCount);
-		System.out.println(ASUSBrand + "	" + ASUSPrice + "		 " + ASUSCount);
+		System.out.println(macBrand + "	      " + macPrice  + "    	" + macCount);
+		System.out.println(thinkpadBrand+ "      " + thinkpadPrice + "		" + thinkpadCount);
+		System.out.println(ASUSBrand + "	      " + ASUSPrice + "		 " + ASUSCount);
 
 		// 统计总库存数、库存总金额
 		int totalCount = macCount + thinkpadCount + ASUSCount;

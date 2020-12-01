@@ -1,4 +1,4 @@
-package basics;
+package src.variable;
 /*
  * @Author: cpu_code
  * @Date: 2020-07-06 20:22:36
@@ -13,7 +13,7 @@ package basics;
  * Hello world !
  */
 /* public是访问修饰符，表示该class是公开的 */
-public class first    // 类名是 first
+public class First    // 类名是 first
 {
 /*
 类名必须以英文字母开头，后接字母，数字和下划线的组合

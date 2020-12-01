@@ -1,4 +1,4 @@
-/*
+package src.array;/*
  * @Author: cpu_code
  * @Date: 2020-07-08 10:08:39
  * @LastEditTime: 2020-07-08 10:24:19
@@ -10,7 +10,7 @@
 /**
  * 冒泡排序
  */
-public class bubble_sort 
+public class Bubble_sort
 {
     public static void main(String[] args) 
 	{

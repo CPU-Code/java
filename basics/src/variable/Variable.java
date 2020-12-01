@@ -11,7 +11,7 @@ package src.variable;
 		取值格式：变量名
 		修改值格式：变量名 = 变量值;
 */
-public class variable {
+public class Variable {
     public static void main(String[] args) {
         //定义变量
         int a = 10;

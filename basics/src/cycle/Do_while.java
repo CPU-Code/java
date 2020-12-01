@@ -1,4 +1,4 @@
-/*
+package src.cycle;/*
  * @Author: cpu_code
  * @Date: 2020-07-07 09:29:29
  * @LastEditTime: 2020-07-07 09:30:19
@@ -14,7 +14,7 @@
  * x = 3
  * x = 4
  */
-public class do_while 
+public class Do_while
 {
     public static void main(String[] args) 
     {

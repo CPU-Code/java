@@ -1,4 +1,4 @@
-/*
+package src.call;/*
  * @Author: cpu_code
  * @Date: 2020-07-07 11:37:10
  * @LastEditTime: 2020-07-07 11:37:55
@@ -11,7 +11,7 @@
  * 使用有返回值的方法求矩形的面积
  * The area is 15
  */
-public class area 
+public class Area
 {
     public static void main(String[] args) 
 	{
