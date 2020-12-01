@@ -80,6 +80,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Point_excep__空指针异常](basics/src/array/Point_excep.java)
 - [x] [For_array__for循环遍历数组](basics/src/array/For_array.java)
 - [x] [For_array2__for循环遍历数组2](basics/src/array/For_array2.java)
+- [x] [For_each__for_each循环](basics/src/array/For_each.java)
 - [x] [Array_max__查找数组中最大的](basics/src/array/Array_max.java)
 - [x] [Bubble_sort__冒泡排序](basics/src/array/Bubble_sort.java)
 - [x] [two_dimen_array__二维数组的使用](basics/src/array/Two_dimen_array.java)
