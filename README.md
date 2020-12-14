@@ -458,6 +458,8 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 ## [JDBC](JDBC)
 
 - [x] [First_jdbc__第一jdbc](JDBC/src/jdbc/First_jdbc.java)
+- [x] [Insert__添加数据](JDBC/src/jdbc/Insert.java)
+- [x] [Update__修改数据](JDBC/src/jdbc/Update.java)
 
 - [返回目录](#文件目录)
 
