@@ -41,6 +41,10 @@ public class First_jdbc {
 }
 
 /*
+count = 1
+* */
+
+/*
 
 CREATE DATABASE cpucode;	 -- 创建数据库
 
