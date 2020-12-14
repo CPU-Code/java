@@ -457,7 +457,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
 ## [JDBC](JDBC)
 
-- [x] [first_jdbc__第一jdbc](JDBC/src/jdbc/first_jdbc.java)
+- [x] [First_jdbc__第一jdbc](JDBC/src/jdbc/First_jdbc.java)
 
 - [返回目录](#文件目录)
 

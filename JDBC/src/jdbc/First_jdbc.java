@@ -8,7 +8,7 @@ import java.sql.Statement;
 /**
  * JDBC快速入门
  */
-public class first_jdbc {
+public class First_jdbc {
     public static void main(String[] args) throws Exception{
         //1. 导入驱动jar包
         //2.注册驱动
