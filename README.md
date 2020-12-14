@@ -30,7 +30,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [集合](#集合)
 - [IO](#IO)
 - [GUI](#GUI)
-- [JD8C](#JD8C)
+- [JDBC](#JDBC)
 - [多线程](#多线程)
 - [Lambda表达式](#Lambda表达式)
 - [网络编程](#网络编程)
@@ -80,7 +80,9 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Point_excep__空指针异常](basics/src/array/Point_excep.java)
 - [x] [For_array__for循环遍历数组](basics/src/array/For_array.java)
 - [x] [For_array2__for循环遍历数组2](basics/src/array/For_array2.java)
+- [x] [For_array2__倒序](basics/src/array/For_array2.java)
 - [x] [For_each__for_each循环](basics/src/array/For_each.java)
+- [x] [toString_array__快速打印数组内容](basics/src/array/toString_array.java)
 - [x] [Array_max__查找数组中最大的](basics/src/array/Array_max.java)
 - [x] [Bubble_sort__冒泡排序](basics/src/array/Bubble_sort.java)
 - [x] [two_dimen_array__二维数组的使用](basics/src/array/Two_dimen_array.java)
@@ -453,7 +455,9 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
 --------------
 
-## [JD8C](JD8C)
+## [JDBC](JDBC)
+
+- [x] [first_jdbc__第一jdbc](JDBC/src/jdbc/first_jdbc.java)
 
 - [返回目录](#文件目录)
 
