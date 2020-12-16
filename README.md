@@ -465,6 +465,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Select__查询表数据](JDBC/src/jdbc/Select.java)
 - [x] [Select_simplify__简化查询表数据](JDBC/src/jdbc/Select_simplify.java)
 - [x] [List_select__list封装的查询表数据](JDBC/src/jdbc/List_select.java)
+- [x] [JDBC_utils__JDBC工具的查询表数据](JDBC/src/jdbc/JDBC_utils.java)
 
 - [返回目录](#文件目录)
 
