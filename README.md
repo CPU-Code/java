@@ -463,6 +463,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Delete__删除数据](JDBC/src/jdbc/Delete.java)
 - [x] [Create_table__创建表](JDBC/src/jdbc/Create_table.java)
 - [x] [Select__查询表数据](JDBC/src/jdbc/Select.java)
+- [x] [Select_simplify__简化查询表数据](JDBC/src/jdbc/Select_simplify.java)
 
 - [返回目录](#文件目录)
 
