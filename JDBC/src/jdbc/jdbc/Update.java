@@ -1,4 +1,4 @@
-package jdbc;
+package jdbc.jdbc;
 
 // 表 修改记录
 

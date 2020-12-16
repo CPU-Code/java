@@ -1,7 +1,7 @@
-package jdbc;
+package jdbc.jdbc;
 
-import domain.Student;
-import util.JDBCUtils;
+import jdbc.domain.Student;
+import jdbc.util.JDBCUtils;
 
 import java.sql.Connection;
 import java.sql.ResultSet;

@@ -1,6 +1,6 @@
 package reflect;
 
-import domain.Person;
+import jdbc.domain.Person;
 
 import java.lang.reflect.Constructor;
 

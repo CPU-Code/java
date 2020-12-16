@@ -1,7 +1,7 @@
 package reflect;
 
-import domain.Person;
-import domain.Student;
+import jdbc.domain.Person;
+import jdbc.domain.Student;
 
 /**
  获取Class对象的方式：
@@ -15,7 +15,7 @@ import domain.Student;
 public class Get_class_object {
     public static void main(String[] args) throws Exception{
         //1.Class.forName("全类名")
-        Class cls1 = Class.forName("domain.Person");
+        Class cls1 = Class.forName("jdbc.domain.Person");
         System.out.println(cls1);
 
         //2.类名.class

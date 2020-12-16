@@ -1,8 +1,8 @@
-package jdbc;
+package jdbc.jdbc;
 
 //登录方法,使用PreparedStatement实现
 
-import util.JDBCUtils;
+import jdbc.util.JDBCUtils;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

@@ -1,19 +1,19 @@
-package jdbc;
+package jdbc.jdbc;
 
 import java.sql.*;
 
-public class Select_simplify {
+public class Select {
     public static void main(String[] args){
         Connection connection = null;
         Statement statement = null;
         ResultSet resultSet = null;
-
-/*        try {
-            //1. 注册驱动
+/*
+        try {
             Class.forName("com.mysql.jdbc.Driver");
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
-        }*/
+        }
+        */
 
         try {
             //2.获取连接对象
@@ -26,21 +26,38 @@ public class Select_simplify {
             statement = connection.createStatement();
             //5.执行sql
             resultSet = statement.executeQuery(sql);
-            //6.处理结果
-            //循环判断游标是否是最后一行末尾。
-            while(resultSet.next()){
-                //获取数据
-                //6.2 获取数据
-                int id  = resultSet.getInt(1);
-                String name = resultSet.getString("name");
-                int age = resultSet.getInt(3);
 
-                System.out.println("id = " + id + "---name = " + name + "----age = " + age);
-            }
+            //6.处理结果
+            //6.1 让游标向下移动一行
+            resultSet.next();
+            //6.2 获取数据
+            int id = resultSet.getInt(1);
+            String name = resultSet.getString("name");
+            int age = resultSet.getInt(3);
+
+            System.out.println("id = " + id + "-- name = " + name + "-- age = " + age);
+
+            //6.1 让游标向下移动一行
+            resultSet.next();
+            //6.2 获取数据
+            int id2 = resultSet.getInt(1);
+            String name2 = resultSet.getString("name");
+            int age2 = resultSet.getInt(3);
+
+            System.out.println("id = " + id2 + "-- name = " + name2 + "-- age = " + age2);
+
+            //6.1 让游标向下移动一行
+            resultSet.next();
+            //6.2 获取数据
+            int id3 = resultSet.getInt(1);
+            String name3 = resultSet.getString("name");
+            int age3 = resultSet.getInt(3);
+
+            System.out.println("id = " + id3 + "-- name = " + name3 + "-- age = " + age3);
 
         } catch (SQLException e) {
             e.printStackTrace();
-        } finally {
+        } finally{
             if (resultSet != null){
                 try {
                     resultSet.close();
@@ -66,14 +83,12 @@ public class Select_simplify {
             }
         }
 
+
     }
 }
 
-
 /*
-id = 1---name = CPU----age = 30
-id = 2---name = cpucode----age = 12
-id = 4---name = cpu----age = 44
-id = 5---name = 哇哇----age = 25
-id = 6---name = 哇哇----age = 25
+id = 1-- name = CPU-- age = 30
+id = 2-- name = cpucode-- age = 12
+id = 4-- name = cpu-- age = 44
 * */

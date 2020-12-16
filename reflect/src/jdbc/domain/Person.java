@@ -1,4 +1,4 @@
-package domain;
+package jdbc.domain;
 
 public class Person {
     private String name;

@@ -1,6 +1,6 @@
-package jdbc;
+package jdbc.jdbc;
 
-import domain.Student;
+import jdbc.domain.Student;
 
 import java.sql.*;
 import java.util.ArrayList;

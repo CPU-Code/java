@@ -1,4 +1,4 @@
-package domain;
+package jdbc.domain;
 
 // 封装Student表数据的JavaBean
 public class Student {

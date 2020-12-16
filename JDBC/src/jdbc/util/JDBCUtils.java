@@ -1,4 +1,4 @@
-package util;
+package jdbc.util;
 
 import java.io.FileReader;
 import java.io.IOException;
