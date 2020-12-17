@@ -477,6 +477,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [First_template__第一个jdbc模板](JDBC/src/template/template/First_template.java)
 - [x] [Template_data__jdbc模板传参](JDBC/src/template/template/Template_data.java)
 - [x] [Template_insert__jdbc模板插入数据](JDBC/src/template/template/Template_insert.java)
+- [x] [Template_delete__jdbc模板删除数据](JDBC/src/template/template/Template_delete.java)
 
 - [返回目录](#文件目录)
 
