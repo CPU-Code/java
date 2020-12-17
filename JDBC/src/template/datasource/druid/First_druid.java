@@ -1,4 +1,4 @@
-package template.druid;
+package template.datasource.druid;
 
 import com.alibaba.druid.pool.DruidDataSourceFactory;
 

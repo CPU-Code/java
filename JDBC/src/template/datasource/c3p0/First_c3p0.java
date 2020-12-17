@@ -1,4 +1,4 @@
-package template.c3p0;
+package template.datasource.c3p0;
 
 //c3p0的第一个
 

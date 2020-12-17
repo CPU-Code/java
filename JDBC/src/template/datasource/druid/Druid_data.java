@@ -1,8 +1,8 @@
-package template.druid;
+package template.datasource.druid;
 
 //完成添加操作：给student表添加一条记录
 
-import jdbc.util.JDBCUtils;
+import template.utils.JDBCUtils;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
