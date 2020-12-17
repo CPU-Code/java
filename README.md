@@ -469,11 +469,11 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Login_case__登录案例](JDBC/src/jdbc/jdbc/Login_case.java)
 - [x] [Login_pre_case__使用Prepared登录案例](JDBC/src/jdbc/jdbc/Login_pre_case.java)
 - [x] [Affairs__事务操作](JDBC/src/jdbc/jdbc/Affairs.java)
-- [x] [First_c3p0__第一个c3p0连接池](JDBC/src/template/c3p0/First_c3p0.java)
-- [x] [C3p0_exceed__c3p0连接池超过](JDBC/src/template/c3p0/C3p0_exceed.java)
-- [x] [C3p0_paramether__c3p0连接池指定参数](JDBC/src/template/c3p0/C3p0_paramether.java)
-- [x] [First_druid__第一个druid](JDBC/src/template/druid/First_druid.java)
-- [x] [Druid_data__druid添加数据](JDBC/src/template/druid/Druid_data.java)
+- [x] [First_c3p0__第一个c3p0连接池](JDBC/src/template/datasource/c3p0/First_c3p0.java)
+- [x] [C3p0_exceed__c3p0连接池超过](JDBC/src/template/datasource/c3p0/C3p0_exceed.java)
+- [x] [C3p0_paramether__c3p0连接池指定参数](JDBC/src/template/datasource/c3p0/C3p0_paramether.java)
+- [x] [First_druid__第一个druid](JDBC/src/template/datasource/druid/First_druid.java)
+- [x] [Druid_data__druid添加数据](JDBC/src/template/datasource/druid/Druid_data.java)
 
 - [返回目录](#文件目录)
 
