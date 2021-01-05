@@ -614,7 +614,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 ## [JVM](JVM)
 
 - [x] [OutOfMemory__查看内存溢出](JVM/src/com/cpucode/java/heap/OutOfMemory.java)
-
+- [x] [EdenSurvivorTest__查看各区比例](JVM/src/com/cpucode/java/heap/EdenSurvivorTest.java)
 
 
 
