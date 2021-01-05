@@ -38,7 +38,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [单元测试](#单元测试)
 - [反射](#反射)
 - [注解](#注解)
-
+- [JVM](#JVM)
 
 ----------
 
@@ -607,6 +607,15 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [ ] [Check_test__注解检查错误](annotation/src/Check/Check_test.java)
 
 - [返回目录](#文件目录)
+
+
+------------
+
+## [JVM](JVM)
+
+- [x] [OutOfMemory__查看内存溢出](JVM/src/com/cpucode/java/heap/OutOfMemory.java)
+
+
 
 
 ---------------------------------
