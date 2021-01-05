@@ -12,8 +12,9 @@
 
 # java
 
-
 ## 介绍
+
+个人java语言的学习路线 , 希望自己的code可以给你带来点灵感 
 
 java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
@@ -21,62 +22,80 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
 ## 文件目录
 
-- [ ] [basics__基础](#basics__基础)
-- [ ] [object_面对对象](#object_面对对象)
-- [ ] [javaAPI](#javaAPI)
-- [ ] [_集合](#_集合)
-- [ ] [_IO](#_IO)
-- [ ] [_GUI](#_GUI)
-- [ ] [_JD8C](#_JD8C)
-- [ ] [_多线程](#_多线程)
-- [ ] [_网络编程](#_网络编程)
+- [基础](#基础)
+- [面对对象](#面对对象)
+- [javaAPI](#javaAPI)
+- [异常处理](#异常处理)
+- [泛型](#泛型)
+- [集合](#集合)
+- [IO](#IO)
+- [GUI](#GUI)
+- [JDBC](#JDBC)
+- [多线程](#多线程)
+- [Lambda表达式](#Lambda表达式)
+- [网络编程](#网络编程)
+- [JDK8](#JDK8)
+- [单元测试](#单元测试)
+- [反射](#反射)
+- [注解](#注解)
+- [JVM](#JVM)
 
 ----------
 
-## [basics__基础](basics)
+## [基础](basics)
 
-- [x] [first__hello](basics/first.java)
-- [x] [FirstSample__发消息到控制台](basics/FirstSample.java)
-- [x] [variable__变量使用](basics/variable.java)
-- [ ] [type_conver__强制类型转换](basics/type_conver.java)
-- [ ] [accuracy__byte数据精度丢失](basics/accuracy.java)
-- [ ] [byte_assign__byte加法](basics/byte_assign.java)
-- [ ] [scope__作用域](basics/scope.java)
-- [ ] [type_auto__自动类型转换](basics/type_auto.java)
-- [ ] [and_use__&_&&使用](basics/and_use.java)
-- [ ] [if_add__if判断](basics/if_add.java)
-- [ ] [if_else__ifelse判断](basics/if_else.java)
-- [ ] [else_if__elseif判断](basics/else_if.java)
-- [ ] [Switch__Switch使用](basics/Switch.java)
-- [ ] [Case__Case使用](basics/Case.java)
-- [ ] [While__While循环](basics/While.java)
-- [ ] [do_while__do_while循环](basics/do_while.java)
-- [ ] [For__for循环](basics/For.java)
-- [ ] [For_for__双for循环](basics/For_for.java)
-- [ ] [Break__跳出循环](basics/Break.java)
-- [ ] [break_out__跳出外循环](basics/break_out.java)
-- [ ] [Continue__跳过本循环](basics/Continue.java)
-- [ ] [rectangle__打印矩形](basics/rectangle.java)
-- [ ] [print_rectangle__打印矩形](basics/print_rectangle.java)
-- [ ] [area__矩形面积](basics/area.java)
-- [ ] [add__调用加法](basics/add.java)
-- [ ] [array__数组](basics/array.java)
-- [ ] [array_assign__数组赋值](basics/array_assign.java)
-- [ ] [array_init__数组初始化](basics/array_init.java)
-- [ ] [array_excep__数组越界异常](basics/array_excep.java)
-- [ ] [point_excep__空指针异常](basics/point_excep.java)
-- [ ] [for_array__for循环遍历数组](basics/for_array.java)
-- [ ] [array_max__查找数组中最大的](basics/array_max.java)
-- [ ] [bubble_sort__冒泡排序](basics/bubble_sort.java)
-- [ ] [Checklist__商城库存清单程序](basics/Checklist.java)
-- [ ] [two_dimen_array__二维数组的使用](basics/two_dimen_array.java)
-- [ ] [guess_num__猜数](basics/guess_num.java)
-- [ ] [call_name__点名](basics/call_name.java)
-- [x] [print_var__输出数](basics/print_var.java)
+- [x] [First__hello](basics/src/variable/First.java)
+- [x] [FirstSample__发消息到控制台](basics/src/variable/FirstSample.java)
+- [x] [Print_var__输出数](basics/src/variable/Print_var.java)
+- [x] [Variable__变量使用](basics/src/variable/Variable.java)
+- [x] [All_variable__所有变量](basics/src/variable/All_variable.java)
+- [x] [Constant__常量](basics/src/variable/Constant.java)
+- [x] [Type_conver__强制类型转换](basics/src/variable/Type_conver.java)
+- [x] [Accuracy__byte数据精度丢失](basics/src/variable/Accuracy.java)
+- [x] [Byte_assign__byte加法](basics/src/variable/Byte_assign.java)
+- [x] [Scope__作用域](basics/src/variable/Scope.java)
+- [x] [Type_auto__自动类型转换](basics/src/variable/Type_auto.java)
+- [x] [Assignment__赋值运算符](basics/src/operator/Assignment.java)
+- [x] [And_use__&_&&使用](basics/src/operator/And_use.java)
+- [x] [If_add__if判断](basics/src/judgment/If_add.java)
+- [x] [If_else__ifelse判断](basics/src/judgment/If_else.java)
+- [x] [Else_if__elseif判断](basics/src/judgment/Else_if.java)
+- [x] [Switch__Switch使用](basics/src/judgment/Switch.java)
+- [x] [Case__Case使用](basics/src/judgment/Case.java)
+- [x] [While__While循环](basics/src/cycle/While.java)
+- [x] [Do_while__do_while循环](basics/src/cycle/Do_while.java)
+- [x] [For__for循环](basics/src/cycle/For.java)
+- [x] [For_for__双for循环](basics/src/cycle/For_for.java)
+- [x] [Break__跳出循环](basics/src/cycle/Break.java)
+- [x] [Break_out__跳出外循环](basics/src/cycle/Break_out.java)
+- [x] [Continue__跳过本循环](basics/src/cycle/Continue.java)
+- [x] [Rectangle__打印矩形](basics/src/cycle/Rectangle.java)
+- [x] [Print_rectangle__打印矩形](basics/src/cycle/Print_rectangle.java)
+- [x] [Area__矩形面积](basics/src/call/Area.java)
+- [x] [Add__调用加法](basics/src/call/Add.java)
+- [x] [Array__数组](basics/src/array/Array.java)
+- [x] [Array_assign__数组赋值](basics/src/array/Array_assign.java)
+- [x] [Array_init__数组初始化](basics/src/array/Array_init.java)
+- [x] [Array_excep__数组越界异常](basics/src/array/Array_excep.java)
+- [x] [Point_excep__空指针异常](basics/src/array/Point_excep.java)
+- [x] [For_array__for循环遍历数组](basics/src/array/For_array.java)
+- [x] [For_array2__for循环遍历数组2](basics/src/array/For_array2.java)
+- [x] [For_array2__倒序](basics/src/array/For_array2.java)
+- [x] [For_each__for_each循环](basics/src/array/For_each.java)
+- [x] [toString_array__快速打印数组内容](basics/src/array/toString_array.java)
+- [x] [Array_max__查找数组中最大的](basics/src/array/Array_max.java)
+- [x] [Bubble_sort__冒泡排序](basics/src/array/Bubble_sort.java)
+- [x] [two_dimen_array__二维数组的使用](basics/src/array/Two_dimen_array.java)
+- [x] [Checklist__商城库存清单程序](basics/Checklist.java)
+- [x] [guess_num__猜数](basics/guess_num.java)
+- [x] [call_name__点名](basics/call_name.java)
+
+
+- [返回目录](#文件目录)
 
 -----------------
 
-## [object_面对对象](object)
+## [面对对象](object)
 
 - [x] [member__访问成员](object/member.java)
 - [ ] [enpty_object__空对象](object/enpty_object.java)
@@ -92,6 +111,8 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [error_construction__错误构造方法](object/error_construction.java)
 - [x] [multiple_construction__多种构造方法](object/multiple_construction.java)
 
+- [返回object](#object_面对对象)
+
 
 ### [Extends__继承](object/Extends)
 
@@ -105,11 +126,15 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [extend7__继承构造方法](object/Extends/extend7.java)
 - [x] [extend8__继承调用子父类](object/Extends/extend8.java)
 
+- [返回object](#object_面对对象)
+
 
 ### [abstract__抽象类](object/abstract)
 
 - [x] [abstract1__抽象类](object/abstract/abstract1.java)
 - [ ] [abstract2__继承的综合案例](object/abstract/abstract2)
+
+- [返回object](#object_面对对象)
 
 
 ### [Interface__接口](object/Interface)
@@ -123,6 +148,9 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [InterfaceDemo7__多接口静态方法](object/Interface/InterfaceDemo7.java)
 - [x] [InterfaceDemo8__接口的多继承](object/Interface/InterfaceDemo8.java)
 
+- [返回object](#object_面对对象)
+
+
 ### [polymorphic__多态](object/polymorphic)
 
 - [x] [polymorphic1__多态调用方法](object/polymorphic/polymorphic1.java)
@@ -132,10 +160,16 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [polymorphic5__多态转型异常判断](object/polymorphic/polymorphic5.java)
 - [x] [polymorphic6__接口多态的综合案例](object/polymorphic/polymorphic6)
 
+- [返回object](#object_面对对象)
+
+
 ### [Final__关键字](object/Final)
 
 - [x] [Final1__局部变量的基本类型](object/Final/Final1.java)
 - [x] [Final2__局部变量的引用类型](object/Final/Final2.java)
+
+- [返回object](#object_面对对象)
+
 
 ### [Inner_class__内部类](object/Inner_class)
 
@@ -144,11 +178,20 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Inner_class3__匿名内部类作为参数传递](object/Inner_class/Inner_class3.java)
 - [ ] [Inner_class4__简化匿名内部类作为参数传递](object/Inner_class/Inner_class4.java)
 
+- [返回object](#object_面对对象)
+
+
 ### [__引用类型](object/)
 
 - [ ] [Inner_class4__简化匿名内部类作为参数传递](object/Inner_class/class_.java)
 
+- [返回object](#object_面对对象)
+
+
 ### [Inner_class__综合案例——发红包](object/Inner_class)
+
+- [返回object](#object_面对对象)
+
 
 ------------------------
 
@@ -159,6 +202,8 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [string_compare__string比较](javaAPI/string_compare.java)
 - [ ] [format__替换占位符](javaAPI/format.java)
 - [x] [conversion_char__转化为char](javaAPI/conversion_char.java)
+
+- [返回目录](#文件目录)
 
 
 ### [Scanner](javaAPI/Scanner)
@@ -172,11 +217,17 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [ ] [anonymous3__匿名对象](javaAPI/Scanner/anonymous3.java)
 - [ ] [anonymous4__匿名对象](javaAPI/Scanner/anonymous4.java)
 
+- [返回javaAPI](#javaAPI)
+
+
 ### [Random](javaAPI/Random)
 
 - [x] [print_random__随机数](javaAPI/Random/print_random.java)
 - [x] [for_print_random__随机数](javaAPI/Random/for_print_random.java)
 - [x] [guess_random__猜随机数](javaAPI/Random/guess_random.java)
+
+- [返回javaAPI](#javaAPI)
+
 
 ### [ArrayList](javaAPI/ArrayList)
 
@@ -188,6 +239,9 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [print_ArrayList__打印集合](javaAPI/ArrayList/print_ArrayList.java)
 - [x] [get_ArrayList__获取集合方法](javaAPI/ArrayList/get_ArrayList.java)
 
+- [返回javaAPI](#javaAPI)
+
+
 ### [String](javaAPI/String)
 
 - [x] [string_compare__字符串比较](javaAPI/String/string_compare.java)
@@ -197,10 +251,15 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [concat_string__拼接字符串](javaAPI/String/concat_string.java)
 - [x] [charAt_String__统计字符个数](javaAPI/String/charAt_String.java)
 
+- [返回javaAPI](#javaAPI)
+
+
 ### [static](javaAPI/static)
 
 - [x] [class_variable__类变量](javaAPI/static/class_variable.java)
 - [x] [class_method__类方法](javaAPI/static/class_method.java)
+
+- [返回javaAPI](#javaAPI)
 
 
 ### [Arrays](javaAPI/Arrays)
@@ -209,10 +268,15 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [string_sort__数组升序排序](javaAPI/Arrays/string_sort.java)
 - [x] [tochararray__字符串装数组升序排序](javaAPI/Arrays/tochararray_sort.java)
 
+- [返回javaAPI](#javaAPI)
+
 
 ### [Math](javaAPI/Math)
 
 - [x] [math_abs_ceil__绝对值整数](javaAPI/Math/math_abs_ceil.java)
+
+- [返回javaAPI](#javaAPI)
+
 
 ### [日期时间](javaAPI/date)
 
@@ -227,11 +291,17 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [date9__Calendar_add](javaAPI/date/date9.java)
 - [x] [date10__Calendar_getTime](javaAPI/date/date10.java)
 
+- [返回javaAPI](#javaAPI)
+
+
 ### [System类](javaAPI/system)
 
 - [x] [system1__currentTimeMillis](javaAPI/system/system1.java)
 - [x] [system2__currentTimeMillis使用的时间](javaAPI/system/system2.java)
 - [x] [system3__arraycopy](javaAPI/system/system3.java)
+
+- [返回javaAPI](#javaAPI)
+
 
 ### [StringBuilder类](javaAPI/stringBuilder)
 
@@ -240,9 +310,15 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [stringBuilder3__append](javaAPI/stringBuilder/stringBuilder3.java)
 - [x] [stringBuilder4__ toString](javaAPI/stringBuilder/stringBuilder4.java)
 
+- [返回javaAPI](#javaAPI)
+
+
 ### [包装类](javaAPI/WrapperParse)
 
 - [x] [WrapperParse1__parseInt](javaAPI/WrapperParse/WrapperParse1.java)
+
+- [返回javaAPI](#javaAPI)
+
 
 -----------------------
 
@@ -265,10 +341,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Exception15__finally](Exception/Exception15.java)
 - [ ] [Exception16__自定义异常](Exception/Exception16.java)
 
-------------
-
-## [反射]()
-
+- [返回目录](#文件目录)
 
 
 ------------
@@ -282,6 +355,9 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Generic5__泛型的接口](Generic/Generic5.java)
 - [x] [Generic6__泛型通配符](Generic/Generic6.java)
 - [x] [Generic7__受限泛型](Generic/Generic7.java)
+
+- [返回目录](#文件目录)
+
 
 -----------------
 
@@ -309,6 +385,9 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [aggregation20__LinkedHashMap](aggregation/aggregation20.java)
 - [x] [aggregation21__Map集合练习一个字符串中每个字符出现次数](aggregation/aggregation21.java)
 - [x] [aggregation22__数字与纸牌的映射_案例需求分析](aggregation/aggregation22.java)
+
+- [返回目录](#文件目录)
+
 
 ---------------
 
@@ -364,34 +443,68 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [io48__序列化集合](IO/io48.java)
 - [x] [io49__改变打印流向](IO/io49.java)
 
+- [返回目录](#文件目录)
+
+
 --------------
 
 ## [GUI](GUI)
 
+- [返回目录](#文件目录)
 
 
 --------------
 
-## [JD8C](JD8C)
+## [JDBC](JDBC)
 
+- [x] [First_jdbc__第一jdbc](JDBC/src/jdbc/jdbc/First_jdbc.java)
+- [x] [Insert__添加数据](JDBC/src/jdbc/jdbc/Insert.java)
+- [x] [Update__修改数据](JDBC/src/jdbc/jdbc/Update.java)
+- [x] [Delete__删除数据](JDBC/src/jdbc/jdbc/Delete.java)
+- [x] [Create_table__创建表](JDBC/src/jdbc/jdbc/Create_table.java)
+- [x] [Select__查询表数据](JDBC/src/jdbc/jdbc/Select.java)
+- [x] [Select_simplify__简化查询表数据](JDBC/src/jdbc/jdbc/Select_simplify.java)
+- [x] [List_select__list封装的查询表数据](JDBC/src/jdbc/jdbc/List_select.java)
+- [x] [JDBC_utils__JDBC工具的查询表数据](JDBC/src/jdbc/jdbc/JDBC_utils.java)
+- [x] [Login_case__登录案例](JDBC/src/jdbc/jdbc/Login_case.java)
+- [x] [Login_pre_case__使用Prepared登录案例](JDBC/src/jdbc/jdbc/Login_pre_case.java)
+- [x] [Affairs__事务操作](JDBC/src/jdbc/jdbc/Affairs.java)
+- [x] [First_c3p0__第一个c3p0连接池](JDBC/src/template/datasource/c3p0/First_c3p0.java)
+- [x] [C3p0_exceed__c3p0连接池超过](JDBC/src/template/datasource/c3p0/C3p0_exceed.java)
+- [x] [C3p0_paramether__c3p0连接池指定参数](JDBC/src/template/datasource/c3p0/C3p0_paramether.java)
+- [x] [First_druid__第一个druid](JDBC/src/template/datasource/druid/First_druid.java)
+- [x] [Druid_data__druid添加数据](JDBC/src/template/datasource/druid/Druid_data.java)
+- [x] [First_template__第一个jdbc模板](JDBC/src/template/template/First_template.java)
+- [x] [Template_data__jdbc模板传参](JDBC/src/template/template/Template_data.java)
+- [x] [Template_insert__jdbc模板插入数据](JDBC/src/template/template/Template_insert.java)
+- [x] [Template_delete__jdbc模板删除数据](JDBC/src/template/template/Template_delete.java)
+- [x] [Select_map__查询结果封装map](JDBC/src/template/template/Select_map.java)
+- [x] [Select_list__查询结果封装list](JDBC/src/template/template/Select_list.java)
+- [x] [Stu_list__查询结果封装为stud对象的list](JDBC/src/template/template/Stu_list.java)
+- [x] [Stu_simplify__查询结果封装为stud对象的list的简化](JDBC/src/template/template/Stu_simplify.java)
+- [x] [Select_sum__查询总记录数](JDBC/src/template/template/Select_sum.java)
+
+- [返回目录](#文件目录)
 
 
 ----------------
 
 ## [多线程](thread)
 
-- [x] [thread1__重写线程](thread/thread1.java)
-- [x] [thread2__自定义线程](thread/thread2.java)
-- [x] [thread3__Runnable重写线程](thread/thread3.java)
-- [x] [thread4__匿名内部类实现线程](thread/thread4.java)
-- [x] [thread5__线程安全](thread/thread5.java)
-- [x] [thread6__线程同步](thread/thread6.java)
-- [x] [thread7__同步方法](thread/thread7.java)
-- [x] [thread8__Lock锁](thread/thread8.java)
-- [x] [thread9__Timed_Waiting](thread/thread9.java)
-- [x] [thread10__Waiting](thread/thread10.java)
-- [x] [thread11__等待唤醒机制](thread/thread11)
-- [x] [thread12__线程池](thread/thread12.java)
+- [x] [thread1__重写线程](thread/src/thread/thread1.java)
+- [x] [thread2__自定义线程](thread/src/thread/thread2.java)
+- [x] [thread3__Runnable重写线程](thread/src/thread/thread3.java)
+- [x] [thread4__匿名内部类实现线程](thread/src/thread/thread4.java)
+- [x] [thread5__线程安全](thread/src/thread/thread5.java)
+- [x] [thread6__线程同步](thread/src/thread/thread6.java)
+- [x] [thread7__同步方法](thread/src/thread/thread7.java)
+- [x] [thread8__Lock锁](thread/src/thread/thread8.java)
+- [x] [thread9__Timed_Waiting](thread/src/thread/thread9.java)
+- [x] [thread10__Waiting](thread/src/thread/thread10.java)
+- [x] [thread11__等待唤醒机制](thread/src/thread/thread11)
+- [x] [thread12__线程池](thread/src/thread/thread12.java)
+
+- [返回目录](#文件目录)
 
 
 ------------
@@ -407,6 +520,9 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [lambda7__Lambda写法](Lambda/lambda7.java)
 - [x] [lambda8__Lambda标准格式的有参有返回](Lambda/lambda8.java)
 - [x] [lambda9__Lambda省略格式](Lambda/lambda9.java)
+
+- [返回目录](#文件目录)
+
 
 -----------
 
@@ -424,6 +540,9 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Servertcp5__信息回写分析_服务端实现](network/Servertcp5.java)
 - [x] [Servertcp6__模拟BS服务器_无法显示图片](network/Servertcp6.java)
 - [ ] [Servertcp7__模拟BS服务器_线程显示图片](network/Servertcp7.java)
+
+- [返回目录](#文件目录)
+
 
 ## [JDK8](jdk8)
 
@@ -449,3 +568,54 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [jdk820__传统集合的多步遍历](jdk8/jdk820.java)
 - [x] [jdk821__循环遍历的弊端](jdk8/jdk821.java)
 - [x] [jdk822__Stream的更优写法](jdk8/jdk822.java)
+
+- [返回目录](#文件目录)
+
+
+------------
+
+## [单元测试](junit_test)
+
+- [x] [CalculatorTest__测试](junit_test/src/junit/CalculatorTest.java)
+- [x] [CalculatorTest__单元测试](junit_test/src/test/CalculatorTest.java)
+
+- [返回目录](#文件目录)
+
+
+------------
+
+## [反射](reflect)
+
+- [x] [Get_class_object__获取class对象](reflect/src/reflect/Get_class_object.java)
+- [x] [Get_class_methods__获取class方法](reflect/src/reflect/Get_class_methods.java)
+- [x] [Get_structure__获取class构造方法](reflect/src/reflect/Get_structure.java)
+- [x] [Get_methods__获取成员方法](reflect/src/reflect/Get_methods.java)
+- [x] [Reflect_test__反射测试框架](reflect/src/reflect/Reflect_test.java)
+
+- [返回目录](#文件目录)
+
+
+------------
+
+## [注解](annotation)
+
+- [x] [Java_Doc__java文档](annotation/src/javaDoc/Java_Doc.java)
+- [x] [Annotation__注解](annotation/src/annotation/Annotation.java)
+- [x] [Worker__自定义注解](annotation/src/customize/Worker.java)
+- [x] [Element__元注解](annotation/src/Element/Element.java)
+- [x] [Reflect_analysis__注解解析](annotation/src/analysis/Reflect_analysis.java)
+- [ ] [Check_test__注解检查错误](annotation/src/Check/Check_test.java)
+
+- [返回目录](#文件目录)
+
+
+------------
+
+## [JVM](JVM)
+
+
+
+
+---------------------------------
+
+由于自己的code水平有限 , 难免有些不足 , 希望大家可以谅解 , 并提出意见 , 我会虚心接受 , cpu_code在此 , 谢谢大家
