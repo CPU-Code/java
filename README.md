@@ -617,6 +617,8 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [EdenSurvivorTest__查看各区比例](JVM/src/com/cpucode/java/heap/EdenSurvivorTest.java)
 - [x] [HeapInstanceTest__查看各区数据转换](JVM/src/com/cpucode/java/heap/HeapInstanceTest.java)
 - [x] [GCTest__查看各个GC的触发](JVM/src/com/cpucode/java/heap/GCTest.java)
+- [x] [YoungOldAreaTest__查看大对象直接存放在Old](JVM/src/com/cpucode/java/heap/YoungOldAreaTest.java)
+
 
 ---------------------------------
 
