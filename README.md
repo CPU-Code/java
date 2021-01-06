@@ -618,7 +618,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [HeapInstanceTest__查看各区数据转换](JVM/src/com/cpucode/java/heap/HeapInstanceTest.java)
 - [x] [GCTest__查看各个GC的触发](JVM/src/com/cpucode/java/heap/GCTest.java)
 - [x] [YoungOldAreaTest__查看大对象直接存放在Old](JVM/src/com/cpucode/java/heap/YoungOldAreaTest.java)
-
+- [x] [TLABArgsTest__查看TLAB是否开启](JVM/src/com/cpucode/java/heap/TLABArgsTest.java)
 
 ---------------------------------
 
