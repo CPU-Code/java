@@ -623,6 +623,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [EscapeAnalysis__判断逃逸分析](JVM/src/com/cpucode/java/heap/EscapeAnalysis.java)
 - [x] [StackAllocation__逃逸分析的分配位置](JVM/src/com/cpucode/java/heap/StackAllocation.java)
 - [x] [SynchronizedTest__同步省略](JVM/src/com/cpucode/java/heap/SynchronizedTest.java)
+- [x] [ScalarReplace__标量替换](JVM/src/com/cpucode/java/heap/ScalarReplace.java)
 
 ---------------------------------
 
