@@ -8,8 +8,12 @@
 
 package com.cpucode.java.methodArea;
 
-//查看方法区的内部构成
+/*
+D:\Date\github\java\out\production\JVM\com\cpucode\java\methodArea>javap -v -p MethodInnerStrucTest.class > MethodInnerStrucTest.txt
 
+
+查看方法区的内部构成
+*/
 import java.io.Serializable;
 
 public class MethodInnerStrucTest extends Object implements Comparable<String>, Serializable {
