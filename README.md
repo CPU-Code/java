@@ -111,7 +111,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [error_construction__错误构造方法](object/error_construction.java)
 - [x] [multiple_construction__多种构造方法](object/multiple_construction.java)
 
-- [返回object](#object)
+- [返回object](#面对对象)
 
 
 ### [Extends__继承](object/Extends)
@@ -134,7 +134,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [abstract1__抽象类](object/abstract/abstract1.java)
 - [ ] [abstract2__继承的综合案例](object/abstract/abstract2)
 
-- [返回object](#object_面对对象)
+- [返回object](#面对对象)
 
 
 ### [Interface__接口](object/Interface)
@@ -148,7 +148,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [InterfaceDemo7__多接口静态方法](object/Interface/InterfaceDemo7.java)
 - [x] [InterfaceDemo8__接口的多继承](object/Interface/InterfaceDemo8.java)
 
-- [返回object](#object_面对对象)
+- [返回object](#面对对象)
 
 
 ### [polymorphic__多态](object/polymorphic)
@@ -160,7 +160,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [polymorphic5__多态转型异常判断](object/polymorphic/polymorphic5.java)
 - [x] [polymorphic6__接口多态的综合案例](object/polymorphic/polymorphic6)
 
-- [返回object](#object_面对对象)
+- [返回object](#面对对象)
 
 
 ### [Final__关键字](object/Final)
@@ -168,7 +168,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Final1__局部变量的基本类型](object/Final/Final1.java)
 - [x] [Final2__局部变量的引用类型](object/Final/Final2.java)
 
-- [返回object](#object_面对对象)
+- [返回object](#面对对象)
 
 
 ### [Inner_class__内部类](object/Inner_class)
@@ -178,19 +178,19 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Inner_class3__匿名内部类作为参数传递](object/Inner_class/Inner_class3.java)
 - [ ] [Inner_class4__简化匿名内部类作为参数传递](object/Inner_class/Inner_class4.java)
 
-- [返回object](#object_面对对象)
+- [返回object](#面对对象)
 
 
 ### [__引用类型](object/)
 
 - [ ] [Inner_class4__简化匿名内部类作为参数传递](object/Inner_class/class_.java)
 
-- [返回object](#object_面对对象)
+- [返回object](#面对对象)
 
 
 ### [Inner_class__综合案例——发红包](object/Inner_class)
 
-- [返回object](#object_面对对象)
+- [返回object](#面对对象)
 
 
 ------------------------
@@ -630,6 +630,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
 - [x] [MethodAreaSize__方法区大小](JVM/src/com/cpucode/java/methodArea/MethodAreaSize.java)
 - [x] [MethodAreaOOMTest__方法区内存异常](JVM/src/com/cpucode/java/methodArea/MethodAreaOOMTest.java)
+- [x] [MethodInnerStrucTest__查看方法区的内部构成](JVM/src/com/cpucode/java/methodArea/MethodInnerStrucTest.java)
 
 
 - [返回目录](#文件目录)
