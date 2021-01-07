@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/JVM/src/com/cpucode/java/methodArea/MethodInnerStrucTest.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JVM/src/com/cpucode/java/methodArea/Order.txt" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/annotation/src/javaDoc/Java_Doc.java" charset="GBK" />
   </component>
 </project>
