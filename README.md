@@ -625,6 +625,11 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [SynchronizedTest__同步省略](JVM/src/com/cpucode/java/heap/SynchronizedTest.java)
 - [x] [ScalarReplace__标量替换](JVM/src/com/cpucode/java/heap/ScalarReplace.java)
 
+
+- [x] [MethodAreaSize__方法区大小](JVM/src/com/cpucode/java/methodArea/MethodAreaSize.java)
+
+
+
 ---------------------------------
 
 由于自己的code水平有限 , 难免有些不足 , 希望大家可以谅解 , 并提出意见 , 我会虚心接受 , cpu_code在此 , 谢谢大家
