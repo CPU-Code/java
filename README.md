@@ -640,6 +640,10 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Customer__对象实例化的过程](JVM/src/com/cpucode/java/Object/Customer.java)
 - [x] [CustomerTest__对象实例化的内存分布](JVM/src/com/cpucode/java/Object/CustomerTest.java)
 
+
+- [x] [BufferTest__查看直接内存大小](JVM/src/com/cpucode/java/DirectMemory/BufferTest.java)
+
+
 - [返回目录](#文件目录)
 
 ---------------------------------
