@@ -655,7 +655,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 ## [编程初学者入门训练](gettingStarted)
 
 - [x] [BC1__实践出真知](gettingStarted/src/com/cpucode/java/gettingStarted/BC1.java)
-
+- [x] [BC2__我是大V](gettingStarted/src/com/cpucode/java/gettingStarted/BC2.java)
 
 
 ---------------------------------
