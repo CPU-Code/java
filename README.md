@@ -642,7 +642,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
 
 - [x] [BufferTest__查看直接内存大小](JVM/src/com/cpucode/java/DirectMemory/BufferTest.java)
-
+- [x] [DirectMemoryOOM__直接内存异常](JVM/src/com/cpucode/java/DirectMemory/DirectMemoryOOM.java)
 
 - [返回目录](#文件目录)
 
