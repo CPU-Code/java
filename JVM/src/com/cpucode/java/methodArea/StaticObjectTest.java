@@ -9,6 +9,7 @@
 package com.cpucode.java.methodArea;
 
 // staticObj、instanceObj、localObj存放在哪里？
+//只要是对象实例必然会在 Java 堆中分配
 
 public class StaticObjectTest {
     static class Test{
