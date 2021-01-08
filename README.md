@@ -39,6 +39,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [反射](#反射)
 - [注解](#注解)
 - [JVM](#JVM)
+- [编程初学者入门训练](#gettingStarted)
 
 ----------
 
@@ -645,7 +646,17 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [DirectMemoryOOM__直接内存异常](JVM/src/com/cpucode/java/DirectMemory/DirectMemoryOOM.java)
 - [x] [MaxDirectMemorySizeTest__设置直接内存大小](JVM/src/com/cpucode/java/DirectMemory/MaxDirectMemorySizeTest.java)
 
+
 - [返回目录](#文件目录)
+
+
+-----------------
+
+## [编程初学者入门训练](gettingStarted)
+
+- [x] [BC1__实践出真知](gettingStarted/src/com/cpucode/java/gettingStarted/BC1.java)
+
+
 
 ---------------------------------
 
