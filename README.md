@@ -636,9 +636,10 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [ ] [StaticObjectTest__查看静态类存储位置](JVM/src/com/cpucode/java/methodArea/StaticObjectTest.java)
  
  
- - [x] [ObjectTest__对象的创建的反编译](JVM/src/com/cpucode/java/Object/ObjectTest.java)
- 
- 
+- [x] [ObjectTest__对象的创建的反编译](JVM/src/com/cpucode/java/Object/ObjectTest.java)
+- [x] [Customer__对象实例化的过程](JVM/src/com/cpucode/java/Object/Customer.java)
+- [x] [CustomerTest__对象实例化的内存分布](JVM/src/com/cpucode/java/Object/CustomerTest.java)
+
 - [返回目录](#文件目录)
 
 ---------------------------------
