@@ -8,6 +8,9 @@
 
 package com.cpucode.java.StringTable;
 
+import org.omg.Messaging.SYNC_WITH_TRANSPORT;
+import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
+
 /**
  * 如何保证变量s指向的是字符串常量池中的数据呢？
  * 有两种方式：
@@ -18,6 +21,17 @@ package com.cpucode.java.StringTable;
  */
 public class StringIntern {
     public static void main(String[] args) {
+        test1();
+        test2();
+        test3();
+        test4();
+        test5();
+        test6();
+    }
+
+    private static void test1(){
+        System.out.println("test1 开始");
+
         //在堆创建一个对象
         String s = new String("1");
 
@@ -46,5 +60,90 @@ public class StringIntern {
 
         //jdk6：false  jdk7/8：true
         System.out.println(s3 == s4);
+
+        System.out.println("test1 结束");
+        System.out.println();
+    }
+
+    private static void test2(){
+        System.out.println("test2 开始");
+
+        String s1 = new String("1") + new String("1");
+        //执行完上一行代码以后，字符串常量池中，不存在"11"
+
+        //在字符串常量池中生成对象"11"
+        String s2 = "11";
+        //把常量池引用给s3
+        String s3 = s2.intern();
+
+        System.out.println(s1 == s2);
+        System.out.println(s2 == s3);
+
+        System.out.println("test2 结束");
+        System.out.println();
+    }
+
+    private static void test3(){
+        System.out.println("test3 开始");
+
+        String s2 = new String("cp") + new String("u");
+        //在上一行代码执行完以后，字符串常量池中并没有"ab"
+
+        //jdk6中：在串池中创建一个字符串"ab"
+        //jdk8中：串池中没有创建字符串"ab",而是创建一个引用，指向new String("ab")，将此引用返回
+        String s3 = s2.intern();
+
+        System.out.println(s2 == "cpu");
+        System.out.println(s3 == "cpu");
+
+        System.out.println("test3 结束");
+        System.out.println();
+    }
+
+    private static void test4(){
+        System.out.println("test4 开始");
+
+        String s1 = "cpu";
+        String s2 = new String("cp") + new String("u");
+
+        String s3 = s2.intern();
+
+        System.out.println(s2 == "cpu");
+        System.out.println(s3 == "cpu");
+
+        System.out.println("test4 结束");
+        System.out.println();
+    }
+
+    private static void test5(){
+        System.out.println("test5 开始");
+
+        //执行完以后，会在字符串常量池中会生成"cpu"
+        String s1 = new String("cpu");
+
+        //毫无用处
+        s1.intern();
+
+        String s2 = "cpu";
+
+        System.out.println(s1 == s2);
+
+        System.out.println("test5 结束");
+        System.out.println();
+    }
+
+    private static void test6(){
+        System.out.println("test6 开始");
+
+        //执行完以后，不会在字符串常量池中会生成"cpucode"
+        String s1 = new String("cpu") + new String("Code");
+
+        s1.intern();
+        String s2 = "cpuCode";
+
+        System.out.println(s1 == s2);
+
+        System.out.println("test6 结束");
+        System.out.println();
     }
 }
