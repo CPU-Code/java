@@ -14,6 +14,7 @@ public class CanReliveObj {
     public static CanReliveObj obj;
 
     //可以把重写注释 或不注释俩种运行结果
+    //此方法只能被调用一次
     @Override
     protected void finalize() throws Throwable{
         super.finalize();
