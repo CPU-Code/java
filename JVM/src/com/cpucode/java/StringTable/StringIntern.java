@@ -18,12 +18,15 @@ package com.cpucode.java.StringTable;
  */
 public class StringIntern {
     public static void main(String[] args) {
+        //在堆创建一个对象
         String s = new String("1");
 
         //调用此方法之前，字符串常量池中已经存在了"1"
+        //毫无用处
         s.intern();
 
         String s2 = "1";
+
         //jdk6：false   jdk7/8：false
         System.out.println(s == s2);
 
@@ -38,6 +41,7 @@ public class StringIntern {
         s3.intern();
 
         //s4变量记录的地址：使用的是上一行代码代码执行时，在常量池中生成的"11"的地址
+        //引用的s3创建的地址
         String s4 = "11";
 
         //jdk6：false  jdk7/8：true
