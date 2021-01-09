@@ -662,6 +662,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [StringAppend__String拼接](JVM/src/com/cpucode/java/StringTable/StringAppend.java)
 - [x] [StringNewTest__String创建对象数量](JVM/src/com/cpucode/java/StringTable/StringNewTest.java)
 - [x] [StringIntern__String调用intern](JVM/src/com/cpucode/java/StringTable/StringIntern.java)
+- [x] [StringEfficiency__String空间效率](JVM/src/com/cpucode/java/StringTable/StringEfficiency.java)
 
 
 - [返回目录](#文件目录)
@@ -679,3 +680,4 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 ---------------------------------
 
 由于自己的code水平有限 , 难免有些不足 , 希望大家可以谅解 , 并提出意见 , 我会虚心接受 , cpu_code在此 , 谢谢大家
+efficiency
