@@ -657,6 +657,8 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [GenerateString__生成随机文字txt](JVM/src/com/cpucode/java/StringTable/GenerateString.java)
 - [x] [StringTime__String运行时间](JVM/src/com/cpucode/java/StringTable/StringTime.java)
 - [x] [StringOOM__String报错](JVM/src/com/cpucode/java/StringTable/StringOOM.java)
+- [x] [StringConstant__String的加载个数](JVM/src/com/cpucode/java/StringTable/StringConstant.java)
+
 
 - [返回目录](#文件目录)
 
