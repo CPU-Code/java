@@ -676,7 +676,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
 - [x] [RefCountGC__判断是否引用回收](JVM/src/com/cpucode/java/GarbageCollection/RefCountGC.java)
 - [x] [CanReliveObj__回收复活对象](JVM/src/com/cpucode/java/GarbageCollection/CanReliveObj.java)
-
+- [ ] [GCRootsTest__Roots回收情况](JVM/src/com/cpucode/java/GarbageCollection/GCRootsTest.java)
 
 - [返回目录](#文件目录)
 
