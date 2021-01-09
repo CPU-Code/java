@@ -14,9 +14,17 @@
 
 ## 介绍
 
-个人java语言的学习路线 , 希望自己的code可以给你带来点灵感 
+个人java语言的学习路线 , 希望自己的code可以给你带来点灵感
 
 java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
+
+根据尚硅谷宋老师的 `JVM` 课程的代码
+
+根据牛客网的`编程初学者入门训练`按从入门到困难分类写的代码
+
+下面代码我会用√的方法表示代码是否完善, 如果没有√ ,说明代码可能我没有运行成功, 或者一些错误, 我无法排除, 供我日后方便排查 
+
+都是自己亲手敲出来代码, 难免有些错误, 也希望大家可以指点
 
 ---------------
 
@@ -667,6 +675,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
 
 - [x] [RefCountGC__判断是否引用回收](JVM/src/com/cpucode/java/GarbageCollection/RefCountGC.java)
+- [x] [CanReliveObj__回收复活对象](JVM/src/com/cpucode/java/GarbageCollection/CanReliveObj.java)
 
 
 - [返回目录](#文件目录)
@@ -684,4 +693,3 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 ---------------------------------
 
 由于自己的code水平有限 , 难免有些不足 , 希望大家可以谅解 , 并提出意见 , 我会虚心接受 , cpu_code在此 , 谢谢大家
-efficiency
