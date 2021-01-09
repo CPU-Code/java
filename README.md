@@ -652,7 +652,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
 
 - [x] [StringOnly__String不变性](JVM/src/com/cpucode/java/StringTable/StringOnly.java)
-
+- [x] [StringExer__String不变性](JVM/src/com/cpucode/java/StringTable/StringExer.java)
 
 - [返回目录](#文件目录)
 
