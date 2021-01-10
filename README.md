@@ -685,7 +685,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [SoftReferenceTest__软引用测试](JVM/src/com/cpucode/java/GarbageCollection/SoftReferenceTest.java)
 - [x] [WeakReferenceTest__弱引用测试](JVM/src/com/cpucode/java/GarbageCollection/WeakReferenceTest.java)
 - [x] [PhantomReferenceTest__虚引用测试](JVM/src/com/cpucode/java/GarbageCollection/PhantomReferenceTest.java)
-
+- [x] [GCUseTest__使用GC类型](JVM/src/com/cpucode/java/GarbageCollection/GCUseTest.java)
 
 - [返回目录](#文件目录)
 
