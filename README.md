@@ -681,6 +681,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [SystemGCTest__GC的finalize被调用](JVM/src/com/cpucode/java/GarbageCollection/SystemGCTest.java)
 - [x] [LocalVarGC__各区的变量的GC情况](JVM/src/com/cpucode/java/GarbageCollection/LocalVarGC.java)
 - [x] [StopTheWorldTest__STW的停顿时间](JVM/src/com/cpucode/java/GarbageCollection/StopTheWorldTest.java)
+- [x] [StrongReferenceTest__强引用测试](JVM/src/com/cpucode/java/GarbageCollection/StrongReferenceTest.java)
 
 
 - [返回目录](#文件目录)
