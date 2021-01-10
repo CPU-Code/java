@@ -678,6 +678,8 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [CanReliveObj__回收复活对象](JVM/src/com/cpucode/java/GarbageCollection/CanReliveObj.java)
 - [ ] [GCRootsTest__Roots回收情况](JVM/src/com/cpucode/java/GarbageCollection/GCRootsTest.java)
 - [x] [HeapOOM__堆错误](JVM/src/com/cpucode/java/GarbageCollection/HeapOOM.java)
+- [x] [SystemGCTest__GC的finalize被调用](JVM/src/com/cpucode/java/GarbageCollection/SystemGCTest.java)
+
 
 - [返回目录](#文件目录)
 
