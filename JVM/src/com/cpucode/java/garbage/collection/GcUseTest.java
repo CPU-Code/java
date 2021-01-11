@@ -1,12 +1,4 @@
-/**
- * User: cpucode
- * Date: 2021/1/10
- * Time: 20:37
- * Github: https://github.com/CPU-Code
- * CSDN: https://blog.csdn.net/qq_44226094
- */
-
-package com.cpucode.java.GarbageCollection;
+package com.cpucode.java.garbage.collection;
 
 import java.util.ArrayList;
 
@@ -30,8 +22,14 @@ import java.util.ArrayList;
  *  说明：二者可以相互激活
  *
  *  -XX:+UseConcMarkSweepGC：表明老年代使用CMS GC。同时，年轻代会触发对ParNew 的使用
+ *
+ * @author: cpucode
+ * @Date: 2021/1/10
+ * @Time: 20:37
+ * @Github: https://github.com/CPU-Code
+ * @CSDN: https://blog.csdn.net/qq_44226094
  */
-public class GCUseTest {
+public class GcUseTest {
     public static void main(String[] args) {
         ArrayList<byte[]> list = new ArrayList<>();
 

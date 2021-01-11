@@ -6,7 +6,7 @@
  * CSDN: https://blog.csdn.net/qq_44226094
  */
 
-package com.cpucode.java.GarbageCollection;
+package com.cpucode.java.garbage.collection;
 
 import java.lang.ref.SoftReference;
 

@@ -1,25 +1,26 @@
-/**
- * User: cpucode
- * Date: 2021/1/9
- * Time: 21:45
- * Github: https://github.com/CPU-Code
- * CSDN: https://blog.csdn.net/qq_44226094
- */
-
-package com.cpucode.java.GarbageCollection;
+package com.cpucode.java.garbage.collection;
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
 
-public class GCRootsTest {
+/**
+ * @author: cpucode
+ * @Date: 2021/1/9
+ * @Time: 21:45
+ * @Github: https://github.com/CPU-Code
+ * @CSDN: https://blog.csdn.net/qq_44226094
+ */
+public class GcRootsTest {
+    private static final int NUM = 100;
+
     public static void main(String[] args) {
         List<Object> numList = new ArrayList<>();
 
         Date birth = new Date();
 
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < NUM; i++) {
             numList.add(String.valueOf(i));
 
             try{

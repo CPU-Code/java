@@ -1,14 +1,13 @@
+package com.cpucode.java.garbage.collection;
+
 /**
- * User: cpucode
- * Date: 2021/1/10
- * Time: 11:52
- * Github: https://github.com/CPU-Code
- * CSDN: https://blog.csdn.net/qq_44226094
+ * @author: cpucode
+ * @Date: 2021/1/10
+ * @Time: 11:52
+ * @Github: https://github.com/CPU-Code
+ * @CSDN: https://blog.csdn.net/qq_44226094
  */
-
-package com.cpucode.java.GarbageCollection;
-
-public class SystemGCTest {
+public class SystemGcTest {
     public static void main(String[] args) {
         test1();
         //test2();
@@ -21,7 +20,7 @@ public class SystemGCTest {
         System.out.println("调用了重写finalize");
     }
     private static void test1(){
-        new SystemGCTest();
+        new SystemGcTest();
 
         //提醒jvm的垃圾回收器执行gc,但是不确定是否马上执行gc
         //与Runtime.getRuntime().gc();的作用一样。
@@ -29,7 +28,7 @@ public class SystemGCTest {
     }
 
     private static void test2(){
-        new SystemGCTest();
+        new SystemGcTest();
 
         System.gc();
 

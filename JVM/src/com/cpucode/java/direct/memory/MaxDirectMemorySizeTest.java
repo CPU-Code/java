@@ -6,7 +6,7 @@
  * CSDN: https://blog.csdn.net/qq_44226094
  */
 
-package com.cpucode.java.DirectMemory;
+package com.cpucode.java.direct.memory;
 
 import sun.misc.Unsafe;
 

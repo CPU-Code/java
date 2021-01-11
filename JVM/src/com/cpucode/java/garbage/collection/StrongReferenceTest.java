@@ -1,25 +1,22 @@
+package com.cpucode.java.garbage.collection;
+
 /**
- * User: cpucode
- * Date: 2021/1/10
- * Time: 16:04
- * Github: https://github.com/CPU-Code
- * CSDN: https://blog.csdn.net/qq_44226094
+ * 强引用的测试
+ *
+ * test1 开始
+ * null
+ * test1 结束
+ *
+ * test2 开始
+ * null
+ * 哈哈我是强引用cpuCode
+ * test2 结束
+ * @author: cpucode
+ * @Date: 2021/1/10
+ * @Time: 16:04
+ * @Github: https://github.com/CPU-Code
+ * @CSDN: https://blog.csdn.net/qq_44226094
  */
-
-package com.cpucode.java.GarbageCollection;
-
-/*
-强引用的测试
-
-test1 开始
-null
-test1 结束
-
-test2 开始
-null
-哈哈我是强引用cpuCode
-test2 结束
-* */
 public class StrongReferenceTest {
     public static void main(String[] args) {
         test1();

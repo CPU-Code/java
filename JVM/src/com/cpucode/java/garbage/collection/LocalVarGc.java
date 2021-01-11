@@ -1,16 +1,14 @@
+package com.cpucode.java.garbage.collection;
+
 /**
- * User: cpucode
- * Date: 2021/1/10
- * Time: 12:09
- * Github: https://github.com/CPU-Code
- * CSDN: https://blog.csdn.net/qq_44226094
+ * -XX:+PrintGCDetails
+ * @author: cpucode
+ * @Date: 2021/1/9
+ * @Time: 22:02
+ * @Github: https://github.com/CPU-Code
+ * @CSDN: https://blog.csdn.net/qq_44226094
  */
-
-package com.cpucode.java.GarbageCollection;
-
-//-XX:+PrintGCDetails
-
-public class LocalVarGC {
+public class LocalVarGc {
     public static void main(String[] args) {
         //test1();
         test2();
@@ -20,14 +18,17 @@ public class LocalVarGC {
     }
 
     private static void test1(){
-        byte[] buffer = new byte[10 * 1024 * 1024];     //10MB = 10240kb
+        /**
+         * 10MB = 10240kb
+         * */
+        byte[] buffer = new byte[10 * 1024 * 1024];
 
         System.gc();
 
-        /*
-        [GC (System.gc()) [PSYoungGen: 14049K->792K(73728K)]
-        [Full GC (System.gc()) [PSYoungGen: 792K->0K(73728K)] [ParOldGen: 10248K->10828K(167936K)
-        * */
+        /**
+         * [GC (System.gc()) [PSYoungGen: 14049K->792K(73728K)]
+         *[Full GC (System.gc()) [PSYoungGen: 792K->0K(73728K)] [ParOldGen: 10248K->10828K(167936K)
+         * */
 
     }
 

@@ -1,26 +1,31 @@
+package com.cpucode.java.garbage.collection;
+
 /**
- * User: cpucode
- * Date: 2021/1/9
- * Time: 20:59
- * Github: https://github.com/CPU-Code
- * CSDN: https://blog.csdn.net/qq_44226094
+ * 测试Object类中finalize()方法，即对象的finalization机制
+ * @author: cpucode
+ * @Date: 2021/1/9
+ * @Time: 20:59
+ * @Github: https://github.com/CPU-Code
+ * @CSDN: https://blog.csdn.net/qq_44226094
  */
-
-package com.cpucode.java.GarbageCollection;
-
-//测试Object类中finalize()方法，即对象的finalization机制。
 public class CanReliveObj {
-    //类变量，属于 GC Root
+    /**
+     * 类变量，属于 GC Root
+     * */
     public static CanReliveObj obj;
 
-    //可以把重写注释 或不注释俩种运行结果
-    //此方法只能被调用一次
+    /**
+     * 可以把重写注释 或不注释俩种运行结果
+     * 此方法只能被调用一次
+     */
     @Override
     protected void finalize() throws Throwable{
         super.finalize();
 
         System.out.println("调用当前类重写的finalize()方法");
-        //当前待回收的对象在finalize()方法中与引用链上的一个对象obj建立了联系
+        /**
+         * 当前待回收的对象在finalize()方法中与引用链上的一个对象obj建立了联系
+         * */
         obj = this;
     }
 
