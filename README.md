@@ -650,9 +650,9 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [CustomerTest__对象实例化的内存分布](JVM/src/com/cpucode/java/Object/CustomerTest.java)
 
 
-- [x] [BufferTest__查看直接内存大小](JVM/src/com/cpucode/java/DirectMemory/BufferTest.java)
-- [x] [DirectMemoryOOM__直接内存异常](JVM/src/com/cpucode/java/DirectMemory/DirectMemoryOOM.java)
-- [x] [MaxDirectMemorySizeTest__设置直接内存大小](JVM/src/com/cpucode/java/DirectMemory/MaxDirectMemorySizeTest.java)
+- [x] [BufferTest__查看直接内存大小](JVM/src/com/cpucode/java/direct/memory/BufferTest.java)
+- [x] [DirectMemoryOOM__直接内存异常](JVM/src/com/cpucode/java/direct/memory/DirectMemoryOom.java)
+- [x] [MaxDirectMemorySizeTest__设置直接内存大小](JVM/src/com/cpucode/java/direct/memory/MaxDirectMemorySizeTest.java)
 
 
 - [x] [JITTest__JIT编译器的使用](JVM/src/com/cpucode/java/executionEngine/JITTest.java)
@@ -674,18 +674,18 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [StringGCTest__String回收](JVM/src/com/cpucode/java/StringTable/StringGCTest.java)
 
 
-- [x] [RefCountGC__判断是否引用回收](JVM/src/com/cpucode/java/GarbageCollection/RefCountGC.java)
-- [x] [CanReliveObj__回收复活对象](JVM/src/com/cpucode/java/GarbageCollection/CanReliveObj.java)
-- [ ] [GCRootsTest__Roots回收情况](JVM/src/com/cpucode/java/GarbageCollection/GCRootsTest.java)
-- [x] [HeapOOM__堆错误](JVM/src/com/cpucode/java/GarbageCollection/HeapOOM.java)
-- [x] [SystemGCTest__GC的finalize被调用](JVM/src/com/cpucode/java/GarbageCollection/SystemGCTest.java)
-- [x] [LocalVarGC__各区的变量的GC情况](JVM/src/com/cpucode/java/GarbageCollection/LocalVarGC.java)
-- [x] [StopTheWorldTest__STW的停顿时间](JVM/src/com/cpucode/java/GarbageCollection/StopTheWorldTest.java)
-- [x] [StrongReferenceTest__强引用测试](JVM/src/com/cpucode/java/GarbageCollection/StrongReferenceTest.java)
-- [x] [SoftReferenceTest__软引用测试](JVM/src/com/cpucode/java/GarbageCollection/SoftReferenceTest.java)
-- [x] [WeakReferenceTest__弱引用测试](JVM/src/com/cpucode/java/GarbageCollection/WeakReferenceTest.java)
-- [x] [PhantomReferenceTest__虚引用测试](JVM/src/com/cpucode/java/GarbageCollection/PhantomReferenceTest.java)
-- [x] [GCUseTest__使用GC类型](JVM/src/com/cpucode/java/GarbageCollection/GCUseTest.java)
+- [x] [RefCountGC__判断是否引用回收](JVM/src/com/cpucode/java/garbage/collection/RefCountGC.java)
+- [x] [CanReliveObj__回收复活对象](JVM/src/com/cpucode/java/garbage/collection/CanReliveObj.java)
+- [ ] [GCRootsTest__Roots回收情况](JVM/src/com/cpucode/java/garbage/collection/GcRootsTest.java)
+- [x] [HeapOOM__堆错误](JVM/src/com/cpucode/java/garbage/collection/HeapOom.java)
+- [x] [SystemGCTest__GC的finalize被调用](JVM/src/com/cpucode/java/garbage/collection/SystemGcTest.java)
+- [x] [LocalVarGC__各区的变量的GC情况](JVM/src/com/cpucode/java/garbage/collection/LocalVarGc.java)
+- [x] [StopTheWorldTest__STW的停顿时间](JVM/src/com/cpucode/java/garbage/collection/StopTheWorldTest.java)
+- [x] [StrongReferenceTest__强引用测试](JVM/src/com/cpucode/java/garbage/collection/StrongReferenceTest.java)
+- [x] [SoftReferenceTest__软引用测试](JVM/src/com/cpucode/java/garbage/collection/SoftReferenceTest.java)
+- [x] [WeakReferenceTest__弱引用测试](JVM/src/com/cpucode/java/garbage/collection/WeakReferenceTest.java)
+- [x] [PhantomReferenceTest__虚引用测试](JVM/src/com/cpucode/java/garbage/collection/PhantomReferenceTest.java)
+- [x] [GCUseTest__使用GC类型](JVM/src/com/cpucode/java/garbage/collection/GcUseTest.java)
 
 
 - [返回目录](#文件目录)
