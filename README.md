@@ -685,7 +685,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [SoftReferenceTest__软引用测试](JVM/src/com/cpucode/java/garbage/collection/SoftReferenceTest.java)
 - [x] [WeakReferenceTest__弱引用测试](JVM/src/com/cpucode/java/garbage/collection/WeakReferenceTest.java)
 - [x] [PhantomReferenceTest__虚引用测试](JVM/src/com/cpucode/java/garbage/collection/PhantomReferenceTest.java)
-- [x] [GCUseTest__使用GC类型](JVM/src/com/cpucode/java/garbage/collection/GcUseTest.java)
+- [x] [GcUseTest__使用GC类型](JVM/src/com/cpucode/java/garbage/collection/GcUseTest.java)
 
 
 - [返回目录](#文件目录)
@@ -695,9 +695,9 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
 ## [编程初学者入门训练](gettingStarted)
 
-- [x] [BC1__实践出真知](gettingStarted/src/com/cpucode/java/gettingStarted/BC1.java)
-- [x] [BC2__我是大V](gettingStarted/src/com/cpucode/java/gettingStarted/BC2.java)
-- [ ] [BC6__小飞机](gettingStarted/src/com/cpucode/java/gettingStarted/BC6.java)
+- [x] [BC1__实践出真知](gettingStarted/src/com/cpucode/java/getting/started/Bc1.java)
+- [x] [BC2__我是大V](gettingStarted/src/com/cpucode/java/getting/started/Bc2.java)
+- [x] [BC6__小飞机](gettingStarted/src/com/cpucode/java/getting/started/Bc6.java)
 
 
 ---------------------------------
