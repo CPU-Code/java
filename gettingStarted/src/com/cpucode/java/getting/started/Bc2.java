@@ -1,35 +1,32 @@
+package com.cpucode.java.getting.started;
+
 /**
- * User: cpucode
- * Date: 2021/1/8
- * Time: 19:30
- * Github: https://github.com/CPU-Code
- * CSDN: https://blog.csdn.net/qq_44226094
+ * 题目描述
+ * 每个人都想成为大V (VIP：Very Important Person)，但要一点一点积累才行，先从小v做起。要求输出由小写字母v组成的大V。
+ * 输入描述:
+ * 无
+ * 输出描述:
+ * v   v
+ *
+ *  v v
+ *
+ *   v
+ *
+ * 备注:
+ * 换行使用转义字符‘\n’
+ *
+ * @author : cpucode
+ * @Date : 2021/1/8
+ * @Time : 19:30
+ * @Github : https://github.com/CPU-Code
+ * @CSDN : https://blog.csdn.net/qq_44226094
  */
-
-package com.cpucode.java.gettingStarted;
-
-/*
-题目描述
-每个人都想成为大V (VIP：Very Important Person)，但要一点一点积累才行，先从小v做起。要求输出由小写字母v组成的大V。
-输入描述:
-无
-输出描述:
-v   v
-
- v v
-
-  v
-
-备注:
-换行使用转义字符‘\n’
-
-* */
-public class BC2 {
+public class Bc2 {
     public static void main(String[] args){
-        BC2.Solution(3);
+        Bc2.solution(3);
     }
 
-    static void Solution(int n){
+    static void solution(int n){
         //第一层的总输出
         int count = n + (n - 1);
         //第一个v

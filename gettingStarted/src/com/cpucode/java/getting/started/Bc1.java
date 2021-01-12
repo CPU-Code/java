@@ -1,14 +1,13 @@
+package com.cpucode.java.getting.started;
+
 /**
- * User: cpucode
- * Date: 2021/1/8
- * Time: 19:25
- * Github: https://github.com/CPU-Code
- * CSDN: https://blog.csdn.net/qq_44226094
+ * @author : cpucode
+ * @Date : 2021/1/8
+ * @Time : 19:25
+ * @Github : https://github.com/CPU-Code
+ * @CSDN : https://blog.csdn.net/qq_44226094
  */
-
-package com.cpucode.java.gettingStarted;
-
-public class BC1 {
+public class Bc1 {
     public static void main(String[] args){
         System.out.println("Practice makes perfect!");
     }
