@@ -699,6 +699,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Bc2__我是大V](gettingStarted/src/com/cpucode/java/getting/started/Bc2.java)
 - [x] [Bc6__小飞机](gettingStarted/src/com/cpucode/java/getting/started/Bc6.java)
 - [x] [Bc17__计算表达式的值](gettingStarted/src/com/cpucode/java/getting/started/Bc17.java)
+- [x] [Bc18__计算表达式的值](gettingStarted/src/com/cpucode/java/getting/started/Bc18.java)
 
 
 - [返回目录](#文件目录)
