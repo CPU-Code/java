@@ -702,7 +702,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Bc18__计算带余除法](gettingStarted/src/com/cpucode/java/getting/started/Bc18.java)
 - [x] [Bc21__浮点数的个位数字](gettingStarted/src/com/cpucode/java/getting/started/Bc21.java)
 - [x] [Bc22__你能活多少秒](gettingStarted/src/com/cpucode/java/getting/started/Bc22.java)
-- [ ] [Bc23__时间转换](gettingStarted/src/com/cpucode/java/getting/started/Bc23.java)
+- [x] [Bc23__时间转换](gettingStarted/src/com/cpucode/java/getting/started/Bc23.java)
 - [ ] [Bc24__总成绩和平均数计算](gettingStarted/src/com/cpucode/java/getting/started/Bc24.java)
 - [ ] [Bc31__发布信息](gettingStarted/src/com/cpucode/java/getting/started/Bc31.java)
 - [ ] [Bc32__输出学生信息](gettingStarted/src/com/cpucode/java/getting/started/Bc32.java)
