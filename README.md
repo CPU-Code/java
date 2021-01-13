@@ -701,6 +701,42 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Bc17__计算表达式的值](gettingStarted/src/com/cpucode/java/getting/started/Bc17.java)
 - [x] [Bc18__计算带余除法](gettingStarted/src/com/cpucode/java/getting/started/Bc18.java)
 - [x] [Bc21__浮点数的个位数字](gettingStarted/src/com/cpucode/java/getting/started/Bc21.java)
+- [x] [Bc22__你能活多少秒](gettingStarted/src/com/cpucode/java/getting/started/Bc22.java)
+- [ ] [Bc23__时间转换](gettingStarted/src/com/cpucode/java/getting/started/Bc23.java)
+- [ ] [Bc24__总成绩和平均数计算](gettingStarted/src/com/cpucode/java/getting/started/Bc24.java)
+- [ ] [Bc31__发布信息](gettingStarted/src/com/cpucode/java/getting/started/Bc31.java)
+- [ ] [Bc32__输出学生信息](gettingStarted/src/com/cpucode/java/getting/started/Bc32.java)
+- [ ] [Bc41__你是天才吗](gettingStarted/src/com/cpucode/java/getting/started/Bc41.java)
+- [ ] [Bc42__完美成绩](gettingStarted/src/com/cpucode/java/getting/started/Bc42.java)
+- [ ] [Bc43__及格分数](gettingStarted/src/com/cpucode/java/getting/started/Bc43.java)
+- [ ] [Bc44__判断整数奇偶性](gettingStarted/src/com/cpucode/java/getting/started/Bc44.java)
+- [ ] [Bc46__判断是元音还是辅音](gettingStarted/src/com/cpucode/java/getting/started/Bc46.java)
+- [ ] [Bc49__判断俩个数的大小关系](gettingStarted/src/com/cpucode/java/getting/started/Bc49.java)
+- [ ] [Bc50__计算单位阶跃函数](gettingStarted/src/com/cpucode/java/getting/started/Bc50.java)
+- [ ] [Bc56__线段图案](gettingStarted/src/com/cpucode/java/getting/started/Bc56.java)
+- [ ] [Bc71__新年快乐](gettingStarted/src/com/cpucode/java/getting/started/Bc71.java)
+- [ ] [Bc72__平均身高](gettingStarted/src/com/cpucode/java/getting/started/Bc72.java)
+- [ ] [Bc81__学好c++](gettingStarted/src/com/cpucode/java/getting/started/Bc81.java)
+- [ ] [Bc82__计算问题](gettingStarted/src/com/cpucode/java/getting/started/Bc82.java)
+- [ ] [Bc83__被5整除问题](gettingStarted/src/com/cpucode/java/getting/started/Bc83.java)
+- [ ] [Bc86__奇偶统计](gettingStarted/src/com/cpucode/java/getting/started/Bc86.java)
+- [ ] [Bc87__统计成绩](gettingStarted/src/com/cpucode/java/getting/started/Bc87.java)
+- [ ] [Bc91__成绩输入输出问题](gettingStarted/src/com/cpucode/java/getting/started/Bc91.java)
+- [ ] [Bc103__序列重组矩阵](gettingStarted/src/com/cpucode/java/getting/started/Bc103.java)
+- [ ] [Bc121__小乐乐学编程](gettingStarted/src/com/cpucode/java/getting/started/Bc121.java)
+- [ ] [Bc122__小乐乐算平均分](gettingStarted/src/com/cpucode/java/getting/started/Bc122.java)
+- [ ] [Bc123__小乐乐找最大数](gettingStarted/src/com/cpucode/java/getting/started/Bc123.java)
+- [ ] [Bc124__小乐乐是否被叫家长](gettingStarted/src/com/cpucode/java/getting/started/Bc124.java)
+- [ ] [Bc125__小乐乐转换成绩](gettingStarted/src/com/cpucode/java/getting/started/Bc125.java)
+- [ ] [Bc132__KiKi算期末成绩](gettingStarted/src/com/cpucode/java/getting/started/Bc132.java)
+- [ ] [Bc133__KiKi说祝福语](gettingStarted/src/com/cpucode/java/getting/started/Bc133.java)
+- [ ] [Bc134__KiKi的最高分](gettingStarted/src/com/cpucode/java/getting/started/Bc134.java)
+- [ ] [Bc139__KiKi定义电子日历类](gettingStarted/src/com/cpucode/java/getting/started/Bc139.java)
+
+
+
+
+
 
 - [返回目录](#文件目录)
 
