@@ -705,7 +705,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Bc23__时间转换](gettingStarted/src/com/cpucode/java/getting/started/Bc23.java)
 - [x] [Bc24__总成绩和平均数计算](gettingStarted/src/com/cpucode/java/getting/started/Bc24.java)
 - [x] [Bc31__发布信息](gettingStarted/src/com/cpucode/java/getting/started/Bc31.java)
-- [ ] [Bc32__输出学生信息](gettingStarted/src/com/cpucode/java/getting/started/Bc32.java)
+- [x] [Bc32__输出学生信息](gettingStarted/src/com/cpucode/java/getting/started/Bc32.java)
 - [ ] [Bc41__你是天才吗](gettingStarted/src/com/cpucode/java/getting/started/Bc41.java)
 - [ ] [Bc42__完美成绩](gettingStarted/src/com/cpucode/java/getting/started/Bc42.java)
 - [ ] [Bc43__及格分数](gettingStarted/src/com/cpucode/java/getting/started/Bc43.java)
