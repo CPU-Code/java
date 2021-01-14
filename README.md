@@ -708,7 +708,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Bc32__输出学生信息](gettingStarted/src/com/cpucode/java/getting/started/Bc32.java)
 - [x] [Bc41__你是天才吗](gettingStarted/src/com/cpucode/java/getting/started/Bc41.java)
 - [x] [Bc42__完美成绩](gettingStarted/src/com/cpucode/java/getting/started/Bc42.java)
-- [ ] [Bc43__及格分数](gettingStarted/src/com/cpucode/java/getting/started/Bc43.java)
+- [x] [Bc43__及格分数](gettingStarted/src/com/cpucode/java/getting/started/Bc43.java)
 - [ ] [Bc44__判断整数奇偶性](gettingStarted/src/com/cpucode/java/getting/started/Bc44.java)
 - [ ] [Bc46__判断是元音还是辅音](gettingStarted/src/com/cpucode/java/getting/started/Bc46.java)
 - [ ] [Bc49__判断俩个数的大小关系](gettingStarted/src/com/cpucode/java/getting/started/Bc49.java)
