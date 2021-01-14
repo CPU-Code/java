@@ -24,7 +24,7 @@ import java.io.InputStreamReader;
  * @CSDN : https://blog.csdn.net/qq_44226094
  */
 public class Bc24 {
-    public static void main(String[] args){
+    public static void main(String[] args) throws IOException{
         //test1();
         test2(3);
     }
