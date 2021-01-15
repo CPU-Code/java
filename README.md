@@ -709,7 +709,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Bc41__你是天才吗](gettingStarted/src/com/cpucode/java/getting/started/Bc41.java)
 - [x] [Bc42__完美成绩](gettingStarted/src/com/cpucode/java/getting/started/Bc42.java)
 - [x] [Bc43__及格分数](gettingStarted/src/com/cpucode/java/getting/started/Bc43.java)
-- [ ] [Bc44__判断整数奇偶性](gettingStarted/src/com/cpucode/java/getting/started/Bc44.java)
+- [x] [Bc44__判断整数奇偶性](gettingStarted/src/com/cpucode/java/getting/started/Bc44.java)
 - [ ] [Bc46__判断是元音还是辅音](gettingStarted/src/com/cpucode/java/getting/started/Bc46.java)
 - [ ] [Bc49__判断俩个数的大小关系](gettingStarted/src/com/cpucode/java/getting/started/Bc49.java)
 - [ ] [Bc50__计算单位阶跃函数](gettingStarted/src/com/cpucode/java/getting/started/Bc50.java)
@@ -734,8 +734,26 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [ ] [Bc139__KiKi定义电子日历类](gettingStarted/src/com/cpucode/java/getting/started/Bc139.java)
 
 
+- [ ] [Bc3__有容乃大](gettingStarted/src/com/cpucode/java/simple/Bc3.java)
+- [ ] [Bc7__缩短二进制](gettingStarted/src/com/cpucode/java/simple/Bc7.java)
+- [ ] [Bc8__十六进制转换为十进制](gettingStarted/src/com/cpucode/java/simple/Bc8.java)
+- [ ] [Bc9__printf的返回值](gettingStarted/src/com/cpucode/java/simple/Bc9.java)
+- [ ] [Bc10__成绩输入输出](gettingStarted/src/com/cpucode/java/simple/Bc10.java)
+- [ ] [Bc11__学生基本信息输入输出](gettingStarted/src/com/cpucode/java/simple/Bc11.java)
+- [ ] [Bc12__字符金字塔](gettingStarted/src/com/cpucode/java/simple/Bc12.java)
+- [ ] [Bc13__ASCII码](gettingStarted/src/com/cpucode/java/simple/Bc13.java)
+- [ ] [Bc14__出生日期输入输出](gettingStarted/src/com/cpucode/java/simple/Bc14.java)
+- [ ] [Bc15__按照格式输入并交换输出](gettingStarted/src/com/cpucode/java/simple/Bc15.java)
+- [ ] [Bc16__字符转ASCII码](gettingStarted/src/com/cpucode/java/simple/Bc16.java)
+- [ ] [Bc20__KiKi算数](gettingStarted/src/com/cpucode/java/simple/Bc20.java)
+- [ ] [Bc25__计算体重指标](gettingStarted/src/com/cpucode/java/simple/Bc25.java)
+- [ ] [Bc7__计算三角形的周长和面积](gettingStarted/src/com/cpucode/java/simple/Bc7.java)
+- [ ] [Bc7__计算球体的体积](gettingStarted/src/com/cpucode/java/simple/Bc7.java)
 
 
+
+
+- [ ] [Bc138__计算球体的体积](gettingStarted/src/com/cpucode/java/simple/Bc138.java)
 
 
 - [返回目录](#文件目录)
