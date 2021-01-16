@@ -24,23 +24,28 @@ import java.io.InputStreamReader;
  * @CSDN : https://blog.csdn.net/qq_44226094
  */
 public class Bc49 {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException{
         test1();
     }
 
     private static void test1() throws IOException{
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-        String[] str = bf.readLine().split(" ");
+        String str = null;
 
-        int num = Integer.parseInt(str[0]);
-        int num1 = Integer.parseInt(str[1]);
+        while((str = bf.readLine()) != null){
 
-        if(num > num1){
-            System.out.println(num + ">" + num1);
-        } else if(num == num1){
-            System.out.println(num + "=" + num1);
-        }else{
-            System.out.println(num + "<" + num1);
+            String[] str1 = str.split(" ");
+
+            int num = Integer.parseInt(str1[0]);
+            int num1 = Integer.parseInt(str1[1]);
+
+            if(num > num1){
+                System.out.println(num + ">" + num1);
+            } else if(num == num1){
+                System.out.println(num + "=" + num1);
+            }else{
+                System.out.println(num + "<" + num1);
+            }
         }
     }
 }
