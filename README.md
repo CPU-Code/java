@@ -715,7 +715,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Bc50__计算单位阶跃函数](gettingStarted/src/com/cpucode/java/getting/started/Bc50.java)
 - [x] [Bc56__线段图案](gettingStarted/src/com/cpucode/java/getting/started/Bc56.java)
 - [x] [Bc71__新年快乐](gettingStarted/src/com/cpucode/java/getting/started/Bc71.java)
-- [ ] [Bc72__平均身高](gettingStarted/src/com/cpucode/java/getting/started/Bc72.java)
+- [x] [Bc72__平均身高](gettingStarted/src/com/cpucode/java/getting/started/Bc72.java)
 - [ ] [Bc81__学好c++](gettingStarted/src/com/cpucode/java/getting/started/Bc81.java)
 - [ ] [Bc82__计算问题](gettingStarted/src/com/cpucode/java/getting/started/Bc82.java)
 - [ ] [Bc83__被5整除问题](gettingStarted/src/com/cpucode/java/getting/started/Bc83.java)
