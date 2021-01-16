@@ -719,7 +719,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Bc81__学好c++](gettingStarted/src/com/cpucode/java/getting/started/Bc81.java)
 - [x] [Bc82__计算问题](gettingStarted/src/com/cpucode/java/getting/started/Bc82.java)
 - [x] [Bc83__被5整除问题](gettingStarted/src/com/cpucode/java/getting/started/Bc83.java)
-- [ ] [Bc86__奇偶统计](gettingStarted/src/com/cpucode/java/getting/started/Bc86.java)
+- [x] [Bc86__奇偶统计](gettingStarted/src/com/cpucode/java/getting/started/Bc86.java)
 - [ ] [Bc87__统计成绩](gettingStarted/src/com/cpucode/java/getting/started/Bc87.java)
 - [ ] [Bc91__成绩输入输出问题](gettingStarted/src/com/cpucode/java/getting/started/Bc91.java)
 - [ ] [Bc103__序列重组矩阵](gettingStarted/src/com/cpucode/java/getting/started/Bc103.java)
