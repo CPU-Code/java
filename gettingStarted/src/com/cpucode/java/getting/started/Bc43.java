@@ -26,19 +26,22 @@ import java.io.InputStreamReader;
  * @CSDN : https://blog.csdn.net/qq_44226094
  */
 public class Bc43 {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException{
         test1();
     }
 
     private static void test1() throws IOException{
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-        String str = bf.readLine();
-        int num = Integer.parseInt(str);
+        String str = null;
 
-        if(num >= 60){
-            System.out.println("Pass");
-        } else{
-            System.out.println("Fail");
+        while((str = bf.readLine()) != null){
+            int num = Integer.parseInt(str);
+
+            if(num >= 60){
+                System.out.println("Pass");
+            } else{
+                System.out.println("Fail");
+            }
         }
     }
 }
