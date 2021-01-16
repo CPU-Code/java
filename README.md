@@ -711,7 +711,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Bc43__及格分数](gettingStarted/src/com/cpucode/java/getting/started/Bc43.java)
 - [x] [Bc44__判断整数奇偶性](gettingStarted/src/com/cpucode/java/getting/started/Bc44.java)
 - [x] [Bc46__判断是元音还是辅音](gettingStarted/src/com/cpucode/java/getting/started/Bc46.java)
-- [ ] [Bc49__判断俩个数的大小关系](gettingStarted/src/com/cpucode/java/getting/started/Bc49.java)
+- [x] [Bc49__判断俩个数的大小关系](gettingStarted/src/com/cpucode/java/getting/started/Bc49.java)
 - [ ] [Bc50__计算单位阶跃函数](gettingStarted/src/com/cpucode/java/getting/started/Bc50.java)
 - [ ] [Bc56__线段图案](gettingStarted/src/com/cpucode/java/getting/started/Bc56.java)
 - [ ] [Bc71__新年快乐](gettingStarted/src/com/cpucode/java/getting/started/Bc71.java)
