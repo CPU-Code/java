@@ -733,7 +733,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Bc139__KiKi定义电子日历类](gettingStarted/src/com/cpucode/java/getting/started/Bc139.java)
 
 
-- [ ] [Bc3__有容乃大](gettingStarted/src/com/cpucode/java/simple/Bc3.java)
+- [x] [Bc3__有容乃大](gettingStarted/src/com/cpucode/java/simple/Bc3.java)
 - [ ] [Bc7__缩短二进制](gettingStarted/src/com/cpucode/java/simple/Bc7.java)
 - [ ] [Bc8__十六进制转换为十进制](gettingStarted/src/com/cpucode/java/simple/Bc8.java)
 - [ ] [Bc9__printf的返回值](gettingStarted/src/com/cpucode/java/simple/Bc9.java)
