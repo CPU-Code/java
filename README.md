@@ -47,7 +47,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [反射](#反射)
 - [注解](#注解)
 - [JVM](#JVM)
-- [编程初学者入门训练](#gettingStarted)
+- [编程初学者入门训练](#编程初学者入门训练)
 
 ----------
 
@@ -733,6 +733,9 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Bc139__KiKi定义电子日历类](gettingStarted/src/com/cpucode/java/getting/started/Bc139.java)
 
 
+- [返回目录](#文件目录)
+
+
 - [x] [Bc3__有容乃大](gettingStarted/src/com/cpucode/java/simple/Bc3.java)
 - [ ] [Bc7__缩短二进制](gettingStarted/src/com/cpucode/java/simple/Bc7.java)
 - [ ] [Bc8__十六进制转换为十进制](gettingStarted/src/com/cpucode/java/simple/Bc8.java)
@@ -746,8 +749,42 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [ ] [Bc16__字符转ASCII码](gettingStarted/src/com/cpucode/java/simple/Bc16.java)
 - [ ] [Bc20__KiKi算数](gettingStarted/src/com/cpucode/java/simple/Bc20.java)
 - [ ] [Bc25__计算体重指标](gettingStarted/src/com/cpucode/java/simple/Bc25.java)
-- [ ] [Bc7__计算三角形的周长和面积](gettingStarted/src/com/cpucode/java/simple/Bc7.java)
-- [ ] [Bc7__计算球体的体积](gettingStarted/src/com/cpucode/java/simple/Bc7.java)
+- [ ] [Bc__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
+- [ ] [Bc__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
+- [ ] [Bc__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
+- [ ] [Bc__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
+- [ ] [Bc__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
+- [ ] [Bc__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
+- [ ] [Bc__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
+- [ ] [Bc__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
+- [ ] [Bc__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
+- [ ] [Bc__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
+- [ ] [Bc__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
+- [ ] [Bc__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
+- [ ] [Bc__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
+- [ ] [Bc__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
+- [ ] [Bc__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
+- [ ] [Bc__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
+- [ ] [Bc__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
+- [ ] [Bc__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
+- [ ] [Bc__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
+- [ ] [Bc__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
+- [ ] [Bc__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
+- [ ] [Bc__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
+- [ ] [Bc__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
+- [ ] [Bc__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
+- [ ] [Bc__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
+- [ ] [Bc__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
+- [ ] [Bc__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
+- [ ] [Bc__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
+- [ ] [Bc__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
+- [ ] [Bc__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
+- [ ] [Bc__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
+- [ ] [Bc__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
+- [ ] [Bc__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
+- [ ] [Bc__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
+- [ ] [Bc__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
+- [ ] [Bc__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
 
 
 
