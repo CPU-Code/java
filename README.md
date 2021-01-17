@@ -730,7 +730,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Bc132__KiKi算期末成绩](gettingStarted/src/com/cpucode/java/getting/started/Bc132.java)
 - [x] [Bc133__KiKi说祝福语](gettingStarted/src/com/cpucode/java/getting/started/Bc133.java)
 - [x] [Bc134__KiKi的最高分](gettingStarted/src/com/cpucode/java/getting/started/Bc134.java)
-- [ ] [Bc139__KiKi定义电子日历类](gettingStarted/src/com/cpucode/java/getting/started/Bc139.java)
+- [x] [Bc139__KiKi定义电子日历类](gettingStarted/src/com/cpucode/java/getting/started/Bc139.java)
 
 
 - [ ] [Bc3__有容乃大](gettingStarted/src/com/cpucode/java/simple/Bc3.java)
