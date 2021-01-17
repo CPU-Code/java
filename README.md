@@ -728,7 +728,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Bc124__小乐乐是否被叫家长](gettingStarted/src/com/cpucode/java/getting/started/Bc124.java)
 - [x] [Bc125__小乐乐转换成绩](gettingStarted/src/com/cpucode/java/getting/started/Bc125.java)
 - [x] [Bc132__KiKi算期末成绩](gettingStarted/src/com/cpucode/java/getting/started/Bc132.java)
-- [ ] [Bc133__KiKi说祝福语](gettingStarted/src/com/cpucode/java/getting/started/Bc133.java)
+- [x] [Bc133__KiKi说祝福语](gettingStarted/src/com/cpucode/java/getting/started/Bc133.java)
 - [ ] [Bc134__KiKi的最高分](gettingStarted/src/com/cpucode/java/getting/started/Bc134.java)
 - [ ] [Bc139__KiKi定义电子日历类](gettingStarted/src/com/cpucode/java/getting/started/Bc139.java)
 
