@@ -747,7 +747,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Bc14__出生日期输入输出](gettingStarted/src/com/cpucode/java/simple/Bc14.java)
 - [x] [Bc15__按照格式输入并交换输出](gettingStarted/src/com/cpucode/java/simple/Bc15.java)
 - [x] [Bc16__字符转ASCII码](gettingStarted/src/com/cpucode/java/simple/Bc16.java)
-- [ ] [Bc20__KiKi算数](gettingStarted/src/com/cpucode/java/simple/Bc20.java)
+- [x] [Bc20__KiKi算数](gettingStarted/src/com/cpucode/java/simple/Bc20.java)
 - [ ] [Bc25__计算体重指标](gettingStarted/src/com/cpucode/java/simple/Bc25.java)
 - [ ] [Bc__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
 - [ ] [Bc__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
