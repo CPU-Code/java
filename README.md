@@ -30,13 +30,6 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
 ## 文件目录
 
-[TOC]
-
-@[TOC]( )
-
-@[TOC]()
-
-
 - [基础](#基础)
 - [面对对象](#面对对象)
 - [javaAPI](#javaAPI)
@@ -748,7 +741,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Bc8__十六进制转换为十进制](gettingStarted/src/com/cpucode/java/simple/Bc8.java)
 - [x] [Bc9__printf的返回值](gettingStarted/src/com/cpucode/java/simple/Bc9.java)
 - [x] [Bc10__成绩输入输出](gettingStarted/src/com/cpucode/java/simple/Bc10.java)
-- [ ] [Bc11__学生基本信息输入输出](gettingStarted/src/com/cpucode/java/simple/Bc11.java)
+- [x] [Bc11__学生基本信息输入输出](gettingStarted/src/com/cpucode/java/simple/Bc11.java)
 - [ ] [Bc12__字符金字塔](gettingStarted/src/com/cpucode/java/simple/Bc12.java)
 - [ ] [Bc13__ASCII码](gettingStarted/src/com/cpucode/java/simple/Bc13.java)
 - [ ] [Bc14__出生日期输入输出](gettingStarted/src/com/cpucode/java/simple/Bc14.java)
