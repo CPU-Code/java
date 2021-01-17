@@ -738,7 +738,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
 - [x] [Bc3__有容乃大](gettingStarted/src/com/cpucode/java/simple/Bc3.java)
 - [x] [Bc7__缩短二进制](gettingStarted/src/com/cpucode/java/simple/Bc7.java)
-- [ ] [Bc8__十六进制转换为十进制](gettingStarted/src/com/cpucode/java/simple/Bc8.java)
+- [x] [Bc8__十六进制转换为十进制](gettingStarted/src/com/cpucode/java/simple/Bc8.java)
 - [ ] [Bc9__printf的返回值](gettingStarted/src/com/cpucode/java/simple/Bc9.java)
 - [ ] [Bc10__成绩输入输出](gettingStarted/src/com/cpucode/java/simple/Bc10.java)
 - [ ] [Bc11__学生基本信息输入输出](gettingStarted/src/com/cpucode/java/simple/Bc11.java)
