@@ -752,7 +752,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Bc26__计算三角形的周长和面积](gettingStarted/src/com/cpucode/java/simple/Bc26.java)
 - [x] [Bc27__计算球体的体积](gettingStarted/src/com/cpucode/java/simple/Bc27.java)
 - [x] [Bc28__大小写转换](gettingStarted/src/com/cpucode/java/simple/Bc28.java)
-- [ ] [Bc29__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
+- [x] [Bc29__2的n次方计算](gettingStarted/src/com/cpucode/java/simple/Bc29.java)
 - [ ] [Bc30__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
 - [ ] [Bc33__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
 - [ ] [Bc34__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
