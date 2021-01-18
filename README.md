@@ -749,7 +749,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Bc16__字符转ASCII码](gettingStarted/src/com/cpucode/java/simple/Bc16.java)
 - [x] [Bc20__KiKi算数](gettingStarted/src/com/cpucode/java/simple/Bc20.java)
 - [x] [Bc25__计算体重指标](gettingStarted/src/com/cpucode/java/simple/Bc25.java)
-- [ ] [Bc26__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
+- [x] [Bc26__计算三角形的周长和面积](gettingStarted/src/com/cpucode/java/simple/Bc26.java)
 - [ ] [Bc27__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
 - [ ] [Bc28__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
 - [ ] [Bc29__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
