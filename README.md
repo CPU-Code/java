@@ -756,7 +756,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Bc30__KiKi和酸奶](gettingStarted/src/com/cpucode/java/simple/Bc30.java)
 - [x] [Bc33__计算平均成绩](gettingStarted/src/com/cpucode/java/simple/Bc33.java)
 - [x] [Bc34__进制A+B](gettingStarted/src/com/cpucode/java/simple/Bc34.java)
-- [ ] [Bc35__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
+- [x] [Bc35__判断字母](gettingStarted/src/com/cpucode/java/simple/Bc35.java)
 - [ ] [Bc36__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
 - [ ] [Bc37__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
 - [ ] [Bc38__](gettingStarted/src/com/cpucode/java/simple/Bc.java)
