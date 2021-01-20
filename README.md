@@ -800,6 +800,8 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Jz7__斐波那契数列](Offer/src/com/cpucode/java/getting/started/Jz7.java)
 - [x] [Jz5__用两个栈实现队列](Offer/src/com/cpucode/java/getting/started/Jz5.java)
 - [x] [Jz6__旋转数组的最小数字](Offer/src/com/cpucode/java/getting/started/Jz6.java)
+- [ ] [Jz9__变态跳台阶](Offer/src/com/cpucode/java/getting/started/Jz9.java)
+- [x] [Jz16__合并两个排序的链表](Offer/src/com/cpucode/java/getting/started/Jz16.java)
 
 - [返回目录](#文件目录)
 
