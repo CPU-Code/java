@@ -638,6 +638,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [SynchronizedTest__同步省略](JVM/src/com/cpucode/java/heap/SynchronizedTest.java)
 - [x] [ScalarReplace__标量替换](JVM/src/com/cpucode/java/heap/ScalarReplace.java)
 
+- [返回目录](#文件目录)
 
 - [x] [MethodAreaSize__方法区大小](JVM/src/com/cpucode/java/methodArea/MethodAreaSize.java)
 - [x] [MethodAreaOOMTest__方法区内存异常](JVM/src/com/cpucode/java/methodArea/MethodAreaOOMTest.java)
@@ -646,20 +647,24 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [StaticFieldTest__查看静态变量存储位置](JVM/src/com/cpucode/java/methodArea/StaticFieldTest.java)
 - [ ] [StaticObjectTest__查看静态类存储位置](JVM/src/com/cpucode/java/methodArea/StaticObjectTest.java)
  
+ - [返回目录](#文件目录)
  
 - [x] [ObjectTest__对象的创建的反编译](JVM/src/com/cpucode/java/Object/ObjectTest.java)
 - [x] [Customer__对象实例化的过程](JVM/src/com/cpucode/java/Object/Customer.java)
 - [x] [CustomerTest__对象实例化的内存分布](JVM/src/com/cpucode/java/Object/CustomerTest.java)
 
+- [返回目录](#文件目录)
 
 - [x] [BufferTest__查看直接内存大小](JVM/src/com/cpucode/java/direct/memory/BufferTest.java)
 - [x] [DirectMemoryOOM__直接内存异常](JVM/src/com/cpucode/java/direct/memory/DirectMemoryOom.java)
 - [x] [MaxDirectMemorySizeTest__设置直接内存大小](JVM/src/com/cpucode/java/direct/memory/MaxDirectMemorySizeTest.java)
 
+- [返回目录](#文件目录)
 
 - [x] [JITTest__JIT编译器的使用](JVM/src/com/cpucode/java/executionEngine/JITTest.java)
 - [x] [IntCompTest__各个编译器状态](JVM/src/com/cpucode/java/executionEngine/IntCompTest.java)
 
+- [返回目录](#文件目录)
 
 - [x] [StringOnly__String不变性](JVM/src/com/cpucode/java/StringTable/StringOnly.java)
 - [x] [StringExer__String不变性](JVM/src/com/cpucode/java/StringTable/StringExer.java)
@@ -675,6 +680,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [StringEfficiency__String空间效率](JVM/src/com/cpucode/java/StringTable/StringEfficiency.java)
 - [x] [StringGCTest__String回收](JVM/src/com/cpucode/java/StringTable/StringGCTest.java)
 
+- [返回目录](#文件目录)
 
 - [x] [RefCountGC__判断是否引用回收](JVM/src/com/cpucode/java/garbage/collection/RefCountGC.java)
 - [x] [CanReliveObj__回收复活对象](JVM/src/com/cpucode/java/garbage/collection/CanReliveObj.java)
@@ -688,6 +694,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [WeakReferenceTest__弱引用测试](JVM/src/com/cpucode/java/garbage/collection/WeakReferenceTest.java)
 - [x] [PhantomReferenceTest__虚引用测试](JVM/src/com/cpucode/java/garbage/collection/PhantomReferenceTest.java)
 - [x] [GcUseTest__使用GC类型](JVM/src/com/cpucode/java/garbage/collection/GcUseTest.java)
+- [x] [GcLogTest__使用GC日志信息](JVM/src/com/cpucode/java/garbage/collection/GcLogTest.java)
 
 
 - [返回目录](#文件目录)
