@@ -3,7 +3,7 @@ package com.cpucode.java.garbage.collection;
 import java.util.ArrayList;
 
 /**
- * -Xms60m -Xmx60m -XX:SurvivorRatio=8 -XX:+PrintGCDetails -Xloggc:./logs/gc.log
+ * -Xms60m -Xmx60m -XX:SurvivorRatio=8 -XX:+PrintGCDetails -Xloggc:./JVM/src/com/cpucode/java/garbage/collection/gc.log
  *
  *      Allocation Failure : GC 发生的原因
  *                          PSYoungGen : 使用了 Parallel 垃圾回收器的新生代GC 前后大小的变化
