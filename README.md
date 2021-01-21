@@ -22,6 +22,8 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
 根据牛客网的`编程初学者入门训练`按从入门到困难分类写的代码
 
+根据牛客网的`剑指Offer`按从入门到困难分类写的代码
+
 下面代码我会用√的方法表示代码是否完善, 如果没有√ ,说明代码可能我没有运行成功, 或者一些错误, 我无法排除, 供我日后方便排查 
 
 都是自己亲手敲出来代码, 难免有些错误, 也希望大家可以指点
@@ -626,6 +628,14 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
 ## [JVM](JVM)
 
+- [x] [Add__加法反编译](JVM/src/com/cpucode/java/stack/structure/Add.java)
+
+- [返回目录](#文件目录)
+
+- [x] [ScalarReplace__标量替换](JVM/src/com/cpucode/java/class/loading/.java)
+
+- [返回目录](#文件目录)
+
 - [x] [OutOfMemory__查看内存溢出](JVM/src/com/cpucode/java/heap/OutOfMemory.java)
 - [x] [EdenSurvivorTest__查看各区比例](JVM/src/com/cpucode/java/heap/EdenSurvivorTest.java)
 - [x] [HeapInstanceTest__查看各区数据转换](JVM/src/com/cpucode/java/heap/HeapInstanceTest.java)
@@ -816,12 +826,42 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Jz16__合并两个排序的链表](Offer/src/com/cpucode/java/getting/started/Jz16.java)
 - [x] [Jz18__二叉树的镜像](Offer/src/com/cpucode/java/getting/started/Jz18.java)
 - [x] [Jz28__数组中出现次数超过一半的数字](Offer/src/com/cpucode/java/getting/started/Jz28.java)
-
-
+- [ ] [Jz30__连续子数组的最大和](Offer/src/com/cpucode/java/getting/started/Jz30.java)
+- [ ] [Jz34__第一个只出现一次的字符位置](Offer/src/com/cpucode/java/getting/started/Jz34.java)
+- [ ] [Jz38__二叉树的深度](Offer/src/com/cpucode/java/getting/started/Jz38.java)
+- [ ] [Jz39__平衡二叉树](Offer/src/com/cpucode/java/getting/started/Jz39.java)
+- [ ] [Jz48__不用加减乘除做加法](Offer/src/com/cpucode/java/getting/started/Jz48.java)
+- [ ] [Jz51__构建乘积数组](Offer/src/com/cpucode/java/getting/started/Jz51.java)
+- [ ] [Jz62__二叉搜索树的第k个结点](Offer/src/com/cpucode/java/getting/started/Jz62.java)
+ 
 - [返回目录](#文件目录)
 
-- [ ] [__](Offer/src/com/cpucode/java/simple/.java)
-
+- [ ] [Jz4__重建二叉树](Offer/src/com/cpucode/java/simple/Jz4.java)
+- [ ] [Jz8__跳台阶](Offer/src/com/cpucode/java/simple/Jz8.java)
+- [ ] [Jz10__矩形覆盖](Offer/src/com/cpucode/java/simple/Jz10.java)
+- [ ] [Jz11__二进制中1的个数](Offer/src/com/cpucode/java/simple/Jz11.java)
+- [ ] [Jz12__数值的整数次方](Offer/src/com/cpucode/java/simple/Jz12.java)
+- [ ] [Jz15__反转链表](Offer/src/com/cpucode/java/simple/Jz15.java)
+- [ ] [Jz21__栈的压入、弹出序列](Offer/src/com/cpucode/java/simple/Jz21.java)
+- [ ] [Jz26__二叉搜索树与双向链表](Offer/src/com/cpucode/java/simple/Jz26.java)
+- [ ] [Jz31__整数中1出现的次数](Offer/src/com/cpucode/java/simple/Jz31.java)
+- [ ] [Jz36__两个链表的第一个公共结点](Offer/src/com/cpucode/java/simple/Jz36.java)
+- [ ] [Jz37__数字在排序数组中出现的次数](Offer/src/com/cpucode/java/simple/Jz37.java)
+- [ ] [Jz40__数组中只出现一次的数字](Offer/src/com/cpucode/java/simple/Jz40.java)
+- [ ] [Jz41__和为S的连续正数序列](Offer/src/com/cpucode/java/simple/Jz41.java)
+- [ ] [Jz42__和为S的两个数字](Offer/src/com/cpucode/java/simple/Jz42.java)
+- [ ] [Jz43__左旋转字符串](Offer/src/com/cpucode/java/simple/Jz43.java)
+- [ ] [Jz45__扑克牌顺子](Offer/src/com/cpucode/java/simple/Jz45.java)
+- [ ] [Jz46__孩子们的游戏](Offer/src/com/cpucode/java/simple/Jz46.java)
+- [ ] [Jz47__求1+2+3+...+n](Offer/src/com/cpucode/java/simple/Jz47.java)
+- [ ] [Jz50__数组中重复的数字](Offer/src/com/cpucode/java/simple/Jz50.java)
+- [ ] [Jz53__表示数值的字符串](Offer/src/com/cpucode/java/simple/Jz53.java)
+- [ ] [Jz54__字符流中第一个不重复的字符](Offer/src/com/cpucode/java/simple/Jz54.java)
+- [ ] [Jz55__链表中环的入口结点](Offer/src/com/cpucode/java/simple/Jz55.java)
+- [ ] [Jz57__二叉树的下一个结点](Offer/src/com/cpucode/java/simple/Jz57.java)
+- [ ] [Jz60__把二叉树打印成多行](Offer/src/com/cpucode/java/simple/Jz60.java)
+- [ ] [Jz63__数据流中的中位数](Offer/src/com/cpucode/java/simple/Jz63.java)
+- [ ] [Jz67__剪绳子](Offer/src/com/cpucode/java/simple/Jz67.java)
 
 - [返回目录](#文件目录)
 
