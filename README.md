@@ -632,16 +632,16 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
 - [返回目录](#文件目录)
 
-- [x] [ScalarReplace__标量替换](JVM/src/com/cpucode/java/class/loading/.java)
+- [ ] [__](JVM/src/com/cpucode/java/class/loading/.java)
 
 - [返回目录](#文件目录)
 
 - [x] [OutOfMemory__查看内存溢出](JVM/src/com/cpucode/java/heap/OutOfMemory.java)
 - [x] [EdenSurvivorTest__查看各区比例](JVM/src/com/cpucode/java/heap/EdenSurvivorTest.java)
 - [x] [HeapInstanceTest__查看各区数据转换](JVM/src/com/cpucode/java/heap/HeapInstanceTest.java)
-- [x] [GCTest__查看各个GC的触发](JVM/src/com/cpucode/java/heap/GCTest.java)
+- [x] [GCTest__查看各个GC的触发](JVM/src/com/cpucode/java/heap/GcTest.java)
 - [x] [YoungOldAreaTest__查看大对象直接存放在Old](JVM/src/com/cpucode/java/heap/YoungOldAreaTest.java)
-- [x] [TLABArgsTest__查看TLAB是否开启](JVM/src/com/cpucode/java/heap/TLABArgsTest.java)
+- [x] [TLABArgsTest__查看TLAB是否开启](JVM/src/com/cpucode/java/heap/TlabArgsTest.java)
 - [x] [HeapArgsTest__查看Heap的各个参数](JVM/src/com/cpucode/java/heap/HeapArgsTest.java)
 - [x] [EscapeAnalysis__判断逃逸分析](JVM/src/com/cpucode/java/heap/EscapeAnalysis.java)
 - [x] [StackAllocation__逃逸分析的分配位置](JVM/src/com/cpucode/java/heap/StackAllocation.java)
@@ -650,18 +650,18 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
 - [返回目录](#文件目录)
 
-- [x] [MethodAreaSize__方法区大小](JVM/src/com/cpucode/java/methodArea/MethodAreaSize.java)
-- [x] [MethodAreaOOMTest__方法区内存异常](JVM/src/com/cpucode/java/methodArea/MethodAreaOOMTest.java)
-- [x] [MethodInnerStrucTest__查看方法区的内部构成](JVM/src/com/cpucode/java/methodArea/MethodInnerStrucTest.java)
-- [x] [MethodAreaFinal__查看方法区的Final](JVM/src/com/cpucode/java/methodArea/MethodAreaFinal.java)
-- [x] [StaticFieldTest__查看静态变量存储位置](JVM/src/com/cpucode/java/methodArea/StaticFieldTest.java)
-- [ ] [StaticObjectTest__查看静态类存储位置](JVM/src/com/cpucode/java/methodArea/StaticObjectTest.java)
+- [x] [MethodAreaSize__方法区大小](JVM/src/com/cpucode/java/method/area/MethodAreaSize.java)
+- [x] [MethodAreaOOMTest__方法区内存异常](JVM/src/com/cpucode/java/method/area/MethodAreaOomTest.java)
+- [x] [MethodInnerStrucTest__查看方法区的内部构成](JVM/src/com/cpucode/java/method/area/MethodInnerStrucTest.java)
+- [x] [MethodAreaFinal__查看方法区的Final](JVM/src/com/cpucode/java/method/area/MethodAreaFinal.java)
+- [x] [StaticFieldTest__查看静态变量存储位置](JVM/src/com/cpucode/java/method/area/StaticFieldTest.java)
+- [ ] [StaticObjectTest__查看静态类存储位置](JVM/src/com/cpucode/java/method/area/StaticObjectTest.java)
  
  - [返回目录](#文件目录)
  
-- [x] [ObjectTest__对象的创建的反编译](JVM/src/com/cpucode/java/Object/ObjectTest.java)
-- [x] [Customer__对象实例化的过程](JVM/src/com/cpucode/java/Object/Customer.java)
-- [x] [CustomerTest__对象实例化的内存分布](JVM/src/com/cpucode/java/Object/CustomerTest.java)
+- [x] [ObjectTest__对象的创建的反编译](JVM/src/com/cpucode/java/object/ObjectTest.java)
+- [x] [Customer__对象实例化的过程](JVM/src/com/cpucode/java/object/Customer.java)
+- [x] [CustomerTest__对象实例化的内存分布](JVM/src/com/cpucode/java/object/CustomerTest.java)
 
 - [返回目录](#文件目录)
 
@@ -671,28 +671,28 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
 - [返回目录](#文件目录)
 
-- [x] [JITTest__JIT编译器的使用](JVM/src/com/cpucode/java/executionEngine/JITTest.java)
-- [x] [IntCompTest__各个编译器状态](JVM/src/com/cpucode/java/executionEngine/IntCompTest.java)
+- [x] [JITTest__JIT编译器的使用](JVM/src/com/cpucode/java/execution/engine/JitTest.java)
+- [x] [IntCompTest__各个编译器状态](JVM/src/com/cpucode/java/execution/engine/IntCompTest.java)
 
 - [返回目录](#文件目录)
 
-- [x] [StringOnly__String不变性](JVM/src/com/cpucode/java/StringTable/StringOnly.java)
-- [x] [StringExer__String不变性](JVM/src/com/cpucode/java/StringTable/StringExer.java)
-- [x] [StringTableSize__StringTable大小](JVM/src/com/cpucode/java/StringTable/StringTableSize.java)
-- [x] [GenerateString__生成随机文字txt](JVM/src/com/cpucode/java/StringTable/GenerateString.java)
-- [x] [StringTime__String运行时间](JVM/src/com/cpucode/java/StringTable/StringTime.java)
-- [x] [StringOOM__String报错](JVM/src/com/cpucode/java/StringTable/StringOOM.java)
-- [x] [StringConstant__String的加载个数](JVM/src/com/cpucode/java/StringTable/StringConstant.java)
-- [x] [StringSort__String的分类](JVM/src/com/cpucode/java/StringTable/StringSort.java)
-- [x] [StringAppend__String拼接](JVM/src/com/cpucode/java/StringTable/StringAppend.java)
-- [x] [StringNewTest__String创建对象数量](JVM/src/com/cpucode/java/StringTable/StringNewTest.java)
-- [x] [StringIntern__String调用intern](JVM/src/com/cpucode/java/StringTable/StringIntern.java)
-- [x] [StringEfficiency__String空间效率](JVM/src/com/cpucode/java/StringTable/StringEfficiency.java)
-- [x] [StringGCTest__String回收](JVM/src/com/cpucode/java/StringTable/StringGCTest.java)
+- [x] [StringOnly__String不变性](JVM/src/com/cpucode/java/string/table/StringOnly.java)
+- [x] [StringExer__String不变性](JVM/src/com/cpucode/java/string/table/StringExer.java)
+- [x] [StringTableSize__StringTable大小](JVM/src/com/cpucode/java/string/table/StringTableSize.java)
+- [x] [GenerateString__生成随机文字txt](JVM/src/com/cpucode/java/string/table/GenerateString.java)
+- [x] [StringTime__String运行时间](JVM/src/com/cpucode/java/string/table/StringTime.java)
+- [x] [StringOOM__String报错](JVM/src/com/cpucode/java/string/table/StringOom.java)
+- [x] [StringConstant__String的加载个数](JVM/src/com/cpucode/java/string/table/StringConstant.java)
+- [x] [StringSort__String的分类](JVM/src/com/cpucode/java/string/table/StringSort.java)
+- [x] [StringAppend__String拼接](JVM/src/com/cpucode/java/string/table/StringAppend.java)
+- [x] [StringNewTest__String创建对象数量](JVM/src/com/cpucode/java/string/table/StringNewTest.java)
+- [x] [StringIntern__String调用intern](JVM/src/com/cpucode/java/string/table/StringIntern.java)
+- [x] [StringEfficiency__String空间效率](JVM/src/com/cpucode/java/string/table/StringEfficiency.java)
+- [x] [StringGCTest__String回收](JVM/src/com/cpucode/java/string/table/StringGcTest.java)
 
 - [返回目录](#文件目录)
 
-- [x] [RefCountGC__判断是否引用回收](JVM/src/com/cpucode/java/garbage/collection/RefCountGC.java)
+- [x] [RefCountGC__判断是否引用回收](JVM/src/com/cpucode/java/garbage/collection/RefCountGc.java)
 - [x] [CanReliveObj__回收复活对象](JVM/src/com/cpucode/java/garbage/collection/CanReliveObj.java)
 - [ ] [GCRootsTest__Roots回收情况](JVM/src/com/cpucode/java/garbage/collection/GcRootsTest.java)
 - [x] [HeapOOM__堆错误](JVM/src/com/cpucode/java/garbage/collection/HeapOom.java)
