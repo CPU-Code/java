@@ -7,9 +7,9 @@
  */
 
 package com.cpucode.java.heap;
-/*
+/**
  * 标量替换测试
-   -Xmx100m -Xms100m -XX:+PrintGC -XX:-EliminateAllocations
+ *    -Xmx100m -Xms100m -XX:+PrintGC -XX:-EliminateAllocations
 */
 public class ScalarReplace {
     public static class User{
@@ -27,9 +27,9 @@ public class ScalarReplace {
 
     public static void main(String[] args) {
         long start = System.currentTimeMillis();
-        int end = 10000000;
+        int num = 10000000;
 
-        for (int i = 0; i < end; i++) {
+        for (int i = 0; i < num; i++) {
             alloc();
         }
 

@@ -12,11 +12,10 @@ import sun.misc.Unsafe;
 
 import java.lang.reflect.Field;
 
-/*
--Xmx20m -XX:MaxDirectMemorySize=10m
-
-Exception in thread "main" java.lang.OutOfMemoryError
-
+/**
+ * -Xmx20m -XX:MaxDirectMemorySize=10m
+ *
+ * Exception in thread "main" java.lang.OutOfMemoryError
 * */
 public class MaxDirectMemorySizeTest {
     private static final long ONEMB = 1024 * 1024;
