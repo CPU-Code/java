@@ -14,11 +14,13 @@ import java.util.List;
 public class StopTheWorldTest {
     public static class WorkThread extends Thread{
         List<byte[]> list = new ArrayList<byte[]>();
+        int end = 1000;
 
+        @Override
         public void run(){
             try {
                 while (true){
-                    for (int i = 0; i < 1000; i++) {
+                    for (int i = 0; i < end; i++) {
                         byte[] buffer = new byte[1024];
 
                         list.add(buffer);
@@ -40,6 +42,7 @@ public class StopTheWorldTest {
     public static class PrintThread extends Thread{
         public final long startTime = System.currentTimeMillis();
 
+        @Override
         public void run(){
             try {
                 while (true){

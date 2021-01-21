@@ -45,8 +45,9 @@ import java.util.ArrayList;
 public class GcLogTest {
     public static void main(String[] args) {
         ArrayList<byte[]> list = new ArrayList<>();
+        int num = 500;
 
-        for (int i = 0; i < 500; i++){
+        for (int i = 0; i < num; i++){
             /**
              * 100KB
             * */

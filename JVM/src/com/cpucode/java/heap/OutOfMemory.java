@@ -32,7 +32,7 @@ public class OutOfMemory {
 }
 
 class Picture{
-    private byte[] pixels;
+    private final byte[] pixels;
 
     public Picture(int length){
         this.pixels = new byte[length];

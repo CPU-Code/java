@@ -14,7 +14,8 @@ package com.cpucode.java.heap;
 * */
 public class YoungOldAreaTest {
     public static void main(String[] args) {
-        byte[] buffer = new byte[1024 * 1024 * 20]; //20m
+        //20m
+        byte[] buffer = new byte[1024 * 1024 * 20];
     }
 }
 

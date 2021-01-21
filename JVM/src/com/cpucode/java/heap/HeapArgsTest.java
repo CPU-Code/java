@@ -1,15 +1,6 @@
-/**
- * User: cpucode
- * Date: 2021/1/6
- * Time: 14:54
- * Github: https://github.com/CPU-Code
- * CSDN: https://blog.csdn.net/qq_44226094
- */
-
 package com.cpucode.java.heap;
 
-/*
-
+/**
  * 测试堆空间常用的jvm参数：
  * -XX:+PrintFlagsInitial : 查看所有的参数的默认初始值
  * -XX:+PrintFlagsFinal  ：查看所有的参数的最终值（可能会存在修改，不再是初始值）
@@ -25,7 +16,11 @@ package com.cpucode.java.heap;
  * -XX:+PrintGCDetails：输出详细的GC处理日志
  * 打印gc简要信息：① -XX:+PrintGC   ② -verbose:gc
  * -XX:HandlePromotionFailure：是否设置空间分配担保
-
+ * @author : cpucode
+ * @Date: 2021/1/6
+ * @Time: 14:54
+ * @Github: https://github.com/CPU-Code
+ * @CSDN: https://blog.csdn.net/qq_44226094
 * */
 public class HeapArgsTest {
     public static void main(String[] args) {

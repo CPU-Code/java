@@ -36,7 +36,8 @@ public class SoftReferenceTest {
         //上面的一行代码，等价于如下的三行代码
         User user = new User(2, "cpu");
         SoftReference<User> userSoftRef = new SoftReference<User>(user);
-        user = null;    //取消强引用
+        //取消强引用
+        user = null;
 
         //从软引用中重新获得强引用对象
         System.out.println(userSoftReference.get());

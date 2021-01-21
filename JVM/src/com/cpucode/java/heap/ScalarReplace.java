@@ -27,8 +27,9 @@ public class ScalarReplace {
 
     public static void main(String[] args) {
         long start = System.currentTimeMillis();
+        int end = 10000000;
 
-        for (int i = 0; i < 10000000; i++) {
+        for (int i = 0; i < end; i++) {
             alloc();
         }
 
