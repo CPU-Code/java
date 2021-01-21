@@ -18,60 +18,66 @@ package com.cpucode.java.getting.started;
 public class Jz9 {
 
     public class Solution {
-        public int JumpFloorII(int target) {
-            if(target==0){
-                return 0;//起点没跳，则为0
+        public int JumpFloorI(int target) {
+            if(target == 0) {
+                return 0;    //起点没跳，则为0
+            }else if(target == 1){
+                return 1;    //一次就跳到
             }
-            int []dp=new int[target+1];//用于存储f(i)的步数
-            dp[0]=1;
-            for(int i=1;i<=target;i++){//从1到目标台阶
-                for(int j=0;j<i;j++){//累加，从0加到i
-                    dp[i]+=dp[j];//存入数组
+
+            //用于存储num(i)的步数
+            int[] num = new int [target + 1];
+            num[0] = 1;
+            num[1] = 1;
+
+            for(int i = 2; i <= target; i++){
+                for(int j = 0; j < i; j++){
+                    //累加，从0加到i
+                    num[i] += num[j];
                 }
             }
-            return dp[target];
+
+            return num[target];
         }
 
-//         if(target <= 1){
-//             return 1;
-//         }
+        public int JumpFloorII(int target) {
+            /**
+             f[n] = f[n-1] + f[n-2] + ... + f[0]
+             f[n-1] = f[n-2] + f[n-3] + ... + f[0]
+             合并: f[n] = 2*f[n-1]，初始条件 f[1] = 1
+             */
+            if(target == 0){
+                return 0;
+            }else if(target == 1){
+                return 1;
+            }
+            int one = 1;
+            int sum = 0;
 
-//         int[] num = new int[target + 1];
-//         Arrays.fill(num, 1);
-//         num[0] = 0;
-//         num[1] = 1;
+            for(int i = 2; i <= target; i++){
+                sum = one << 1;     //  口诀：左移乘2，右移除2
+                one = sum;
+            }
 
-//         for(int i = 2; i <= target; i++){
-//             for(int j = 0; j < i; j++){
-//                 num[i] += num[j];
-//             }
-//         }
+            return sum;
+        }
 
-//         return num[target];
+        public int JumpFloorIII(int target) {
+            /**
+            f[0] = f[1] = 1
+            f[2] = 2 = 21
+            f[3] = 4 = 22
+            f[4] = 8 = 23
+            f[n] = 2 的n-1次方
+            */
 
-//         int num = 0;
+            if(target == 0){
+                return 0;
+            }else if(target == 1){
+                return 1;
+            }
 
-//         num = test1(target);
-
-//         return num;
-//     }
-
-//     private int test1(int target){
-//         if(target <= 1){
-//             return 1;
-//         }
-
-//         int[] num = new int[target + 1];
-//         num[0] = 1;
-//         num[1] = 1;
-
-//         for(int i = 2; i <= target; i++){
-//             for(int j = 0; j < i; j++){
-//                 num[i] += num[j];
-//             }
-//         }
-
-//         return num[target];
-//     }
+            return (int)(Math.pow(2, target -1));
+        }
     }
 }
