@@ -784,7 +784,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Bc37__网购](gettingStarted/src/com/cpucode/java/simple/Bc37.java)
 - [x] [Bc38__变种水仙花](gettingStarted/src/com/cpucode/java/simple/Bc38.java)
 - [x] [Bc39__争夺前五名](gettingStarted/src/com/cpucode/java/simple/Bc39.java)
-- [ ] [Bc40__竞选社长](gettingStarted/src/com/cpucode/java/simple/Bc40.java)
+- [x] [Bc40__竞选社长](gettingStarted/src/com/cpucode/java/simple/Bc40.java)
 - [ ] [Bc45__最高分数](gettingStarted/src/com/cpucode/java/simple/Bc45.java)
 - [ ] [Bc47__判断是不是字母](gettingStarted/src/com/cpucode/java/simple/Bc47.java)
 - [ ] [Bc48__字母大小写转换](gettingStarted/src/com/cpucode/java/simple/Bc48.java)
