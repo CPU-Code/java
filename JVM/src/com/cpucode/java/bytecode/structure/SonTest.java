@@ -42,6 +42,7 @@ class Son extends Father{
         x = 40;
     }
 
+    @Override
     public void print(){
         System.out.println("Son.x = " + x);
     }
