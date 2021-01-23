@@ -885,7 +885,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Jz28__数组中出现次数超过一半的数字](Offer/src/com/cpucode/java/getting/started/Jz28.java)
 - [x] [Jz30__连续子数组的最大和](Offer/src/com/cpucode/java/getting/started/Jz30.java)
 - [x] [Jz34__第一个只出现一次的字符位置](Offer/src/com/cpucode/java/getting/started/Jz34.java)
-- [ ] [Jz38__二叉树的深度](Offer/src/com/cpucode/java/getting/started/Jz38.java)
+- [x] [Jz38__二叉树的深度](Offer/src/com/cpucode/java/getting/started/Jz38.java)
 - [ ] [Jz39__平衡二叉树](Offer/src/com/cpucode/java/getting/started/Jz39.java)
 - [ ] [Jz48__不用加减乘除做加法](Offer/src/com/cpucode/java/getting/started/Jz48.java)
 - [ ] [Jz51__构建乘积数组](Offer/src/com/cpucode/java/getting/started/Jz51.java)
