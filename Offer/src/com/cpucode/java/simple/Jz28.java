@@ -1,4 +1,4 @@
-package com.cpucode.java.getting.started;
+package com.cpucode.java.simple;
 
 import java.util.HashMap;
 import java.util.Map;
