@@ -890,7 +890,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Jz34__第一个只出现一次的字符位置](Offer/src/com/cpucode/java/simple/Jz34.java)
 - [x] [Jz38__二叉树的深度](Offer/src/com/cpucode/java/simple/Jz38.java)
 - [ ] [Jz39__平衡二叉树](Offer/src/com/cpucode/java/simple/Jz39.java)
-- [ ] [Jz48__不用加减乘除做加法](Offer/src/com/cpucode/java/simple/Jz48.java)
+- [x] [Jz48__不用加减乘除做加法](Offer/src/com/cpucode/java/simple/Jz48.java)
 - [ ] [Jz51__构建乘积数组](Offer/src/com/cpucode/java/simple/Jz51.java)
 - [ ] [Jz62__二叉搜索树的第k个结点](Offer/src/com/cpucode/java/simple/Jz62.java)
  
