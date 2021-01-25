@@ -717,6 +717,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [ArrayTest__数组字节码表示](JVM/src/com/cpucode/java/bytecode/structure/ArrayTest.java)
 - [ ] [ClassAnalysis__字节码分析](JVM/src/com/cpucode/java/bytecode/structure/ClassAnalysis.java)
 - [ ] [SeniorClassAnalysis__加强版字节码分析](JVM/src/com/cpucode/java/bytecode/structure/SeniorClassAnalysis.java)
+- [x] [JavapTest__javap指令](JVM/src/com/cpucode/java/bytecode/structure/JavapTest.java)
 
 - [返回目录](#文件目录)
 
