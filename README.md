@@ -715,9 +715,8 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [StringTest__String类型的创建反编译](JVM/src/com/cpucode/java/bytecode/structure/StringTest.java)
 - [x] [SonTest__继承的创建反编译](JVM/src/com/cpucode/java/bytecode/structure/SonTest.java)
 - [x] [ArrayTest__数组字节码表示](JVM/src/com/cpucode/java/bytecode/structure/ArrayTest.java)
-- [x] [ClassAnalysis__字节码分析](JVM/src/com/cpucode/java/bytecode/structure/ClassAnalysis.java)
-
-
+- [ ] [ClassAnalysis__字节码分析](JVM/src/com/cpucode/java/bytecode/structure/ClassAnalysis.java)
+- [ ] [SeniorClassAnalysis__加强版字节码分析](JVM/src/com/cpucode/java/bytecode/structure/SeniorClassAnalysis.java)
 
 - [返回目录](#文件目录)
 
