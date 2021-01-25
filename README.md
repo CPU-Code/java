@@ -18,7 +18,7 @@
 
 java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
-根据尚硅谷宋老师的 `JVM` 课程的代码
+根据宋红康老师的 `JVM` 课程的代码
 
 根据牛客网的`编程初学者入门训练`按从入门到困难分类写的代码
 
@@ -724,6 +724,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 -----------------
 
 - [x] [LoadAndStoreTest__分析加载压栈字节码](JVM/src/com/cpucode/java/instruction/analysis/LoadAndStoreTest.java)
+- [x] [ArithmeticTest__分析算术字节码](JVM/src/com/cpucode/java/instruction/analysis/ArithmeticTest.java)
 
 - [返回目录](#文件目录)
 
