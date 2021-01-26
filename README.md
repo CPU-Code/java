@@ -726,6 +726,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [LoadAndStoreTest__分析加载压栈字节码](JVM/src/com/cpucode/java/instruction/analysis/LoadAndStoreTest.java)
 - [x] [ArithmeticTest__分析算术字节码](JVM/src/com/cpucode/java/instruction/analysis/ArithmeticTest.java)
 - [x] [ClassCastTest__分析类型转换字节码](JVM/src/com/cpucode/java/instruction/analysis/ClassCastTest.java)
+- [x] [NewTest__分析数组创建](JVM/src/com/cpucode/java/instruction/analysis/NewTest.java)
 
 - [返回目录](#文件目录)
 
