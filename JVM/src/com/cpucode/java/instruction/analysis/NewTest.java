@@ -1,7 +1,5 @@
 package com.cpucode.java.instruction.analysis;
 
-import com.sun.org.apache.xpath.internal.operations.Or;
-
 import java.io.File;
 
 /**
@@ -29,6 +27,7 @@ public class NewTest {
          *  3 dup                           复制一份加载到栈
          *  4 invokespecial #1 <java/lang/Object.<init>>    把 栈 中地址取出寻找地址
          *  7 astore_1              把栈中地址保存到局部变量 obj
+         *
          *  8 new #3 <java/io/File>         把 地址加载到栈
          * 11 dup                           复制一份加载到栈
          * 12 ldc #4 <cpuCode.av>           把 引用 加载到栈
@@ -49,17 +48,20 @@ public class NewTest {
          * this  intArray  objects  mintArray  strArray
          *
          *  0 bipush 10         把 10 加载到栈中
-         *  2 newarray 10 (int)
+         *  2 newarray 10 (int)                 创建基本类型数组
          *  4 astore_1          把 地址 存储到 intArray
+         *
          *  5 bipush 10         把 10 加载到栈
-         *  7 anewarray #2 <java/lang/Object>
+         *  7 anewarray #2 <java/lang/Object>       创建引用类型数组
          * 10 astore_2
+         *
          * 11 bipush 10         把 10 加载到栈
          * 13 bipush 10         把 10 加载到栈
-         * 15 multianewarray #6 <[[I> dim 2
+         * 15 multianewarray #6 <[[I> dim 2     创建多维数组
          * 19 astore_3
+         *
          * 20 bipush 10         把 10 加载到栈
-         * 22 anewarray #7 <[Ljava/lang/String;>
+         * 22 anewarray #7 <[Ljava/lang/String;>    创建引用类型数组
          * 25 astore 4
          * */
     }
@@ -70,7 +72,7 @@ public class NewTest {
     public void sayHello(){
         System.out.println("cpuCode");
         /**
-         * 0 getstatic #8 <java/lang/System.out>
+         * 0 getstatic #8 <java/lang/System.out>    将 静态字段 压入 操作数栈
          * 3 ldc #9 <cpuCode>
          * 5 invokevirtual #10 <java/io/PrintStream.println>
          * */
@@ -92,15 +94,19 @@ public class NewTest {
          *  3 dup
          *  4 invokespecial #12 <com/cpucode/java/instruction/analysis/Order.<init>>
          *  7 astore_1
+         *
          *  8 aload_1
          *  9 sipush 1010
-         * 12 putfield #13 <com/cpucode/java/instruction/analysis/Order.id>
-         * 15 getstatic #8 <java/lang/System.out>
+         * 12 putfield #13 <com/cpucode/java/instruction/analysis/Order.id> 将 1010 赋值给 实例字段id
+         *
+         * 15 getstatic #8 <java/lang/System.out>           将 静态字段out 压入 操作数栈
          * 18 aload_1
-         * 19 getfield #13 <com/cpucode/java/instruction/analysis/Order.id>
+         * 19 getfield #13 <com/cpucode/java/instruction/analysis/Order.id> 将实例字段id 压栈
          * 22 invokevirtual #14 <java/io/PrintStream.println>
+         *
          * 25 ldc #15 <cpu>
-         * 27 putstatic #16 <com/cpucode/java/instruction/analysis/Order.name>
+         * 27 putstatic #16 <com/cpucode/java/instruction/analysis/Order.name> 将 cpu 赋值给 静态字段name
+         *
          * 30 getstatic #8 <java/lang/System.out>
          * 33 getstatic #16 <com/cpucode/java/instruction/analysis/Order.name>
          * 36 invokevirtual #10 <java/io/PrintStream.println>
@@ -123,20 +129,24 @@ public class NewTest {
          * this   intArray  arr
          *
          *  0 bipush 10
-         *  2 newarray 10 (int)
+         *  2 newarray 10 (int)     创建基本类型数组
          *  4 astore_1
+         *
          *  5 aload_1
          *  6 iconst_3
          *  7 bipush 20
          *  9 iastore
-         * 10 getstatic #8 <java/lang/System.out>
+         *
+         * 10 getstatic #8 <java/lang/System.out>   将 静态字段 out 压栈
          * 13 aload_1
          * 14 iconst_1
          * 15 iaload
          * 16 invokevirtual #14 <java/io/PrintStream.println>
+         *
          * 19 bipush 10
-         * 21 newarray 4 (boolean)
+         * 21 newarray 4 (boolean)      创建基本类型数组
          * 23 astore_2
+         *
          * 24 aload_2
          * 25 iconst_1
          * 26 iconst_1
@@ -153,9 +163,10 @@ public class NewTest {
          * this   arr
          *
          *  0 bipush 10
-         *  2 newarray 7 (double)
+         *  2 newarray 7 (double)       创建基本类型数组
          *  4 astore_1
-         *  5 getstatic #8 <java/lang/System.out>
+         *
+         *  5 getstatic #8 <java/lang/System.out>   将静态字段out 压栈
          *  8 aload_1
          *  9 arraylength       数组长度
          * 10 invokevirtual #14 <java/io/PrintStream.println>
@@ -177,11 +188,14 @@ public class NewTest {
          * this  obj
          *
          *  0 aload_1           obj加载到栈
-         *  1 instanceof #17 <java/lang/String>
+         *  1 instanceof #17 <java/lang/String>     判断给定对象是否是某一个类的实例，它会将判断结果 压栈
+         *
          *  4 ifeq 12 (+8)      比较
+         *
          *  7 aload_1           obj加载到栈
-         *  8 checkcast #17 <java/lang/String>
+         *  8 checkcast #17 <java/lang/String>  检查类型强制转换是否可以进行
          * 11 areturn
+         *
          * 12 aconst_null   为空
          * 13 areturn
          * */
