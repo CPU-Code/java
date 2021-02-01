@@ -732,6 +732,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [StackOperateTest__分析操作栈](JVM/src/com/cpucode/java/instruction/analysis/StackOperateTest.java)
 - [x] [IfSwitchGotoTest__分析判断跳转字节码](JVM/src/com/cpucode/java/instruction/analysis/IfSwitchGotoTest.java)
 - [x] [ExceptionTest__分析异常字节码](JVM/src/com/cpucode/java/instruction/analysis/ExceptionTest.java)
+- [x] [SynchronizedTest__分析同步字节码](JVM/src/com/cpucode/java/instruction/analysis/SynchronizedTest.java)
 
 - [返回目录](#文件目录)
 
