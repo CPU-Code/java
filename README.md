@@ -740,6 +740,8 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
 - [x] [CpuCode__抛出ClassFormatError](JVM/src/com/cpucode/java/loading/process/CpuCode.java)
 - [x] [LoadingTest__加载类并打印类方法](JVM/src/com/cpucode/java/loading/process/LoadingTest.java)
+- [x] [LinkingTest__链接类](JVM/src/com/cpucode/java/loading/process/LinkingTest.java)
+- [x] [SubInitialization__初始化类](JVM/src/com/cpucode/java/loading/process/SubInitialization.java)
 
 - [返回目录](#文件目录)
 
