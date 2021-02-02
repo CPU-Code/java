@@ -23,5 +23,5 @@ public class Clinit {
     /**
      * 场景3：比如对于声明为static final的基本数据类型的字段，不管是否进行了显式赋值，都不会生成<clinit>()方法
      * */
-    public static final int num2 = 1;
+    public static final int NUM2 = 1;
 }
