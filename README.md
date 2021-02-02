@@ -16,7 +16,7 @@
 
 个人java语言的学习路线 , 希望自己的code可以给你带来点灵感
 
-java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
+java编程基础 面向对象 javaAPI 集合 IO GUI JDBC 多线程 网络编程
 
 根据宋红康老师的 `JVM` 课程的代码
 
@@ -70,6 +70,9 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Type_auto__自动类型转换](basics/src/variable/Type_auto.java)
 - [x] [Assignment__赋值运算符](basics/src/operator/Assignment.java)
 - [x] [And_use__&_&&使用](basics/src/operator/And_use.java)
+
+-----------------
+
 - [x] [If_add__if判断](basics/src/judgment/If_add.java)
 - [x] [If_else__ifelse判断](basics/src/judgment/If_else.java)
 - [x] [Else_if__elseif判断](basics/src/judgment/Else_if.java)
@@ -86,6 +89,9 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [Print_rectangle__打印矩形](basics/src/cycle/Print_rectangle.java)
 - [x] [Area__矩形面积](basics/src/call/Area.java)
 - [x] [Add__调用加法](basics/src/call/Add.java)
+
+---------------
+
 - [x] [Array__数组](basics/src/array/Array.java)
 - [x] [Array_assign__数组赋值](basics/src/array/Array_assign.java)
 - [x] [Array_init__数组初始化](basics/src/array/Array_init.java)
@@ -632,9 +638,13 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
 - [返回目录](#文件目录)
 
-- [ ] [__](JVM/src/com/cpucode/java/class/loading/.java)
+--------------------------
+
+- [ ] [__](JVM/src/com/cpucode/java/.java)
 
 - [返回目录](#文件目录)
+
+--------------------------
 
 - [x] [OutOfMemory__查看内存溢出](JVM/src/com/cpucode/java/heap/OutOfMemory.java)
 - [x] [EdenSurvivorTest__查看各区比例](JVM/src/com/cpucode/java/heap/EdenSurvivorTest.java)
@@ -650,6 +660,8 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
 - [返回目录](#文件目录)
 
+--------------------------
+
 - [x] [MethodAreaSize__方法区大小](JVM/src/com/cpucode/java/method/area/MethodAreaSize.java)
 - [x] [MethodAreaOOMTest__方法区内存异常](JVM/src/com/cpucode/java/method/area/MethodAreaOomTest.java)
 - [x] [MethodInnerStrucTest__查看方法区的内部构成](JVM/src/com/cpucode/java/method/area/MethodInnerStrucTest.java)
@@ -659,11 +671,15 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
  
  - [返回目录](#文件目录)
  
+ --------------------------
+ 
 - [x] [ObjectTest__对象的创建的反编译](JVM/src/com/cpucode/java/object/ObjectTest.java)
 - [x] [Customer__对象实例化的过程](JVM/src/com/cpucode/java/object/Customer.java)
 - [x] [CustomerTest__对象实例化的内存分布](JVM/src/com/cpucode/java/object/CustomerTest.java)
 
 - [返回目录](#文件目录)
+
+--------------------------
 
 - [x] [BufferTest__查看直接内存大小](JVM/src/com/cpucode/java/direct/memory/BufferTest.java)
 - [x] [DirectMemoryOOM__直接内存异常](JVM/src/com/cpucode/java/direct/memory/DirectMemoryOom.java)
@@ -671,10 +687,14 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 
 - [返回目录](#文件目录)
 
+--------------------------
+
 - [x] [JITTest__JIT编译器的使用](JVM/src/com/cpucode/java/execution/engine/JitTest.java)
 - [x] [IntCompTest__各个编译器状态](JVM/src/com/cpucode/java/execution/engine/IntCompTest.java)
 
 - [返回目录](#文件目录)
+
+--------------------------
 
 - [x] [StringOnly__String不变性](JVM/src/com/cpucode/java/string/table/StringOnly.java)
 - [x] [StringExer__String不变性](JVM/src/com/cpucode/java/string/table/StringExer.java)
@@ -691,6 +711,8 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [StringGCTest__String回收](JVM/src/com/cpucode/java/string/table/StringGcTest.java)
 
 - [返回目录](#文件目录)
+
+--------------------------
 
 - [x] [RefCountGC__判断是否引用回收](JVM/src/com/cpucode/java/garbage/collection/RefCountGc.java)
 - [x] [CanReliveObj__回收复活对象](JVM/src/com/cpucode/java/garbage/collection/CanReliveObj.java)
@@ -742,6 +764,8 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JD8C 多线程 网络编程
 - [x] [LoadingTest__加载类并打印类方法](JVM/src/com/cpucode/java/loading/process/LoadingTest.java)
 - [x] [LinkingTest__链接类](JVM/src/com/cpucode/java/loading/process/LinkingTest.java)
 - [x] [SubInitialization__初始化类](JVM/src/com/cpucode/java/loading/process/SubInitialization.java)
+- [x] [Clinit__Clinit方法](JVM/src/com/cpucode/java/loading/process/Clinit.java)
+- [ ] [__](JVM/src/com/cpucode/java/loading/process/.java)
 
 - [返回目录](#文件目录)
 
