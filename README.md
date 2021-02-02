@@ -767,6 +767,8 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JDBC 多线程 网络编程
 - [x] [Clinit__Clinit方法](JVM/src/com/cpucode/java/loading/process/Clinit.java)
 - [x] [Stage__各阶段赋值](JVM/src/com/cpucode/java/loading/process/Stage.java)
 - [x] [StaticDeadLockMain__死锁](JVM/src/com/cpucode/java/loading/process/StaticDeadLockMain.java)
+- [x] [ActiveUseTest__初始化主动使用](JVM/src/com/cpucode/java/loading/process/ActiveUseTest.java)
+
 
 - [返回目录](#文件目录)
 
