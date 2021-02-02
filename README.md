@@ -765,7 +765,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JDBC 多线程 网络编程
 - [x] [LinkingTest__链接类](JVM/src/com/cpucode/java/loading/process/LinkingTest.java)
 - [x] [SubInitialization__初始化类](JVM/src/com/cpucode/java/loading/process/SubInitialization.java)
 - [x] [Clinit__Clinit方法](JVM/src/com/cpucode/java/loading/process/Clinit.java)
-- [ ] [__](JVM/src/com/cpucode/java/loading/process/.java)
+- [x] [Stage__各阶段赋值](JVM/src/com/cpucode/java/loading/process/Stage.java)
 
 - [返回目录](#文件目录)
 
