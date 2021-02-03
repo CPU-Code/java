@@ -1,0 +1,57 @@
+
+## [基础](basics)
+
+- [x] [First__hello](basics/src/variable/First.java)
+- [x] [FirstSample__发消息到控制台](basics/src/variable/FirstSample.java)
+- [x] [Print_var__输出数](basics/src/variable/Print_var.java)
+- [x] [Variable__变量使用](basics/src/variable/Variable.java)
+- [x] [All_variable__所有变量](basics/src/variable/All_variable.java)
+- [x] [Constant__常量](basics/src/variable/Constant.java)
+- [x] [Type_conver__强制类型转换](basics/src/variable/Type_conver.java)
+- [x] [Accuracy__byte数据精度丢失](basics/src/variable/Accuracy.java)
+- [x] [Byte_assign__byte加法](basics/src/variable/Byte_assign.java)
+- [x] [Scope__作用域](basics/src/variable/Scope.java)
+- [x] [Type_auto__自动类型转换](basics/src/variable/Type_auto.java)
+- [x] [Assignment__赋值运算符](basics/src/operator/Assignment.java)
+- [x] [And_use__&_&&使用](basics/src/operator/And_use.java)
+
+-----------------
+
+- [x] [If_add__if判断](basics/src/judgment/If_add.java)
+- [x] [If_else__ifelse判断](basics/src/judgment/If_else.java)
+- [x] [Else_if__elseif判断](basics/src/judgment/Else_if.java)
+- [x] [Switch__Switch使用](basics/src/judgment/Switch.java)
+- [x] [Case__Case使用](basics/src/judgment/Case.java)
+- [x] [While__While循环](basics/src/cycle/While.java)
+- [x] [Do_while__do_while循环](basics/src/cycle/Do_while.java)
+- [x] [For__for循环](basics/src/cycle/For.java)
+- [x] [For_for__双for循环](basics/src/cycle/For_for.java)
+- [x] [Break__跳出循环](basics/src/cycle/Break.java)
+- [x] [Break_out__跳出外循环](basics/src/cycle/Break_out.java)
+- [x] [Continue__跳过本循环](basics/src/cycle/Continue.java)
+- [x] [Rectangle__打印矩形](basics/src/cycle/Rectangle.java)
+- [x] [Print_rectangle__打印矩形](basics/src/cycle/Print_rectangle.java)
+- [x] [Area__矩形面积](basics/src/call/Area.java)
+- [x] [Add__调用加法](basics/src/call/Add.java)
+
+---------------
+
+- [x] [Array__数组](basics/src/array/Array.java)
+- [x] [Array_assign__数组赋值](basics/src/array/Array_assign.java)
+- [x] [Array_init__数组初始化](basics/src/array/Array_init.java)
+- [x] [Array_excep__数组越界异常](basics/src/array/Array_excep.java)
+- [x] [Point_excep__空指针异常](basics/src/array/Point_excep.java)
+- [x] [For_array__for循环遍历数组](basics/src/array/For_array.java)
+- [x] [For_array2__for循环遍历数组2](basics/src/array/For_array2.java)
+- [x] [For_array2__倒序](basics/src/array/For_array2.java)
+- [x] [For_each__for_each循环](basics/src/array/For_each.java)
+- [x] [toString_array__快速打印数组内容](basics/src/array/toString_array.java)
+- [x] [Array_max__查找数组中最大的](basics/src/array/Array_max.java)
+- [x] [Bubble_sort__冒泡排序](basics/src/array/Bubble_sort.java)
+- [x] [two_dimen_array__二维数组的使用](basics/src/array/Two_dimen_array.java)
+- [x] [Checklist__商城库存清单程序](basics/Checklist.java)
+- [x] [guess_num__猜数](basics/guess_num.java)
+- [x] [call_name__点名](basics/call_name.java)
+
+
+- [返回目录](#文件目录)
