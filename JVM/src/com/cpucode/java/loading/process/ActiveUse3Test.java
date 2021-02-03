@@ -100,27 +100,33 @@ class Son extends Father implements CompareB{
 }
 
 interface CompareB{
-    public static final Thread t = new Thread(){
+    @SuppressWarnings("AlibabaAvoidManuallyCreateThread")
+    public static final Thread T = new Thread(){
         {
             System.out.println("CompareB的初始化");
         }
     };
 
+    /**
+     * 默认方法
+     * */
     public default void method1(){
         System.out.println("哈哈");
     }
 }
 
 interface CompareC extends CompareB{
-    public static final Thread t = new Thread(){
+    @SuppressWarnings("AlibabaAvoidManuallyCreateThread")
+    public static final Thread T = new Thread(){
         {
             System.out.println("CompareC的初始化");
         }
     };
 }
 
+@SuppressWarnings("AlibabaAvoidManuallyCreateThread")
 interface CompareD extends CompareB{
-    public static final Thread t = new Thread(){
+    public static final Thread T = new Thread(){
         {
             System.out.println("CompareD的初始化");
         }

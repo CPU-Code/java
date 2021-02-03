@@ -17,7 +17,7 @@ public class ActiveUse2Test {
 
     @Test
     public void test1(){
-        System.out.println(User.num);
+        System.out.println(User.NUM);
 
         /**
          * User类的初始化过程
@@ -27,7 +27,7 @@ public class ActiveUse2Test {
 
     @Test
     public void test2(){
-        System.out.println(User.num1);
+        System.out.println(User.NUM1);
 
         /**
          * 3
@@ -36,7 +36,7 @@ public class ActiveUse2Test {
 
     @Test
     public void test3(){
-        System.out.println(User.num2);
+        System.out.println(User.NUM2);
 
         /**
          * User类的初始化过程
@@ -69,13 +69,14 @@ class User{
         System.out.println("User类的初始化过程");
     }
 
-    public static int num = 1;
-    public static final int num1 = 3;
-    public static final int num2 = new Random().nextInt(10);
+    public static int NUM = 1;
+    public static final int NUM1 = 3;
+    public static final int NUM2 = new Random().nextInt(10);
 }
 
+@SuppressWarnings("AlibabaAvoidManuallyCreateThread")
 interface CompareA{
-    public static final Thread t = new Thread(){
+    public static final Thread T = new Thread(){
         {
             System.out.println("CompareA的初始化");
         }

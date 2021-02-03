@@ -73,8 +73,9 @@ class Person{
     public static final int NUM1 = new Random().nextInt();
 }
 
+@SuppressWarnings("AlibabaAvoidManuallyCreateThread")
 interface SerialA{
-    public static final Thread t = new Thread(){
+    public static final Thread T = new Thread(){
         {
             System.out.println("SerialA的初始化");
         }

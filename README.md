@@ -777,6 +777,12 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JDBC 多线程 网络编程
 
 -----------------
 
+- [x] [__各阶段赋值](JVM/src/com/cpucode/java/loader/.java)
+
+- [返回目录](#文件目录)
+
+-----------------
+
 ## [编程初学者入门训练](gettingStarted)
 
 - [x] [Bc1__实践出真知](gettingStarted/src/com/cpucode/java/getting/started/Bc1.java)
