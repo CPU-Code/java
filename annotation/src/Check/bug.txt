@@ -1,9 +1,0 @@
-add鏂规硶鍑哄紓甯镐簡
-寮傜殑鍚嶅瓧 :NullPointerException
-寮傚父鐨勫師鍥�: null
---------------
-div鏂规硶鍑哄紓甯镐簡
-寮傜殑鍚嶅瓧 :ArithmeticException
-寮傚父鐨勫師鍥�: / by zero
---------------
-鏈娴嬭瘯涓�鍏卞嚭鐜� 2 娆″紓甯�

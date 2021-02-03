@@ -2,7 +2,7 @@
     <!-- 使用默认的配置读取连接池对象 -->
     <default-config>
         <!--连接参数-->
-        <property name="driverClass">com.mysql.jdbc.Driver</property>
+        <property name="driverClass">com.mysql.com.cpucode.java.jdbc.Driver</property>
         <property name="jdbcUrl">jdbc:mysql:///cpucode?serverTimezone=UTC</property>
         <property name="user">root</property>
         <property name="password">12345</property>
@@ -22,7 +22,7 @@
 
     <named-config name="otherc3p0">
         <!--  连接参数 -->
-        <property name="driverClass">com.mysql.jdbc.Driver</property>
+        <property name="driverClass">com.mysql.com.cpucode.java.jdbc.Driver</property>
         <property name="jdbcUrl">jdbc:mysql:///cpucode?serverTimezone=UTC</property>
         <prperty name="user">root</prperty>
         <property name="password">12345</property>

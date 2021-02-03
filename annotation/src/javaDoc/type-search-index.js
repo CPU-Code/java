@@ -1,1 +1,0 @@
-typeSearchIndex = [{"p":"annotation.javaDoc","l":"Java_Doc"},{"l":"所有类","url":"allclasses-index.html"}]
