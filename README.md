@@ -770,6 +770,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JDBC 多线程 网络编程
 - [x] [ActiveUseTest__初始化主动使用](JVM/src/com/cpucode/java/loading/process/ActiveUseTest.java)
 - [x] [ActiveUse2Test__类和接口初始化](JVM/src/com/cpucode/java/loading/process/ActiveUse2Test.java)
 - [x] [ActiveUse3Test__初始化](JVM/src/com/cpucode/java/loading/process/ActiveUse3Test.java)
+- [x] [PassiveUseTest__被动使用初始化](JVM/src/com/cpucode/java/loading/process/PassiveUseTest.java)
 
 - [返回目录](#文件目录)
 
