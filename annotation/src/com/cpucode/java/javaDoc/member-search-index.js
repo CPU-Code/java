@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"annotation.javaDoc","c":"Java_Doc","l":"add(int, int)","url":"add(int,int)"},{"p":"annotation.javaDoc","c":"Java_Doc","l":"Java_Doc()","url":"%3Cinit%3E()"},{"p":"annotation.javaDoc","c":"Java_Doc","l":"summ(int, int)","url":"summ(int,int)"}]
