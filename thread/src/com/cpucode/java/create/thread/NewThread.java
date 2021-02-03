@@ -7,5 +7,12 @@ package com.cpucode.java.create.thread;
  * @github : https://github.com/CPU-Code
  * @csdn : https://blog.csdn.net/qq_44226094
  */
-public class thread {
+public class NewThread {
+    public static void main(String[] args) {
+        //实例化一个Thread实例
+        Thread t = new Thread();
+
+        // 启动新线程
+        t.start();
+    }
 }
