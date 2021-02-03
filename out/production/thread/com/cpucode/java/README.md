@@ -14,7 +14,7 @@
 - [x] [RunnableTest__传入Runnable实例](create/thread/RunnableTest.java)
 - [x] [LambdaTest__Lambda语法线程](create/thread/LambdaTest.java)
 - [x] [DifferenceThread__线程与main区别](create/thread/DifferenceThread.java)
-
+- [x] [ThreadSleep__暂停线程](create/thread/ThreadSleep.java)
 
 - [返回文件目录](#文件目录)
 
