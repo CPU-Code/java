@@ -13,6 +13,8 @@
 - [x] [OverwriteRun__覆写run](create/thread/OverwriteRun.java)
 - [x] [RunnableTest__传入Runnable实例](create/thread/RunnableTest.java)
 - [x] [LambdaTest__Lambda语法线程](create/thread/LambdaTest.java)
+- [x] [DifferenceThread__线程与main区别](create/thread/DifferenceThread.java)
+
 
 - [返回文件目录](#文件目录)
 
