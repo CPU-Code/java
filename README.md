@@ -777,7 +777,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JDBC 多线程 网络编程
 
 -----------------
 
-- [x] [__各阶段赋值](JVM/src/com/cpucode/java/loader/.java)
+- [x] [UserTest__显隐加载](JVM/src/com/cpucode/java/loader/UserTest.java)
 
 - [返回目录](#文件目录)
 
