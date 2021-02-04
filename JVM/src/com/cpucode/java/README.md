@@ -191,6 +191,7 @@
 - [x] [UserClassLoader__用户类加载](loader/UserClassLoader.java)
 - [x] [ClassLoaderTest__启动扩展类加载](loader/ClassLoaderTest.java)
 - [x] [GetClassLoader__获取各类加载器](loader/GetClassLoader.java)
+- [x] [LoopRun__热运行](loader/LoopRun.java)
 
 - [返回目录](#文件目录)
 
