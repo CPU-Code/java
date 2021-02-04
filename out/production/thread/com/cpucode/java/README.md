@@ -4,6 +4,8 @@
 ## 文件目录
 
 - [创建线程](#创建线程)
+- [线程状态](#线程状态)
+- [线程状态](#线程状态)
 
 -----------
 
@@ -31,10 +33,10 @@
 
 ---------------
 
-## [线程状态](interrupt/thread)
+## [中断线程](interrupt/thread)
 
-- [x] [InterruptTest__](interrupt/thread/InterruptTest.java)
-
+- [x] [InterruptTest__中断线程](interrupt/thread/InterruptTest.java)
+- [x] [InterruptExceptionTest__中断线程异常](interrupt/thread/InterruptExceptionTest.java)
 
 - [返回文件目录](#文件目录)
 
