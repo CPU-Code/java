@@ -37,6 +37,7 @@
 
 - [x] [InterruptTest__中断线程](interrupt/thread/InterruptTest.java)
 - [x] [InterruptExceptionTest__中断线程异常](interrupt/thread/InterruptExceptionTest.java)
+- [x] [SignInterrupt__标志中断线程](interrupt/thread/SignInterrupt.java)
 
 - [返回文件目录](#文件目录)
 
