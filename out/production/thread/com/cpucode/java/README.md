@@ -22,6 +22,24 @@
 
 ---------------
 
+## [线程状态](thread/state)
+
+- [x] [ThreadJoin__创建新线程](thread/state/ThreadJoin.java)
+
+
+- [返回文件目录](#文件目录)
+
+---------------
+
+## [线程状态](interrupt/thread)
+
+- [x] [InterruptTest__](interrupt/thread/InterruptTest.java)
+
+
+- [返回文件目录](#文件目录)
+
+---------------
+
 - [x] [thread1__创建新线程](thread/thread2.java)
 - [x] [thread2__自定义线程](thread/thread2.java)
 - [x] [thread3__Runnable重写线程](thread/thread3.java)
