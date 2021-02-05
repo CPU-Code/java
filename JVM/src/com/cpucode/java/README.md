@@ -201,7 +201,8 @@
 ## [命令工具](command/tools)
 
 - [x] [ScannerTest__jps测试](command/tools/jps/ScannerTest.java)
-
+- [x] [ScannerTest__jstat测试](command/tools/jstat/ScannerTest.java)
+- [x] [GCTest__jstat测试](command/tools/jstat/GCTest.java)
 
 - [返回目录](#文件目录)
 
