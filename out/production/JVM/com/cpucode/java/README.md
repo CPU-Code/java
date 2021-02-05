@@ -202,7 +202,9 @@
 
 - [x] [ScannerTest__jps测试](command/tools/jps/ScannerTest.java)
 - [x] [ScannerTest__jstat测试](command/tools/jstat/ScannerTest.java)
-- [x] [GCTest__jstat测试](command/tools/jstat/GCTest.java)
+- [x] [GcTest__jstat测试](command/tools/jstat/GcTest.java)
+- [x] [ScannerTest__jinfo测试](command/tools/jstat/ScannerTest.java)
+- [x] [GcTest__jmap测试](command/tools/jstat/GcTest.java)
 
 - [返回目录](#文件目录)
 

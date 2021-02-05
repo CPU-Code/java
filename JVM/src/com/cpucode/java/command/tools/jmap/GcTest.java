@@ -1,4 +1,4 @@
-package com.cpucode.java.command.tools.jstat;
+package com.cpucode.java.command.tools.jmap;
 
 import java.util.ArrayList;
 
@@ -11,7 +11,7 @@ import java.util.ArrayList;
  * @github : https://github.com/CPU-Code
  * @csdn : https://blog.csdn.net/qq_44226094
  */
-public class GCTest {
+public class GcTest {
     public static void main(String[] args) {
         ArrayList<byte[]> list = new ArrayList<>();
         int num = 1000;
