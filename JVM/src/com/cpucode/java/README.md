@@ -205,6 +205,20 @@
 - [x] [GcTest__jstat测试](command/tools/jstat/GcTest.java)
 - [x] [ScannerTest__jinfo测试](command/tools/jinfo/ScannerTest.java)
 - [x] [GcTest__jmap测试](command/tools/jmap/GcTest.java)
+- [x] [ThreadDeadLock__死锁](command/tools/jstack/ThreadDeadLock.java)
+- [x] [TreadSleepTest__Timed_waiting等待](command/tools/jstack/TreadSleepTest.java)
+- [x] [ThreadSyncTest__同步](command/tools/jstack/ThreadSyncTest.java)
+- [x] [AllStackTrace__栈信息](command/tools/jstack/AllStackTrace.java)
+
+- [返回目录](#文件目录)
+
+
+--------------
+
+## [GUI工具](gui/tools)
+
+- [x] [HeapInstanceTest__堆变化](gui/tools/jconsole/HeapInstanceTest.java)
+- [x] [ThreadDeadLock__死锁问题](gui/tools/jconsole/ThreadDeadLock.java)
 
 - [返回目录](#文件目录)
 
