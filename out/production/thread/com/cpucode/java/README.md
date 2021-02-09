@@ -5,7 +5,9 @@
 
 - [创建线程](#创建线程)
 - [线程状态](#线程状态)
-- [线程状态](#线程状态)
+- [中断线程](#中断线程)
+- [守护线程](#守护线程)
+- [线程同步](#线程同步)
 
 -----------
 
@@ -42,6 +44,26 @@
 - [返回文件目录](#文件目录)
 
 ---------------
+
+## [守护线程](guard/thread)
+
+- [x] [DaemonTest__守护线程](guard/thread/DaemonTest.java)
+
+- [返回文件目录](#文件目录)
+
+---------------
+
+## [线程同步](synchro)
+
+- [x] [DoubleThread__双线程](synchro/DoubleThread.java)
+- [x] [SynchroThread__同步线程](synchro/SynchroThread.java)
+- [x] [ErrorLockThread__错误锁线程](synchro/ErrorLockThread.java)
+- [x] [LockThread__双锁线程](synchro/LockThread.java)
+
+- [返回文件目录](#文件目录)
+
+---------------
+
 
 - [x] [thread1__创建新线程](thread/thread2.java)
 - [x] [thread2__自定义线程](thread/thread2.java)
