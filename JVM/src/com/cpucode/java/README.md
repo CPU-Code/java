@@ -212,13 +212,15 @@
 
 - [返回目录](#文件目录)
 
-
 --------------
 
 ## [GUI工具](gui/tools)
 
 - [x] [HeapInstanceTest__堆变化](gui/tools/jconsole/HeapInstanceTest.java)
 - [x] [ThreadDeadLock__死锁问题](gui/tools/jconsole/ThreadDeadLock.java)
+- [x] [OomTest__OOM错误](gui/tools/jvisualvm/OomTest.java)
+- [x] [HeapInstanceTest__堆溢出](gui/tools/jvisualvm/HeapInstanceTest.java)
+
 
 - [返回目录](#文件目录)
 
