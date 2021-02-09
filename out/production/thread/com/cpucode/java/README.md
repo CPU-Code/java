@@ -69,12 +69,17 @@
 
 - [x] [Deadlock__死锁](deadlock/Deadlock.java)
 
-
 - [返回文件目录](#文件目录)
 
 ---------------
 
+## [等待唤醒线程](wait/notify)
 
+- [x] [WaitNotify__等待唤醒线程](wait/notify/WaitNotify.java)
+
+- [返回文件目录](#文件目录)
+
+---------------
 
 
 - [x] [thread1__创建新线程](thread/thread2.java)
