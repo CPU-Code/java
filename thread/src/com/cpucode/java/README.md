@@ -65,6 +65,16 @@
 
 ---------------
 
+## [死锁](deadlock)
+
+- [x] [Deadlock__死锁](deadlock/Deadlock.java)
+
+- [返回文件目录](#文件目录)
+
+---------------
+
+
+
 
 - [x] [thread1__创建新线程](thread/thread2.java)
 - [x] [thread2__自定义线程](thread/thread2.java)
