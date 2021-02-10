@@ -23,16 +23,18 @@ public class ErrorLockThread {
 }
 
 class LockCount{
-    public static final Object lock1 = new Object();
-    public static final Object lock2 = new Object();
+    public static final Object LOCK1 = new Object();
+    public static final Object LOCK2 = new Object();
     public static int count = 0;
 }
 
 class LockAddThread extends Thread{
     @Override
     public void run(){
-        for (int i = 0; i <1000; i++) {
-            synchronized(LockCount.lock1){
+        int num = 1000;
+
+        for (int i = 0; i < num; i++) {
+            synchronized(LockCount.LOCK1){
                 LockCount.count += 1;
             }
         }
@@ -43,8 +45,10 @@ class LockAddThread extends Thread{
 class LockDecThread extends Thread{
     @Override
     public void run(){
-        for (int i = 0; i <1000; i++){
-            synchronized(LockCount.lock2){
+        int num = 1000;
+
+        for (int i = 0; i < num; i++){
+            synchronized(LockCount.LOCK2){
                 LockCount.count -= 1;
             }
         }

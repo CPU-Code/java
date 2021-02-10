@@ -31,7 +31,9 @@ class Counter{
 class AddThread extends Thread{
     @Override
     public void run(){
-        for (int i = 0; i < 1000; i++) {
+        int num = 1000;
+
+        for (int i = 0; i < num; i++) {
             Counter.count += 1;
         }
     }
@@ -40,7 +42,9 @@ class AddThread extends Thread{
 class DecThread extends Thread{
     @Override
     public void run(){
-        for (int i = 0; i < 1000; i++) {
+        int num = 1000;
+
+        for (int i = 0; i < num; i++) {
             Counter.count -= 1;
         }
     }

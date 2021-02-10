@@ -16,8 +16,11 @@ import java.util.concurrent.Executors;
 
 public class thread12 {
     public static void main(String[] args){
-        // 创建线程池对象
-        ExecutorService service = Executors.newFixedThreadPool(2);  //包含2个线程对象
+        /**
+         * 创建线程池对象
+         * 包含2个线程对象
+         */
+        ExecutorService service = Executors.newFixedThreadPool(2);
         // 创建Runnable实例对象
         MyRunnable r = new MyRunnable();
 
@@ -38,7 +41,9 @@ public class thread12 {
     }
 }
 
-// Runnable实现类代码
+/**
+ * Runnable实现类代码
+ * */
 class MyRunnable implements Runnable {
     @Override
     public void run(){

@@ -9,10 +9,12 @@ package com.cpucode.java.create.thread;
  */
 public class DoubleThread {
     public static void main(String[] args) {
+        int num = 5;
+
         new Thread1().start();
         new Thread2().start();
 
-        for (int i = 0; i < 5; i++){
+        for (int i = 0; i < num; i++){
             System.out.println("main 运行" + i);
 
             try{
@@ -28,7 +30,9 @@ class Thread1 extends Thread{
 
     @Override
     public void run(){
-        for (int i = 0; i < 5; i++){
+        int num = 5;
+
+        for (int i = 0; i < num; i++){
             System.out.println("Thread1 运行" + i);
 
             try{
@@ -43,7 +47,9 @@ class Thread1 extends Thread{
 class Thread2 extends Thread{
     @Override
     public void run(){
-        for (int i = 0; i < 5; i++){
+        int num = 5;
+
+        for (int i = 0; i < num; i++){
             System.out.println("Thread2 运行" + i);
 
             try{

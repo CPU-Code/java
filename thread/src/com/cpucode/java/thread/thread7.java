@@ -32,7 +32,9 @@ public class thread7 {
 class Ticket implements Runnable{
     private int ticket1 = 10;
 
-    //执行卖票操作
+    /**
+     * 执行卖票操作
+     * */
     @Override
     public void run(){
         //每个窗口卖票的操作
@@ -42,7 +44,9 @@ class Ticket implements Runnable{
         }
     }
 
-    //锁对象 是 谁调用这个方法 就是谁 , 隐含 锁对象 就是 this
+    /**
+     * 锁对象 是 谁调用这个方法 就是谁 , 隐含 锁对象 就是 this
+     * */
     public synchronized void sellTicket(){
         if(ticket1 > 0){
             //有票 可以卖

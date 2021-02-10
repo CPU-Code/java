@@ -36,7 +36,9 @@ class GoodDoubleCounter{
 class GoodAddThread1 extends Thread{
     @Override
     public void run(){
-        for (int i = 0; i < 1000; i++) {
+        int num = 1000;
+
+        for (int i = 0; i < num; i++) {
             synchronized(GoodDoubleCounter.LOCK1){
                 DoubleCounter.Count1 += 1;
             }
@@ -47,7 +49,9 @@ class GoodAddThread1 extends Thread{
 class GoodDesThread1 extends Thread{
     @Override
     public void run(){
-        for (int i = 0; i < 1000; i++) {
+        int num = 1000;
+
+        for (int i = 0; i < num; i++) {
             synchronized(GoodDoubleCounter.LOCK1){
                 DoubleCounter.Count1 -= 1;
             }
@@ -58,7 +62,9 @@ class GoodDesThread1 extends Thread{
 class GoodAddThread2 extends Thread{
     @Override
     public void run(){
-        for (int i = 0; i < 1000; i++) {
+        int num = 1000;
+
+        for (int i = 0; i < num; i++) {
             synchronized(GoodDoubleCounter.LOCK2){
                 DoubleCounter.Count2 += 1;
             }
@@ -69,7 +75,9 @@ class GoodAddThread2 extends Thread{
 class GoodDesThread2 extends Thread{
     @Override
     public void run(){
-        for (int i = 0; i < 1000; i++) {
+        int num = 1000;
+
+        for (int i = 0; i < num; i++) {
             synchronized(GoodDoubleCounter.LOCK2){
                 DoubleCounter.Count2 -= 1;
             }

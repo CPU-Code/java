@@ -82,10 +82,10 @@
 ---------------
 
 
-- [x] [thread1__创建新线程](thread/thread2.java)
-- [x] [thread2__自定义线程](thread/thread2.java)
-- [x] [thread3__Runnable重写线程](thread/thread3.java)
-- [x] [thread4__匿名内部类实现线程](thread/thread4.java)
+- [x] [Thread1__创建新线程](thread/Thread1.java)
+- [x] [Thread2__自定义线程](thread/Thread2.java)
+- [x] [Thread3__Runnable重写线程](thread/Thread3.java)
+- [x] [Thread4__匿名内部类实现线程](thread/Thread4.java)
 - [x] [thread5__线程安全](thread/thread5.java)
 - [x] [thread6__线程同步](thread/thread6.java)
 - [x] [thread7__同步方法](thread/thread7.java)

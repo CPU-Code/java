@@ -35,7 +35,9 @@ class DoubleCounter{
 class AddThread1 extends Thread{
     @Override
     public void run(){
-        for (int i = 0; i < 1000; i++) {
+        int num = 1000;
+
+        for (int i = 0; i < num; i++) {
             synchronized(DoubleCounter.LOCK){
                 DoubleCounter.Count1 += 1;
             }
@@ -46,7 +48,9 @@ class AddThread1 extends Thread{
 class DesThread1 extends Thread{
     @Override
     public void run(){
-        for (int i = 0; i < 1000; i++) {
+        int num = 1000;
+
+        for (int i = 0; i < num; i++) {
             synchronized(DoubleCounter.LOCK){
                 DoubleCounter.Count1 -= 1;
             }
@@ -57,7 +61,9 @@ class DesThread1 extends Thread{
 class AddThread2 extends Thread{
     @Override
     public void run(){
-        for (int i = 0; i < 1000; i++) {
+        int num = 1000;
+
+        for (int i = 0; i < num; i++) {
             synchronized(DoubleCounter.LOCK){
                 DoubleCounter.Count2 += 1;
             }
@@ -68,7 +74,9 @@ class AddThread2 extends Thread{
 class DesThread2 extends Thread{
     @Override
     public void run(){
-        for (int i = 0; i < 1000; i++) {
+        int num = 1000;
+
+        for (int i = 0; i < num; i++) {
             synchronized(DoubleCounter.LOCK){
                 DoubleCounter.Count2 -= 1;
             }

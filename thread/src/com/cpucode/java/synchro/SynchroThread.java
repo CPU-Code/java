@@ -26,7 +26,7 @@ class CounterTest{
     /**
      * 锁
      * */
-    public static final Object lock = new Object();
+    public static final Object LOCK = new Object();
     public static int count = 0;
 }
 
@@ -34,7 +34,7 @@ class AddThreadTest extends Thread{
     @Override
     public void run(){
         //对一个对象进行加锁
-        synchronized (CounterTest.lock){
+        synchronized (CounterTest.LOCK){
             //临界区
             CounterTest.count += 1;
         }
@@ -45,7 +45,7 @@ class DecThreadTest extends Thread{
     @Override
     public void run(){
         //对一个对象进行加锁
-        synchronized (CounterTest.lock){
+        synchronized (CounterTest.LOCK){
             //临界区
             CounterTest.count -= 1;
         }

@@ -34,7 +34,9 @@ public class thread5 {
 class Ticket1 implements Runnable {
     private int ticket = 10;
 
-    // 执行卖票操作
+    /**
+     * 执行卖票操作
+     * */
     @Override
     public void run() {
         //每个窗口卖票的操作

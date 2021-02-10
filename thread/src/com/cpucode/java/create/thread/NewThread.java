@@ -8,6 +8,7 @@ package com.cpucode.java.create.thread;
  * @csdn : https://blog.csdn.net/qq_44226094
  */
 public class NewThread {
+    @SuppressWarnings("AlibabaAvoidManuallyCreateThread")
     public static void main(String[] args) {
         //实例化一个Thread实例
         Thread t = new Thread();

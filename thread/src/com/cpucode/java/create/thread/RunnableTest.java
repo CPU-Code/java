@@ -10,6 +10,7 @@ package com.cpucode.java.create.thread;
 public class RunnableTest {
     public static void main(String[] args) {
         //传入一个Runnable实例
+        //noinspection AlibabaAvoidManuallyCreateThread
         Thread t = new Thread(new MyRunnable());
 
         // 启动新线程

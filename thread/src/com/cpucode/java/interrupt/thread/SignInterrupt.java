@@ -19,7 +19,9 @@ public class SignInterrupt {
 }
 
 class SignThread extends Thread{
-    //线程间共享的变量
+    /**
+     * 线程间共享的变量
+     * */
     public volatile boolean running = true;
 
     @Override
