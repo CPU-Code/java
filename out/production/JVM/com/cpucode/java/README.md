@@ -221,9 +221,14 @@
 - [x] [OomTest__OOM错误](gui/tools/jvisualvm/OomTest.java)
 - [x] [HeapInstanceTest__堆溢出](gui/tools/jvisualvm/HeapInstanceTest.java)
 - [x] [ThreadDeadLock__死锁问题](gui/tools/jvisualvm/ThreadDeadLock.java)
+- [x] [OomTest__OOM错误](gui/tools/mat/OomTest.java)
+- [x] [StudentTrace__资源引用](gui/tools/mat/StudentTrace.java)
+- [x] [MapTest__内存泄漏](gui/tools/memoryleak/MapTest.java)
+- [x] [ChangeHashCode__修改哈希值](gui/tools/memoryleak/ChangeHashCode.java)
+- [x] [ChangeHashCode2__修改哈希值](gui/tools/memoryleak/ChangeHashCode2.java)
 
 - [返回目录](#文件目录)
 
---------------
+---------------------
 
 - [返回顶层](../../../../../README.md)
