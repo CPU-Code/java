@@ -11,7 +11,7 @@
 
 
 - [x] [SparseArray__稀疏数组](array/src/main/java/com/cpucode/sparse/array/SparseArray.java)
-- [ ] [ArrayQueue__数组队列](array/src/main/java/com/cpucode/queue/ArrayQueue.java)
+- [x] [ArrayQueue__数组队列](array/src/main/java/com/cpucode/queue/ArrayQueue.java)
 
 - [返回目录](#文件目录)
 
