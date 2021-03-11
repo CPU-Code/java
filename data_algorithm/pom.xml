@@ -6,7 +6,12 @@
 
     <groupId>org.example</groupId>
     <artifactId>data_algorithm</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>array</module>
+        <module>link_list</module>
+    </modules>
 
 
 </project>

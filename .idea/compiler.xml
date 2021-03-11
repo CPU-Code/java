@@ -8,13 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="link_list" />
         <module name="array" />
-        <module name="data_algorithm" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="array" target="1.5" />
       <module name="data_algorithm" target="1.5" />
       <module name="link_list" target="1.5" />
+      <module name="structure_algorithm" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
