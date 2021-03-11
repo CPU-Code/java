@@ -226,6 +226,31 @@
 - [x] [MapTest__内存泄漏](gui/tools/memoryleak/MapTest.java)
 - [x] [ChangeHashCode__修改哈希值](gui/tools/memoryleak/ChangeHashCode.java)
 - [x] [ChangeHashCode2__修改哈希值](gui/tools/memoryleak/ChangeHashCode2.java)
+- [x] [OomTest__OOM错误](gui/tools/jprofiler/OomTest.java)
+- [x] [Jprofiler__测试](gui/tools/jprofiler/Jprofiler.java)
+- [x] [MemoryLeak__内存泄漏](gui/tools/jprofiler/MemoryLeak.java)
+- [x] [ArthasTest__测试](gui/tools/arthas/ArthasTest.java)
+
+
+- [返回目录](#文件目录)
+
+--------------
+
+## [JVM运行参数](operating/parameters)
+
+- [x] [OomTest__堆溢出](operating/parameters/OomTest.java)
+- [x] [HeapDumInstance__生成堆快照](operating/parameters/HeapDumInstance.java)
+- [x] [GcLogTest__生成Gc日志](operating/parameters/GcLogTest.java)
+- [x] [MemoryMonitor__生成堆使用情况](operating/parameters/MemoryMonitor.java)
+
+- [返回目录](#文件目录)
+
+---------------------
+
+## [GC日志](gc/log)
+
+- [x] [__堆溢出](gc/log/.java)
+
 
 - [返回目录](#文件目录)
 

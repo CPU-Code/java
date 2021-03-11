@@ -11,12 +11,15 @@
       <module fileurl="file://$PROJECT_DIR$/Offer/Offer.iml" filepath="$PROJECT_DIR$/Offer/Offer.iml" />
       <module fileurl="file://$PROJECT_DIR$/aggregation/aggregation.iml" filepath="$PROJECT_DIR$/aggregation/aggregation.iml" />
       <module fileurl="file://$PROJECT_DIR$/annotation/annotation.iml" filepath="$PROJECT_DIR$/annotation/annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gettingStarted/array/array.iml" filepath="$PROJECT_DIR$/gettingStarted/array/array.iml" />
       <module fileurl="file://$PROJECT_DIR$/basics/basics.iml" filepath="$PROJECT_DIR$/basics/basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data_algorithm/data_algorithm.iml" filepath="$PROJECT_DIR$/data_algorithm/data_algorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/gettingStarted/gettingStarted.iml" filepath="$PROJECT_DIR$/gettingStarted/gettingStarted.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java.iml" filepath="$PROJECT_DIR$/.idea/java.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaAPI/javaAPI.iml" filepath="$PROJECT_DIR$/javaAPI/javaAPI.iml" />
       <module fileurl="file://$PROJECT_DIR$/jdk8/jdk8.iml" filepath="$PROJECT_DIR$/jdk8/jdk8.iml" />
       <module fileurl="file://$PROJECT_DIR$/junit_test/junit_test.iml" filepath="$PROJECT_DIR$/junit_test/junit_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gettingStarted/link_list/link_list.iml" filepath="$PROJECT_DIR$/gettingStarted/link_list/link_list.iml" />
       <module fileurl="file://$PROJECT_DIR$/network/network.iml" filepath="$PROJECT_DIR$/network/network.iml" />
       <module fileurl="file://$PROJECT_DIR$/object/object.iml" filepath="$PROJECT_DIR$/object/object.iml" />
       <module fileurl="file://$PROJECT_DIR$/reflect/reflect.iml" filepath="$PROJECT_DIR$/reflect/reflect.iml" />
