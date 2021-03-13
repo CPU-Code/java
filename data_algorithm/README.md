@@ -1,9 +1,10 @@
 
-# [JVM](../README.md)
+# [java数据结构与算法](../README.md)
 
 ## 文件目录
 
 - [数组](#数组)
+- [链表](#链表)
 
 ----------------
 
@@ -21,6 +22,7 @@
 ## [链表](link_list/src/main/java/com/cpucode)
 
 - [x] [SingleLinkedList__单链表](link_list/src/main/java/com/cpucode/linked/list/SingleLinkedList.java)
+- [x] [DoubleLinkedList__双链表](link_list/src/main/java/com/cpucode/linked/list/DoubleLinkedList.java)
 
 - [返回目录](#文件目录)
 
