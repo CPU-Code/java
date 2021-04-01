@@ -89,13 +89,13 @@ class CircleSingleLinkedList{
 
     /**
      * 根据用户的输入，计算出小孩出圈的顺序
-     * @param starNo     表示从第几个小孩开始数数
+     * @param startNo     表示从第几个小孩开始数数
      * @param countNum  表示数几下
      * @param nums      表示最初有多少小孩在圈中
      */
-    public void countBoy(int starNo, int countNum, int nums){
+    public void countBoy(int startNo, int countNum, int nums){
         // 先对数据进行校验
-        if (first == null || starNo < 1 || starNo > nums){
+        if (first == null || startNo < 1 || startNo > nums){
             System.out.println("参数输入有误， 请重新输入");
 
             return;
@@ -108,8 +108,40 @@ class CircleSingleLinkedList{
             if (helper.getNext() == first){
                 break;
             }
+
+            helper = helper.getNext();
         }
 
+        //小孩报数前，先让 first 和  helper 移动 k - 1次
+        for(int j = 0; j < startNo - 1; j++) {
+            first = first.getNext();
+            helper = helper.getNext();
+        }
+
+        //当小孩报数时，让first 和 helper 指针同时 的移动  m  - 1 次, 然后出圈
+        //这里是一个循环操作，知道圈中只有一个节点
+        while(true) {
+            if(helper == first) {
+                //说明圈中只有一个节点
+                break;
+            }
+
+            //让 first 和 helper 指针同时 的移动 countNum - 1
+            for(int j = 0; j < countNum - 1; j++) {
+                first = first.getNext();
+                helper = helper.getNext();
+            }
+
+            //这时first指向的节点，就是要出圈的小孩节点
+            System.out.printf("小孩%d出圈\n", first.getNo());
+
+            //这时将first指向的小孩节点出圈
+            first = first.getNext();
+            helper.setNext(first);
+
+        }
+
+        System.out.printf("最后留在圈中的小孩编号%d \n", first.getNo());
     }
 }
 
