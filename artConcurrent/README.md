@@ -12,6 +12,7 @@
 
 
 - [x] [ConcurrencyTest__并发和单线程执行测试](programming/src/main/java/com/cpucode/concurrency/ConcurrencyTest.java)
+- [x] [DeadLockDemo__死锁例子](programming/src/main/java/com/cpucode/dead/lock/DeadLockDemo.java)
 
 
 ----------------
