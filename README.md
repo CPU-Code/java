@@ -42,6 +42,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JDBC 多线程 网络编程
 - [java数据结构与算法](data_algorithm/README.md)
 - [编程初学者入门训练](gettingStarted/src/com/cpucode/java/README.md)
 - [剑指Offer](Offer/src/com/cpucode/java/README.md)
+- [java并发编程的艺术](artConcurrent/README.md)
 
 - [Test]()
 

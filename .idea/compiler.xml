@@ -7,14 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="link_list" />
-        <module name="array" />
         <module name="stack" />
+        <module name="mechanism" />
+        <module name="array" />
+        <module name="programming" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="array" target="1.8" />
+      <module name="artConcurrent" target="1.8" />
       <module name="data_algorithm" target="1.8" />
       <module name="link_list" target="1.8" />
+      <module name="mechanism" target="1.8" />
+      <module name="programming" target="1.8" />
       <module name="stack" target="1.8" />
       <module name="structure_algorithm" target="1.5" />
     </bytecodeTargetLevel>
