@@ -24,6 +24,7 @@
 - [x] [SingleLinkedList__单链表](link_list/src/main/java/com/cpucode/linked/list/SingleLinkedList.java)
 - [x] [DoubleLinkedList__双链表](link_list/src/main/java/com/cpucode/linked/list/DoubleLinkedList.java)
 - [ ] [Josephu__约瑟夫](link_list/src/main/java/com/cpucode/linked/list/Josephu.java)
+- [x] [Reverse__链表的逆序](link_list/src/main/java/com/cpucode/linked/list/Reverse.java)
 
 - [返回目录](#文件目录)
 
