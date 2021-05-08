@@ -31,7 +31,8 @@ public class aggregation2 {
         //  泛型指的是 迭代出 元素的数据类型
         //判断是否有迭代元素
         while (it.hasNext()){
-            String s = it.next();       //获取迭代出的元素
+            //获取迭代出的元素
+            String s = it.next();
             System.out.println(s);
         }
     }
