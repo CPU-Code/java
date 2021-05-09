@@ -117,10 +117,11 @@
 - [返回javaAPI](#javaAPI)
 
 
-### [包装类](javaAPI/WrapperParse)
+### [包装类](src/com/cpucode/java/WrapperParse)
 
-- [x] [WrapperParse1__parseInt](javaAPI/WrapperParse/WrapperParse1.java)
+- [x] [WrapperParse1__parseInt](src/com/cpucode/java/WrapperParse/WrapperParse1.java)
 - [x] [IntegerEqual__Integer装箱拆箱](src/com/cpucode/java/WrapperParse/IntegerEqual.java)
+- [x] [DoubleEqual__Double装箱拆箱](src/com/cpucode/java/WrapperParse/DoubleEqual.java)
 
 - [返回javaAPI](#javaAPI)
 
