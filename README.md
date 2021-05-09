@@ -32,7 +32,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JDBC 多线程 网络编程
 - [IO](IO/README.md)
 - [JDBC](JDBC/src/com/cpucode/java/README.md)
 - [多线程](thread/src/com/cpucode/java/README.md)
-- [Lambda表达式](Lambda/src/com/cpucode/java/README.md)
+- [Lambda表达式](Lambda/README.md)
 - [网络编程](network/src/com/cpucode/java/README.md)
 - [JDK8](jdk8/src/com/cpucode/java/README.md)
 - [单元测试](junit_test/src/com/cpucode/java/README.md)
