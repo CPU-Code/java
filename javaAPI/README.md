@@ -120,6 +120,7 @@
 ### [包装类](javaAPI/WrapperParse)
 
 - [x] [WrapperParse1__parseInt](javaAPI/WrapperParse/WrapperParse1.java)
+- [x] [IntegerEqual__Integer装箱拆箱](src/com/cpucode/java/WrapperParse/IntegerEqual.java)
 
 - [返回javaAPI](#javaAPI)
 
