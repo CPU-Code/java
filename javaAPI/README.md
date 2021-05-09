@@ -123,6 +123,7 @@
 - [x] [IntegerEqual__Integer装箱拆箱](src/com/cpucode/java/WrapperParse/IntegerEqual.java)
 - [x] [DoubleEqual__Double装箱拆箱](src/com/cpucode/java/WrapperParse/DoubleEqual.java)
 - [x] [BooleanEqual__Boolean装箱拆箱](src/com/cpucode/java/WrapperParse/BooleanEqual.java)
+- [x] [IntLongEqual__IntLongEqual装箱拆箱比较](src/com/cpucode/java/WrapperParse/IntLongEqual.java)
 
 - [返回javaAPI](#javaAPI)
 
