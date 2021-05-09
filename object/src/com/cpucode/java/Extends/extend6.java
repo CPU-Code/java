@@ -9,7 +9,7 @@
  * @CSDN: [https://blog.csdn.net/qq_44226094](https://blog.csdn.net/qq_44226094)
  * @Gitbook: [https://923992029.gitbook.io/cpucode/](https://923992029.gitbook.io/cpucode/)
  */
-package Extends;
+package com.cpucode.java.Extends;
 
 public class extend6 {
     public static void main(String[] args){
@@ -38,9 +38,13 @@ class Phone{
     }
 }
 
-//智能手机类
+/**
+ * 智能手机类
+ */
 class NewPhone extends Phone{
-    //重写父类的来电显示号码功能，并增加自己的显示姓名和图片功能
+    /**
+     * 重写父类的来电显示号码功能，并增加自己的显示姓名和图片功能
+     */
     public void showNum(){
         //调用父类已经存在的功能使用super
         super.showNum();

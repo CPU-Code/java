@@ -29,12 +29,10 @@ public class Private_field {
 
         public void setName(String name){
             // 检查，不允许传入null和空字符串
-            if(name == null || name.isBlank()) {
+            if(name == null || name.isEmpty()) {
                 throw new IllegalArgumentException("invail name");
             }
 
-            //去掉首尾空格
-            this.name = name.strip();
         }
 
         public int getAge(){

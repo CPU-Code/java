@@ -24,7 +24,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JDBC 多线程 网络编程
 ## 文件目录
 
 - [基础](basics/src/com/cpucode/java/README.md)
-- [面对对象](object/src/com/cpucode/java/README.md)
+- [面对对象](object/README.md)
 - [javaAPI](javaAPI/src/com/cpucode/java/README.md)
 - [异常处理](Exception/src/com/cpucode/java/README.md)
 - [泛型](Generic/README.md)
@@ -34,7 +34,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JDBC 多线程 网络编程
 - [多线程](thread/src/com/cpucode/java/README.md)
 - [Lambda表达式](Lambda/README.md)
 - [网络编程](network/src/com/cpucode/java/README.md)
-- [JDK8](jdk8/src/com/cpucode/java/README.md)
+- [JDK8](jdk8/README.md)
 - [单元测试](junit_test/src/com/cpucode/java/README.md)
 - [反射](reflect/src/com/cpucode/java/README.md)
 - [注解](annotation/src/com/cpucode/java/README.md)

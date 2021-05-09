@@ -33,7 +33,7 @@ public class call_private {
         public void setName(String name) {
 
             // 不允许传入null和空字符串
-            if (name == null || name.isBlank()) {
+            if (name == null || name.isEmpty()) {
                 throw new IllegalArgumentException("invalid name");
             }
 

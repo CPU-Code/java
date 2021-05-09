@@ -7,10 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="link_list" />
+        <module name="programming" />
         <module name="stack" />
         <module name="mechanism" />
         <module name="array" />
-        <module name="programming" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,7 +21,6 @@
       <module name="mechanism" target="1.8" />
       <module name="programming" target="1.8" />
       <module name="stack" target="1.8" />
-      <module name="structure_algorithm" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
