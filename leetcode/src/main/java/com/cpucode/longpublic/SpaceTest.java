@@ -17,6 +17,8 @@ import java.util.Arrays;
  * 输出: ""
  * 解释: 输入不存在公共前缀。
  *
+ * 先利用Arrays.sort(strs)为数组排序，再将数组第一个元素和最后一个元素的字符从前往后对比即可！
+ *
  * @author : cpucode
  * @date : 2021/5/10
  * @time : 22:05
