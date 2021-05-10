@@ -20,6 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/javaAPI/javaAPI.iml" filepath="$PROJECT_DIR$/javaAPI/javaAPI.iml" />
       <module fileurl="file://$PROJECT_DIR$/jdk8/jdk8.iml" filepath="$PROJECT_DIR$/jdk8/jdk8.iml" />
       <module fileurl="file://$PROJECT_DIR$/junit_test/junit_test.iml" filepath="$PROJECT_DIR$/junit_test/junit_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leetcode/leetcode.iml" filepath="$PROJECT_DIR$/leetcode/leetcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/data_algorithm/link_list/link_list.iml" filepath="$PROJECT_DIR$/data_algorithm/link_list/link_list.iml" />
       <module fileurl="file://$PROJECT_DIR$/artConcurrent/mechanism/mechanism.iml" filepath="$PROJECT_DIR$/artConcurrent/mechanism/mechanism.iml" />
       <module fileurl="file://$PROJECT_DIR$/network/network.iml" filepath="$PROJECT_DIR$/network/network.iml" />

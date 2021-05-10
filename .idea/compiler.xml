@@ -6,21 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="link_list" />
-        <module name="programming" />
         <module name="stack" />
+        <module name="leetcode" />
         <module name="mechanism" />
+        <module name="link_list" />
         <module name="array" />
+        <module name="programming" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="array" target="1.8" />
-      <module name="artConcurrent" target="1.8" />
-      <module name="data_algorithm" target="1.8" />
-      <module name="link_list" target="1.8" />
-      <module name="mechanism" target="1.8" />
-      <module name="programming" target="1.8" />
-      <module name="stack" target="1.8" />
+      <module name="array" target="1.5" />
+      <module name="artConcurrent" target="1.5" />
+      <module name="data_algorithm" target="1.5" />
+      <module name="leetcode" target="1.5" />
+      <module name="link_list" target="1.5" />
+      <module name="mechanism" target="1.5" />
+      <module name="programming" target="1.5" />
+      <module name="stack" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
