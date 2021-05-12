@@ -11,6 +11,7 @@
 - [x] [PalindromeTest__最长回文串](src/main/java/com/cpucode/longest/PalindromeTest.java)
 - [x] [IsPalindromeTest__验证回文串](src/main/java/com/cpucode/palindrome/IsPalindromeTest.java)
 - [x] [LongestPalindromeTest__最长回文子串](src/main/java/com/cpucode/longest/LongestPalindromeTest.java)
+- [x] [StrToIntTest__把字符串转换成整数](src/main/java/com/cpucode/strtoint/StrToIntTest.java)
 
 ---------------------
 
