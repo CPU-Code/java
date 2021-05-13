@@ -3,15 +3,24 @@
 
 ## 文件目录
 
+## [排序算法](#排序算法)
+## [查找算法](#查找算法)
+
 ----------------
 
 ## [排序算法](src/main/java/com/cpucode/sort)
 
 - [x] [BubbleSortTest__冒泡排序](src/main/java/com/cpucode/sort/bubble/BubbleSortTest.java)
-
+- [x] [InsertionSort__插入排序](src/main/java/com/cpucode/sort/insertion/InsertionSort.java)
+- [x] [SelectionSortTest__选择排序](src/main/java/com/cpucode/sort/selection/SelectionSortTest.java)
 
 ------------------------
 
+## [查找算法](src/main/java/com/cpucode/search)
+
+
+
+--------------------------
 
 - [x] [SpaceTest__最长公共前缀](src/main/java/com/cpucode/longpublic/SpaceTest.java)
 - [x] [PalindromeTest__最长回文串](src/main/java/com/cpucode/longest/PalindromeTest.java)
