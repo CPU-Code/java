@@ -99,6 +99,9 @@ public class PreorderTraversalTest {
         TreeNode treeNode3 = new TreeNode();
 
         treeNode.val = 1;
+        treeNode2.val = 3;
+        treeNode3.val = 2;
+
         treeNode.right = treeNode2;
         treeNode2.left = treeNode3;
 
