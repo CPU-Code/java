@@ -13,6 +13,7 @@
 - [x] [BubbleSortTest__冒泡排序](src/main/java/com/cpucode/sort/bubble/BubbleSortTest.java)
 - [x] [InsertionSort__插入排序](src/main/java/com/cpucode/sort/insertion/InsertionSort.java)
 - [x] [SelectionSortTest__选择排序](src/main/java/com/cpucode/sort/selection/SelectionSortTest.java)
+- [x] [MergeSortTest__归并排序](src/main/java/com/cpucode/sort/merge/MergeSortTest.java)
 
 ------------------------
 
