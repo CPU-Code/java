@@ -1,7 +1,5 @@
 package com.cpucode.binary.tree.postorder;
 
-import com.cpucode.binary.tree.PreorderTraversalTest;
-
 import java.util.ArrayList;
 import java.util.List;
 
