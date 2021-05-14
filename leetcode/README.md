@@ -55,6 +55,7 @@
 - [x] [TraversalTest2__二叉树的后序遍历非递归](src/main/java/com/cpucode/binary/tree/postorder/TraversalTest2.java)
 - [x] [TraversalTest__二叉树的中序遍历递归](src/main/java/com/cpucode/binary/tree/inorder/TraversalTest.java)
 - [x] [TraversalTest2__二叉树的中序遍历非递归](src/main/java/com/cpucode/binary/tree/inorder/TraversalTest2.java)
+- [x] [IsSymmetricTest__对称二叉树](src/main/java/com/cpucode/binary/tree/symmetric/IsSymmetricTest.java)
 
 ------------------------
 
