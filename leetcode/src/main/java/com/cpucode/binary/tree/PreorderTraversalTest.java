@@ -5,7 +5,6 @@ import java.util.List;
 
 /**
  * 144. 二叉树的前序遍历
- * English Version
  *
  * 题目描述
  * 给你二叉树的根节点 root ，返回它节点值的 前序 遍历。

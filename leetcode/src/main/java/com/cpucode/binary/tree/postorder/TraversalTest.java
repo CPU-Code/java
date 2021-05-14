@@ -5,7 +5,6 @@ import java.util.List;
 
 /**
  * 145. 二叉树的后序遍历
- * English Version
  *
  * 题目描述
  * 给定一个二叉树，返回它的 后序 遍历。
