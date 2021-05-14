@@ -38,20 +38,6 @@ import java.util.List;
  * @csdn : https://blog.csdn.net/qq_44226094
  */
 public class TraversalTest {
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode() {}
-        TreeNode(int val) { this.val = val; }
-        TreeNode(int val, TreeNode left, TreeNode right) {
-          this.val = val;
-          this.left = left;
-          this.right = right;
-        }
-    }
-
     private List<Integer> res;
 
     public static void main(String[] args) {
@@ -62,11 +48,11 @@ public class TraversalTest {
         TreeNode treeNode3 = new TreeNode();
 
         treeNode.val = 1;
-        treeNode2.val = 3;
-        treeNode3.val = 2;
+        treeNode2.val = 2;
+        treeNode3.val = 3;
 
-        treeNode.right = treeNode2;
-        treeNode2.left = treeNode3;
+        treeNode.left = treeNode2;
+        treeNode.right = treeNode3;
 
         List<Integer> integers = TraversalTest.postorderTraversal(treeNode);
 
@@ -89,4 +75,18 @@ public class TraversalTest {
         }
     }
 
+}
+
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+
+    TreeNode() {}
+    TreeNode(int val) { this.val = val; }
+    TreeNode(int val, TreeNode left, TreeNode right) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
+    }
 }

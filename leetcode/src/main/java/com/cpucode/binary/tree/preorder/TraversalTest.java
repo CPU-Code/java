@@ -1,4 +1,4 @@
-package com.cpucode.binary.tree;
+package com.cpucode.binary.tree.preorder;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -52,25 +52,27 @@ import java.util.List;
  * @github : https://github.com/CPU-Code
  * @csdn : https://blog.csdn.net/qq_44226094
  */
-public class PreorderTraversalTest {
-    /**
-     * Definition for a binary tree node.
-     */
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode() {}
-        TreeNode(int val) { this.val = val; }
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
-
+public class TraversalTest {
     private List<Integer> res;
+
+    public static void main(String[] args) {
+        TraversalTest traversalTest = new TraversalTest();
+
+        TreeNode treeNode = new TreeNode();
+        TreeNode treeNode2 = new TreeNode();
+        TreeNode treeNode3 = new TreeNode();
+
+        treeNode.val = 1;
+        treeNode2.val = 2;
+        treeNode3.val = 3;
+
+        treeNode.left = treeNode2;
+        treeNode.right = treeNode3;
+
+        List<Integer> integers = traversalTest.preorderTraversal(treeNode);
+
+        System.out.println(integers);
+    }
 
     public List<Integer> preorderTraversal(TreeNode root){
         res = new ArrayList();
@@ -90,25 +92,22 @@ public class PreorderTraversalTest {
     }
 
 
-    public static void main(String[] args) {
-        PreorderTraversalTest preorderTraversalTest = new PreorderTraversalTest();
-
-        TreeNode treeNode = new TreeNode();
-        TreeNode treeNode2 = new TreeNode();
-        TreeNode treeNode3 = new TreeNode();
-
-        treeNode.val = 1;
-        treeNode2.val = 3;
-        treeNode3.val = 2;
-
-        treeNode.right = treeNode2;
-        treeNode2.left = treeNode3;
-
-        List<Integer> integers = preorderTraversalTest.preorderTraversal(treeNode);
-
-        System.out.println(integers);
-    }
 }
 
+/**
+ * Definition for a binary tree node.
+ */
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
 
+    TreeNode() {}
+    TreeNode(int val) { this.val = val; }
+    TreeNode(int val, TreeNode left, TreeNode right) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
+    }
+}
 

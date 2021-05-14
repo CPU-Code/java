@@ -1,4 +1,4 @@
-package com.cpucode.binary.tree;
+package com.cpucode.binary.tree.preorder;
 
 import java.util.*;
 
@@ -9,34 +9,21 @@ import java.util.*;
  * @github : https://github.com/CPU-Code
  * @csdn : https://blog.csdn.net/qq_44226094
  */
-public class PreorderTraversalTest2 {
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode() {}
-        TreeNode(int val) { this.val = val; }
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
-
+public class TraversalTest2 {
     public static void main(String[] args) {
-        PreorderTraversalTest2 preorder = new PreorderTraversalTest2();
+        TraversalTest2 preorder = new TraversalTest2();
 
         TreeNode treeNode = new TreeNode();
         TreeNode treeNode2 = new TreeNode();
         TreeNode treeNode3 = new TreeNode();
 
         treeNode.val = 1;
-        treeNode2.val = 3;
-        treeNode3.val = 2;
+        treeNode2.val = 2;
+        treeNode3.val = 3;
 
-        treeNode.right = treeNode2;
-        treeNode2.left = treeNode3;
+        treeNode.left = treeNode2;
+        treeNode.right = treeNode3;
+
 
         List<Integer> integers = preorder.preorderTraversal(treeNode);
 

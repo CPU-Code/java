@@ -63,11 +63,11 @@ public class TraversalTest {
         TreeNode treeNode3 = new TreeNode();
 
         treeNode.val = 1;
-        treeNode2.val = 3;
-        treeNode3.val = 2;
+        treeNode2.val = 2;
+        treeNode3.val = 3;
 
-        treeNode.right = treeNode2;
-        treeNode.left = treeNode3;
+        treeNode.left = treeNode2;
+        treeNode.right = treeNode3;
 
         List<Integer> integers = TraversalTest.inorderTraversal(treeNode);
 
