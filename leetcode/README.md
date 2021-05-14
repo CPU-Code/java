@@ -28,6 +28,7 @@
 
 - [x] [PreorderTraversalTest__二叉树的前序遍历递归](src/main/java/com/cpucode/binary/tree/PreorderTraversalTest.java)
 - [x] [PreorderTraversalTest2__二叉树的前序遍历非递归](src/main/java/com/cpucode/binary/tree/PreorderTraversalTest2.java)
+- [x] [TraversalTest__二叉树的后序遍历递归](src/main/java/com/cpucode/binary/tree/postorder/TraversalTest.java)
 
 --------------------------
 
