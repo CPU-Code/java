@@ -58,6 +58,7 @@
 - [x] [IsSymmetricTest__对称二叉树](src/main/java/com/cpucode/binary/tree/symmetric/IsSymmetricTest.java)
 - [x] [SubStructureTest__树的子结构](src/main/java/com/cpucode/binary/tree/sub/SubStructureTest.java)
 - [x] [InvertTreeTest__翻转二叉树](src/main/java/com/cpucode/binary/tree/invert/InvertTreeTest.java)
+- [x] [TraversalTest__二叉树的层序遍历](src/main/java/com/cpucode/binary/tree/level/order/TraversalTest.java)
 
 
 ------------------------
