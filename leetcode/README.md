@@ -62,6 +62,7 @@
 - [x] [TraversalTest2__二叉树的倒层序遍历](src/main/java/com/cpucode/binary/tree/level/order/TraversalTest2.java)
 - [x] [View__二叉树的右视图](src/main/java/com/cpucode/binary/tree/right/side/View.java)
 - [x] [Tree__二叉树的最大深度](src/main/java/com/cpucode/binary/tree/maximum/depth/Tree.java)
+- [x] [Tree__二叉树的最小深度](src/main/java/com/cpucode/binary/tree/minimum/depth/Tree.java)
 
 ------------------------
 
