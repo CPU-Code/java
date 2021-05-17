@@ -65,6 +65,7 @@
 - [x] [Tree__二叉树的最小深度](src/main/java/com/cpucode/binary/tree/minimum/depth/Tree.java)
 - [x] [TreeTest__二叉树的所有路径](src/main/java/com/cpucode/binary/tree/paths/TreeTest.java)
 - [x] [SumTest__路径总和](src/main/java/com/cpucode/binary/tree/path/sum/SumTest.java)
+- [x] [SumTest2__路径总和2](src/main/java/com/cpucode/binary/tree/path/sum/SumTest2.java)
 
 ------------------------
 
