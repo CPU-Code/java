@@ -63,6 +63,7 @@
 - [x] [View__二叉树的右视图](src/main/java/com/cpucode/binary/tree/right/side/View.java)
 - [x] [Tree__二叉树的最大深度](src/main/java/com/cpucode/binary/tree/maximum/depth/Tree.java)
 - [x] [Tree__二叉树的最小深度](src/main/java/com/cpucode/binary/tree/minimum/depth/Tree.java)
+- [x] [TreeTest__二叉树的所有路径](src/main/java/com/cpucode/binary/tree/paths/TreeTest.java)
 
 ------------------------
 
