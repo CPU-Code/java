@@ -21,6 +21,7 @@
 ## [排序](src/main/java/com/cpucode/sort)
 
 - [x] [ArraysSortTest__库函数Arrays.sort](src/main/java/com/cpucode/arrays/sort/ArraysSortTest.java)
+- [x] [BubbleSortTest__冒泡排序](src/main/java/com/cpucode/bubble/sort/BubbleSortTest.java)
 
 ------------------------
 
