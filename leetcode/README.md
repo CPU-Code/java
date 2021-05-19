@@ -67,6 +67,7 @@
 - [x] [SumTest__路径总和](src/main/java/com/cpucode/binary/tree/path/sum/SumTest.java)
 - [x] [SumTest2__路径总和2](src/main/java/com/cpucode/binary/tree/path/sum/SumTest2.java)
 - [ ] [TraversalTest__从前序与中序遍历序列构造二叉树](src/main/java/com/cpucode/binary/tree/preorder/inorder/TraversalTest.java)
+- [ ] [TraversalTest__从中序与后序遍历序列构造二叉树](src/main/java/com/cpucode/binary/tree/inorder/postorder/TraversalTest.java)
 
 ------------------------
 
