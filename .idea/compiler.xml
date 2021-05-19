@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="stack" />
         <module name="leetcode" />
+        <module name="nowCoder" />
         <module name="mechanism" />
         <module name="link_list" />
         <module name="array" />
@@ -21,6 +22,7 @@
       <module name="leetcode" target="1.8" />
       <module name="link_list" target="8" />
       <module name="mechanism" target="1.8" />
+      <module name="nowCoder" target="1.8" />
       <module name="programming" target="1.8" />
       <module name="stack" target="1.8" />
     </bytecodeTargetLevel>
