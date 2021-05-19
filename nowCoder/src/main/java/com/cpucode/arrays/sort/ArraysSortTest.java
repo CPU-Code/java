@@ -3,6 +3,7 @@ package com.cpucode.arrays.sort;
 import java.util.Arrays;
 
 /**
+ * 库函数Arrays.sort
  * @author : cpucode
  * @date : 2021/5/19
  * @time : 23:26
