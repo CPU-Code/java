@@ -25,6 +25,7 @@
 - [x] [QuickSortTest__快速排序](src/main/java/com/cpucode/quick/sort/QuickSortTest.java)
 - [x] [MergeSortTest__归并排序](src/main/java/com/cpucode/merge/sort/MergeSortTest.java)
 - [x] [HeapSortTest__堆排序](src/main/java/com/cpucode/heap/sort/HeapSortTest.java)
+- [x] [PriorityQueueTest__优先级队列](src/main/java/com/cpucode/priority/queue/PriorityQueueTest.java)
 
 ------------------------
 
