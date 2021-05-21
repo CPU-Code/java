@@ -25,6 +25,7 @@
 - [x] [BubbleSortTest2__冒泡排序](src/main/java/com/cpucode/bubble/sort/BubbleSortTest2.java)
 - [x] [BubbleSortTest3__冒泡排序](src/main/java/com/cpucode/bubble/sort/BubbleSortTest3.java)
 - [x] [BubbleSortTest4__冒泡排序](src/main/java/com/cpucode/bubble/sort/BubbleSortTest4.java)
+- [x] [BubbleSortTest5__冒泡排序](src/main/java/com/cpucode/bubble/sort/BubbleSortTest5.java)
 - [x] [QuickSortTest__快速排序](src/main/java/com/cpucode/quick/sort/QuickSortTest.java)
 - [x] [MergeSortTest__归并排序](src/main/java/com/cpucode/merge/sort/MergeSortTest.java)
 - [x] [HeapSortTest__堆排序](src/main/java/com/cpucode/heap/sort/HeapSortTest.java)
