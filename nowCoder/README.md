@@ -21,17 +21,22 @@
 ## [排序](src/main/java/com/cpucode/sort)
 
 - [x] [ArraysSortTest__库函数Arrays.sort](src/main/java/com/cpucode/arrays/sort/ArraysSortTest.java)
+
 - [x] [BubbleSortTest__冒泡排序](src/main/java/com/cpucode/bubble/sort/BubbleSortTest.java)
 - [x] [BubbleSortTest2__冒泡排序](src/main/java/com/cpucode/bubble/sort/BubbleSortTest2.java)
 - [x] [BubbleSortTest3__冒泡排序](src/main/java/com/cpucode/bubble/sort/BubbleSortTest3.java)
 - [x] [BubbleSortTest4__冒泡排序](src/main/java/com/cpucode/bubble/sort/BubbleSortTest4.java)
 - [x] [BubbleSortTest5__冒泡排序](src/main/java/com/cpucode/bubble/sort/BubbleSortTest5.java)
 - [x] [BubbleSortTest6__冒泡排序](src/main/java/com/cpucode/bubble/sort/BubbleSortTest6.java)
+
 - [x] [SelectSortTest__选择排序](src/main/java/com/cpucode/select/sort/SelectSortTest.java)
 - [x] [SelectSortTest2__选择排序](src/main/java/com/cpucode/select/sort/SelectSortTest2.java)
+
 - [x] [InsertSortTest__插入排序](src/main/java/com/cpucode/insert/sort/InsertSortTest.java)
 - [x] [InsertSortTest2__插入排序](src/main/java/com/cpucode/insert/sort/InsertSortTest2.java)
 - [x] [InsertSortTest3__插入排序](src/main/java/com/cpucode/insert/sort/InsertSortTest3.java)
+- [x] [InsertSortTest4__插入排序](src/main/java/com/cpucode/insert/sort/InsertSortTest4.java)
+
 - [x] [QuickSortTest__快速排序](src/main/java/com/cpucode/quick/sort/QuickSortTest.java)
 - [x] [MergeSortTest__归并排序](src/main/java/com/cpucode/merge/sort/MergeSortTest.java)
 - [x] [HeapSortTest__堆排序](src/main/java/com/cpucode/heap/sort/HeapSortTest.java)
