@@ -30,6 +30,7 @@
 - [x] [SelectSortTest__选择排序](src/main/java/com/cpucode/select/sort/SelectSortTest.java)
 - [x] [SelectSortTest2__选择排序](src/main/java/com/cpucode/select/sort/SelectSortTest2.java)
 - [x] [InsertSortTest__插入排序](src/main/java/com/cpucode/insert/sort/InsertSortTest.java)
+- [x] [InsertSortTest2__插入排序](src/main/java/com/cpucode/insert/sort/InsertSortTest2.java)
 - [x] [QuickSortTest__快速排序](src/main/java/com/cpucode/quick/sort/QuickSortTest.java)
 - [x] [MergeSortTest__归并排序](src/main/java/com/cpucode/merge/sort/MergeSortTest.java)
 - [x] [HeapSortTest__堆排序](src/main/java/com/cpucode/heap/sort/HeapSortTest.java)
