@@ -1,4 +1,4 @@
-package com.cpucode.dead.lock;
+package com.cpucode.programming.dead.lock;
 
 /**
  * 死锁例子

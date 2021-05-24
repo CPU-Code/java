@@ -1,4 +1,4 @@
-package com.cpucode.concurrency;
+package com.cpucode.programming.concurrency;
 
 /**
  * 并发和单线程执行测试

@@ -6,13 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="programming" />
         <module name="stack" />
-        <module name="leetcode" />
         <module name="nowCoder" />
-        <module name="mechanism" />
         <module name="link_list" />
         <module name="array" />
-        <module name="programming" />
+        <module name="leetcode" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

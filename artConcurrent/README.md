@@ -1,4 +1,3 @@
-
 # [java并发编程的艺术](../README.md)
 
 ## 文件目录
@@ -8,17 +7,17 @@
 
 ----------------
 
-## [并发编程](programming/src/main/java/com/cpucode)
+## [并发编程](src/main/java/com/cpucode/programming)
 
-- [x] [ConcurrencyTest__并发和单线程执行测试](programming/src/main/java/com/cpucode/concurrency/ConcurrencyTest.java)
-- [x] [DeadLockDemo__死锁例子](programming/src/main/java/com/cpucode/dead/lock/DeadLockDemo.java)
+- [x] [ConcurrencyTest__并发和单线程执行测试](src/main/java/com/cpucode/programming/concurrency/ConcurrencyTest.java)
+- [x] [DeadLockDemo__死锁例子](src/main/java/com/cpucode/programming/dead/lock/DeadLockDemo.java)
 
 ----------------
 
-## [并发机制](mechanism/src/main/java/com/cpucode)
+## [并发机制](src/main/java/com/cpucode/mechanism/src/main/java/com/cpucode)
 
 
-- [ ] [](mechanism/src/main/java/com/cpucode/sparse//SparseArray.java)
+- [ ] [](src/main/java/com/cpucode/mechanism/src/main/java/com/cpucode/sparse//SparseArray.java)
 
 
 ---------------------
