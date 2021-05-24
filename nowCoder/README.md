@@ -10,7 +10,8 @@
 - [链表](#链表)
 - [二叉树](#二叉树)
 - [数学](#数学)
-- [栈和队列](#栈和队列)
+- [栈](#栈)
+- [队列](#队列)
 - [动态规划](#动态规划)
 - [回溯算法](#回溯算法)
 - [设计](#设计)
@@ -39,7 +40,7 @@
 - [x] [InsertSortTest5__插入排序](src/main/java/com/cpucode/sort/insert/sort/InsertSortTest5.java)
 
 - [x] [QuickSortTest__快速排序](src/main/java/com/cpucode/sort/quick/sort/QuickSortTest.java)
-- [x] [QuickSortTest2__快速排序](src/main/java/com/cpucode/sort/quick/sort/QuickSortTest2.java)
+- [x] [QuickSortTest2__快速排序](src/main/java/com/cpucode/sort/quick/sort/UrlTest.java)
 
 - [x] [MergeSortTest__归并排序](src/main/java/com/cpucode/sort/merge/sort/MergeSortTest.java)
 - [x] [HeapSortTest__堆排序](src/main/java/com/cpucode/sort/heap/sort/HeapSortTest.java)
@@ -47,6 +48,9 @@
 
 ------------------------
 
+## [栈](src/main/java/com/cpucode/stack)
+
+- [x] [TwoStackQueueTest__用两个栈实现队列](src/main/java/com/cpucode/stack/two/stack/queue/TwoStackQueueTest.java)
 
 ---------------------
 
