@@ -52,6 +52,14 @@
 
 - [x] [TwoStackQueueTest__用两个栈实现队列](src/main/java/com/cpucode/stack/two/stack/queue/TwoStackQueueTest.java)
 
+------------------------
+
+## [栈](src/main/java/com/cpucode/simulation)
+
+- [x] [LruCacheTest__设计LRU缓存结构](src/main/java/com/cpucode/simulation/lru/cache/LruCacheTest.java)
+
+
+
 ---------------------
 
 - [返回顶层](../README.md)
