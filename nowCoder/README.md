@@ -46,6 +46,8 @@
 - [x] [HeapSortTest__堆排序](src/main/java/com/cpucode/sort/heap/sort/HeapSortTest.java)
 - [x] [PriorityQueueTest__优先级队列](src/main/java/com/cpucode/sort/priority/queue/PriorityQueueTest.java)
 
+- [x] [MinNumTest__最小的K个数](src/main/java/com/cpucode/sort/min/k/num/MinNumTest.java)
+
 ------------------------
 
 ## [栈](src/main/java/com/cpucode/stack)
@@ -57,8 +59,6 @@
 ## [栈](src/main/java/com/cpucode/simulation)
 
 - [x] [LruCacheTest__设计LRU缓存结构](src/main/java/com/cpucode/simulation/lru/cache/LruCacheTest.java)
-
-
 
 ---------------------
 
