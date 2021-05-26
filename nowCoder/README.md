@@ -46,7 +46,8 @@
 - [x] [HeapSortTest__堆排序](src/main/java/com/cpucode/sort/heap/sort/HeapSortTest.java)
 - [x] [PriorityQueueTest__优先级队列](src/main/java/com/cpucode/sort/priority/queue/PriorityQueueTest.java)
 
-- [x] [MinNumTest__最小的K个数](src/main/java/com/cpucode/sort/min/k/num/MinNumTest.java)
+- [x] [MinNumTest__最小的K个数 先排序](src/main/java/com/cpucode/sort/min/k/num/MinNumTest.java)
+- [x] [MinNumTest2__最小的K个数 最大堆](src/main/java/com/cpucode/sort/min/k/num/MinNumTest2.java)
 
 ------------------------
 
