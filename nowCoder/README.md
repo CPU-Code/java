@@ -49,6 +49,8 @@
 - [x] [MinNumTest__最小的K个数 先排序](src/main/java/com/cpucode/sort/min/k/num/MinNumTest.java)
 - [x] [MinNumTest2__最小的K个数 最大堆](src/main/java/com/cpucode/sort/min/k/num/MinNumTest2.java)
 
+- [x] [IntervalTest__合并区间](src/main/java/com/cpucode/sort/merging/interval/IntervalTest.java)
+
 ------------------------
 
 ## [栈](src/main/java/com/cpucode/stack)
