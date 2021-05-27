@@ -37,7 +37,8 @@
 - [x] [接口隔离原则优化](src/main/java/com/cpucode/principle/inter/face/segregation/optimization)
 - [x] [迪米特法则](src/main/java/com/cpucode/principle/law/of/demeter/simple)
 - [x] [迪米特法则优化](src/main/java/com/cpucode/principle/law/of/demeter/optimization)
-- [里氏替换原则]()
+- [x] [里氏替换原则](src/main/java/com/cpucode/principle/liskov/substitution/simple)
+- [x] [里氏替换原则优化](src/main/java/com/cpucode/principle/liskov/substitution/optimization)
 - [合成复用原则]()
 
 
