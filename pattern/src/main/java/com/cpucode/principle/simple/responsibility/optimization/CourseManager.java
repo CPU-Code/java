@@ -1,4 +1,4 @@
-package com.cpucode.principle.simple.responsibility;
+package com.cpucode.principle.simple.responsibility.optimization;
 
 /**
  * @author : cpucode
@@ -7,7 +7,7 @@ package com.cpucode.principle.simple.responsibility;
  * @github : https://github.com/CPU-Code
  * @csdn : https://blog.csdn.net/qq_44226094
  */
-public interface CourseTopManager {
+public interface CourseManager {
     /**
      * 学习课程
      */

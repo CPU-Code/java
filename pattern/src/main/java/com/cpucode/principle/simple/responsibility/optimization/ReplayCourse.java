@@ -1,4 +1,4 @@
-package com.cpucode.principle.simple.responsibility;
+package com.cpucode.principle.simple.responsibility.optimization;
 
 /**
  * @author : cpucode

@@ -1,4 +1,4 @@
-package com.cpucode.principle.simple.responsibility;
+package com.cpucode.principle.simple.responsibility.simple;
 
 /**
  * @author : cpucode
@@ -7,7 +7,7 @@ package com.cpucode.principle.simple.responsibility;
  * @github : https://github.com/CPU-Code
  * @csdn : https://blog.csdn.net/qq_44226094
  */
-public class Course1 {
+public class Course {
     /**
      * Course 类承担了两种处理逻辑
      *
@@ -22,7 +22,7 @@ public class Course1 {
     }
 
     public static void main(String[] args) {
-        Course1 course = new Course1();
+        Course course = new Course();
 
         course.study("直播课");
         course.study("录播课");

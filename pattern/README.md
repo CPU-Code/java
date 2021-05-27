@@ -36,9 +36,11 @@
 
 # 七大原则
 
-- [开闭原则](src/main/java/com/cpucode/principle/open/closed)
-- [依赖倒置原则](src/main/java/com/cpucode/principle/dependence/inversion)
-- [单一职责原则](src/main/java/com/cpucode/principle/simple/responsibility)
+- [x] [开闭原则](src/main/java/com/cpucode/principle/open/closed)
+- [x] [依赖倒置原则](src/main/java/com/cpucode/principle/dependence/inversion/simple)
+- [x] [依赖倒置原则优化](src/main/java/com/cpucode/principle/dependence/inversion/optimization)
+- [x] [单一职责原则](src/main/java/com/cpucode/principle/simple/responsibility/simple)
+- [x] [单一职责原则](src/main/java/com/cpucode/principle/simple/responsibility/optimization)
 - [接口隔离原则]()
 - [迪米特法则]()
 - [里氏替换原则]()
