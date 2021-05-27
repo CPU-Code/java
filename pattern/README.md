@@ -3,29 +3,21 @@
 
 ## 文件目录
 
-### 七大原则
+### [七大原则](#七大原则)
 
-- [开闭原则](#开闭原则)
-- [依赖倒置原则](#依赖倒置原则)
-- [单一职责原则](#单一职责原则)
-- [接口隔离原则](#接口隔离原则)
-- [迪米特法则](#迪米特法则)
-- [里氏替换原则](#里氏替换原则)
-- [合成复用原则](#合成复用原则)
-
-### 创建型模式
+### [创建型模式](#创建型模式)
 
 - [工厂模式](#工厂模式)
 - [单例模式](#单例模式)
 - [原型模式](#原型模式)
 
-### 结构型模式
+### [结构型模式](#行为性模式)
 
 - [适配器模式](#适配器模式)
 - [装饰器模式](#装饰器模式)
 - [代理模式](#代理模式)
 
-### 行为性模式
+### [行为性模式](#行为性模式)
 
 - [策略模式](#策略模式)
 - [模板模式](#模板模式)
@@ -43,7 +35,8 @@
 - [x] [单一职责原则优化](src/main/java/com/cpucode/principle/simple/responsibility/optimization)
 - [x] [接口隔离原则](src/main/java/com/cpucode/principle/inter/face/segregation/simple)
 - [x] [接口隔离原则优化](src/main/java/com/cpucode/principle/inter/face/segregation/optimization)
-- [迪米特法则]()
+- [x] [迪米特法则](src/main/java/com/cpucode/principle/law/of/demeter/simple)
+- [x] [迪米特法则优化](src/main/java/com/cpucode/principle/law/of/demeter/optimization)
 - [里氏替换原则]()
 - [合成复用原则]()
 
