@@ -5,6 +5,11 @@ import com.cpucode.pattern.factory.JavaCourse;
 import com.cpucode.pattern.factory.PythonCourse;
 
 /**
+ * 由一个工厂对象决定创建出哪一种产品类的实例，但它不属于 GOF
+ *
+ * 缺点：
+ *   工厂类的职责相对过重，不易于扩展过于复杂的产品结构
+ *
  * @author : cpucode
  * @date : 2021/5/27
  * @time : 21:13
