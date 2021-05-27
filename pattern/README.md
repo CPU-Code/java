@@ -38,26 +38,14 @@
 
 - [开闭原则](src/main/java/com/cpucode/principle/open/closed)
 - [依赖倒置原则](src/main/java/com/cpucode/principle/dependence/inversion)
+- [单一职责原则](src/main/java/com/cpucode/principle/simple/responsibility)
+- [接口隔离原则]()
+- [迪米特法则]()
+- [里氏替换原则]()
+- [合成复用原则]()
 
-## [单一职责原则]()
 
-- [] []()
-
-## [接口隔离原则]()
-
-- [] []()
-
-## [迪米特法则]()
-
-- [] []()
-
-## [里氏替换原则]()
-
-- [] []()
-
-## [合成复用原则]()
-
-- [] []()
+----------------------------------
 
 # 创建型模式
 
