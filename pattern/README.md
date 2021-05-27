@@ -37,9 +37,7 @@
 # 七大原则
 
 - [开闭原则](src/main/java/com/cpucode/principle/open/closed)
-## [依赖倒置原则]()
-
-- [] []()
+- [依赖倒置原则](src/main/java/com/cpucode/principle/dependence/inversion)
 
 ## [单一职责原则]()
 

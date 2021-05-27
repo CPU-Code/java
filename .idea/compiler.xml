@@ -23,7 +23,7 @@
       <module name="link_list" target="8" />
       <module name="mechanism" target="1.8" />
       <module name="nowCoder" target="1.8" />
-      <module name="pattern" target="1.5" />
+      <module name="pattern" target="1.8" />
       <module name="programming" target="1.8" />
       <module name="stack" target="1.8" />
     </bytecodeTargetLevel>
