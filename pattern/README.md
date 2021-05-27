@@ -29,18 +29,24 @@
 # 七大原则
 
 - [x] [开闭原则](src/main/java/com/cpucode/principle/open/closed)
+
 - [x] [依赖倒置原则](src/main/java/com/cpucode/principle/dependence/inversion/simple)
 - [x] [依赖倒置原则优化](src/main/java/com/cpucode/principle/dependence/inversion/optimization)
+
 - [x] [单一职责原则](src/main/java/com/cpucode/principle/simple/responsibility/simple)
 - [x] [单一职责原则优化](src/main/java/com/cpucode/principle/simple/responsibility/optimization)
+
 - [x] [接口隔离原则](src/main/java/com/cpucode/principle/inter/face/segregation/simple)
 - [x] [接口隔离原则优化](src/main/java/com/cpucode/principle/inter/face/segregation/optimization)
+
 - [x] [迪米特法则](src/main/java/com/cpucode/principle/law/of/demeter/simple)
 - [x] [迪米特法则优化](src/main/java/com/cpucode/principle/law/of/demeter/optimization)
+
 - [x] [里氏替换原则](src/main/java/com/cpucode/principle/liskov/substitution/simple)
 - [x] [里氏替换原则优化](src/main/java/com/cpucode/principle/liskov/substitution/optimization)
-- [合成复用原则]()
 
+- [x] [合成复用原则](src/main/java/com/cpucode/principle/composite/reuse/simple)
+- [x] [合成复用原则优化](src/main/java/com/cpucode/principle/composite/reuse/optimization)
 
 ----------------------------------
 
