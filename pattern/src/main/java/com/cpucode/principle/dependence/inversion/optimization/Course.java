@@ -1,4 +1,4 @@
-package com.cpucode.principle.dependence.inversion;
+package com.cpucode.principle.dependence.inversion.optimization;
 
 /**
  * @author : cpucode

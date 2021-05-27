@@ -1,4 +1,6 @@
-package com.cpucode.principle.dependence.inversion;
+package com.cpucode.principle.dependence.inversion.optimization;
+
+import com.cpucode.principle.dependence.inversion.optimization.Course;
 
 /**
  * @author : cpucode
@@ -7,7 +9,7 @@ package com.cpucode.principle.dependence.inversion;
  * @github : https://github.com/CPU-Code
  * @csdn : https://blog.csdn.net/qq_44226094
  */
-public class JavaCourse implements Course{
+public class JavaCourse implements Course {
     @Override
     public void study() {
         System.out.println("Tom 在学习 Java 课程");

@@ -1,4 +1,4 @@
-package com.cpucode.principle.dependence.inversion;
+package com.cpucode.principle.dependence.inversion.optimization;
 
 /**
  * @author : cpucode
@@ -7,12 +7,12 @@ package com.cpucode.principle.dependence.inversion;
  * @github : https://github.com/CPU-Code
  * @csdn : https://blog.csdn.net/qq_44226094
  */
-public class Tom2 {
+public class Tom {
     private Course course;
 
-    public Tom2(){}
+    public Tom(){}
 
-    public Tom2(Course course){
+    public Tom(Course course){
         this.course = course;
     }
 
@@ -30,7 +30,7 @@ public class Tom2 {
 
     public static void main(String[] args) {
         //依赖注入
-        Tom2 tom = new Tom2();
+        Tom tom = new Tom();
 
         tom.study(new JavaCourse());
         tom.study(new PythonCourse());
@@ -39,14 +39,14 @@ public class Tom2 {
         System.out.println();
 
         //构造器注入方式
-        Tom2 tom2 = new Tom2(new JavaCourse());
+        Tom tom2 = new Tom(new JavaCourse());
         tom2.study();
 
         System.out.println("/************************************/");
         System.out.println();
 
         // Setter 方式来注入
-        Tom2 tom3 = new Tom2();
+        Tom tom3 = new Tom();
         tom3.setCourse(new JavaCourse());
         tom3.study();
 

@@ -1,4 +1,4 @@
-package com.cpucode.principle.dependence.inversion;
+package com.cpucode.principle.dependence.inversion.simple;
 
 /**
  * 依赖倒置原则（Dependence Inversion Principle,DIP）:
