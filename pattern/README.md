@@ -55,6 +55,8 @@
 ## [工厂模式](src/main/java/com/cpucode/pattern/factory)
 
 - [x] [简单工厂模式__SimpleFactoryTest](src/main/java/com/cpucode/pattern/factory/simplefactory/SimpleFactoryTest.java)
+- [x] [工厂方法模式__FactoryMethodTest](src/main/java/com/cpucode/pattern/factory/factorymethod/FactoryMethodTest.java)
+
 
 
 ## [单例模式](src/main/java/com/cpucode/pattern/singleton)
