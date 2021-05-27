@@ -20,11 +20,4 @@ public class Course {
             System.out.println(courseName + "可以反复回看");
         }
     }
-
-    public static void main(String[] args) {
-        Course course = new Course();
-
-        course.study("直播课");
-        course.study("录播课");
-    }
 }
