@@ -54,7 +54,7 @@
 
 ## [工厂模式]()
 
-- [] []()
+- [x] [简单工厂模式__SimpleFactoryTest](src/main/java/com/cpucode/pattern/factory/simplefactory/SimpleFactoryTest.java)
 
 
 ## [单例模式]()

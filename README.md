@@ -45,7 +45,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JDBC 多线程 网络编程
 - [java并发编程的艺术](artConcurrent/README.md)
 - [leetcode](leetcode/README.md)
 - [牛客高频](nowCoder/README.md)
-- [设计模式](nowCoder/README.md)
+- [设计模式](pattern/README.md)
 
 - [Test]()
 
