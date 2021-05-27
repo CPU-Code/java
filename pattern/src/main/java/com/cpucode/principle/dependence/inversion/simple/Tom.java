@@ -22,10 +22,4 @@ public class Tom {
         System.out.println("Tom 在学习 Python 的课程");
     }
 
-    public static void main(String[] args) {
-        Tom tom = new Tom();
-
-        tom.studyJavaCourse();
-        tom.studyPythonCourse();
-    }
 }

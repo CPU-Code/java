@@ -1,7 +1,5 @@
 package com.cpucode.principle.dependence.inversion.optimization;
 
-import com.cpucode.principle.dependence.inversion.optimization.Course;
-
 /**
  * @author : cpucode
  * @date : 2021/5/27

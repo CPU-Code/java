@@ -52,16 +52,16 @@
 
 # 创建型模式
 
-## [工厂模式]()
+## [工厂模式](src/main/java/com/cpucode/pattern/factory)
 
 - [x] [简单工厂模式__SimpleFactoryTest](src/main/java/com/cpucode/pattern/factory/simplefactory/SimpleFactoryTest.java)
 
 
-## [单例模式]()
+## [单例模式](src/main/java/com/cpucode/pattern/singleton)
 
 - [] []()
 
-## [原型模式]()
+## [原型模式](src/main/java/com/cpucode/pattern/prototype)
 
 - [] []()
 
