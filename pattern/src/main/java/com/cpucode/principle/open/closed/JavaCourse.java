@@ -20,14 +20,17 @@ public class JavaCourse implements Course{
         this.price = price;
     }
 
+    @Override
     public Integer getId() {
         return this.Id;
     }
 
+    @Override
     public String getName() {
         return this.name;
     }
 
+    @Override
     public Double getPrice() {
         return this.price;
     }
