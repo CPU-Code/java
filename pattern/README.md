@@ -68,6 +68,8 @@
 - [x] [静态内部类__LazyInnerClassSingletonTest](src/main/java/com/cpucode/pattern/singleton/lazy/innerClass/LazyInnerClassSingletonTest.java)
 - [x] [序列化破坏单例__SeriableSingletonTest](src/main/java/com/cpucode/pattern/singleton/seriable/SeriableSingletonTest.java)
 - [x] [注册式单例枚举登记__EnumSingletonTest](src/main/java/com/cpucode/pattern/singleton/register/en/um/EnumSingletonTest.java)
+- [x] [注册式单例容器缓存__ContainerSingletonTest](src/main/java/com/cpucode/pattern/singleton/register/container/ContainerSingletonTest.java)
+- [x] [ThreadLocal 线程单例__ThreadLocalSingletonTest](src/main/java/com/cpucode/pattern/singleton/thread/local/ThreadLocalSingletonTest.java)
 
 
 ## [原型模式](src/main/java/com/cpucode/pattern/prototype)
