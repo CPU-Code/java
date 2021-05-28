@@ -67,6 +67,8 @@
 - [x] [双重检查锁的单例模式__LazyDoubleCheckSingleton](src/main/java/com/cpucode/pattern/singleton/lazy/dou/ble/check/LazyDoubleCheckSingleton.java)
 - [x] [静态内部类__LazyInnerClassSingletonTest](src/main/java/com/cpucode/pattern/singleton/lazy/innerClass/LazyInnerClassSingletonTest.java)
 - [x] [序列化破坏单例__SeriableSingletonTest](src/main/java/com/cpucode/pattern/singleton/seriable/SeriableSingletonTest.java)
+- [x] [注册式单例枚举登记__EnumSingletonTest](src/main/java/com/cpucode/pattern/singleton/register/en/um/EnumSingletonTest.java)
+
 
 ## [原型模式](src/main/java/com/cpucode/pattern/prototype)
 
