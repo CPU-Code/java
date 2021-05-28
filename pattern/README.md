@@ -61,7 +61,9 @@
 
 ## [单例模式](src/main/java/com/cpucode/pattern/singleton)
 
-- [] []()
+- [x] [饿汉式单例__HungrySingleton](src/main/java/com/cpucode/pattern/singleton/hungry/HungrySingleton.java)
+- [x] [饿汉式静态块单例__HungryStaticSingleton](src/main/java/com/cpucode/pattern/singleton/hungry/HungryStaticSingleton.java)
+
 
 ## [原型模式](src/main/java/com/cpucode/pattern/prototype)
 
