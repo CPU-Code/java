@@ -24,12 +24,19 @@ public class SeriableSingleton implements Serializable {
      */
     public final static SeriableSingleton INSTANCE = new SeriableSingleton();
 
+    /**
+     * 有无参构造方法就会实例化
+     */
     private SeriableSingleton(){}
 
     public static SeriableSingleton getInstance(){
         return INSTANCE;
     }
 
+    /**
+     * 实际上实例化了两次，新创建的对象没有被返回
+     * @return
+     */
     private  Object readResolve(){
         return  INSTANCE;
     }
