@@ -1,7 +1,5 @@
 package com.cpucode.pattern.singleton.register.en.um;
 
-import com.cpucode.pattern.singleton.register.en.um.EnumSingleton;
-
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.ObjectInputStream;
