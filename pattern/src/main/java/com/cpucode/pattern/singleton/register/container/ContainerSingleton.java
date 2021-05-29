@@ -7,6 +7,8 @@ import java.util.concurrent.ConcurrentHashMap;
  * 容器缓存
  *   容器式写法适用于创建实例非常多的情况，便于管理。但是，是非线程安全的
  *
+ * 将每一个实例都缓存到统一的容器中，使用唯一标识获取实例
+ *
  * Spring中的做法，就是用这种注册式单例
  *
  * @author : cpucode

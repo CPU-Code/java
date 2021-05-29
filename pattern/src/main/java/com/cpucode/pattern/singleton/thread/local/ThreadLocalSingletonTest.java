@@ -5,6 +5,8 @@ package com.cpucode.pattern.singleton.thread.local;
  *   将所有的对象全部放在 ThreadLocalMap 中，为每个线程都提供一个对象，
  *   实际上是以空间换时间来实现线程间隔离的
  *
+ *   保证线程内部的全局唯一，且天生线程安全
+ *
  * @author : cpucode
  * @date : 2021/5/28
  * @time : 23:03

@@ -46,6 +46,7 @@ public class EnumSingletonTest {
             Constructor c  = clazz.getDeclaredConstructor(String.class, int.class);
             c.setAccessible(true);
 
+            // JDK中强制性的判断，如果修饰符是 Modifier.ENUM 枚举类型，直接抛出异常 ,
             // 不能用反射来创建枚举类型
             EnumSingleton enumSingleton = (EnumSingleton)c.newInstance("cpuCode", 666);
 
