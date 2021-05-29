@@ -12,6 +12,15 @@ package com.cpucode.pattern.singleton.hungry;
  *
  *  Spring 中 IOC 容器 ApplicationContext 本身就是典型的饿汉式单例
  *
+ *
+ *  单例模式的优点
+ *      在内存中只有一个实例，减少了内存开销。
+ *      可以避免对资源的多重占用。
+ *      设置全局访问点，严格控制访问。
+ * 单例模式的缺点
+ *      没有接口，扩展困难。
+ *      如果要扩展单例对象，只有修改代码，没有其他途径 , 违背了开闭原则
+ *
  * @author : cpucode
  * @date : 2021/5/28
  * @time : 11:09
