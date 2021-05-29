@@ -75,6 +75,7 @@
 ## [原型模式](src/main/java/com/cpucode/pattern/prototype)
 
 - [x] [简单克隆__PrototypeTest](src/main/java/com/cpucode/pattern/prototype/simple/PrototypeTest.java)
+- [x] [深度克隆__DeepCloneTest](src/main/java/com/cpucode/pattern/prototype/deep/DeepCloneTest.java)
 
 ---------------------
 
