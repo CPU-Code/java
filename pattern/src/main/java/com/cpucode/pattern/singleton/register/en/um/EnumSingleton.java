@@ -5,6 +5,8 @@ package com.cpucode.pattern.singleton.register.en.um;
  *
  * 枚举登记
  *
+ *  枚举式单例在 静态代码块 中就给 INSTANCE 进行了赋值，是 饿汉式单例 的实现
+ *
  * @author : cpucode
  * @date : 2021/5/28
  * @time : 13:13
