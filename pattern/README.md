@@ -20,9 +20,9 @@
 
 ### [行为性模式](#行为性模式)
 
+- [委派模式](#委派模式)
 - [策略模式](#策略模式)
 - [模板模式](#模板模式)
-- [委派模式](#委派模式)
 - [观察者模式](#观察者模式)
 
 ---------------------
@@ -92,7 +92,6 @@
 - [x] [CGLib动态代理__CglibTest](src/main/java/com/cpucode/pattern/proxy/dynamicproxy/cglibproxy/CglibTest.java)
 
 
-
 ## [适配器模式]()
 
 - [] []()
@@ -102,10 +101,24 @@
 - [] []()
 
 
-
 ----------------
 
 # 行为性模式
+
+## [委派模式](src/main/java/com/cpucode/pattern/delegate)
+
+- [x] [委派模式__DelegateTest](src/main/java/com/cpucode/pattern/delegate/simple/DelegateTest.java)
+- [x] [MVC委派模式__DispatcherServlet](src/main/java/com/cpucode/pattern/delegate/mvc/DispatcherServlet.java)
+
+## [策略模式]()
+
+- [] []()
+
+## [模板模式]()
+
+- [] []()
+
+## [观察者模式]()
 
 - [] []()
 
