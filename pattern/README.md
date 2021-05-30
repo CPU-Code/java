@@ -84,11 +84,12 @@
 ## [代理模式](src/main/java/com/cpucode/pattern/proxy)
 
 - [x] [静态代理__StaticProxyTest](src/main/java/com/cpucode/pattern/proxy/staticproxy/StaticProxyTest.java)
+- [x] [静态代理__Client](src/main/java/com/cpucode/pattern/proxy/simpleproxy/Client.java)
 - [x] [静态代理__DbRouteProxyTest](src/main/java/com/cpucode/pattern/proxy/db/route/proxy/staticdb/DbRouteProxyTest.java)
 - [x] [动态代理__DbRouteProxyTest](src/main/java/com/cpucode/pattern/proxy/db/route/proxy/dynamic/DbRouteProxyTest.java)
 - [x] [JDK动态代理__JDKProxyTest](src/main/java/com/cpucode/pattern/proxy/dynamicproxy/jdkproxy/JDKProxyTest.java)
 - [x] [JDK手写实现__GPProxyTest](src/main/java/com/cpucode/pattern/proxy/dynamicproxy/gpproxy/GPProxyTest.java)
-    
+
 
 ## [适配器模式]()
 
