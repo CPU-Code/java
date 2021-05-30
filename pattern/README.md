@@ -13,9 +13,10 @@
 
 ### [结构型模式](#行为性模式)
 
+- [代理模式](#代理模式)
 - [适配器模式](#适配器模式)
 - [装饰器模式](#装饰器模式)
-- [代理模式](#代理模式)
+
 
 ### [行为性模式](#行为性模式)
 
@@ -71,7 +72,6 @@
 - [x] [注册式单例容器缓存__ContainerSingletonTest](src/main/java/com/cpucode/pattern/singleton/register/container/ContainerSingletonTest.java)
 - [x] [ThreadLocal线程单例__ThreadLocalSingletonTest](src/main/java/com/cpucode/pattern/singleton/thread/local/ThreadLocalSingletonTest.java)
 
-
 ## [原型模式](src/main/java/com/cpucode/pattern/prototype)
 
 - [x] [简单克隆__PrototypeTest](src/main/java/com/cpucode/pattern/prototype/simple/PrototypeTest.java)
@@ -81,6 +81,15 @@
 
 # 结构型模式
 
+## [代理模式](src/main/java/com/cpucode/pattern/proxy)
+
+- [x] [静态代理__StaticProxyTest](src/main/java/com/cpucode/pattern/proxy/staticproxy/StaticProxyTest.java)
+- [x] [静态代理__DbRouteProxyTest](src/main/java/com/cpucode/pattern/proxy/db/route/proxy/staticdb/DbRouteProxyTest.java)
+- [x] [动态代理__DbRouteProxyTest](src/main/java/com/cpucode/pattern/proxy/db/route/proxy/dynamic/DbRouteProxyTest.java)
+- [x] [JDK动态代理__JDKProxyTest](src/main/java/com/cpucode/pattern/proxy/dynamicproxy/jdkproxy/JDKProxyTest.java)
+- [x] [JDK手写实现__GPProxyTest](src/main/java/com/cpucode/pattern/proxy/dynamicproxy/gpproxy/GPProxyTest.java)
+    
+
 ## [适配器模式]()
 
 - [] []()
@@ -89,9 +98,7 @@
 
 - [] []()
 
-## [代理模式]()
 
-- [] []()
 
 ----------------
 
