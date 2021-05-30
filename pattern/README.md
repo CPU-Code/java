@@ -89,6 +89,8 @@
 - [x] [动态代理__DbRouteProxyTest](src/main/java/com/cpucode/pattern/proxy/db/route/proxy/dynamic/DbRouteProxyTest.java)
 - [x] [JDK动态代理__JDKProxyTest](src/main/java/com/cpucode/pattern/proxy/dynamicproxy/jdkproxy/JDKProxyTest.java)
 - [x] [JDK手写实现__GPProxyTest](src/main/java/com/cpucode/pattern/proxy/dynamicproxy/gpproxy/GPProxyTest.java)
+- [x] [CGLib动态代理__CglibTest](src/main/java/com/cpucode/pattern/proxy/dynamicproxy/cglibproxy/CglibTest.java)
+
 
 
 ## [适配器模式]()
