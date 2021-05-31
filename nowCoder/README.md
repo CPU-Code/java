@@ -106,7 +106,8 @@
 
 ## [链表](src/main/java/com/cpucode/linked/list)
 
-- [x] [IfRingTest__判断链表中是否有环](src/main/java/com/cpucode/linked/list/linkedlist/ifring/IfRingTest.java)
+- [x] [IfRingTest__判断链表中是否有环快慢针](src/main/java/com/cpucode/linked/list/linkedlist/ifring/IfRingTest.java)
+- [x] [IfRingTest2__判断链表中是否有环集合](src/main/java/com/cpucode/linked/list/linkedlist/ifring/IfRingTest2.java)
 
 ------------------------
 
