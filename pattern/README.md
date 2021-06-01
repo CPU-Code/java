@@ -110,9 +110,11 @@
 - [x] [委派模式__DelegateTest](src/main/java/com/cpucode/pattern/delegate/simple/DelegateTest.java)
 - [x] [MVC委派模式__DispatcherServlet](src/main/java/com/cpucode/pattern/delegate/mvc/DispatcherServlet.java)
 
-## [策略模式]()
+## [策略模式](src/main/java/com/cpucode/pattern/strategy)
 
-- [] []()
+- [x] [策略模式](src/main/java/com/cpucode/pattern/strategy/promotion/PromotionActivityTest.java)
+- [x] [](src/main/java/com/cpucode/pattern/strategy/promotion/PromotionActivityTest2.java)
+- [x] [](src/main/java/com/cpucode/pattern/strategy/promotion/PromotionActivityTest3.java)
 
 ## [模板模式]()
 
