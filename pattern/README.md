@@ -121,6 +121,7 @@
 ## [模板模式](src/main/java/com/cpucode/pattern/template)
 
 - [x] [课程模板模式](src/main/java/com/cpucode/pattern/template/course/NetworkCourseTest.java)
+- [x] [Jdbc模板模式](src/main/java/com/cpucode/pattern/template/jdbc/MemberDaoTest.java)
 
 ## [观察者模式]()
 
