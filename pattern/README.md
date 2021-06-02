@@ -118,9 +118,9 @@
 - [x] [策略模式](src/main/java/com/cpucode/pattern/strategy/promotion/PromotionActivityTest3.java)
 - [x] [策略模式](src/main/java/com/cpucode/pattern/strategy/pay/PayStrategyTest.java)
 
-## [模板模式]()
+## [模板模式](src/main/java/com/cpucode/pattern/template)
 
-- [] []()
+- [x] [课程模板模式](src/main/java/com/cpucode/pattern/template/course/NetworkCourseTest.java)
 
 ## [观察者模式]()
 
