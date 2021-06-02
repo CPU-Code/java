@@ -117,7 +117,6 @@
 - [x] [策略模式](src/main/java/com/cpucode/pattern/strategy/promotion/PromotionActivityTest2.java)
 - [x] [策略模式](src/main/java/com/cpucode/pattern/strategy/promotion/PromotionActivityTest3.java)
 - [x] [策略模式](src/main/java/com/cpucode/pattern/strategy/pay/PayStrategyTest.java)
-- [x] [策略模式](src/main/java/com/cpucode/pattern/strategy/promotion/PromotionActivityTest3.java)
 
 ## [模板模式]()
 
