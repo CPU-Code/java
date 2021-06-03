@@ -91,7 +91,15 @@
 ## [搜索]()
 ## [回溯算法]()
 ## [字典树]()
+
+-----------------
+
 ## [数学]()
+
+- [x] [最大公约数](src/main/java/com/cpucode/math/max/common/divisor/MaxDivisorTest.java)
+
+--------------------
+
 ## [dfs]()
 ## [双指针]()
 ## [二分]()
