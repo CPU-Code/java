@@ -1,17 +1,13 @@
-package com.cpucode.array.judge.palindrome;
+package com.cpucode.character.tring.judge.palindrome;
 
 /**
- * 判断回文
- *  描述
- *    给定一个字符串，请编写一个函数判断该字符串是否回文。如果回文请返回true，否则返回false。
- *
  * @author : cpucode
  * @date : 2021/6/2
- * @time : 22:31
+ * @time : 23:15
  * @github : https://github.com/CPU-Code
  * @csdn : https://blog.csdn.net/qq_44226094
  */
-public class PalindromeTest {
+public class PalindromeTest3 {
     public static void main(String[] args) {
         String str = "absba";
 
@@ -29,19 +25,14 @@ public class PalindromeTest {
      * @return bool布尔型
      */
     public boolean judge (String str) {
-        // write code here
-        int left = 0;
-        int right = str.length() - 1;
+        return isJudge(str, 0, str.length() - 1);
+    }
 
-        while (left < right){
-            if (str.charAt(left) != str.charAt(right)){
-                return false;
-            }
-
-            left++;
-            right--;
+    public boolean isJudge(String str, int left, int right){
+        if(left >= right){
+            return true;
         }
 
-        return true;
+        return (str.charAt(left++) == str.charAt(right--)) && isJudge(str, left, right);
     }
 }

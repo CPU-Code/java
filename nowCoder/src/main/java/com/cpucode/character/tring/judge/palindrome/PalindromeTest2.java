@@ -1,13 +1,16 @@
-package com.cpucode.array.judge.palindrome;
+package com.cpucode.character.tring.judge.palindrome;
 
 /**
+ * 使用StringBuffer
+ *  这题还可以使用StringBuffer，接着反转，最后在判断是否相等。
+ *
  * @author : cpucode
  * @date : 2021/6/2
- * @time : 23:15
+ * @time : 23:01
  * @github : https://github.com/CPU-Code
  * @csdn : https://blog.csdn.net/qq_44226094
  */
-public class PalindromeTest3 {
+public class PalindromeTest2 {
     public static void main(String[] args) {
         String str = "absba";
 
@@ -25,14 +28,14 @@ public class PalindromeTest3 {
      * @return bool布尔型
      */
     public boolean judge (String str) {
-        return isJudge(str, 0, str.length() - 1);
-    }
+        // write code here
 
-    public boolean isJudge(String str, int left, int right){
-        if(left >= right){
-            return true;
+        if(str == null){
+            return false;
         }
 
-        return (str.charAt(left++) == str.charAt(right--)) && isJudge(str, left, right);
+        String res = new StringBuilder(str).reverse().toString();
+
+        return str.equals(res);
     }
 }

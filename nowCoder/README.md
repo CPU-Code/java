@@ -114,9 +114,9 @@
 - [x] [反转字符串单指针__ReversalTest2](src/main/java/com/cpucode/character/tring/reversal/ReversalTest2.java)
 - [x] [反转字符串库函数__ReversalTest3](src/main/java/com/cpucode/character/tring/reversal/ReversalTest3.java)
 - [x] [反转字符串双指针__ReversalTest4](src/main/java/com/cpucode/character/tring/reversal/ReversalTest4.java)
-- [x] [判断回文双指针](src/main/java/com/cpucode/array/judge/palindrome/PalindromeTest.java)
-- [x] [判断回文StringBuffer](src/main/java/com/cpucode/array/judge/palindrome/PalindromeTest2.java)
-- [x] [判断回文递归](src/main/java/com/cpucode/array/judge/palindrome/PalindromeTest3.java)
+- [x] [判断回文双指针](src/main/java/com/cpucode/character/tring/judge/palindrome/PalindromeTest.java)
+- [x] [判断回文StringBuffer](src/main/java/com/cpucode/character/tring/judge/palindrome/PalindromeTest2.java)
+- [x] [判断回文递归](src/main/java/com/cpucode/character/tring/judge/palindrome/PalindromeTest3.java)
 
 ------------------------------
 
