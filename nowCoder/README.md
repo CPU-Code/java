@@ -135,6 +135,7 @@
 - [x] [IfRingTest__判断链表中是否有环快慢针](src/main/java/com/cpucode/linked/list/linkedlist/ifring/IfRingTest.java)
 - [x] [IfRingTest2__判断链表中是否有环集合](src/main/java/com/cpucode/linked/list/linkedlist/ifring/IfRingTest2.java)
 - [x] [IfRingTest3__判断链表中是否有环逐个删除](src/main/java/com/cpucode/linked/list/linkedlist/ifring/IfRingTest3.java)
+- [x] [反转链表使用栈](src/main/java/com/cpucode/linked/list/reversal/ReversalTest.java)
 
 ------------------------
 
