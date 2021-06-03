@@ -75,7 +75,8 @@
 
 ## [递归](src/main/java/com/cpucode/recursion)
 
-- [x] [跳台阶](src/main/java/com/cpucode/recursion/step/jump/StepJumpTest.java)
+- [x] [跳台阶递归](src/main/java/com/cpucode/recursion/step/jump/StepJumpTest.java)
+- [x] [跳台阶非递归](src/main/java/com/cpucode/recursion/step/jump/StepJumpTest.java)
 
 ----------------
 
