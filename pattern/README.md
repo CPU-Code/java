@@ -92,9 +92,9 @@
 - [x] [CGLib动态代理__CglibTest](src/main/java/com/cpucode/pattern/proxy/dynamicproxy/cglibproxy/CglibTest.java)
 
 
-## [适配器模式]()
+## [适配器模式](src/main/java/com/cpucode/pattern/adapter)
 
-- [] []()
+- [x] [电压适配器](src/main/java/com/cpucode/pattern/adapter/power/adapter/ObjectAdapterTest.java)
 
 ## [装饰器模式]()
 
