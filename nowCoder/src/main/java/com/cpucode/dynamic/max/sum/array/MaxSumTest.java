@@ -26,8 +26,10 @@ public class MaxSumTest {
         int temp = arr[0];
 
         for (int i = 1; i < arr.length; i++) {
+            //转移公式
             temp = Math.max(temp , 0) + arr[i];
 
+            //记录最大值
             max = Math.max(temp, max);
         }
 
