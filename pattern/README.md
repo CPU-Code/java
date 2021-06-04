@@ -95,6 +95,8 @@
 ## [适配器模式](src/main/java/com/cpucode/pattern/adapter)
 
 - [x] [电压适配器](src/main/java/com/cpucode/pattern/adapter/power/adapter/ObjectAdapterTest.java)
+- [x] [登录适配器](src/main/java/com/cpucode/pattern/adapter/login/adapter/v1/service/SigninForThirdServiceTest.java)
+
 
 ## [装饰器模式]()
 
