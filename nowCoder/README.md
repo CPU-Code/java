@@ -122,6 +122,7 @@
 - [x] [旋转数组](src/main/java/com/cpucode/array/rotation/array/RotationTest.java)
 - [x] [寻找峰值](src/main/java/com/cpucode/array/looking/peak/PeakTest.java)
 - [x] [合并两个有序的数组](src/main/java/com/cpucode/array/merge/ordered/MergeTest.java)
+- [x] [合并两个有序的数组](src/main/java/com/cpucode/array/merge/ordered/MergeTest2.java)
 
 -------------------
 
