@@ -1,4 +1,4 @@
-package com.cpucode.pattern.adapter.login.adapter.V2.adapters;
+package com.cpucode.pattern.adapter.login.adapter.v2.adapters;
 
 import com.cpucode.pattern.adapter.login.adapter.ResultMsg;
 

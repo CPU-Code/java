@@ -1,7 +1,7 @@
-package com.cpucode.pattern.adapter.login.adapter.V2;
+package com.cpucode.pattern.adapter.login.adapter.v2;
 
 import com.cpucode.pattern.adapter.login.adapter.ResultMsg;
-import com.cpucode.pattern.adapter.login.adapter.V2.adapters.*;
+import com.cpucode.pattern.adapter.login.adapter.v2.adapters.*;
 import com.cpucode.pattern.adapter.login.adapter.v1.service.SiginService;
 
 /**

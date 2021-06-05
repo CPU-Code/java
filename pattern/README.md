@@ -96,7 +96,7 @@
 
 - [x] [电压适配器](src/main/java/com/cpucode/pattern/adapter/power/adapter/ObjectAdapterTest.java)
 - [x] [登录适配器](src/main/java/com/cpucode/pattern/adapter/login/adapter/v1/service/SigninForThirdServiceTest.java)
-- [x] [各登录适配器](src/main/java/com/cpucode/pattern/adapter/login/adapter/V2/PassportTest.java)
+- [x] [各登录适配器](src/main/java/com/cpucode/pattern/adapter/login/adapter/v2/PassportTest.java)
 
 ## [装饰器模式]()
 

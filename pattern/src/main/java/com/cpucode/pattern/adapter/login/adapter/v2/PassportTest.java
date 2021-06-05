@@ -1,4 +1,4 @@
-package com.cpucode.pattern.adapter.login.adapter.V2;
+package com.cpucode.pattern.adapter.login.adapter.v2;
 
 /**
  * @author : cpucode
