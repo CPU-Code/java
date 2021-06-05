@@ -69,6 +69,7 @@
 - [x] [MinNumTest2__最小的K个数 最大堆](src/main/java/com/cpucode/sort/min/k/num/MinNumTest2.java)
 
 - [x] [IntervalTest__合并区间](src/main/java/com/cpucode/sort/merging/interval/IntervalTest.java)
+- [x] [数组中只出现一次的数（其它数出现k次）](src/main/java/com/cpucode/sort/found/once/number/FoundOnceNumberTest.java)
 
 ------------------------
 
@@ -128,7 +129,13 @@
 ## [二分]()
 ## [前缀和]()
 ## [三分]()
+
+--------------------------
+
 ## [位运算]()
+
+----------------------------------
+
 ## [并查集]()
 
 ----------------
