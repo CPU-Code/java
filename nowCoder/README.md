@@ -166,7 +166,7 @@
 - [x] [判断回文双指针](src/main/java/com/cpucode/character/tring/judge/palindrome/PalindromeTest.java)
 - [x] [判断回文StringBuffer](src/main/java/com/cpucode/character/tring/judge/palindrome/PalindromeTest2.java)
 - [x] [判断回文递归](src/main/java/com/cpucode/character/tring/judge/palindrome/PalindromeTest3.java)
-- [ ] [最长公共前缀](src/main/java/com/cpucode/character/tring/longest/common/prefix/LongComPrefixTest.java)
+- [x] [最长公共前缀](src/main/java/com/cpucode/character/tring/longest/common/prefix/LongComPrefixTest.java)
 
 ------------------------------
 

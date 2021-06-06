@@ -20,7 +20,12 @@ package com.cpucode.character.tring.longest.common.prefix;
  */
 public class LongComPrefixTest {
     public static void main(String[] args) {
+        String[] strs = {"abca", "abc", "abca", "abc", "abcc"};
 
+        LongComPrefixTest longComPrefixTest = new LongComPrefixTest();
+        String s = longComPrefixTest.longestCommonPrefix(strs);
+
+        System.out.println(s);
     }
 
     /**
@@ -29,7 +34,24 @@ public class LongComPrefixTest {
      */
     public String longestCommonPrefix (String[] strs) {
         // write code here
+        // 边界条件判断
+        if (strs.length == 0 || strs == null){
+            return "";
+        }
 
-        return null;
+        int i = 1;
+        // 默认第一个字符串是他们的公共前缀
+        String str = strs[0];
+
+        while (i < strs.length){
+            // 不断的截取
+            while (strs[i].indexOf(str) != 0){
+                str = str.substring(0, str.length() - 1);
+            }
+
+            i++;
+        }
+
+        return str;
     }
 }
