@@ -154,6 +154,7 @@
 - [x] [合并两个有序的数组](src/main/java/com/cpucode/array/merge/ordered/MergeTest.java)
 - [x] [合并两个有序的数组](src/main/java/com/cpucode/array/merge/ordered/MergeTest2.java)
 - [x] [合并两个有序的数组使用API](src/main/java/com/cpucode/array/merge/ordered/MergeTest3.java)
+- [x] [数字在升序数组中出现的次数](src/main/java/com/cpucode/array/merge/ordered/MergeTest3.java)
 
 -------------------
 
@@ -168,8 +169,6 @@
 - [x] [判断回文递归](src/main/java/com/cpucode/character/tring/judge/palindrome/PalindromeTest3.java)
 - [x] [最长公共前缀](src/main/java/com/cpucode/character/tring/longest/common/prefix/LongComPrefixTest.java)
 - [x] [括号序列](src/main/java/com/cpucode/character/tring/longest/common/prefix/LongComPrefixTest.java)
-
-
 
 ------------------------------
 
