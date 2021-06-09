@@ -189,7 +189,7 @@
 - [x] [合并有序链表](src/main/java/com/cpucode/linked/list/merge/two/lists/MergeListsTest.java)
 - [x] [单链表的排序](src/main/java/com/cpucode/linked/list/sort/in/list/SortInListTest.java)
 - [x] [判断一个链表是否为回文结构](src/main/java/com/cpucode/linked/list/linked/is/pail/IsPailTest.java)
-
+- [x] [两个链表的第一个公共结点](src/main/java/com/cpucode/linked/list/find/first/common/node/FindComNodeTest.java)
 
 ------------------------
 
