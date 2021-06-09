@@ -80,8 +80,6 @@
 - [x] [跳台阶非递归](src/main/java/com/cpucode/recursion/step/jump/StepJumpTest2.java)
 - [x] [二叉树的最大深度](src/main/java/com/cpucode/recursion/max/depth/MaxDepthTest.java)
 
-二叉树的最大深度
-
 ----------------
 
 ## [贪心]()
@@ -103,6 +101,7 @@
 ## [模拟](src/main/java/com/cpucode/simulation)
 
 - [x] [LruCacheTest__设计LRU缓存结构](src/main/java/com/cpucode/simulation/lru/cache/LruCacheTest.java)
+- [x] [扑克牌顺子](src/main/java/com/cpucode/simulation/is/continuous/IsContinuousTest.java)
 
 -----------------------------
 
