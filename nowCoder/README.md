@@ -121,6 +121,7 @@
 
 - [x] [最大公约数](src/main/java/com/cpucode/math/max/common/divisor/MaxDivisorTest.java)
 - [x] [求平方根](src/main/java/com/cpucode/math/sqrt/SqrtTest.java)
+- [x] [缺失数字](src/main/java/com/cpucode/math/lack/number/LackNumTest.java)
 
 --------------------
 
