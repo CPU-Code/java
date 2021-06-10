@@ -210,6 +210,7 @@
 
 - [x] [判断二叉树是否对称](src/main/java/com/cpucode/tree/is/symmetric/IsSymmetricTest.java)
 - [x] [二叉树的镜像](src/main/java/com/cpucode/tree/mirror/MirrorTest.java)
+- [x] [二叉搜索树的第k个结点](src/main/java/com/cpucode/tree/kth/node/KthNodeTest.java)
 
 ----------------------
 
