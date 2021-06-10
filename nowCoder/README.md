@@ -90,6 +90,7 @@
 
 - [x] [子数组的最大累加和问题](src/main/java/com/cpucode/dynamic/max/sum/array/MaxSumTest.java)
 - [x] [买卖股票的最好时机](src/main/java/com/cpucode/dynamic/sell/stocks/time/SellStocksTest.java)
+- [x] [求路径](src/main/java/com/cpucode/dynamic/unique/paths/UniquePathsTest.java)
 
 --------------------
 
