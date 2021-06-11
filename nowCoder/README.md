@@ -165,6 +165,7 @@
 - [x] [合并两个有序的数组](src/main/java/com/cpucode/array/merge/ordered/MergeTest2.java)
 - [x] [合并两个有序的数组使用API](src/main/java/com/cpucode/array/merge/ordered/MergeTest3.java)
 - [x] [数字在升序数组中出现的次数](src/main/java/com/cpucode/array/merge/ordered/MergeTest3.java)
+- [x] [三个数的最大乘积](src/main/java/com/cpucode/array/max/mul/MaxMulTest.java)
 
 -------------------
 
