@@ -204,6 +204,8 @@
 ## [栈](src/main/java/com/cpucode/stack)
 
 - [x] [TwoStackQueueTest__用两个栈实现队列](src/main/java/com/cpucode/stack/two/stack/queue/TwoStackQueueTest.java)
+- [x] [设计getMin功能的栈](src/main/java/com/cpucode/stack/get/min/stack/GetMinStackTest.java)
+
 
 ## [队列]()
 
