@@ -230,6 +230,8 @@
 
 - [x] [数组中只出现一次的数（其它数出现k次）](src/main/java/com/cpucode/hash/found/once/num/FoundOnceNumTest.java)
 - [x] [两数之和](src/main/java/com/cpucode/hash/two/sum/TwoSumTest.java)
+- [x] [最长无重复子数组](src/main/java/com/cpucode/hash/max/length/MaxLengthTest.java)
+
 
 - ------------------------
 
