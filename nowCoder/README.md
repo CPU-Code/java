@@ -201,6 +201,7 @@
 - [x] [判断一个链表是否为回文结构](src/main/java/com/cpucode/linked/list/linked/is/pail/IsPailTest.java)
 - [x] [两个链表的第一个公共结点](src/main/java/com/cpucode/linked/list/find/first/common/node/FindComNodeTest.java)
 - [x] [两个链表生成相加链表](src/main/java/com/cpucode/linked/list/add/in/list/AddInListTest.java)
+- [x] [链表中环的入口节点](src/main/java/com/cpucode/linked/list/detect/cycle/DetectCycleTest.java)
 
 ------------------------
 
