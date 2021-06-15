@@ -183,6 +183,7 @@
 - [x] [判断回文递归](src/main/java/com/cpucode/character/tring/judge/palindrome/PalindromeTest3.java)
 - [x] [最长公共前缀](src/main/java/com/cpucode/character/tring/longest/common/prefix/LongComPrefixTest.java)
 - [x] [括号序列](src/main/java/com/cpucode/character/tring/longest/common/prefix/LongComPrefixTest.java)
+- [x] [大数加法](src/main/java/com/cpucode/character/tring/max/add/MaxAddTest.java)
 
 ------------------------------
 
