@@ -59,7 +59,7 @@
 - [x] [InsertSortTest5__插入排序](src/main/java/com/cpucode/sort/insert/sort/InsertSortTest5.java)
 
 - [x] [QuickSortTest__快速排序](src/main/java/com/cpucode/sort/quick/sort/QuickSortTest.java)
-- [x] [QuickSortTest2__快速排序](src/main/java/com/cpucode/sort/quick/sort/UrlTest.java)
+- [x] [寻找第K大](src/main/java/com/cpucode/sort/quick/sort/find/kth/FindKthTest.java)
 
 - [x] [MergeSortTest__归并排序](src/main/java/com/cpucode/sort/merge/sort/MergeSortTest.java)
 - [x] [HeapSortTest__堆排序](src/main/java/com/cpucode/sort/heap/sort/HeapSortTest.java)
