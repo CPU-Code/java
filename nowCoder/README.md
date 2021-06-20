@@ -170,6 +170,7 @@
 - [x] [合并两个有序的数组使用API](src/main/java/com/cpucode/array/merge/ordered/MergeTest3.java)
 - [x] [数字在升序数组中出现的次数](src/main/java/com/cpucode/array/merge/ordered/MergeTest3.java)
 - [x] [三个数的最大乘积](src/main/java/com/cpucode/array/max/mul/MaxMulTest.java)
+- [x] [数组中的最长连续子序列](src/main/java/com/cpucode/array/longest/continuous/sub/LongConSubTest.java)
 
 -------------------
 
