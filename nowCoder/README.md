@@ -210,6 +210,7 @@
 - [x] [删除有序链表中重复出现的元素](src/main/java/com/cpucode/linked/list/delete/duplicates/DeleteDupTest.java)
 - [x] [删除链表的倒数第n个节点](src/main/java/com/cpucode/linked/list/remove/nth/from/end/RemoveEndTest.java)
 - [x] [链表中的节点每k个一组翻转](src/main/java/com/cpucode/linked/list/reverse/k/group/ReverseGroupTest.java)
+- [x] [链表的奇偶重排](src/main/java/com/cpucode/linked/list/odd/even/list/OddEvenListTest.java)
 
 ------------------------
 
