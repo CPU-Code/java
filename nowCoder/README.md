@@ -171,6 +171,7 @@
 - [x] [数字在升序数组中出现的次数](src/main/java/com/cpucode/array/merge/ordered/MergeTest3.java)
 - [x] [三个数的最大乘积](src/main/java/com/cpucode/array/max/mul/MaxMulTest.java)
 - [x] [数组中的最长连续子序列](src/main/java/com/cpucode/array/longest/continuous/sub/LongConSubTest.java)
+- [x] [矩阵的最小路径和](src/main/java/com/cpucode/array/min/path/sum/MinPathSumTest.java)
 
 -------------------
 
