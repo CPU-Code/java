@@ -102,6 +102,7 @@
 ## [模拟](src/main/java/com/cpucode/simulation)
 
 - [x] [LruCacheTest__设计LRU缓存结构](src/main/java/com/cpucode/simulation/lru/cache/LruCacheTest.java)
+- [x] [LruCache2Test__设计LRU缓存结构](src/main/java/com/cpucode/simulation/lru/cache/LruCacheTest.java)
 - [x] [扑克牌顺子](src/main/java/com/cpucode/simulation/is/continuous/IsContinuousTest.java)
 
 -----------------------------
