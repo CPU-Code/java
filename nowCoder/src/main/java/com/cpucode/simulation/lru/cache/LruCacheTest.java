@@ -1,6 +1,6 @@
 package com.cpucode.simulation.lru.cache;
 
-import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.HashMap;
 
 /**
@@ -26,12 +26,13 @@ import java.util.HashMap;
  * @csdn : https://blog.csdn.net/qq_44226094
  */
 public class LruCacheTest {
-    private HashMap<Integer, Node> map = new HashMap<>();
+    // 哈希表
+    static HashMap<Integer, Node> map = new HashMap<>();
+
     //头节点
-    private Node head = new Node(-1, -1);
+    static Node head = new Node(-1, -1);
     //尾节点
-    private Node tail = new Node(-1, -1);
-    private int k =  0;
+    static Node tail = new Node(-1, -1);
 
     public static void main(String[] args) {
         LruCacheTest lruCacheTest = new LruCacheTest();
@@ -47,27 +48,23 @@ public class LruCacheTest {
     }
 
     public int[] LRU(int[][] operators, int k) {
-        // write code here
-        this.k = k;
-        head.setNext(tail);
-        tail.setPre(head);
-        //获取数组中开头为2（get操作）的元素个数
-        int len = (int) Arrays.stream(operators).filter(x->x[0]==2).count();
-        int res[] = new int[len];
 
-        for(int i = 0, j = 0; i < operators.length; i++){
+        ArrayList<Integer> list = new ArrayList<>();
+        head.next = tail;
+        tail.next = head;
 
-            if(operators[i][0] == 1){
-                //获取数组中开头为1（set操作）的元素个数
-
-                //set(key,val)
-                set(operators[i][1], operators[i][2]);
-            }else{
-                //获取数组中开头为2（get操作）的元素个数
-
-                //get(key)
-                res[j++] = get(operators[i][1]);
+        for(int[] oper : operators){
+            if(oper[0] == 1){
+                set(oper[1], oper[2], k);
+            }else if(oper[0] == 2){
+                list.add(get(oper[1]));
             }
+        }
+
+        int [] res = new int[list.size()];
+
+        for(int i = 0; i < list.size(); i++){
+            res[i] = list.get(i);
         }
 
         return res;
@@ -76,39 +73,32 @@ public class LruCacheTest {
     /**
      * 添加 或 修改
      * @param key
-     * @param val
+     * @param value
      */
-    private void set(int key, int val){
+    private void set(int key, int value, int k){
         Node node = null;
 
-        if (map.containsKey(key)){
-            //key存在
+        if(map.containsKey(key)){
             node = map.get(key);
-            node.setVal(val);
 
-            node.getNext().setPre(node.getPre());
-            node.getPre().setNext(node.getNext());
+            // 删除
+            map.remove(key);
 
-            moveToFirst(node);
-        }else {
+            // 删除该节点
+            node.next.pre = node.pre;
+            node.pre.next = node.next;
+        }else if(map.size() >= k){
+            int removeKey = tail.pre.key;
+            map.remove(removeKey);
 
-            if (map.size() >= k){
-                //在map中删除映射到最后一个节点的key
-                int removeKey = tail.getPre().getKey();
-
-                map.remove(removeKey);
-
-                //在链表中删除最后一个节点
-                tail.setPre(tail.getPre().getPre());
-                tail.getPre().setNext(tail);
-            }
-
-            node = new Node(key,val);
-            //在map中添加对新节点的映射
-            map.put(key, node);
-            //将节点插入到表头
-            moveToFirst(node);
+            // 删除尾节点
+            tail.pre = tail.pre.pre;
+            tail.pre.next = tail;
         }
+
+        node = new Node(key, value);
+        moveToFirst(node);
+        map.put(key, node);
     }
 
     /**
@@ -117,21 +107,20 @@ public class LruCacheTest {
      * @return
      */
     private int get(int key){
-        if (map.containsKey(key)){
-            //存在key
-            Node node = map.get(key);
-
-            //删除该结点
-            node.getNext().setPre(node.getPre());
-            node.getPre().setNext(node.getNext());
-            //插入到表头
-            moveToFirst(node);
-
-            return node.getVal();
-        }else {
-            //不存在key
+        if(!map.containsKey(key)){
+            // 不存在
             return -1;
         }
+
+        Node node = map.get(key);
+
+        // 删除该节点
+        node.next.pre = node.pre;
+        node.pre.next = node.next;
+
+        moveToFirst(node);
+
+        return map.get(key).val;
     }
 
     /**
@@ -139,68 +128,24 @@ public class LruCacheTest {
      * @param node
      */
     private void moveToFirst(Node node){
-        head.getNext().setPre(node);
-        node.setNext(head.getNext());
+        head.next.pre = node;
+        node.next = head.next;
 
-        head.setNext(node);
-        node.setPre(head);
+        head.next = node;
+        node.pre = node;
     }
-
-
 }
 
 class Node{
-    private int val;
-    private int key;
-    private Node pre;
-    private Node next;
+    public int val;
+    public int key;
+    public Node pre;
+    public Node next;
 
     Node(){}
 
     Node(int key, int val){
         this.val = val;
         this.key = key;
-    }
-
-    public int getKey() {
-        return key;
-    }
-
-    public void setKey(int key) {
-        this.key = key;
-    }
-
-    public int getVal() {
-        return val;
-    }
-
-    public void setVal(int val) {
-        this.val = val;
-    }
-
-    public Node getPre() {
-        return pre;
-    }
-
-    public void setPre(Node pre) {
-        this.pre = pre;
-    }
-
-    public Node getNext() {
-        return next;
-    }
-
-    public void setNext(Node next) {
-        this.next = next;
-    }
-
-    @Override
-    public String toString() {
-        return "Node{" +
-                "val=" + val +
-                ", key=" + key +
-                ", pre=" + pre +
-                ", next=" + next +
-                '}';
     }
 }
