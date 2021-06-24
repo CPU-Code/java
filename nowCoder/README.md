@@ -236,6 +236,7 @@
 - [x] [在二叉树中找到两个节点的最近公共祖先](src/main/java/com/cpucode/tree/lowest/common/ancestor/LowestTest.java)
 - [x] [实现二叉树先序，中序和后序遍历](src/main/java/com/cpucode/tree/three/orders/ThreeOrdersTest.java)
 - [x] [二叉树根节点到叶子节点和为指定值的路径](src/main/java/com/cpucode/tree/path/sum/PathSumTest.java)
+- [x] [二叉树的之字形层序遍历](src/main/java/com/cpucode/tree/zigzag/level/order/ZigzagOrderTest.java)
 
 ----------------------
 
