@@ -138,6 +138,7 @@
 
 - [x] [买卖股票的最好时机](src/main/java/com/cpucode/pointer/two/sell/stocks/time/SellStockesTest.java)
 - [x] [容器盛水问题](src/main/java/com/cpucode/pointer/two/container/water/ConWaterTest.java)
+- [x] [滑动窗口的最大值](src/main/java/com/cpucode/pointer/two/max/in/windows/MaxInWinTest.java)
 
 --------------------
 
