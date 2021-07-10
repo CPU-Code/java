@@ -102,6 +102,7 @@
 
 - [x] [煎饼装饰](src/main/java/com/cpucode/pattern/decorator/batter/cake/v1/BatterCakeTest.java)
 - [x] [煎饼装饰v2](src/main/java/com/cpucode/pattern/decorator/batter/cake/v2/BattercakeTest.java)
+- [x] [登录装饰型](src/main/java/com/cpucode/pattern/decorator/passport/DecoratorTest.java)
 
 ----------------
 
