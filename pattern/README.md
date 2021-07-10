@@ -98,10 +98,10 @@
 - [x] [登录适配器](src/main/java/com/cpucode/pattern/adapter/login/adapter/v1/service/SigninForThirdServiceTest.java)
 - [x] [各登录适配器](src/main/java/com/cpucode/pattern/adapter/login/adapter/v2/PassportTest.java)
 
-## [装饰器模式]()
+## [装饰器模式](src/main/java/com/cpucode/pattern/decorator)
 
-- [] []()
-
+- [x] [煎饼装饰](src/main/java/com/cpucode/pattern/decorator/batter/cake/v1/BatterCakeTest.java)
+- [x] [煎饼装饰v2](src/main/java/com/cpucode/pattern/decorator/batter/cake/v2/BattercakeTest.java)
 
 ----------------
 
