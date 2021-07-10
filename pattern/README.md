@@ -60,71 +60,71 @@
 - [x] [抽象工厂模式__AbstractFactoryTest](src/main/java/com/cpucode/pattern/create/factory/abstractfactory/AbstractFactoryTest.java)
 - [ ] [JDBC操作案例](src/main/java/com/cpucode/pattern/create/factory/sqlhelper/org/jdbc/sqlhelper)
 
-## [单例模式](src/main/java/com/cpucode/pattern/singleton)
+## [单例模式](src/main/java/com/cpucode/pattern/create/singleton)
 
-- [x] [饿汉式单例__HungrySingleton](src/main/java/com/cpucode/pattern/singleton/hungry/HungrySingleton.java)
-- [x] [饿汉式静态块单例__HungryStaticSingleton](src/main/java/com/cpucode/pattern/singleton/hungry/HungryStaticSingleton.java)
-- [x] [懒汉式单例__LazySimpleSingletonTest](src/main/java/com/cpucode/pattern/singleton/lazy/simple/LazySimpleSingletonTest.java)
-- [x] [双重检查锁的单例模式__LazyDoubleCheckSingleton](src/main/java/com/cpucode/pattern/singleton/lazy/dou/ble/check/LazyDoubleCheckSingleton.java)
-- [x] [静态内部类__LazyInnerClassSingletonTest](src/main/java/com/cpucode/pattern/singleton/lazy/innerClass/LazyInnerClassSingletonTest.java)
-- [x] [序列化破坏单例__SeriableSingletonTest](src/main/java/com/cpucode/pattern/singleton/seriable/SeriableSingletonTest.java)
-- [x] [注册式单例枚举登记__EnumSingletonTest](src/main/java/com/cpucode/pattern/singleton/register/en/um/EnumSingletonTest.java)
-- [x] [注册式单例容器缓存__ContainerSingletonTest](src/main/java/com/cpucode/pattern/singleton/register/container/ContainerSingletonTest.java)
-- [x] [ThreadLocal线程单例__ThreadLocalSingletonTest](src/main/java/com/cpucode/pattern/singleton/thread/local/ThreadLocalSingletonTest.java)
+- [x] [饿汉式单例__HungrySingleton](src/main/java/com/cpucode/pattern/create/singleton/hungry/HungrySingleton.java)
+- [x] [饿汉式静态块单例__HungryStaticSingleton](src/main/java/com/cpucode/pattern/create/singleton/hungry/HungryStaticSingleton.java)
+- [x] [懒汉式单例__LazySimpleSingletonTest](src/main/java/com/cpucode/pattern/create/singleton/lazy/simple/LazySimpleSingletonTest.java)
+- [x] [双重检查锁的单例模式__LazyDoubleCheckSingleton](src/main/java/com/cpucode/pattern/create/singleton/lazy/dou/ble/check/LazyDoubleCheckSingleton.java)
+- [x] [静态内部类__LazyInnerClassSingletonTest](src/main/java/com/cpucode/pattern/create/singleton/lazy/innerClass/LazyInnerClassSingletonTest.java)
+- [x] [序列化破坏单例__SeriableSingletonTest](src/main/java/com/cpucode/pattern/create/singleton/seriable/SeriableSingletonTest.java)
+- [x] [注册式单例枚举登记__EnumSingletonTest](src/main/java/com/cpucode/pattern/create/singleton/register/en/um/EnumSingletonTest.java)
+- [x] [注册式单例容器缓存__ContainerSingletonTest](src/main/java/com/cpucode/pattern/create/singleton/register/container/ContainerSingletonTest.java)
+- [x] [ThreadLocal线程单例__ThreadLocalSingletonTest](src/main/java/com/cpucode/pattern/create/singleton/thread/local/ThreadLocalSingletonTest.java)
 
-## [原型模式](src/main/java/com/cpucode/pattern/prototype)
+## [原型模式](src/main/java/com/cpucode/pattern/create/prototype)
 
-- [x] [简单克隆__PrototypeTest](src/main/java/com/cpucode/pattern/prototype/simple/PrototypeTest.java)
-- [x] [深度克隆__DeepCloneTest](src/main/java/com/cpucode/pattern/prototype/deep/DeepCloneTest.java)
+- [x] [简单克隆__PrototypeTest](src/main/java/com/cpucode/pattern/create/prototype/simple/PrototypeTest.java)
+- [x] [深度克隆__DeepCloneTest](src/main/java/com/cpucode/pattern/create/prototype/deep/DeepCloneTest.java)
 
 ---------------------
 
 # 结构型模式
 
-## [代理模式](src/main/java/com/cpucode/pattern/proxy)
+## [代理模式](src/main/java/com/cpucode/pattern/structure/proxy)
 
-- [x] [静态代理__StaticProxyTest](src/main/java/com/cpucode/pattern/proxy/staticproxy/StaticProxyTest.java)
-- [x] [静态代理__Client](src/main/java/com/cpucode/pattern/proxy/simpleproxy/Client.java)
-- [x] [静态代理__DbRouteProxyTest](src/main/java/com/cpucode/pattern/proxy/db/route/proxy/staticdb/DbRouteProxyTest.java)
-- [x] [动态代理__DbRouteProxyTest](src/main/java/com/cpucode/pattern/proxy/db/route/proxy/dynamic/DbRouteProxyTest.java)
-- [x] [JDK动态代理__JDKProxyTest](src/main/java/com/cpucode/pattern/proxy/dynamicproxy/jdkproxy/JDKProxyTest.java)
-- [x] [JDK手写实现__GPProxyTest](src/main/java/com/cpucode/pattern/proxy/dynamicproxy/gpproxy/GPProxyTest.java)
-- [x] [CGLib动态代理__CglibTest](src/main/java/com/cpucode/pattern/proxy/dynamicproxy/cglibproxy/CglibTest.java)
+- [x] [静态代理__StaticProxyTest](src/main/java/com/cpucode/pattern/structure/proxy/staticproxy/StaticProxyTest.java)
+- [x] [静态代理__Client](src/main/java/com/cpucode/pattern/structure/proxy/simpleproxy/Client.java)
+- [x] [静态代理__DbRouteProxyTest](src/main/java/com/cpucode/pattern/structure/proxy/db/route/proxy/staticdb/DbRouteProxyTest.java)
+- [x] [动态代理__DbRouteProxyTest](src/main/java/com/cpucode/pattern/structure/proxy/db/route/proxy/dynamic/DbRouteProxyTest.java)
+- [x] [JDK动态代理__JDKProxyTest](src/main/java/com/cpucode/pattern/structure/proxy/dynamicproxy/jdkproxy/JDKProxyTest.java)
+- [x] [JDK手写实现__GPProxyTest](src/main/java/com/cpucode/pattern/structure/proxy/dynamicproxy/gpproxy/GPProxyTest.java)
+- [x] [CGLib动态代理__CglibTest](src/main/java/com/cpucode/pattern/structure/proxy/dynamicproxy/cglibproxy/CglibTest.java)
 
 
-## [适配器模式](src/main/java/com/cpucode/pattern/adapter)
+## [适配器模式](src/main/java/com/cpucode/pattern/structure/adapter)
 
-- [x] [电压适配器](src/main/java/com/cpucode/pattern/adapter/power/adapter/ObjectAdapterTest.java)
-- [x] [登录适配器](src/main/java/com/cpucode/pattern/adapter/login/adapter/v1/service/SigninForThirdServiceTest.java)
-- [x] [各登录适配器](src/main/java/com/cpucode/pattern/adapter/login/adapter/v2/PassportTest.java)
+- [x] [电压适配器](src/main/java/com/cpucode/pattern/structure/adapter/power/adapter/ObjectAdapterTest.java)
+- [x] [登录适配器](src/main/java/com/cpucode/pattern/structure/adapter/login/adapter/v1/service/SigninForThirdServiceTest.java)
+- [x] [各登录适配器](src/main/java/com/cpucode/pattern/structure/adapter/login/adapter/v2/PassportTest.java)
 
-## [装饰器模式](src/main/java/com/cpucode/pattern/decorator)
+## [装饰器模式](src/main/java/com/cpucode/pattern/structure/decorator)
 
-- [x] [煎饼装饰](src/main/java/com/cpucode/pattern/decorator/batter/cake/v1/BatterCakeTest.java)
-- [x] [煎饼装饰v2](src/main/java/com/cpucode/pattern/decorator/batter/cake/v2/BattercakeTest.java)
-- [x] [登录装饰型](src/main/java/com/cpucode/pattern/decorator/passport/DecoratorTest.java)
+- [x] [煎饼装饰](src/main/java/com/cpucode/pattern/structure/decorator/batter/cake/v1/BatterCakeTest.java)
+- [x] [煎饼装饰v2](src/main/java/com/cpucode/pattern/structure/decorator/batter/cake/v2/BattercakeTest.java)
+- [x] [登录装饰型](src/main/java/com/cpucode/pattern/structure/decorator/passport/DecoratorTest.java)
 
 ----------------
 
 # 行为性模式
 
-## [委派模式](src/main/java/com/cpucode/pattern/delegate)
+## [委派模式](src/main/java/com/cpucode/pattern/behavior/delegate)
 
-- [x] [委派模式__DelegateTest](src/main/java/com/cpucode/pattern/delegate/simple/DelegateTest.java)
-- [x] [MVC委派模式__DispatcherServlet](src/main/java/com/cpucode/pattern/delegate/mvc/DispatcherServlet.java)
-- [x] [MVC委派模式优化__DispatcherServlet2](src/main/java/com/cpucode/pattern/delegate/mvc/DispatcherServlet2.java)
+- [x] [委派模式__DelegateTest](src/main/java/com/cpucode/pattern/behavior/delegate/simple/DelegateTest.java)
+- [x] [MVC委派模式__DispatcherServlet](src/main/java/com/cpucode/pattern/behavior/delegate/mvc/DispatcherServlet.java)
+- [x] [MVC委派模式优化__DispatcherServlet2](src/main/java/com/cpucode/pattern/behavior/delegate/mvc/DispatcherServlet2.java)
 
-## [策略模式](src/main/java/com/cpucode/pattern/strategy)
+## [策略模式](src/main/java/com/cpucode/pattern/behavior/strategy)
 
-- [x] [策略模式](src/main/java/com/cpucode/pattern/strategy/promotion/PromotionActivityTest.java)
-- [x] [策略模式](src/main/java/com/cpucode/pattern/strategy/promotion/PromotionActivityTest2.java)
-- [x] [策略模式](src/main/java/com/cpucode/pattern/strategy/promotion/PromotionActivityTest3.java)
-- [x] [策略模式](src/main/java/com/cpucode/pattern/strategy/pay/PayStrategyTest.java)
+- [x] [策略模式](src/main/java/com/cpucode/pattern/behavior/strategy/promotion/PromotionActivityTest.java)
+- [x] [策略模式](src/main/java/com/cpucode/pattern/behavior/strategy/promotion/PromotionActivityTest2.java)
+- [x] [策略模式](src/main/java/com/cpucode/pattern/behavior/strategy/promotion/PromotionActivityTest3.java)
+- [x] [策略模式](src/main/java/com/cpucode/pattern/behavior/strategy/pay/PayStrategyTest.java)
 
-## [模板模式](src/main/java/com/cpucode/pattern/template)
+## [模板模式](src/main/java/com/cpucode/pattern/behavior/template)
 
-- [x] [课程模板模式](src/main/java/com/cpucode/pattern/template/course/NetworkCourseTest.java)
-- [x] [Jdbc模板模式](src/main/java/com/cpucode/pattern/template/jdbc/MemberDaoTest.java)
+- [x] [课程模板模式](src/main/java/com/cpucode/pattern/behavior/template/course/NetworkCourseTest.java)
+- [x] [Jdbc模板模式](src/main/java/com/cpucode/pattern/behavior/template/jdbc/MemberDaoTest.java)
 
 ## [观察者模式]()
 
