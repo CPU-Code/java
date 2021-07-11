@@ -126,9 +126,9 @@
 - [x] [课程模板模式](src/main/java/com/cpucode/pattern/behavior/template/course/NetworkCourseTest.java)
 - [x] [Jdbc模板模式](src/main/java/com/cpucode/pattern/behavior/template/jdbc/MemberDaoTest.java)
 
-## [观察者模式]()
+## [观察者模式](src/main/java/com/cpucode/pattern/behavior/observer)
 
-- [] []()
+- [x] [课程提问](src/main/java/com/cpucode/pattern/behavior/observer/course/advice/ObserverTest.java)
 
 ---------------
 
