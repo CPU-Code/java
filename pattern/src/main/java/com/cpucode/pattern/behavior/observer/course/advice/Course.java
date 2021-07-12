@@ -23,7 +23,6 @@ public class Course extends Observable {
         return course;
     }
 
-
     public String getName(){
         return name;
     }
