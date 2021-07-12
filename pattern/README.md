@@ -130,7 +130,7 @@
 
 - [x] [课程提问](src/main/java/com/cpucode/pattern/behavior/observer/course/advice/ObserverTest.java)
 - [x] [鼠标操作](src/main/java/com/cpucode/pattern/behavior/observer/events/MouseEventTest.java)
-
+- [x] [Guava实现观察者](src/main/java/com/cpucode/pattern/behavior/observer/guava/GuavaEventTest.java)
 
 ---------------
 
