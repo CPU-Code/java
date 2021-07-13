@@ -29,19 +29,19 @@ public class ArgsAspect {
     public void aspect(){	}
 
     /**
-     * 配置前置通知,拦截返回值为cn.ysh.studio.spring.mvc.bean.User的方法
+     * 配置前置通知,拦截返回值为 的方法
      * @param joinPoint
      */
-    @Before("execution(com.gupaoedu.vip.pattern.spring.aop.model.Member com.cpucode.pattern.spring.aop.service..*(..))")
+    @Before("execution(com.cpucode.pattern.spring.aop.model.Member com.cpucode.pattern.spring.aop.service..*(..))")
     public void beforeReturnUser(JoinPoint joinPoint){
         log.info("beforeReturnUser " + joinPoint);
     }
 
     /**
-     * 配置前置通知,拦截参数为cn.ysh.studio.spring.mvc.bean.User的方法
+     * 配置前置通知,拦截参数为 的方法
      * @param joinPoint
      */
-    @Before("execution(* com.cpucode.pattern.spring.aop.service..*(com.gupaoedu.vip.pattern.spring.aop.model.Member))")
+    @Before("execution(* com.cpucode.pattern.spring.aop.service..*(com.cpucode.pattern.spring.aop.model.Member))")
     public void beforeArgUser(JoinPoint joinPoint){
         log.info("beforeArgUser " + joinPoint);
     }
@@ -51,7 +51,7 @@ public class ArgsAspect {
      * @param joinPoint
      * @param id
      */
-    @Before("aspect()&&args(id)")
+    @Before("aspect() && args(id)")
     public void beforeArgId(JoinPoint joinPoint, long id){
         log.info("beforeArgId " + joinPoint + "\tID:" + id);
     }
