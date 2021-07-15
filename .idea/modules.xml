@@ -28,6 +28,8 @@
       <module fileurl="file://$PROJECT_DIR$/pattern/pattern.iml" filepath="$PROJECT_DIR$/pattern/pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/artConcurrent/programming/programming.iml" filepath="$PROJECT_DIR$/artConcurrent/programming/programming.iml" />
       <module fileurl="file://$PROJECT_DIR$/reflect/reflect.iml" filepath="$PROJECT_DIR$/reflect/reflect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/spring.iml" filepath="$PROJECT_DIR$/spring/spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/spring-demo/spring-demo.iml" filepath="$PROJECT_DIR$/spring/spring-demo/spring-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/data_algorithm/stack/stack.iml" filepath="$PROJECT_DIR$/data_algorithm/stack/stack.iml" />
       <module fileurl="file://$PROJECT_DIR$/thread/thread.iml" filepath="$PROJECT_DIR$/thread/thread.iml" />
     </modules>
