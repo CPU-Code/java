@@ -9,7 +9,7 @@
     <servlet>
         <servlet-name>cpmvc</servlet-name>
         <!-- 模拟 Spring 实现的核心功能类 -->
-        <servlet-class>com.cpucode.mvcframework.v1.servlet.CPDispatcherServlet</servlet-class>
+        <servlet-class>com.cpucode.mvcframework.v2.servlet.CPDispatcherServlet</servlet-class>
         <init-param>
             <param-name>contextConfigLocation</param-name>
             <param-value>classpath:application.properties</param-value>

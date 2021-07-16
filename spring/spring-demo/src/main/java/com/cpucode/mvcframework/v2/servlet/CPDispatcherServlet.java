@@ -34,12 +34,12 @@ public class CPDispatcherServlet extends HttpServlet {
     private List<String> classNames = new ArrayList<String>();
 
     /**
-     * IOC 容器
+     * IOC 容器 , 保存所有实例化对象, 注册式单例模式
      */
     private Map<String, Object> ioc = new HashMap<String, Object>();
 
     /**
-     * 保存 url 和 Method 的对应关系
+     * 保存 url 和 Method 的对应关系 , Contrller中所有Mapping的对应关系
      */
     private Map<String, Method> handlerMapping = new HashMap<String, Method>();
 
@@ -52,6 +52,7 @@ public class CPDispatcherServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         //6、 调用， 运行阶段
         try {
+            // 委派模式
             doDispatch(req, resp);
         } catch (Exception e) {
             e.printStackTrace();
@@ -88,8 +89,13 @@ public class CPDispatcherServlet extends HttpServlet {
         //获取方法的形参列表
         Class<?> [] parameterTypes = method.getParameterTypes();
 
+        //保存请求的url参数列表
+        Map<String,String[]> parameterMap = req.getParameterMap();
+
+        //保存赋值参数的位置
         Object [] paramValues = new Object[parameterTypes.length];
 
+        //按根据参数位置动态赋值
         for (int i = 0; i < parameterTypes.length; i ++) {
             Class parameterType = parameterTypes[i];
 
@@ -104,7 +110,7 @@ public class CPDispatcherServlet extends HttpServlet {
                 CPRequestParam requestParam =
                         (CPRequestParam)parameterType.getAnnotation(CPRequestParam.class);
 
-                if(params.containsKey(requestParam.value())) {
+                if(parameterMap.containsKey(requestParam.value())) {
                     for (Map.Entry<String, String[]> entry : params.entrySet()) {
                         String value = Arrays.toString(entry.getValue())
                                 .replaceAll("\\[|\\]","")
@@ -142,8 +148,6 @@ public class CPDispatcherServlet extends HttpServlet {
         return value;
     }
 
-
-
     /**
      * 初始化阶段
      * @param config
@@ -178,6 +182,7 @@ public class CPDispatcherServlet extends HttpServlet {
                 .getResourceAsStream(replace);
 
         try {
+            //1、读取配置文件
             contextConfig.load(fis);
         } catch (IOException e) {
             e.printStackTrace();
@@ -197,6 +202,7 @@ public class CPDispatcherServlet extends HttpServlet {
      * @param scanPackage
      */
     private void doScanner(String scanPackage) {
+        // 包传过来包下面的所有的类全部扫描进来的
         URL url = this.getClass().getClassLoader().getResource("/" +
                 scanPackage.replaceAll("\\.","/"));
         File classPath = new File(url.getFile());
@@ -205,7 +211,7 @@ public class CPDispatcherServlet extends HttpServlet {
             if(file.isDirectory()){
                 doScanner(scanPackage + "." + file.getName());
             }else{
-                if (file.getName().endsWith(".class")){
+                if (!file.getName().endsWith(".class")){
                     continue;
                 }
 
@@ -216,7 +222,7 @@ public class CPDispatcherServlet extends HttpServlet {
     }
 
     /**
-     * 工厂模式的具体实现
+     * 工厂模式的具体实现 , 控制反转过程
      */
     private void doInstance() {
         //初始化， 为 DI 做准备
@@ -236,6 +242,8 @@ public class CPDispatcherServlet extends HttpServlet {
                     String beanName = toLowerFirstCase(clazz.getSimpleName());
                     ioc.put(beanName, instance);
                 }else if(clazz.isAnnotationPresent(CPService.class)){
+                    //1、默认的类名首字母小写
+
                     //1、 自定义的 beanName
                     CPService service = clazz.getAnnotation(CPService.class);
                     String beanName = service.value();
@@ -308,14 +316,15 @@ public class CPDispatcherServlet extends HttpServlet {
                 }
 
                 //如果是 public 以外的修饰符， 只要加了@Autowired 注解， 都要强制赋值
-                //反射中叫做暴力访问， 强吻
+                //反射中叫做暴力访问， 强吻 , 设置私有属性的访问权限
                 field.setAccessible(true);
 
                 try {
-                    //用反射机制， 动态给字段赋值
+                    //用反射机制， 动态给字段赋值 , 执行注入动作
                     field.set(entry.getValue(), ioc.get(beanName));
                 } catch (IllegalAccessException e) {
                     e.printStackTrace();
+                    continue ;
                 }
 
             }
@@ -350,10 +359,12 @@ public class CPDispatcherServlet extends HttpServlet {
 
             //默认获取所有的 public 方法
             for (Method method : clazz.getMethods()) {
+                //没有加RequestMapping注解的直接忽略
                 if(!method.isAnnotationPresent(CPRequestMapping.class)){
                     continue;
                 }
 
+                //映射URL
                 CPRequestMapping requestMapping = method.getAnnotation(CPRequestMapping.class);
 
                 //优化  //demo///query

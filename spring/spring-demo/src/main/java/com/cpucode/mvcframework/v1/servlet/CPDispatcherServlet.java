@@ -67,9 +67,10 @@ public class CPDispatcherServlet extends HttpServlet {
         try{
             // 加载配置文件
             Properties configContext = new Properties();
+            String contextConfigLocation = config.getInitParameter("contextConfigLocation");
 
             is = this.getClass().getClassLoader().
-                    getResourceAsStream(config.getInitParameter("contextConfigLocation"));
+                    getResourceAsStream(contextConfigLocation.replace("classpath:",""));
 
             configContext.load(is);
             String scanPackage = configContext.getProperty("scanPackage");
