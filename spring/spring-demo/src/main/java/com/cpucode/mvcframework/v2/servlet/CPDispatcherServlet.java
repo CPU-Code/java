@@ -81,15 +81,12 @@ public class CPDispatcherServlet extends HttpServlet {
 
         Method method = this.handlerMapping.get(url);
 
-        //从 reqest 中拿到 url 传过来的参数
-        //第一个参数： 方法所在的实例
-        //第二个参数： 调用时所需要的实参
-        Map<String, String[]> params = req.getParameterMap();
-
         //获取方法的形参列表
         Class<?> [] parameterTypes = method.getParameterTypes();
 
         //保存请求的url参数列表
+        //第一个参数： 方法所在的实例
+        //第二个参数： 调用时所需要的实参
         Map<String,String[]> parameterMap = req.getParameterMap();
 
         //保存赋值参数的位置
@@ -111,7 +108,7 @@ public class CPDispatcherServlet extends HttpServlet {
                         (CPRequestParam)parameterType.getAnnotation(CPRequestParam.class);
 
                 if(parameterMap.containsKey(requestParam.value())) {
-                    for (Map.Entry<String, String[]> entry : params.entrySet()) {
+                    for (Map.Entry<String, String[]> entry : parameterMap.entrySet()) {
                         String value = Arrays.toString(entry.getValue())
                                 .replaceAll("\\[|\\]","")
                                 .replaceAll("\\s", ",");
@@ -177,7 +174,7 @@ public class CPDispatcherServlet extends HttpServlet {
         String replace = contextConfigLocation.replace("classpath:", "");
         //直接从类路径下找到 Spring 主配置文件所在的路径
         //并且将其读取出来放到 Properties 对象中
-        //相对于 scanPackage=com.cpucode.demo 从文件中保存到了内存中
+        //相对于 scanPackage= com.cpucode.demo 从文件中保存到了内存中
         InputStream fis = this.getClass().getClassLoader()
                 .getResourceAsStream(replace);
 
@@ -209,13 +206,16 @@ public class CPDispatcherServlet extends HttpServlet {
 
         for (File file : classPath.listFiles()) {
             if(file.isDirectory()){
+                // 为目录就递归查找
                 doScanner(scanPackage + "." + file.getName());
             }else{
                 if (!file.getName().endsWith(".class")){
                     continue;
                 }
 
-                String className = (scanPackage + "." + file.getName().replace(".class", ""));
+                String className = (scanPackage + "." +
+                        file.getName().replace(".class", ""));
+
                 classNames.add(className);
             }
         }
@@ -242,7 +242,6 @@ public class CPDispatcherServlet extends HttpServlet {
                     String beanName = toLowerFirstCase(clazz.getSimpleName());
                     ioc.put(beanName, instance);
                 }else if(clazz.isAnnotationPresent(CPService.class)){
-                    //1、默认的类名首字母小写
 
                     //1、 自定义的 beanName
                     CPService service = clazz.getAnnotation(CPService.class);
@@ -368,14 +367,13 @@ public class CPDispatcherServlet extends HttpServlet {
                 CPRequestMapping requestMapping = method.getAnnotation(CPRequestMapping.class);
 
                 //优化  //demo///query
-                String url = ("/" + baseUrl + "/" +
-                        requestMapping.value()).replaceAll("/+","/");
+                String url = ("/" + baseUrl + "/" + requestMapping.value())
+                        .replaceAll("/+","/");
                 handlerMapping.put(url, method);
 
                 System.out.println("Mapped :" + url + "," + method);
             }
         }
     }
-
 
 }
