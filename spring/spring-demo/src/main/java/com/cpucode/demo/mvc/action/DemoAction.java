@@ -54,7 +54,7 @@ public class DemoAction {
     public void remove(HttpServletRequest req,
                        HttpServletResponse resp){
         try {
-            resp.getWriter().write("流弊");
+            resp.getWriter().write("cpucode");
         } catch (IOException e) {
             e.printStackTrace();
         }
