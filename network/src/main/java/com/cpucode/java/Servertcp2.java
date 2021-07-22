@@ -1,22 +1,12 @@
-/*
- * @由于个人水平有限, 难免有些错误, 还请指点:  
- * @Author: cpu_code
- * @Date: 2020-09-19 22:28:11
- * @LastEditTime: 2020-09-19 22:31:31
- * @FilePath: \java\network\Servertcp1.java
- * @Gitee: [https://gitee.com/cpu_code](https://gitee.com/cpu_code)
- * @Github: [https://github.com/CPU-Code](https://github.com/CPU-Code)
- * @CSDN: [https://blog.csdn.net/qq_44226094](https://blog.csdn.net/qq_44226094)
- * @Gitbook: [https://923992029.gitbook.io/cpucode/](https://923992029.gitbook.io/cpucode/)
- */
-package network;
+package com.cpucode.java;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.OutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class Servertcp1 {
+public class Servertcp2 {
     public static void main(String[] args) throws IOException {
         System.out.println("服务器启动, 等待连接");
         // 1.创建 ServerSocket 对象，绑定端口，开始等待连接
@@ -39,7 +29,14 @@ public class Servertcp1 {
         String msg = new String(b, 0, len);
         System.out.println(msg);
 
-        //5.关闭资源
+        // =================回写数据=======================
+        // 5. 通过 socket 获取输出流
+        OutputStream out = server.getOutputStream();
+        // 6. 回写数据
+        out.write("你好, 我很好".getBytes());
+
+        // 7.关闭资源
+        out.close();
         is.close();
         server.close();
     }

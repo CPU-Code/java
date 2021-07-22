@@ -7,14 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="programming" />
         <module name="stack" />
-        <module name="leetcode" />
+        <module name="test" />
         <module name="nowCoder" />
         <module name="pattern" />
         <module name="spring-demo" />
         <module name="link_list" />
         <module name="array" />
-        <module name="programming" />
+        <module name="network" />
+        <module name="leetcode" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,12 +25,14 @@
       <module name="data_algorithm" target="1.8" />
       <module name="leetcode" target="1.8" />
       <module name="link_list" target="8" />
+      <module name="network" target="1.8" />
       <module name="nowCoder" target="1.8" />
       <module name="pattern" target="1.8" />
       <module name="programming" target="1.8" />
       <module name="spring" target="1.5" />
       <module name="spring-demo" target="1.8" />
       <module name="stack" target="1.8" />
+      <module name="test" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

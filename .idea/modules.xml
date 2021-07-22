@@ -31,6 +31,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring/spring.iml" filepath="$PROJECT_DIR$/spring/spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring/spring-demo/spring-demo.iml" filepath="$PROJECT_DIR$/spring/spring-demo/spring-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/data_algorithm/stack/stack.iml" filepath="$PROJECT_DIR$/data_algorithm/stack/stack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
       <module fileurl="file://$PROJECT_DIR$/thread/thread.iml" filepath="$PROJECT_DIR$/thread/thread.iml" />
     </modules>
   </component>
