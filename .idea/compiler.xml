@@ -7,8 +7,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="programming" />
         <module name="stack" />
+        <module name="leetcode" />
         <module name="test" />
         <module name="nowCoder" />
         <module name="pattern" />
@@ -16,7 +16,8 @@
         <module name="link_list" />
         <module name="array" />
         <module name="network" />
-        <module name="leetcode" />
+        <module name="programming" />
+        <module name="reflect" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -29,6 +30,7 @@
       <module name="nowCoder" target="1.8" />
       <module name="pattern" target="1.8" />
       <module name="programming" target="1.8" />
+      <module name="reflect" target="1.8" />
       <module name="spring" target="1.5" />
       <module name="spring-demo" target="1.8" />
       <module name="stack" target="1.8" />

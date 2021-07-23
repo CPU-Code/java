@@ -1,4 +1,4 @@
-package reflect;
+package com.cpucode.java.reflect;
 
 import com.cpucode.java.jdbc.domain.Person;
 import com.cpucode.java.jdbc.domain.Student;

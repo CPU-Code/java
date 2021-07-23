@@ -1,6 +1,4 @@
-package reflect;
-
-import com.sun.corba.se.spi.copyobject.ReflectiveCopyException;
+package com.cpucode.java.reflect;
 
 import java.io.InputStream;
 import java.lang.reflect.Method;
