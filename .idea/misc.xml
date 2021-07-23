@@ -18,6 +18,7 @@
         <option value="$PROJECT_DIR$/network/pom.xml" />
         <option value="$PROJECT_DIR$/test/pom.xml" />
         <option value="$PROJECT_DIR$/reflect/pom.xml" />
+        <option value="$PROJECT_DIR$/thread/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
