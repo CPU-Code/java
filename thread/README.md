@@ -93,7 +93,13 @@
 
 -------------------------
 
+## [线程状态](src/main/java/com/cpucode/java/status/thread)
 
+- [x] [线程状态](src/main/java/com/cpucode/java/status/thread/ThreadStatusDemo.java)
+
+- [返回文件目录](#文件目录)
+
+-------------------------
 
 - [x] [Thread1__创建新线程](src/main/java/com/cpucode/java/thread/Thread1.java)
 - [x] [Thread2__自定义线程](src/main/java/com/cpucode/java/thread/Thread2.java)
