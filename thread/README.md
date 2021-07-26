@@ -96,6 +96,7 @@
 ## [线程状态](src/main/java/com/cpucode/java/status/thread)
 
 - [x] [线程状态](src/main/java/com/cpucode/java/status/thread/ThreadStatusDemo.java)
+- [x] [中断线程状态](src/main/java/com/cpucode/java/status/thread/InterruptDemo.java)
 
 - [返回文件目录](#文件目录)
 
