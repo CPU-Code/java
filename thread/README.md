@@ -108,6 +108,7 @@
 ## [synchronized](src/main/java/com/cpucode/java/synchronize)
 
 - [x] [多线程安全问题](src/main/java/com/cpucode/java/synchronize/ThreadDemo.java)
+- [x] [解决多线程安全问题](src/main/java/com/cpucode/java/synchronize/SynchronizeDemo.java)
 
 - [返回文件目录](#文件目录)
 
