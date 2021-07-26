@@ -97,6 +97,9 @@
 
 - [x] [线程状态](src/main/java/com/cpucode/java/status/thread/ThreadStatusDemo.java)
 - [x] [中断线程状态](src/main/java/com/cpucode/java/status/thread/InterruptDemo.java)
+- [x] [中断复位线程](src/main/java/com/cpucode/java/status/thread/InterruptDemo2.java)
+- [x] [中断响应](src/main/java/com/cpucode/java/status/thread/InterruptDemo3.java)
+- [x] [睡眠中断异常](src/main/java/com/cpucode/java/status/thread/InterruptDemo4.java)
 
 - [返回文件目录](#文件目录)
 
