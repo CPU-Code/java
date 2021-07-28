@@ -16,11 +16,23 @@ public class SyncDemo {
                 // x 是共享变量, 初始值 =10
                 if (x < 12) {
                     x = 12;
-                    System.out.println(x);
+                    System.out.println("thread : " + x);
+                }
+            }
+        });
+
+        Thread thread2 = new Thread(() -> {
+            synchronized (SyncDemo.class) { // 此处自动加锁
+                // x 是共享变量, 初始值 =10
+                if (x < 12) {
+                    x = 12;
+
+                    System.out.println("thread2 : " + x);
                 }
             }
         });
 
         thread.start();
+        thread2.start();
     }
 }
