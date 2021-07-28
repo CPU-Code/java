@@ -118,6 +118,7 @@
 
 - [x] [volatile的可见性](src/main/java/com/cpucode/java/volati/VolatileDemo.java)
 - [x] [程序顺序规则](src/main/java/com/cpucode/java/volati/BeforeDemo.java)
+- [x] [start规则](src/main/java/com/cpucode/java/volati/StartDemo.java)
 
 - [返回文件目录](#文件目录)
 
