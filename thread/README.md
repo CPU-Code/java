@@ -120,6 +120,7 @@
 - [x] [程序顺序规则](src/main/java/com/cpucode/java/volati/BeforeDemo.java)
 - [x] [start规则](src/main/java/com/cpucode/java/volati/StartDemo.java)
 - [x] [join规则](src/main/java/com/cpucode/java/volati/JoinRule.java)
+- [x] [监视器锁的规则](src/main/java/com/cpucode/java/volati/SyncDemo.java)
 
 - [返回文件目录](#文件目录)
 
