@@ -142,6 +142,7 @@
 - [x] [CountDownLatch同步工具类](src/main/java/com/cpucode/java/condition/CountDownLatchDemo.java)
 - [x] [模拟高并发场景](src/main/java/com/cpucode/java/condition/CountDownLatchDemo2.java)
 - [x] [采用令牌限流](src/main/java/com/cpucode/java/condition/SemaphoreDemo.java)
+- [x] [可循环使用](src/main/java/com/cpucode/java/condition/SemaphoreDemo.java)
 
 - [返回文件目录](#文件目录)
 
