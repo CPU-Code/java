@@ -1,10 +1,22 @@
 package com.cpucode.java.test;
 
+import com.google.zxing.BarcodeFormat;
+import com.google.zxing.EncodeHintType;
+import com.google.zxing.MultiFormatWriter;
+import com.google.zxing.WriterException;
+import com.google.zxing.common.BitMatrix;
+import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
+import org.joda.time.DateTime;
+
+import javax.imageio.ImageIO;
 import javax.print.*;
 import javax.print.attribute.HashPrintRequestAttributeSet;
 import javax.print.attribute.PrintRequestAttributeSet;
+import javax.print.attribute.ResolutionSyntax;
 import javax.print.attribute.standard.Copies;
+import javax.print.attribute.standard.PrinterResolution;
 import javax.print.attribute.standard.Sides;
+import java.awt.image.BufferedImage;
 import java.awt.print.PrinterJob;
 import java.io.*;
 import java.awt.*;
@@ -12,6 +24,8 @@ import javax.swing.*;
 import java.awt.event.*;
 import java.net.URL;
 import java.net.URLConnection;
+import java.util.HashMap;
+import java.util.Random;
 
 /**
  * @author : cpucode
@@ -21,7 +35,7 @@ import java.net.URLConnection;
  * @csdn : https://blog.csdn.net/qq_44226094
  */
 public class PrintTest {
-    public static void main(String[] args) throws PrintException, IOException {
+    public static void main(String[] args) throws PrintException, IOException, WriterException {
         GUI();
     }
 
@@ -30,8 +44,9 @@ public class PrintTest {
      * @throws IOException
      */
     public static String download(String urlString) throws IOException {
-        //String filename = "64c5522fea65271d17ee179c948493261627520803.jpeg";
-        String savePath = "C:\\Users\\cpucode\\Desktop";
+        String timeUrl = new DateTime().toString("yyyy/MM/dd");
+
+        String savePath = "D:\\" + timeUrl;
 
         InputStream is = null;
         OutputStream os = null;
@@ -152,7 +167,54 @@ public class PrintTest {
         return name;
     }
 
+    /**
+     * 打印流程
+     */
+    public static String process(String mid){
+        // 获取请求数据
+        String data = null;
+        String res = "成功生成";
+        boolean state = false;
 
+        try {
+            for (int i = 0; i < 10; i++) {
+                data = getData(mid);
+                state = checkData(data);
+                if (state){
+                    break;
+                }
+                System.out.println(data);
+            }
+
+            if (!state){
+                res = "网络异常, 请重新生成";
+                return res;
+            }
+
+            System.out.println(data);
+
+            String replace = getURL(data);
+
+            if (replace.isEmpty()){
+                res = "生成字符串为空, 请重新生成";
+                return res;
+            }
+
+            String download = download(replace);
+            String qRcode = getQRcode(mid);
+
+            //JPGPrint(download);
+            //JPGPrint(qRcode);
+
+            res = res + " : \n" + download + "\n"+ qRcode;
+        } catch (Exception ex) {
+            ex.printStackTrace();
+            res = "错误异常 , 请重新生成";
+        }
+
+
+        return res;
+    }
 
     /**
      * 界面
@@ -163,87 +225,65 @@ public class PrintTest {
         JFrame f = new JFrame("小程序二维码打印");
         f.setSize(500, 500);
         f.setLocation(200, 200);
-
         f.setLayout(null);
 
         JPanel pInput = new JPanel();
-        pInput.setBounds(gap, gap, 450, 150);
+        pInput.setBounds(gap, gap, 450, 200);
         pInput.setLayout(new GridLayout(4,3, gap, gap));
 
-
+        // 二维码输入
         JLabel location = new JLabel("机器二维码:");
-        JTextField locationText = new JTextField();
+        JTextField midTest = new JTextField();
 
-        JButton b = new JButton("生成");
+        // 纸张输入
+//        JLabel Paper  = new JLabel("纸张大小:");
+//        JTextField PaperX = new JTextField("纸张宽");
+//        JTextField PaperY = new JTextField();
 
         pInput.add(location);
-        pInput.add(locationText);
+        pInput.add(midTest);
+//        pInput.add(Paper);
+//        pInput.add(PaperX);
+//        pInput.add(PaperY);
+
+        // 按钮
+        JButton b = new JButton("生成");
+        b.setBounds(180, 120 + 30, 80, 30);
 
         //文本域
         JTextArea ta = new JTextArea();
         ta.setLineWrap(true);
-
-        b.setBounds(180, 120 + 30, 80, 30);
         ta.setBounds(gap, 150 + 60, 450, 150);
 
         f.add(pInput);
         f.add(b);
         f.add(ta);
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
         f.setVisible(true);
 
         //鼠标监听
         b.addActionListener(new ActionListener(){
             boolean checkedpass = true;
-
             @Override
             public void actionPerformed(ActionEvent e){
                 checkedpass = true;
                 // 校验机器id是否为空
-                checkEmpty(locationText,"机器二维码");
+                checkEmpty(midTest,"机器二维码");
 
-                String mid = locationText.getText();
+                String mid = midTest.getText();
 
                 if(checkedpass){
-                    // 获取请求数据
-                    String data = getData(mid);
 
-                    try {
-                        if (!checkData(data)){
-                            data = "错误 , 请重新生成";
-                            return;
-                        }
-                    } catch (Exception ex) {
-                        ex.printStackTrace();
+                    String process = process(mid);
+
+                    // 成功清除输入框
+                    if (process.charAt(0) == '成'){
+                        midTest.setText("");
                     }
-
-                    String replace = Replace(data);
-                    String download = null;
-
-                    try {
-                        if (!replace.isEmpty()){
-                            download = download(replace);
-
-                            System.out.println(download);
-                        }
-                    } catch (IOException ex) {
-                        ex.printStackTrace();
-                    }
-
-                    try {
-                        JPGPrint(download);
-                    } catch (PrintException ex) {
-                        ex.printStackTrace();
-                    }
-
-                    String model = "%s";
-                    String result = String.format(model, replace);
 
                     ta.setText("");
-                    ta.append(result);
+                    ta.append(process);
                 }
-
             }
 
             /**
@@ -264,7 +304,6 @@ public class PrintTest {
                 }
             }
         });
-
     }
 
 
@@ -290,11 +329,12 @@ public class PrintTest {
      * 提取 url
      * @param data
      */
-    public static String Replace(String data){
+    public static String getURL(String data) throws Exception {
         int https = data.indexOf("https");
         int jpeg = data.lastIndexOf("\"");
-        if (https == -1 || https == -1){
-            return "";
+
+        if (https == -1 || jpeg == -1){
+            throw new Exception("无https");
         }
 
         String substring = data.substring(https, jpeg);
@@ -304,12 +344,13 @@ public class PrintTest {
 
 
     /**
-     * 传入文件和打印机名称
-     * @param file
-     * @param printerName 打印机名
+     * 打印
+     * @param filename
      * @throws PrintException
      */
     public static void JPGPrint(String filename) throws PrintException {
+        int x = 70;
+        int y = 535 / 470 * x;
         File file = new File(filename);
 
         //打印机名包含字串
@@ -358,11 +399,12 @@ public class PrintTest {
 
             // 设置打印参数
             PrintRequestAttributeSet aset = new HashPrintRequestAttributeSet();
+            PrinterResolution pr = new PrinterResolution(x, y, ResolutionSyntax.DPI);
 
             //份数
             aset.add(new Copies(1));
             //纸张
-            //aset.add(MediaSize.ISO.A4);
+            aset.add(pr);
 
             // aset.add(Finishings.STAPLE);//装订
 
@@ -390,6 +432,73 @@ public class PrintTest {
                 }
             }
         }
+    }
+
+    /**
+     * 二维码生成
+     * @param content
+     * @throws WriterException
+     */
+    public static String getQRcode(String content) throws WriterException {
+        String timeUrl = new DateTime().toString("yyyy/MM/dd");
+        String savePath = "D:\\" + timeUrl;
+
+        // 二维码尺寸
+        int QRCODE_SIZE = 300;
+
+        HashMap hints = new HashMap<>();
+        hints.put(EncodeHintType.ERROR_CORRECTION, ErrorCorrectionLevel.H);
+        hints.put(EncodeHintType.CHARACTER_SET, "utf-8");
+        hints.put(EncodeHintType.MARGIN, 1);
+        BitMatrix bitMatrix = new MultiFormatWriter().encode(content,
+                                                             BarcodeFormat.QR_CODE,
+                                                             QRCODE_SIZE,
+                                                             QRCODE_SIZE, hints);
+        int width = bitMatrix.getWidth();
+        int height = bitMatrix.getHeight();
+        BufferedImage image = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
+
+        for (int x = 0; x < width; x++) {
+            for (int y = 0; y < height; y++) {
+                image.setRGB(x, y, bitMatrix.get(x, y) ? 0xFF000000 : 0xFFFFFFFF);
+            }
+        }
+
+        // 输出的文件流
+        File sf = new File(savePath);
+        if(!sf.exists()){
+            sf.mkdirs();
+        }
+
+        String random = random();
+
+        savePath = savePath + "\\" + random + ".jpeg";
+
+        try {
+            ImageIO.write(image, "JPEG", new File(savePath));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return savePath;
+    }
+
+    public static String random(){
+        /**
+         *  随机字符串
+         */
+        String INT_TEMP = "0123456789";
+        String STR_TEMP = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+        String ALL_TEMP = INT_TEMP + STR_TEMP;
+        Random RANDOM = new Random();
+        int count = 20;
+
+        char[] buffer = new char[count];
+        for (int i = 0; i < count; i++) {
+            buffer[i] = ALL_TEMP.charAt(RANDOM.nextInt(ALL_TEMP.length()));
+        }
+
+        return new String(buffer);
     }
 
 }

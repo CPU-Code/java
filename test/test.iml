@@ -11,5 +11,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: joda-time:joda-time:2.10.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.zxing:core:3.3.0" level="project" />
   </component>
 </module>
