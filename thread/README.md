@@ -142,11 +142,21 @@
 - [x] [CountDownLatch同步工具类](src/main/java/com/cpucode/java/condition/CountDownLatchDemo.java)
 - [x] [模拟高并发场景](src/main/java/com/cpucode/java/condition/CountDownLatchDemo2.java)
 - [x] [采用令牌限流](src/main/java/com/cpucode/java/condition/SemaphoreDemo.java)
-- [x] [可循环使用](src/main/java/com/cpucode/java/condition/SemaphoreDemo.java)
+- [x] [可循环使用](src/main/java/com/cpucode/java/condition/CycliBarrierDemo.java)
 
 - [返回文件目录](#文件目录)
 
 -------------------------
+
+## [阻塞队列](src/main/java/com/cpucode/java/block/UserService.java)
+
+- [x] [模拟阻塞队列](src/main/java/com/cpucode/java/block/UserService.java)
+- [x] [阻塞队列](src/main/java/com/cpucode/java/block/UserService2.java)
+
+- [返回文件目录](#文件目录)
+
+-------------------------
+
 
 - [x] [Thread1__创建新线程](src/main/java/com/cpucode/java/thread/Thread1.java)
 - [x] [Thread2__自定义线程](src/main/java/com/cpucode/java/thread/Thread2.java)
