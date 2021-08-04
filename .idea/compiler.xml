@@ -7,19 +7,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="programming" />
         <module name="stack" />
+        <module name="leetcode" />
         <module name="test" />
         <module name="nowCoder" />
         <module name="pattern" />
         <module name="spring-demo" />
         <module name="link_list" />
         <module name="array" />
-        <module name="spring-v2" />
         <module name="network" />
-        <module name="leetcode" />
-        <module name="thread" />
         <module name="reflect" />
+        <module name="programming" />
+        <module name="thread" />
+        <module name="spring-v2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -45,6 +45,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="pattern" options="-parameters" />
       <module name="spring-demo" options="-verbose -bootclasspath &quot;D:/Program Files/Java/jdk8u272-b10/jre/lib/rt.jar&quot;" />
+      <module name="spring-v2" options="-verbose -bootclasspath &quot;D:/Program Files/Java/jdk8u272-b10/jre/lib/rt.jar&quot;" />
     </option>
   </component>
 </project>

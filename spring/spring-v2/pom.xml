@@ -20,19 +20,227 @@
     </dependencies>
 
     <build>
+        <finalName>${project.artifactId}</finalName>
+
+        <resources>
+            <resource>
+                <!-- 指定resources插件处理哪个目录下的资源文件 -->
+                <directory>${basedir}/src/main/resources</directory>
+
+                <!-- 只（这个字很重要）包含 directory 指定目录下的以下文件
+                 <include>和<exclude>都存在的话，那就发生冲突了，这时会以<exclude>为准 -->
+                <includes>
+                    <include>**/*</include>
+                </includes>
+            </resource>
+
+            <resource>
+                <directory>${basedir}/src/main/java</directory>
+                <!-- 不包含 directory 指定目录下的以下文件 -->
+                <excludes>
+                    <exclude>**/*.java</exclude>
+                    <exclude>**/*.class</exclude>
+                </excludes>
+            </resource>
+        </resources>
+
         <plugins>
-            <!-- java编译插件 -->
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.2</version>
+                <version>3.1</version>
                 <configuration>
+                    <!-- 一般而言，target 与 source是保持一致的，
+                         但是，有时候为了让程序能在其他版本的jdk中运行
+                         (对于低版本目标jdk，源代码中不能使用低版本jdk中不支持的语法)，
+                         会存在 target 不同于source的情况 -->
+                    <!-- 源代码使用的JDK版本 -->
                     <source>1.8</source>
+                    <!-- 需要生成的目标class文件的编译版本 -->
                     <target>1.8</target>
+                    <!-- 字符集编码，防止中文乱码 -->
                     <encoding>UTF-8</encoding>
+                    <!-- 这个选项用来传递编译器自身不包含但是却支持的参数选项 -->
+                    <compilerArguments>
+                        <verbose />
+                        <bootclasspath>${java.home}/lib/rt.jar</bootclasspath>
+                    </compilerArguments>
                 </configuration>
             </plugin>
+
+
+            <plugin>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>2.5</version>
+                <executions>
+                    <execution>
+                        <id>copy-resources</id>
+                        <!-- here the phase you need -->
+                        <phase>validate</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <encoding>UTF-8</encoding>
+                            <outputDirectory>${basedir}/target/classes</outputDirectory>
+                            <resources>
+                                <resource>
+                                    <directory>src/main/resources</directory>
+                                    <includes>
+                                        <include>**/*.*</include>
+                                    </includes>
+                                    <filtering>true</filtering>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>org.mortbay.jetty</groupId>
+                <artifactId>maven-jetty-plugin</artifactId>
+                <version>6.1.26</version>
+                <configuration>
+                    <webDefaultXml>src/main/resources/webdefault.xml</webDefaultXml>
+                    <contextPath>/</contextPath>
+                    <connectors>
+                        <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
+                            <port>8080</port>
+                        </connector>
+                    </connectors>
+                    <scanIntervalSeconds>0</scanIntervalSeconds>
+                    <scanTargetPatterns>
+                        <scanTargetPattern>
+                            <directory>src/main/webapp</directory>
+                            <includes>
+                                <include>**/*.xml</include>
+                                <include>**/*.properties</include>
+                            </includes>
+                        </scanTargetPattern>
+                    </scanTargetPatterns>
+                    <systemProperties>
+                        <systemProperty>
+                            <name>
+                                javax.xml.parsers.DocumentBuilderFactory
+                            </name>
+                            <value>
+                                com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl
+                            </value>
+                        </systemProperty>
+                        <systemProperty>
+                            <name>
+                                javax.xml.parsers.SAXParserFactory
+                            </name>
+                            <value>
+                                com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl
+                            </value>
+                        </systemProperty>
+                        <systemProperty>
+                            <name>
+                                javax.xml.transform.TransformerFactory
+                            </name>
+                            <value>
+                                com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl
+                            </value>
+                        </systemProperty>
+                        <systemProperty>
+                            <name>org.eclipse.jetty.util.URI.charset</name>
+                            <value>UTF-8</value>
+                        </systemProperty>
+                    </systemProperties>
+                </configuration>
+            </plugin>
+
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>2.2</version>
+                <configuration>
+                    <archive>
+                        <addMavenDescriptor>false</addMavenDescriptor>
+                    </archive>
+                    <webResources>
+                        <resource>
+                            <!-- this is relative to the pom.xml directory -->
+                            <directory>src/main/resources/</directory>
+                            <targetPath>WEB-INF/classes</targetPath>
+                            <includes>
+                                <include>**/*.*</include>
+                            </includes>
+                            <!-- <excludes>
+                                <exclude>**/local</exclude>
+                                <exclude>**/test</exclude>
+                                <exclude>**/product</exclude>
+                            </excludes> -->
+                            <filtering>true</filtering>
+                        </resource>
+                        <resource>
+                            <!-- this is relative to the pom.xml directory -->
+                            <directory>src/main/resources</directory>
+                            <targetPath>WEB-INF/classes</targetPath>
+                            <filtering>true</filtering>
+                        </resource>
+                    </webResources>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.zeroturnaround</groupId>
+                <artifactId>javarebel-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>generate-rebel-xml</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <version>1.0.5</version>
+            </plugin>
+
         </plugins>
+
+
+        <pluginManagement>
+            <plugins>
+                <!--This plugin's configuration is used to store Eclipse m2e settings
+                    only. It has no influence on the Maven build itself. -->
+                <plugin>
+                    <groupId>org.eclipse.m2e</groupId>
+                    <artifactId>lifecycle-mapping</artifactId>
+                    <version>1.0.0</version>
+                    <configuration>
+                        <lifecycleMappingMetadata>
+                            <pluginExecutions>
+                                <pluginExecution>
+                                    <pluginExecutionFilter>
+                                        <groupId>
+                                            org.zeroturnaround
+                                        </groupId>
+                                        <artifactId>
+                                            javarebel-maven-plugin
+                                        </artifactId>
+                                        <versionRange>
+                                            [1.0.5,)
+                                        </versionRange>
+                                        <goals>
+                                            <goal>generate</goal>
+                                        </goals>
+                                    </pluginExecutionFilter>
+                                    <action>
+                                        <ignore></ignore>
+                                    </action>
+                                </pluginExecution>
+                            </pluginExecutions>
+                        </lifecycleMappingMetadata>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+
     </build>
+
 
 </project>
