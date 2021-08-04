@@ -35,6 +35,9 @@ import java.util.Random;
  * @csdn : https://blog.csdn.net/qq_44226094
  */
 public class PrintTest {
+    //打印机名包含字串
+    volatile static String printerName = null;
+
     public static void main(String[] args) throws PrintException, IOException, WriterException {
         GUI();
     }
@@ -43,7 +46,7 @@ public class PrintTest {
      * 下载二维码
      * @throws IOException
      */
-    public static String download(String urlString) throws IOException {
+    public static String download(String urlString) throws Exception {
         String timeUrl = new DateTime().toString("yyyy/MM/dd");
 
         String savePath = "D:\\" + timeUrl;
@@ -88,13 +91,13 @@ public class PrintTest {
             }
         } catch (Exception e) {
             e.printStackTrace();
+            throw new Exception("下载二维码错误");
         } finally {
             // 完毕，关闭所有链接
             os.close();
             is.close();
-
-            return (sf.getPath() + "\\" + JPEGName);
         }
+        return (sf.getPath() + "\\" + JPEGName);
     }
 
 
@@ -103,7 +106,7 @@ public class PrintTest {
      * @param mid 机器id
      * @return json数据
      */
-    public static String getData(String mid){
+    public static String getData(String mid) throws Exception {
         OutputStreamWriter out = null ;
         BufferedReader in = null;
         StringBuilder result = new StringBuilder();
@@ -148,7 +151,8 @@ public class PrintTest {
             }
         } catch (Exception e) {
             e.printStackTrace();
-        }finally {
+            throw new Exception("网络错误");
+        } finally {
             // 使用finally块来关闭输出流、输入流
             try {
                 if (out != null) {
@@ -183,35 +187,24 @@ public class PrintTest {
                 if (state){
                     break;
                 }
-                System.out.println(data);
             }
 
             if (!state){
-                res = "网络异常, 请重新生成";
-                return res;
+                throw new Exception("网络异常, 请重新生成");
             }
-
-            System.out.println(data);
 
             String replace = getURL(data);
-
-            if (replace.isEmpty()){
-                res = "生成字符串为空, 请重新生成";
-                return res;
-            }
-
             String download = download(replace);
+
             String qRcode = getQRcode(mid);
 
             //JPGPrint(download);
             //JPGPrint(qRcode);
-
             res = res + " : \n" + download + "\n"+ qRcode;
         } catch (Exception ex) {
             ex.printStackTrace();
-            res = "错误异常 , 请重新生成";
+            res = ex.getMessage();
         }
-
 
         return res;
     }
@@ -223,41 +216,57 @@ public class PrintTest {
     public static void GUI() {
         int gap = 10;
         JFrame f = new JFrame("小程序二维码打印");
-        f.setSize(500, 500);
+        f.setSize(500, 450);
         f.setLocation(200, 200);
         f.setLayout(null);
 
+        // 输入框
         JPanel pInput = new JPanel();
-        pInput.setBounds(gap, gap, 450, 200);
-        pInput.setLayout(new GridLayout(4,3, gap, gap));
+        pInput.setBounds(gap, gap, 450, 75);
+        pInput.setLayout(new GridLayout(2,2, gap, gap));
 
         // 二维码输入
         JLabel location = new JLabel("机器二维码:");
         JTextField midTest = new JTextField();
 
-        // 纸张输入
-//        JLabel Paper  = new JLabel("纸张大小:");
-//        JTextField PaperX = new JTextField("纸张宽");
-//        JTextField PaperY = new JTextField();
-
         pInput.add(location);
         pInput.add(midTest);
-//        pInput.add(Paper);
-//        pInput.add(PaperX);
-//        pInput.add(PaperY);
+
+        // 下拉框
+        Container container = new Container();
+        container.setBounds(10, 100, 450, 75);
+        container.setLayout(new GridLayout(2,2, gap, gap));
+
+        JLabel text = new JLabel("打印机:");
+        JComboBox status = new JComboBox();
+        status.addItem(null);
+
+        //获得本台电脑连接的所有打印机
+        PrintService[] printServices = PrinterJob.lookupPrintServices();
+        //匹配指定打印机
+        for (int i = 0; i < printServices.length; i++) {
+            status.addItem(printServices[i].getName());
+        }
+
+        // 加入到界面中
+        container.add(text);
+        container.add(status);
 
         // 按钮
         JButton b = new JButton("生成");
-        b.setBounds(180, 120 + 30, 80, 30);
+        b.setBounds(180, 200, 80, 30);
 
         //文本域
         JTextArea ta = new JTextArea();
         ta.setLineWrap(true);
-        ta.setBounds(gap, 150 + 60, 450, 150);
+        ta.setBounds(gap, 250, 450, 100);
 
+        // 加入到总幕布
         f.add(pInput);
+        f.add(container);
         f.add(b);
         f.add(ta);
+
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         f.setVisible(true);
 
@@ -273,7 +282,6 @@ public class PrintTest {
                 String mid = midTest.getText();
 
                 if(checkedpass){
-
                     String process = process(mid);
 
                     // 成功清除输入框
@@ -302,6 +310,15 @@ public class PrintTest {
                     tf.grabFocus();
                     checkedpass = false;
                 }
+            }
+        });
+
+        // 下拉框事件
+        status.addItemListener(new ItemListener(){
+            @Override
+            public void itemStateChanged(ItemEvent e){
+                //处理事件的函数
+                printerName = (String) e.getItem();
             }
         });
     }
@@ -339,25 +356,25 @@ public class PrintTest {
 
         String substring = data.substring(https, jpeg);
 
+        if (substring.isEmpty()){
+            throw new Exception("生成字符串为空, 请重新生成");
+        }
+
         return substring;
     }
-
 
     /**
      * 打印
      * @param filename
      * @throws PrintException
      */
-    public static void JPGPrint(String filename) throws PrintException {
+    public static void JPGPrint(String filename) throws Exception {
         int x = 70;
         int y = 535 / 470 * x;
         File file = new File(filename);
 
-        //打印机名包含字串
-        String printerName = "HP90D3C3 (HP LaserJet Pro M329)";
-
         if (file == null) {
-            System.err.println("缺少打印文件");
+            throw new Exception("缺少打印文件");
         }
 
         InputStream fis = null;
@@ -370,8 +387,7 @@ public class PrintTest {
             PrintService[] printServices = PrinterJob.lookupPrintServices();
 
             if (printServices == null || printServices.length == 0) {
-                System.out.print("打印失败，未找到可用打印机，请检查。");
-                return;
+                throw new Exception("打印失败，未找到可用打印机，请检查");
             }
 
             //匹配指定打印机
@@ -382,17 +398,14 @@ public class PrintTest {
                     printService = printServices[i];
                     break;
                 }
-
             }
 
             if (printService == null) {
-                System.out.print("打印失败，未找到名称为" + printerName + "的打印机，请检查。");
-                return;
+                throw new Exception("打印失败，未找到名称为" + printerName + "的打印机，请检查");
             }
         }
 
         try {
-
             // 设置打印格式，如果未确定类型，可选择autosense
             // DocFlavor flavor = DocFlavor.INPUT_STREAM.JPEG;
             DocFlavor flavor = DocFlavor.INPUT_STREAM.JPEG;
@@ -422,6 +435,7 @@ public class PrintTest {
 
         } catch (FileNotFoundException e1) {
             e1.printStackTrace();
+            throw new Exception("打印错误");
         } finally {
             // 关闭打印的文件流
             if (fis != null) {
@@ -439,7 +453,7 @@ public class PrintTest {
      * @param content
      * @throws WriterException
      */
-    public static String getQRcode(String content) throws WriterException {
+    public static String getQRcode(String content) throws Exception {
         String timeUrl = new DateTime().toString("yyyy/MM/dd");
         String savePath = "D:\\" + timeUrl;
 
@@ -450,39 +464,46 @@ public class PrintTest {
         hints.put(EncodeHintType.ERROR_CORRECTION, ErrorCorrectionLevel.H);
         hints.put(EncodeHintType.CHARACTER_SET, "utf-8");
         hints.put(EncodeHintType.MARGIN, 1);
-        BitMatrix bitMatrix = new MultiFormatWriter().encode(content,
-                                                             BarcodeFormat.QR_CODE,
-                                                             QRCODE_SIZE,
-                                                             QRCODE_SIZE, hints);
-        int width = bitMatrix.getWidth();
-        int height = bitMatrix.getHeight();
-        BufferedImage image = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
-
-        for (int x = 0; x < width; x++) {
-            for (int y = 0; y < height; y++) {
-                image.setRGB(x, y, bitMatrix.get(x, y) ? 0xFF000000 : 0xFFFFFFFF);
-            }
-        }
-
-        // 输出的文件流
-        File sf = new File(savePath);
-        if(!sf.exists()){
-            sf.mkdirs();
-        }
-
-        String random = random();
-
-        savePath = savePath + "\\" + random + ".jpeg";
 
         try {
+            BitMatrix bitMatrix = new MultiFormatWriter().encode(content,
+                                                                 BarcodeFormat.QR_CODE,
+                                                                 QRCODE_SIZE,
+                                                                 QRCODE_SIZE, hints);
+            int width = bitMatrix.getWidth();
+            int height = bitMatrix.getHeight();
+            BufferedImage image = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
+
+            for (int x = 0; x < width; x++) {
+                for (int y = 0; y < height; y++) {
+                    image.setRGB(x, y, bitMatrix.get(x, y) ? 0xFF000000 : 0xFFFFFFFF);
+                }
+            }
+
+            // 输出的文件流
+            File sf = new File(savePath);
+            if(!sf.exists()){
+                sf.mkdirs();
+            }
+
+            String random = random();
+
+            savePath = savePath + "\\" + random + ".jpeg";
+
+
             ImageIO.write(image, "JPEG", new File(savePath));
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
+            throw new Exception("生成机器二维码错误");
         }
 
         return savePath;
     }
 
+    /**
+     * 随机生成字符串
+     * @return
+     */
     public static String random(){
         /**
          *  随机字符串
