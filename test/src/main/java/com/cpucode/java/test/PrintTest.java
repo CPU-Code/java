@@ -39,8 +39,9 @@ public class PrintTest {
     volatile static String printerName = null;
 
     public static void main(String[] args) throws PrintException, IOException, WriterException {
-        GUI();
-    }
+        //GUI();
+
+}
 
     /**
      * 下载二维码
