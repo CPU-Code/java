@@ -45,6 +45,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="jdbc" options="-verbose -bootclasspath &quot;D:/Program Files/Java/jdk8u272-b10/jre/lib/rt.jar&quot;" />
       <module name="pattern" options="-parameters" />
       <module name="spring-demo" options="-verbose -bootclasspath &quot;D:/Program Files/Java/jdk8u272-b10/jre/lib/rt.jar&quot;" />
       <module name="spring-v2" options="-verbose -bootclasspath &quot;D:/Program Files/Java/jdk8u272-b10/jre/lib/rt.jar&quot;" />

@@ -3,6 +3,9 @@ package com.cpucode.spring.formework.context;
 import com.cpucode.spring.formework.annotation.CPAutowired;
 import com.cpucode.spring.formework.annotation.CPController;
 import com.cpucode.spring.formework.annotation.CPService;
+import com.cpucode.spring.formework.aop.*;
+import com.cpucode.spring.formework.aop.config.CPAopConfig;
+import com.cpucode.spring.formework.aop.support.CPAdvisedSupport;
 import com.cpucode.spring.formework.beans.CPBeanWrapper;
 import com.cpucode.spring.formework.beans.config.CPBeanDefinition;
 import com.cpucode.spring.formework.beans.config.CPBeanPostProcessor;
@@ -177,7 +180,14 @@ public class CPApplicationContext extends CPDefaultListableBeanFactory implement
                 Class<?> clazz = Class.forName(className);
                 instance = clazz.newInstance();
 
-                this.singletonObjects.put(className, instance);
+                CPAdvisedSupport config = instantionAopConfig(beanDefinition);
+                config.setTargetClass(clazz);
+                config.setTarget(instance);
+
+                if (config.pointCutMatch()){
+                    instance = createProxy(config).getProxy();
+                }
+
                 this.singletonObjects.put(beanDefinition.getFactoryBeanName(), instance);
             }
         }catch (Exception e){
@@ -187,6 +197,28 @@ public class CPApplicationContext extends CPDefaultListableBeanFactory implement
         return instance;
     }
 
+    private CPAdvisedSupport instantionAopConfig(CPBeanDefinition beanDefinition) throws Exception{
+        CPAopConfig config = new CPAopConfig();
+        config.setPointCut(reader.getConfig().getProperty("pointCut"));
+        config.setAspectClass(reader.getConfig().getProperty("aspectClass"));
+        config.setAspectBefore(reader.getConfig().getProperty("aspectBefore"));
+        config.setAspectAfter(reader.getConfig().getProperty("aspectAfter"));
+        config.setAspectAfterThrow(reader.getConfig().getProperty("aspectAfterThrow"));
+        config.setAspectAfterThrowingName(reader.getConfig().getProperty("aspectAfterThrowingName"));
+
+        return new CPAdvisedSupport(config);
+    }
+
+    private CPAopProxy createProxy(CPAdvisedSupport config) {
+        Class targetClass = config.getTargetClass();
+
+        if (targetClass.getInterfaces().length > 0) {
+            // 有实现接口使用jdk
+            return new CPJdkDynamicAopProxy(config);
+        }
+
+        return new CPCglibAopProxy(config);
+    }
     private void populateBean(String beanName, CPBeanDefinition gpBeanDefinition, CPBeanWrapper gpBeanWrapper) {
         Object instance = gpBeanWrapper.getWrappedInstance();
         Class<?> clazz = gpBeanWrapper.getWrappedClass();

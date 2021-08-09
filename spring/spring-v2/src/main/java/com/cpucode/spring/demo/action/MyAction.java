@@ -11,6 +11,9 @@ import com.cpucode.spring.formework.webmvc.servlet.CPModelAndView;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * 公布接口 url
@@ -41,9 +44,19 @@ public class MyAction {
     public CPModelAndView add(HttpServletRequest request,HttpServletResponse response,
                               @CPRequestParam("name") String name,
                               @CPRequestParam("addr") String addr){
-        String result = modifyService.add(name, addr);
+        String result = null;
+        try {
+            result = modifyService.add(name, addr);
 
-        return out(response, result);
+            return out(response, result);
+        } catch (Exception e) {
+            e.printStackTrace();
+            Map<String,Object> model = new HashMap<String, Object>();
+            model.put("detail",e.getCause().getMessage());
+            model.put("stackTrace", Arrays.toString(e.getStackTrace()).replaceAll("\\[|\\]",""));
+
+            return new CPModelAndView("500", model);
+        }
     }
 
     @CPRequestMapping("/remove.json")

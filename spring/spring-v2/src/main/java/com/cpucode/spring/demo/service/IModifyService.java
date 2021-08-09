@@ -16,7 +16,7 @@ public interface IModifyService {
      * @param addr
      * @return
      */
-    public String add(String name, String addr);
+    public String add(String name, String addr) throws Exception;
 
     /**
      * 修改
