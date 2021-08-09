@@ -7,25 +7,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="stack" />
-        <module name="leetcode" />
-        <module name="test" />
-        <module name="nowCoder" />
         <module name="pattern" />
         <module name="spring-demo" />
+        <module name="nowCoder" />
         <module name="link_list" />
-        <module name="array" />
-        <module name="network" />
         <module name="reflect" />
-        <module name="programming" />
-        <module name="thread" />
         <module name="spring-v2" />
+        <module name="test" />
+        <module name="thread" />
+        <module name="jdbc" />
+        <module name="leetcode" />
+        <module name="stack" />
+        <module name="array" />
+        <module name="programming" />
+        <module name="network" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="array" target="8" />
       <module name="artConcurrent" target="1.8" />
       <module name="data_algorithm" target="1.8" />
+      <module name="jdbc" target="1.8" />
       <module name="leetcode" target="1.8" />
       <module name="link_list" target="8" />
       <module name="network" target="1.8" />

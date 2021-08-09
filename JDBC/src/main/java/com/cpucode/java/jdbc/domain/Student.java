@@ -1,6 +1,8 @@
 package com.cpucode.java.jdbc.domain;
 
-// 封装Student表数据的JavaBean
+/**
+ * 封装Student表数据的JavaBean
+ */
 public class Student {
     private int id;
     private String name;

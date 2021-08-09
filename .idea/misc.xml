@@ -19,6 +19,7 @@
         <option value="$PROJECT_DIR$/test/pom.xml" />
         <option value="$PROJECT_DIR$/reflect/pom.xml" />
         <option value="$PROJECT_DIR$/thread/pom.xml" />
+        <option value="$PROJECT_DIR$/JDBC/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
