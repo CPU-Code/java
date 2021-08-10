@@ -8,6 +8,15 @@
     <artifactId>network</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.10</version>
+        </dependency>
+    </dependencies>
+
+
     <build>
         <plugins>
             <!-- java编译插件 -->
