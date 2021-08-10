@@ -19,6 +19,9 @@
 - [x] [简单客户端](src/main/java/com/cpucode/java/socket/single/ClientTcp.java)
 - [x] [简单服务端](src/main/java/com/cpucode/java/socket/single/ServerTcp.java)
 
+- [x] [双向客户端](src/main/java/com/cpucode/java/socket/dou/ble/Client.java)
+- [x] [双向服务端](src/main/java/com/cpucode/java/socket/dou/ble/Server.java)
+
 
 
 - [返回目录](#文件目录)
