@@ -28,7 +28,7 @@
       <module name="array" target="8" />
       <module name="artConcurrent" target="1.8" />
       <module name="data_algorithm" target="1.8" />
-      <module name="io" target="8" />
+      <module name="io" target="1.8" />
       <module name="jdbc" target="1.8" />
       <module name="leetcode" target="1.8" />
       <module name="link_list" target="8" />
