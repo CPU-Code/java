@@ -11,14 +11,20 @@
         <module name="spring-demo" />
         <module name="nowCoder" />
         <module name="pattern" />
+        <module name="rpc-server-api" />
         <module name="link_list" />
+        <module name="rpc-server-provider-v2" />
         <module name="reflect" />
         <module name="spring-v2" />
         <module name="test" />
+        <module name="rpc-client-v2" />
         <module name="thread" />
+        <module name="rpc-client" />
         <module name="jdbc" />
         <module name="leetcode" />
+        <module name="rpc-server-provider" />
         <module name="stack" />
+        <module name="rpc-server-api-v2" />
         <module name="array" />
         <module name="programming" />
         <module name="network" />
@@ -37,6 +43,17 @@
       <module name="pattern" target="1.8" />
       <module name="programming" target="1.8" />
       <module name="reflect" target="1.8" />
+      <module name="rpc" target="1.8" />
+      <module name="rpc-client" target="1.8" />
+      <module name="rpc-client-v2" target="1.8" />
+      <module name="rpc-server" target="1.8" />
+      <module name="rpc-server-api" target="1.8" />
+      <module name="rpc-server-api-v2" target="1.8" />
+      <module name="rpc-server-provider" target="1.8" />
+      <module name="rpc-server-provider-v2" target="1.8" />
+      <module name="rpc-server-v2" target="1.8" />
+      <module name="rpc-v1" target="1.8" />
+      <module name="rpc-v2" target="1.8" />
       <module name="spring" target="1.5" />
       <module name="spring-demo" target="1.8" />
       <module name="spring-v2" target="1.8" />
