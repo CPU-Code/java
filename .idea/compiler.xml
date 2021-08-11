@@ -7,9 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="pattern" />
+        <module name="io" />
         <module name="spring-demo" />
         <module name="nowCoder" />
+        <module name="pattern" />
         <module name="link_list" />
         <module name="reflect" />
         <module name="spring-v2" />
@@ -27,6 +28,7 @@
       <module name="array" target="8" />
       <module name="artConcurrent" target="1.8" />
       <module name="data_algorithm" target="1.8" />
+      <module name="io" target="8" />
       <module name="jdbc" target="1.8" />
       <module name="leetcode" target="1.8" />
       <module name="link_list" target="8" />
