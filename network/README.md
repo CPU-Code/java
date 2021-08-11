@@ -31,6 +31,7 @@
 - [x] [protobuf序列化](src/main/java/com/cpucode/java/seriliazer/proto/buf/ProtoBufDemo.java)
 - [x] [xml序列化](src/main/java/com/cpucode/java/seriliazer/xml/SerialDemo.java)
 - [x] [JSON序列化](src/main/java/com/cpucode/java/seriliazer/fast/json/SerialDemo.java)
+- [x] [hessian序列化](src/main/java/com/cpucode/java/seriliazer/fast/json/SerialDemo.java)
 
 ---------------------------
 
