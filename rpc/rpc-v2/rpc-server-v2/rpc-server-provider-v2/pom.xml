@@ -11,5 +11,19 @@
 
     <artifactId>rpc-server-provider-v2</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.cpucode</groupId>
+            <artifactId>rpc-server-api-v2</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>5.2.1.RELEASE</version>
+        </dependency>
+
+    </dependencies>
 
 </project>
