@@ -24,7 +24,14 @@
 
 ---------------------------
 
+## [序列化](src/main/java/com/cpucode/java/seriliazer)
 
+- [x] [jdk原生序列化](src/main/java/com/cpucode/java/seriliazer/java/serilia/SerialDemo.java)
+- [x] [文件序列化](src/main/java/com/cpucode/java/seriliazer/file/SerialDemo.java)
+- [x] [protobuf序列化](src/main/java/com/cpucode/java/seriliazer/proto/buf/ProtoBufDemo.java)
+- [x] [xml序列化](src/main/java/com/cpucode/java/seriliazer/xml/SerialDemo.java)
+
+---------------------------
 
 
 - [返回目录](#文件目录)
