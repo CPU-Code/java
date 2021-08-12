@@ -84,6 +84,11 @@
 - [x] [IO映射缓冲区](src/main/java/com/cpucode/java/netty/io/nio/buffer/MappedBuffer.java)
 - [x] [只读缓冲区](src/main/java/com/cpucode/java/netty/io/nio/buffer/ReadOnlyBuffer.java)
 
+- [x] [通道输入](src/main/java/com/cpucode/java/netty/io/nio/channel/FileInputDemo.java)
+- [x] [通道输出](src/main/java/com/cpucode/java/netty/io/nio/channel/FileOutputDemo.java)
+
+
+
 - [返回目录](#文件目录)
 
 -------------
