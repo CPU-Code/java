@@ -9,11 +9,11 @@
 
 ## [IO](IO)
 
-- [x] [io1__File类获取功能的方法](src/main/java/com/cpucode/java/io1.java)
-- [x] [io2__File类绝对路径和相对路径](src/main/java/com/cpucode/java/io2.java)
-- [x] [io3__File类判断功能](src/main/java/com/cpucode/java/io3.java)
-- [x] [io4__File类创建删除功能](src/main/java/com/cpucode/java/io4.java)
-- [x] [io5__File类目录的遍历](src/main/java/com/cpucode/java/io5.java)
+- [x] [io1__File类获取功能的方法](src/main/java/com/cpucode/java/file/io/io1.java)
+- [x] [io2__File类绝对路径和相对路径](src/main/java/com/cpucode/java/file/io/io2.java)
+- [x] [io3__File类判断功能](src/main/java/com/cpucode/java/file/io/io3.java)
+- [x] [io4__File类创建删除功能](src/main/java/com/cpucode/java/file/io/io4.java)
+- [x] [io5__File类目录的遍历](src/main/java/com/cpucode/java/file/io/io5.java)
 - [x] [io6__递归](src/main/java/com/cpucode/java/io6.java)
 - [x] [io7__递归累加求和](src/main/java/com/cpucode/java/io7.java)
 - [x] [io8__递归求阶乘](src/main/java/com/cpucode/java/io8.java)
@@ -65,13 +65,15 @@
 
 ## [netty](src/main/java/com/cpucode/java/netty/io)
 
-- [x] [同步阻塞IO模型客户端](src/main/java/com/cpucode/java/netty/io/bio/BioClient.java)
-- [x] [同步阻塞IO模型服务端](src/main/java/com/cpucode/java/netty/io/bio/BioServer.java)
+- [x] [同步阻塞IO模型客户端](src/main/java/com/cpucode/java/netty/net/bio/BioClient.java)
+- [x] [同步阻塞IO模型服务端](src/main/java/com/cpucode/java/netty/net/bio/BioServer.java)
 
-- [x] [同步非阻塞IO模型服务端](src/main/java/com/cpucode/java/netty/io/nio/NioServerDemo.java)
+- [x] [同步非阻塞IO模型服务端](src/main/java/com/cpucode/java/netty/net/nio/NioServerDemo.java)
 
-- [x] [异步IO模型客户端](src/main/java/com/cpucode/java/netty/io/aio/AioClient.java)
-- [x] [异步IO模型服务端](src/main/java/com/cpucode/java/netty/io/aio/AioServer.java)
+- [x] [异步IO模型客户端](src/main/java/com/cpucode/java/netty/net/aio/AioClient.java)
+- [x] [异步IO模型服务端](src/main/java/com/cpucode/java/netty/net/aio/AioServer.java)
+
+
 
 
 - [返回目录](#文件目录)
