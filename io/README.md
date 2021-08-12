@@ -63,7 +63,8 @@
 
 -------------
 
-## [netty](src/main/java/com/cpucode/java/netty/io)
+## [网络传输](src/main/java/com/cpucode/java/netty/net)
+
 
 - [x] [同步阻塞IO模型客户端](src/main/java/com/cpucode/java/netty/net/bio/BioClient.java)
 - [x] [同步阻塞IO模型服务端](src/main/java/com/cpucode/java/netty/net/bio/BioServer.java)
@@ -72,6 +73,10 @@
 
 - [x] [异步IO模型客户端](src/main/java/com/cpucode/java/netty/net/aio/AioClient.java)
 - [x] [异步IO模型服务端](src/main/java/com/cpucode/java/netty/net/aio/AioServer.java)
+
+## [io处理](src/main/java/com/cpucode/java/netty/io)
+
+- [x] [buffer的api](src/main/java/com/cpucode/java/netty/io/nio/buffer/BufferDemo.java)
 
 
 
