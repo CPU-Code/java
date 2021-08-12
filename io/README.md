@@ -78,9 +78,7 @@
 
 - [x] [buffer的api](src/main/java/com/cpucode/java/netty/io/nio/buffer/BufferDemo.java)
 - [x] [缓冲区分片](src/main/java/com/cpucode/java/netty/io/nio/buffer/BufferSlice.java)
-
-
-
+- [x] [手动分配缓冲区](src/main/java/com/cpucode/java/netty/io/nio/buffer/BufferWrap.java)
 
 - [返回目录](#文件目录)
 
