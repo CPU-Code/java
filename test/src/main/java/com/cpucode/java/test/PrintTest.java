@@ -12,9 +12,8 @@ import javax.imageio.ImageIO;
 import javax.print.*;
 import javax.print.attribute.HashPrintRequestAttributeSet;
 import javax.print.attribute.PrintRequestAttributeSet;
-import javax.print.attribute.ResolutionSyntax;
 import javax.print.attribute.standard.Copies;
-import javax.print.attribute.standard.PrinterResolution;
+import javax.print.attribute.standard.MediaPrintableArea;
 import javax.print.attribute.standard.Sides;
 import java.awt.image.BufferedImage;
 import java.awt.print.PrinterJob;
@@ -39,9 +38,8 @@ public class PrintTest {
     volatile static String printerName = null;
 
     public static void main(String[] args) throws PrintException, IOException, WriterException {
-        //GUI();
-
-}
+        GUI();
+    }
 
     /**
      * 下载二维码
@@ -199,8 +197,9 @@ public class PrintTest {
 
             String qRcode = getQRcode(mid);
 
-            //JPGPrint(download);
-            //JPGPrint(qRcode);
+            JPGPrint(download);
+            JPGPrint(qRcode);
+
             res = res + " : \n" + download + "\n"+ qRcode;
         } catch (Exception ex) {
             ex.printStackTrace();
@@ -370,8 +369,8 @@ public class PrintTest {
      * @throws PrintException
      */
     public static void JPGPrint(String filename) throws Exception {
-        int x = 70;
-        int y = 535 / 470 * x;
+        int x = 1000;
+        int y = 1000;
         File file = new File(filename);
 
         if (file == null) {
@@ -413,18 +412,15 @@ public class PrintTest {
 
             // 设置打印参数
             PrintRequestAttributeSet aset = new HashPrintRequestAttributeSet();
-            PrinterResolution pr = new PrinterResolution(x, y, ResolutionSyntax.DPI);
+
+            MediaPrintableArea area = new MediaPrintableArea(0, 0, x, y, MediaPrintableArea.MM);
+            aset.add(area);
 
             //份数
             aset.add(new Copies(1));
-            //纸张
-            aset.add(pr);
-
-            // aset.add(Finishings.STAPLE);//装订
 
             //单双面
             aset.add(Sides.DUPLEX);
-
 
             // 构造待打印的文件流
             fis = new FileInputStream(file);
@@ -433,6 +429,7 @@ public class PrintTest {
             // 创建打印作业
             DocPrintJob job = printService.createPrintJob();
             job.print(doc, aset);
+
 
         } catch (FileNotFoundException e1) {
             e1.printStackTrace();
@@ -459,7 +456,7 @@ public class PrintTest {
         String savePath = "D:\\" + timeUrl;
 
         // 二维码尺寸
-        int QRCODE_SIZE = 300;
+        int QRCODE_SIZE = 450;
 
         HashMap hints = new HashMap<>();
         hints.put(EncodeHintType.ERROR_CORRECTION, ErrorCorrectionLevel.H);
