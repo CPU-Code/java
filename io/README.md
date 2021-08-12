@@ -77,6 +77,7 @@
 ## [io处理](src/main/java/com/cpucode/java/netty/io)
 
 - [x] [buffer的api](src/main/java/com/cpucode/java/netty/io/nio/buffer/BufferDemo.java)
+- [x] [缓冲区分片](src/main/java/com/cpucode/java/netty/io/nio/buffer/BufferSlice.java)
 
 
 
