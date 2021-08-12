@@ -10,24 +10,25 @@
         <module name="io" />
         <module name="spring-demo" />
         <module name="nowCoder" />
-        <module name="pattern" />
+        <module name="rpc-client-v2" />
+        <module name="stack" />
+        <module name="rpc-client" />
         <module name="rpc-server-api" />
         <module name="link_list" />
-        <module name="rpc-server-provider-v2" />
+        <module name="netty" />
         <module name="reflect" />
-        <module name="spring-v2" />
-        <module name="test" />
-        <module name="rpc-client-v2" />
-        <module name="thread" />
-        <module name="rpc-client" />
-        <module name="jdbc" />
-        <module name="leetcode" />
-        <module name="rpc-server-provider" />
-        <module name="stack" />
         <module name="rpc-server-api-v2" />
+        <module name="test" />
+        <module name="thread" />
+        <module name="network" />
+        <module name="jdbc" />
+        <module name="rpc-server-provider-v2" />
+        <module name="rpc-server-provider" />
+        <module name="spring-v2" />
+        <module name="leetcode" />
         <module name="array" />
         <module name="programming" />
-        <module name="network" />
+        <module name="pattern" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -38,6 +39,7 @@
       <module name="jdbc" target="1.8" />
       <module name="leetcode" target="1.8" />
       <module name="link_list" target="8" />
+      <module name="netty" target="1.8" />
       <module name="network" target="1.8" />
       <module name="nowCoder" target="1.8" />
       <module name="pattern" target="1.8" />
