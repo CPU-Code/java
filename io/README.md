@@ -80,6 +80,7 @@
 - [x] [缓冲区分片](src/main/java/com/cpucode/java/netty/io/nio/buffer/BufferSlice.java)
 - [x] [手动分配缓冲区](src/main/java/com/cpucode/java/netty/io/nio/buffer/BufferWrap.java)
 - [x] [直接缓冲区](src/main/java/com/cpucode/java/netty/io/nio/buffer/DirectBuffer.java)
+- [x] [IntBuffer](src/main/java/com/cpucode/java/netty/io/nio/buffer/IntBufferDemo.java)
 
 - [返回目录](#文件目录)
 
