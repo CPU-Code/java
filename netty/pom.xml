@@ -6,7 +6,11 @@
 
     <groupId>com.cpucode</groupId>
     <artifactId>netty</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>netty-msg-send</module>
+    </modules>
 
     <dependencies>
         <dependency>

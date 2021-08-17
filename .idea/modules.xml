@@ -12,6 +12,8 @@
       <module fileurl="file://$PROJECT_DIR$/data_algorithm/array/array.iml" filepath="$PROJECT_DIR$/data_algorithm/array/array.iml" />
       <module fileurl="file://$PROJECT_DIR$/artConcurrent/artConcurrent.iml" filepath="$PROJECT_DIR$/artConcurrent/artConcurrent.iml" />
       <module fileurl="file://$PROJECT_DIR$/basics/basics.iml" filepath="$PROJECT_DIR$/basics/basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty/netty-msg-send/chat-client/chat-client.iml" filepath="$PROJECT_DIR$/netty/netty-msg-send/chat-client/chat-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty/netty-msg-send/chat-server/chat-server.iml" filepath="$PROJECT_DIR$/netty/netty-msg-send/chat-server/chat-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/data_algorithm/data_algorithm.iml" filepath="$PROJECT_DIR$/data_algorithm/data_algorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/gettingStarted/gettingStarted.iml" filepath="$PROJECT_DIR$/gettingStarted/gettingStarted.iml" />
       <module fileurl="file://$PROJECT_DIR$/io/io.iml" filepath="$PROJECT_DIR$/io/io.iml" />
@@ -23,6 +25,8 @@
       <module fileurl="file://$PROJECT_DIR$/leetcode/leetcode.iml" filepath="$PROJECT_DIR$/leetcode/leetcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/data_algorithm/link_list/link_list.iml" filepath="$PROJECT_DIR$/data_algorithm/link_list/link_list.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty/netty.iml" filepath="$PROJECT_DIR$/netty/netty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty/netty-msg-send/netty-core/netty-core.iml" filepath="$PROJECT_DIR$/netty/netty-msg-send/netty-core/netty-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty/netty-msg-send/netty-msg-send.iml" filepath="$PROJECT_DIR$/netty/netty-msg-send/netty-msg-send.iml" />
       <module fileurl="file://$PROJECT_DIR$/network/network.iml" filepath="$PROJECT_DIR$/network/network.iml" />
       <module fileurl="file://$PROJECT_DIR$/nowCoder/nowCoder.iml" filepath="$PROJECT_DIR$/nowCoder/nowCoder.iml" />
       <module fileurl="file://$PROJECT_DIR$/object/object.iml" filepath="$PROJECT_DIR$/object/object.iml" />

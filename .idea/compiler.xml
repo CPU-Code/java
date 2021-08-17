@@ -9,37 +9,43 @@
         <outputRelativeToContentRoot value="true" />
         <module name="io" />
         <module name="spring-demo" />
-        <module name="nowCoder" />
-        <module name="rpc-client-v2" />
-        <module name="stack" />
-        <module name="rpc-client" />
         <module name="rpc-server-api" />
+        <module name="rpc-client-v2" />
+        <module name="pattern" />
+        <module name="rpc-client" />
+        <module name="leetcode" />
+        <module name="chat-client" />
         <module name="link_list" />
-        <module name="netty" />
         <module name="reflect" />
-        <module name="rpc-server-api-v2" />
+        <module name="nowCoder" />
+        <module name="spring-v2" />
         <module name="test" />
         <module name="thread" />
-        <module name="network" />
+        <module name="chat-server" />
+        <module name="netty-core" />
         <module name="jdbc" />
         <module name="rpc-server-provider-v2" />
         <module name="rpc-server-provider" />
-        <module name="spring-v2" />
-        <module name="leetcode" />
+        <module name="stack" />
+        <module name="rpc-server-api-v2" />
         <module name="array" />
         <module name="programming" />
-        <module name="pattern" />
+        <module name="network" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="array" target="8" />
       <module name="artConcurrent" target="1.8" />
+      <module name="chat-client" target="1.8" />
+      <module name="chat-server" target="1.8" />
       <module name="data_algorithm" target="1.8" />
       <module name="io" target="1.8" />
       <module name="jdbc" target="1.8" />
       <module name="leetcode" target="1.8" />
       <module name="link_list" target="8" />
       <module name="netty" target="1.8" />
+      <module name="netty-core" target="1.8" />
+      <module name="netty-msg-send" target="1.8" />
       <module name="network" target="1.8" />
       <module name="nowCoder" target="1.8" />
       <module name="pattern" target="1.8" />
