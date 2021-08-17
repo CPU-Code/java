@@ -254,7 +254,7 @@ public class PrintTest {
 
         // 按钮
         JButton b = new JButton("生成");
-        b.setBounds(180, 200, 80, 30);
+        b.setBounds(160, 190, 150, 50);
 
         //文本域
         JTextArea ta = new JTextArea();
@@ -454,9 +454,10 @@ public class PrintTest {
     public static String getQRcode(String content) throws Exception {
         String timeUrl = new DateTime().toString("yyyy/MM/dd");
         String savePath = "D:\\" + timeUrl;
+        String productName = content;
 
         // 二维码尺寸
-        int QRCODE_SIZE = 450;
+        int QRCODE_SIZE = 400;
 
         HashMap hints = new HashMap<>();
         hints.put(EncodeHintType.ERROR_CORRECTION, ErrorCorrectionLevel.H);
@@ -467,7 +468,7 @@ public class PrintTest {
             BitMatrix bitMatrix = new MultiFormatWriter().encode(content,
                                                                  BarcodeFormat.QR_CODE,
                                                                  QRCODE_SIZE,
-                                                                 QRCODE_SIZE, hints);
+                                                                 QRCODE_SIZE + 50, hints);
             int width = bitMatrix.getWidth();
             int height = bitMatrix.getHeight();
             BufferedImage image = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
@@ -477,6 +478,20 @@ public class PrintTest {
                     image.setRGB(x, y, bitMatrix.get(x, y) ? 0xFF000000 : 0xFFFFFFFF);
                 }
             }
+
+             //得到画笔对象
+            Graphics g = image.getGraphics();
+
+            //10,20 表示这段文字在图片上的位置(x,y) .第一个是你设置的内容。救援码
+            //画文字到新的面板
+            g.setColor(Color.BLACK);
+
+            //字体、字型、字号
+            g.setFont(new Font("宋体", Font.BOLD,40));
+
+            int strWidth = g.getFontMetrics().stringWidth(productName);
+
+            g.drawString(productName, 200 - (strWidth >> 1), QRCODE_SIZE + 40);
 
             // 输出的文件流
             File sf = new File(savePath);
@@ -488,7 +503,7 @@ public class PrintTest {
 
             savePath = savePath + "\\" + random + ".jpeg";
 
-
+            image.flush();
             ImageIO.write(image, "JPEG", new File(savePath));
         } catch (Exception e) {
             e.printStackTrace();
