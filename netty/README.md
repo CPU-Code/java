@@ -7,6 +7,16 @@
 
 --------------------
 
+## [netty](src/main/java/com/cpucode/netty/simple)
+
+- [x] [netty客户端入门](src/main/java/com/cpucode/netty/simple/NettyClientHandler.java)
+- [x] [netty服务端入门](src/main/java/com/cpucode/netty/simple/NettyServerHandler.java)
+
+
+- [返回目录](#文件目录)
+
+--------------------
+
 ## [模仿Tomcat](src/main/java/com/cpucode/netty/io/bin/tomcat)
 
 - [x] [模仿Tomcat](src/main/java/com/cpucode/netty/io/bin/tomcat/CpTomcat.java)

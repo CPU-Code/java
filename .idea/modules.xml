@@ -26,6 +26,7 @@
       <module fileurl="file://$PROJECT_DIR$/data_algorithm/link_list/link_list.iml" filepath="$PROJECT_DIR$/data_algorithm/link_list/link_list.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty/netty.iml" filepath="$PROJECT_DIR$/netty/netty.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty/netty-msg-send/netty-core/netty-core.iml" filepath="$PROJECT_DIR$/netty/netty-msg-send/netty-core/netty-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty/netty-first/netty-first.iml" filepath="$PROJECT_DIR$/netty/netty-first/netty-first.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty/netty-msg-send/netty-msg-send.iml" filepath="$PROJECT_DIR$/netty/netty-msg-send/netty-msg-send.iml" />
       <module fileurl="file://$PROJECT_DIR$/network/network.iml" filepath="$PROJECT_DIR$/network/network.iml" />
       <module fileurl="file://$PROJECT_DIR$/nowCoder/nowCoder.iml" filepath="$PROJECT_DIR$/nowCoder/nowCoder.iml" />
