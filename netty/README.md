@@ -11,6 +11,7 @@
 
 - [x] [netty客户端入门](src/main/java/com/cpucode/netty/simple/NettyClientHandler.java)
 - [x] [netty服务端入门](src/main/java/com/cpucode/netty/simple/NettyServerHandler.java)
+- [x] [Unpooled应用](src/main/java/com/cpucode/netty/by/te/buf/NettyByteBuf01.java)
 
 
 - [返回目录](#文件目录)
