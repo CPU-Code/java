@@ -18,6 +18,10 @@
 - [x] [聊天服务端](src/main/java/com/cpucode/netty/chat/group/GroupChatServer.java)
 - [x] [心跳包](src/main/java/com/cpucode/netty/heart/beat/MyServer.java)
 - [x] [websocket](src/main/java/com/cpucode/netty/websocket/MyServer.java)
+- [ ] [](src/main/java/com/cpucode/netty/tcp/MyServer.java)
+- [ ] [](src/main/java/com/cpucode/netty/tcp/MyClient.java)
+- [x] [byte协议客户端](src/main/java/com/cpucode/netty/customize/protocol/client/Client.java)
+- [x] [byte协议服务端](src/main/java/com/cpucode/netty/customize/protocol/server/Server.java)
 
 - [返回目录](#文件目录)
 
