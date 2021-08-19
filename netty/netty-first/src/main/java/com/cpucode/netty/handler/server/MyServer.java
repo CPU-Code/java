@@ -23,7 +23,7 @@ public class MyServer {
                     .channel(NioServerSocketChannel.class)
                     .childHandler(new MyServerInitializer());
 
-            ChannelFuture channelFuture = bootstrap.bind(7000).sync();
+            ChannelFuture channelFuture = bootstrap.bind(8001).sync();
 
             channelFuture.channel().closeFuture().sync();
         } catch (InterruptedException e) {

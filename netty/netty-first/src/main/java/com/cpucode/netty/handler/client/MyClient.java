@@ -22,7 +22,7 @@ public class MyClient {
                     .channel(NioSocketChannel.class)
                     //自定义一个初始化类
                     .handler(new MyClientInitializer());
-            ChannelFuture channelFuture = bootStrap.connect("localhost", 7000).sync();
+            ChannelFuture channelFuture = bootStrap.connect("localhost", 8001).sync();
 
             channelFuture.channel().closeFuture().sync();
         } catch (InterruptedException e) {
