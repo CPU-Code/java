@@ -31,6 +31,8 @@
 - [x] [jdk820__传统集合的多步遍历](src/main/java/com/cpucode/java/jdk820.java)
 - [x] [jdk821__循环遍历的弊端](src/main/java/com/cpucode/java/jdk821.java)
 - [x] [jdk822__Stream的更优写法](src/main/java/com/cpucode/java/jdk822.java)
+- [x] [jdk7和jdk8排序对比](src/main/java/com/cpucode/java/jdk8/Jdk8Test.java)
+
 
 - [返回目录](#文件目录)
 
