@@ -14,6 +14,7 @@
 - [x] [Generic5__泛型的接口](src/main/java/com/cpucode/generics/Generic5.java)
 - [x] [Generic6__泛型通配符](src/main/java/com/cpucode/generics/Generic6.java)
 - [x] [Generic7__受限泛型](src/main/java/com/cpucode/generics/Generic7.java)
+- [x] [泛型方法打印不同类型的数组元素](src/main/java/com/cpucode/generics/methodTest/GenericMethodTest.java)
 
 - [返回目录](#文件目录)
 
