@@ -3,7 +3,7 @@
 
 ## 文件目录
 
-- [](#)
+- [JDK8](#JDK8)
 
 --------------------
 
@@ -24,14 +24,16 @@
 - [x] [jdk813__Predicate接口_默认方法and](src/main/java/com/cpucode/java/jdk813.java)
 - [x] [jdk814__Predicate接口_默认方法or](src/main/java/com/cpucode/java/jdk814.java)
 - [x] [jdk815__Predicate接口_默认方法negat](src/main/java/com/cpucode/java/jdk815.java)
-- [ ] [jdk816__集合信息筛选](src/main/java/com/cpucode/java/jdk816.java)
+- [x] [jdk816__集合信息筛选](src/main/java/com/cpucode/java/jdk816.java)
 - [x] [jdk817__Function接口_抽象方法apply](src/main/java/com/cpucode/java/jdk817.java)
-- [ ] [jdk818__Function接口_默认方法andThen](src/main/java/com/cpucode/java/jdk818.java)
-- [ ] [jdk819__自定义函数模型拼接](src/main/java/com/cpucode/java/jdk819.java)
+- [x] [jdk818__Function接口_默认方法andThen](src/main/java/com/cpucode/java/jdk818.java)
+- [x] [jdk819__自定义函数模型拼接](src/main/java/com/cpucode/java/jdk819.java)
 - [x] [jdk820__传统集合的多步遍历](src/main/java/com/cpucode/java/jdk820.java)
 - [x] [jdk821__循环遍历的弊端](src/main/java/com/cpucode/java/jdk821.java)
 - [x] [jdk822__Stream的更优写法](src/main/java/com/cpucode/java/jdk822.java)
 - [x] [jdk7和jdk8排序对比](src/main/java/com/cpucode/java/jdk8/Jdk8Test.java)
+- [x] [Lambda](src/main/java/com/cpucode/java/mathTest/MathTest.java)
+
 
 
 - [返回目录](#文件目录)
