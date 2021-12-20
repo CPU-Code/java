@@ -3,9 +3,15 @@ package com.cpucode.java.test;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.EncodeHintType;
 import com.google.zxing.MultiFormatWriter;
-import com.google.zxing.WriterException;
 import com.google.zxing.common.BitMatrix;
 import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
+import net.sf.json.JSONObject;
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.HttpClients;
+import org.apache.http.util.EntityUtils;
 import org.joda.time.DateTime;
 
 import javax.imageio.ImageIO;
@@ -15,12 +21,16 @@ import javax.print.attribute.PrintRequestAttributeSet;
 import javax.print.attribute.standard.Copies;
 import javax.print.attribute.standard.MediaPrintableArea;
 import javax.print.attribute.standard.Sides;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.ItemEvent;
+import java.awt.event.ItemListener;
 import java.awt.image.BufferedImage;
 import java.awt.print.PrinterJob;
 import java.io.*;
-import java.awt.*;
-import javax.swing.*;
-import java.awt.event.*;
+import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.HashMap;
@@ -37,137 +47,42 @@ public class PrintTest {
     //打印机名包含字串
     volatile static String printerName = null;
 
-    public static void main(String[] args) throws PrintException, IOException, WriterException {
+    public static void main(String[] args) {
         GUI();
     }
 
-    /**
-     * 下载二维码
-     * @throws IOException
-     */
-    public static String download(String urlString) throws Exception {
-        String timeUrl = new DateTime().toString("yyyy/MM/dd");
-
-        String savePath = "D:\\" + timeUrl;
-
-        InputStream is = null;
-        OutputStream os = null;
-        File sf = null;
-        String JPEGName = null;
+    public static String GetUrlS(String appid, String secret) throws Exception{
+        HttpGet httpGet = new HttpGet(
+                "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid="
+                        + appid + "&secret=" + secret );
+        HttpClient httpClient = HttpClients.createDefault();
+        HttpResponse res = null;
+        String access_token = null;
 
         try {
-            // 构造URL
-            URL url = new URL(urlString);
-            // 打开连接
-            URLConnection con = url.openConnection();
-            //设置请求超时为5s
-            con.setConnectTimeout(5 * 1000);
-            // 输入流
-            is = con.getInputStream();
+            res = httpClient.execute(httpGet);
 
-            // 1K的数据缓冲
-            byte[] bs = new byte[1024];
-            // 读取到的数据长度
-            int len;
-            // 输出的文件流
-            sf = new File(savePath);
-            if(!sf.exists()){
-                sf.mkdirs();
+            HttpEntity entity = res.getEntity();
+            String result = EntityUtils.toString(entity, "UTF-8");
+            JSONObject jsons = JSONObject.fromObject(result);
+            String expires_in = jsons.getString("expires_in");
+
+
+            //缓存
+            if(Integer.parseInt(expires_in)==7200){
+                //ok
+                access_token = jsons.getString("access_token");
+                // System.out.println("access_token:" + access_token);
+            }else{
+                System.out.println("出错获取token失败！");
+                throw new IOException("出错获取token失败！");
             }
-            // https://alicliimg.clewm.net/weapp/2021/07/29/e9bcd9b21c57c4158b9a9e798ffcc37a1627528431.jpeg
-
-            // 获取图片的扩展名
-            // String extensionName = urlString.substring(urlString.lastIndexOf(".") + 1);
-
-            // 新的图片文件名 = 编号 +"."图片扩展名
-            JPEGName = urlString.substring(urlString.lastIndexOf("/") + 1);
-
-            os = new FileOutputStream(sf.getPath() + "\\" + JPEGName);
-
-            // 开始读取
-            while ((len = is.read(bs)) != -1) {
-                os.write(bs, 0, len);
-            }
-        } catch (Exception e) {
+        } catch (IOException e) {
             e.printStackTrace();
-            throw new Exception("下载二维码错误");
-        } finally {
-            // 完毕，关闭所有链接
-            os.close();
-            is.close();
-        }
-        return (sf.getPath() + "\\" + JPEGName);
-    }
-
-
-    /**
-     * 获取接口数据,返回json格式字符串
-     * @param mid 机器id
-     * @return json数据
-     */
-    public static String getData(String mid) throws Exception {
-        OutputStreamWriter out = null ;
-        BufferedReader in = null;
-        StringBuilder result = new StringBuilder();
-
-        String url = "https://cli.im/Home/Weapp/create";
-        String id = "&weapp_id=" + "wx23413865ff01d830";
-        String secret = "&weapp_secret=" + "31e5c61391f3a198ebb58322de0b5c06";
-        String app_url = "&weapp_url=" + "pages/index/index?mid=" + mid;
-
-        try {
-            URL realUrl = new URL(url);
-            // 打开和URL之间的连接
-            URLConnection conn = realUrl.openConnection();
-
-            //设置通用的请求头属性
-            conn.setRequestProperty("accept", "*/*");
-            conn.setRequestProperty("connection", "Keep-Alive");
-            conn.setRequestProperty("user-agent", "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;SV1)");
-
-            // 发送POST请求必须设置如下两行 否则会抛异常
-            // （java.net.ProtocolException: cannot write to a URLConnection
-            // if doOutput=false - call setDoOutput(true)）
-            conn.setDoOutput(true);
-            conn.setDoInput(true);
-
-            //获取URLConnection对象对应的输出流并开始发送参数
-            out = new OutputStreamWriter(conn.getOutputStream(), "UTF-8");
-
-            //添加参数
-            out.write(id);
-            out.write(secret);
-            out.write(app_url);
-
-            // 建立实际的连接
-            out.flush();
-
-            in = new BufferedReader(new InputStreamReader(conn.getInputStream(),"UTF-8"));
-
-            String line;
-            while ((line = in.readLine()) != null) {
-                result.append(line);
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-            throw new Exception("网络错误");
-        } finally {
-            // 使用finally块来关闭输出流、输入流
-            try {
-                if (out != null) {
-                    out.close();
-                }
-                if (in != null) {
-                    in.close();
-                }
-            } catch (IOException ex) {
-                ex.printStackTrace();
-            }
+            throw new Exception("出错获取token失败！");
         }
 
-        String name = result.toString().replace("\\" , "");
-
-        return name;
+        return access_token;
     }
 
     /**
@@ -175,25 +90,10 @@ public class PrintTest {
      */
     public static String process(String mid){
         // 获取请求数据
-        String data = null;
         String res = "成功生成";
-        boolean state = false;
 
         try {
-            for (int i = 0; i < 10; i++) {
-                data = getData(mid);
-                state = checkData(data);
-                if (state){
-                    break;
-                }
-            }
-
-            if (!state){
-                throw new Exception("网络异常, 请重新生成");
-            }
-
-            String replace = getURL(data);
-            String download = download(replace);
+            String download = download(mid);
 
             String qRcode = getQRcode(mid);
 
@@ -215,7 +115,7 @@ public class PrintTest {
      */
     public static void GUI() {
         int gap = 10;
-        JFrame f = new JFrame("小程序二维码打印");
+        JFrame f = new JFrame("小程序二维码打印 -- 中净生物流弊");
         f.setSize(500, 450);
         f.setLocation(200, 200);
         f.setLayout(null);
@@ -273,6 +173,7 @@ public class PrintTest {
         //鼠标监听
         b.addActionListener(new ActionListener(){
             boolean checkedpass = true;
+
             @Override
             public void actionPerformed(ActionEvent e){
                 checkedpass = true;
@@ -321,46 +222,6 @@ public class PrintTest {
                 printerName = (String) e.getItem();
             }
         });
-    }
-
-
-    /**
-     * 检查 data 的状态
-     * @param data
-     * @return
-     * @throws Exception
-     */
-    private static boolean checkData(String data) throws Exception {
-        char c = data.charAt(10);
-
-        if (c == '0'){
-            return false;
-        } else if(c == '1'){
-            return true;
-        } else {
-            throw new Exception("状态错误");
-        }
-    }
-
-    /**
-     * 提取 url
-     * @param data
-     */
-    public static String getURL(String data) throws Exception {
-        int https = data.indexOf("https");
-        int jpeg = data.lastIndexOf("\"");
-
-        if (https == -1 || jpeg == -1){
-            throw new Exception("无https");
-        }
-
-        String substring = data.substring(https, jpeg);
-
-        if (substring.isEmpty()){
-            throw new Exception("生成字符串为空, 请重新生成");
-        }
-
-        return substring;
     }
 
     /**
@@ -429,7 +290,6 @@ public class PrintTest {
             // 创建打印作业
             DocPrintJob job = printService.createPrintJob();
             job.print(doc, aset);
-
 
         } catch (FileNotFoundException e1) {
             e1.printStackTrace();
@@ -535,4 +395,223 @@ public class PrintTest {
         return new String(buffer);
     }
 
+
+    /**
+     * 检查 data 的状态
+     * @param data
+     * @return
+     * @throws Exception
+     */
+    @Deprecated
+    private static boolean checkData(String data) throws Exception {
+        char c = data.charAt(10);
+
+        if (c == '0'){
+            return false;
+        } else if(c == '1'){
+            return true;
+        } else {
+            throw new Exception("状态错误");
+        }
+    }
+
+
+    /**
+     * 获取接口数据,返回json格式字符串
+     * @param mid 机器id
+     * @return json数据
+     */
+    @Deprecated
+    public static String getData(String mid) throws Exception {
+        OutputStreamWriter out = null ;
+        BufferedReader in = null;
+        StringBuilder result = new StringBuilder();
+
+        String url = "https://cli.im/Home/Weapp/create";
+        String id = "&weapp_id=" + "wx23413865ff01d830";
+        String secret = "&weapp_secret=" + "31e5c61391f3a198ebb58322de0b5c06";
+        String app_url = "&weapp_url=" + "pages/index/index?mid=" + mid;
+
+        try {
+            URL realUrl = new URL(url);
+            // 打开和URL之间的连接
+            URLConnection conn = realUrl.openConnection();
+
+            //设置通用的请求头属性
+            conn.setRequestProperty("accept", "*/*");
+            conn.setRequestProperty("connection", "Keep-Alive");
+            conn.setRequestProperty("user-agent", "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;SV1)");
+
+            // 发送POST请求必须设置如下两行 否则会抛异常
+            // （java.net.ProtocolException: cannot write to a URLConnection
+            // if doOutput=false - call setDoOutput(true)）
+            conn.setDoOutput(true);
+            conn.setDoInput(true);
+
+            //获取URLConnection对象对应的输出流并开始发送参数
+            out = new OutputStreamWriter(conn.getOutputStream(), "UTF-8");
+
+            //添加参数
+            out.write(id);
+            out.write(secret);
+            out.write(app_url);
+
+            // 建立实际的连接
+            out.flush();
+
+            in = new BufferedReader(new InputStreamReader(conn.getInputStream(),"UTF-8"));
+
+            String line;
+            while ((line = in.readLine()) != null) {
+                result.append(line);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+            throw new Exception("网络错误");
+        } finally {
+            // 使用finally块来关闭输出流、输入流
+            try {
+                if (out != null) {
+                    out.close();
+                }
+                if (in != null) {
+                    in.close();
+                }
+            } catch (IOException ex) {
+                ex.printStackTrace();
+            }
+        }
+
+        String name = result.toString().replace("\\" , "");
+
+        return name;
+    }
+
+    /**
+     * 提取 url
+     * @param data
+     */
+    @Deprecated
+    public static String getURL(String data) throws Exception {
+        int https = data.indexOf("https");
+        int jpeg = data.lastIndexOf("\"");
+
+        if (https == -1 || jpeg == -1){
+            throw new Exception("无https");
+        }
+
+        String substring = data.substring(https, jpeg);
+
+        if (substring.isEmpty()){
+            throw new Exception("生成字符串为空, 请重新生成");
+        }
+
+        return substring;
+    }
+
+    /**
+     * 下载二维码
+     * @throws IOException
+     */
+    public static String download(String mid) throws Exception{
+        String token = "";
+        OutputStream os = null;
+        File sf = null;
+        BufferedInputStream bis = null;
+        String imagePath = null;
+
+        try {
+            token = GetUrlS("wx23413865ff01d830", "31e5c61391f3a198ebb58322de0b5c06");
+            URL url = new URL("https://api.weixin.qq.com/wxa/getwxacodeunlimit?access_token=" + token);
+
+            HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
+            httpURLConnection.setRequestMethod("POST");// 提交模式
+
+            // 发送POST请求必须设置如下两行
+            httpURLConnection.setDoOutput(true);
+            httpURLConnection.setDoInput(true);
+            // 获取URLConnection对象对应的输出流
+            PrintWriter printWriter = new PrintWriter(httpURLConnection.getOutputStream());
+            // 发送请求参数
+            JSONObject paramJson = new JSONObject();
+            paramJson.put("scene", mid);
+            paramJson.put("page", "pages/index/index");
+            paramJson.put("width", 400);
+            paramJson.put("auto_color", true);
+
+            printWriter.write(paramJson.toString());
+            // flush输出流的缓冲
+            printWriter.flush();
+            //开始获取数据
+            bis = new BufferedInputStream(httpURLConnection.getInputStream());
+
+            String timeUrl = new DateTime().toString("yyyy/MM/dd");
+
+            String savePath = "D:\\" + timeUrl;
+
+            // 1K 的数据缓冲
+            byte[] bs = new byte[1024];
+            // 读取到的数据长度
+            int len;
+            // 输出的文件流
+            sf = new File(savePath);
+            if(!sf.exists()){
+                sf.mkdirs();
+            }
+
+            imagePath = sf.getPath() + "\\" + token + ".jpeg";
+
+            os = new FileOutputStream(imagePath);
+
+            // 开始读取
+            while ((len = bis.read(bs)) != -1) {
+                os.write(bs, 0, len);
+            }
+
+            BufferedImage image = ImageIO.read(new File(imagePath));
+
+            BufferedImage outImage = new BufferedImage(400, 450, BufferedImage.TYPE_INT_RGB);
+
+            //得到画笔对象
+            Graphics2D outg = outImage.createGraphics();
+            outg.drawImage(image, 0, 0, image.getWidth(), image.getHeight(), null);
+
+            for (int x = 0; x < image.getWidth(); x++) {
+                for (int y = image.getHeight(); y < outImage.getHeight(); y++) {
+                    outImage.setRGB(x, y, 0xFFFFFFFF);
+                }
+            }
+
+            //10,20 表示这段文字在图片上的位置(x,y) .第一个是你设置的内容。救援码
+            //画文字到新的面板
+            outg.setColor(Color.BLACK);
+            //字体、字型、字号
+            outg.setFont(new Font("宋体", Font.PLAIN, 40));
+
+            int strWidth = outg.getFontMetrics().stringWidth(mid);
+            outg.drawString(mid, 200 - (strWidth >> 1), 400 + 40);
+
+            outg.dispose();
+            outImage.flush();
+            image = outImage;
+            image.flush();
+
+            ImageIO.write(image, "JPEG", new File(imagePath));
+        } catch (Exception e) {
+            e.printStackTrace();
+            throw new Exception("下载二维码错误");
+        } finally {
+            // 完毕，关闭所有链接
+            if (bis != null) {
+                bis.close();
+            }
+
+            if (os != null) {
+                os.close();
+            }
+
+        }
+
+        return imagePath;
+    }
 }
