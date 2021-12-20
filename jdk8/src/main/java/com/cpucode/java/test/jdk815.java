@@ -1,5 +1,5 @@
 
-package com.cpucode.java;
+package com.cpucode.java.test;
 
 import java.util.function.Predicate;
 

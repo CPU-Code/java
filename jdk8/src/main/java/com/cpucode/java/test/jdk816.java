@@ -1,4 +1,4 @@
-package com.cpucode.java;
+package com.cpucode.java.test;
 
 import java.util.ArrayList;
 import java.util.List;

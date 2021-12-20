@@ -1,4 +1,4 @@
-package com.cpucode.java;
+package com.cpucode.java.test;
 
 public class jdk85 {
     public static void main(String[] args) {
