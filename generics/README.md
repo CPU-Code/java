@@ -18,7 +18,7 @@
 - [x] [泛型方法返回三个可比较对象的最大值](src/main/java/com/cpucode/generics/maximum/MaximumTest.java)
 - [x] [定义一个泛型类](src/main/java/com/cpucode/generics/box/BoxTest.java)
 - [x] [类型通配符?](src/main/java/com/cpucode/generics/genericTest/GenericTest.java)
-
+- [x] [类型通配符上限](src/main/java/com/cpucode/generics/genericUper/GenericUperTest.java)
 
 - [返回目录](#文件目录)
 
