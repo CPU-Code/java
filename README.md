@@ -30,7 +30,7 @@ java编程基础 面向对象 javaAPI 集合 IO GUI JDBC 多线程 网络编程
 - [泛型](generics/README.md)
 - [集合](aggregation/README.md)
 - [IO](io/README.md)
-- [JDBC](jdbc/src/com/cpucode/java/README.md)
+- [JDBC](jdbc/README.md)
 - [多线程](thread/README.md)
 - [Lambda表达式](Lambda/README.md)
 - [网络编程](network/README.md)

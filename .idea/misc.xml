@@ -24,6 +24,7 @@
         <option value="$PROJECT_DIR$/rpc/pom.xml" />
         <option value="$PROJECT_DIR$/netty/pom.xml" />
         <option value="$PROJECT_DIR$/generics/pom.xml" />
+        <option value="$PROJECT_DIR$/jdk8/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

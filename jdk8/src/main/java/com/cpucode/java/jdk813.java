@@ -1,26 +1,29 @@
 /*
  * @由于个人水平有限, 难免有些错误, 还请指点:  
  * @Author: cpu_code
- * @Date: 2020-09-21 15:41:14
- * @LastEditTime: 2020-09-21 15:43:09
- * @FilePath: \java\jdk8\jdk85.java
+ * @Date: 2020-09-21 21:10:15
+ * @LastEditTime: 2020-09-21 21:39:06
+ * @FilePath: \java\jdk8\jd.k813.java
  * @Gitee: [https://gitee.com/cpu_code](https://gitee.com/cpu_code)
  * @Github: [https://github.com/CPU-Code](https://github.com/CPU-Code)
  * @CSDN: [https://blog.csdn.net/qq_44226094](https://blog.csdn.net/qq_44226094)
  * @Gitbook: [https://923992029.gitbook.io/cpucode/](https://923992029.gitbook.io/cpucode/)
  */
-package jdk8;
+package com.cpucode.java;
 
-public class jdk85 {
+import java.util.function.Predicate;
+
+public class jdk813 {
     public static void main(String[] args) {
-        startThread(() -> System.out.println("线程任务执行"));
+        method(s -> s.contains("c"), s -> s.contains("p"));
     }
 
-    private static void startThread(Runnable task) {
-        new Thread(task).start();
+    private static void method(Predicate<String> one, Predicate<String> two) {
+        boolean isValid = one.and(two).test("cpucode");
+        System.out.println("字符串符合不 " + isValid);
     }
 }
 
 /*
-线程任务执行
+字符串符合不 true
 */

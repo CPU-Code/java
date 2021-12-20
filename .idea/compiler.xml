@@ -29,6 +29,7 @@
         <module name="nowCoder" />
         <module name="rpc-server-provider" />
         <module name="stack" />
+        <module name="jdk8" />
         <module name="rpc-server-api-v2" />
         <module name="array" />
         <module name="programming" />
@@ -45,6 +46,7 @@
       <module name="generics" target="1.8" />
       <module name="io" target="1.8" />
       <module name="jdbc" target="1.8" />
+      <module name="jdk8" target="1.8" />
       <module name="leetcode" target="1.8" />
       <module name="link_list" target="8" />
       <module name="netty" target="1.8" />

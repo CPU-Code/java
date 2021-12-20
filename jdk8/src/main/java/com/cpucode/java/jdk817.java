@@ -1,29 +1,30 @@
 /*
  * @由于个人水平有限, 难免有些错误, 还请指点:  
  * @Author: cpu_code
- * @Date: 2020-09-21 21:41:49
- * @LastEditTime: 2020-09-21 21:44:40
- * @FilePath: \java\jdk8\jd.k815.java
+ * @Date: 2020-09-21 22:03:04
+ * @LastEditTime: 2020-09-21 22:05:41
+ * @FilePath: \java\jdk8\jd.k817.java
  * @Gitee: [https://gitee.com/cpu_code](https://gitee.com/cpu_code)
  * @Github: [https://github.com/CPU-Code](https://github.com/CPU-Code)
  * @CSDN: [https://blog.csdn.net/qq_44226094](https://blog.csdn.net/qq_44226094)
  * @Gitbook: [https://923992029.gitbook.io/cpucode/](https://923992029.gitbook.io/cpucode/)
  */
-package jdk8;
+package com.cpucode.java;
 
-import java.util.function.Predicate;
+import java.util.function.Function;
 
-public class jdk815 {
+public class jdk817 {
     public static void main(String[] args) {
-        method(s -> s.length() < 5);
+        method(s -> Integer.parseInt(s));
     }
 
-    private static void method(Predicate<String> predicate) {
-        boolean veryLone = predicate.negate().test("cpucode");
-        System.out.println("字符串符合不 " + veryLone);
+    private static void method(Function<String, Integer> function) {
+        int num = function.apply("10");
+
+        System.out.println(num + 22);
     }
 }
 
 /*
-字符串符合不 true
+32
 */
