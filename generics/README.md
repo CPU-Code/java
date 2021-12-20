@@ -16,6 +16,7 @@
 - [x] [Generic7__受限泛型](src/main/java/com/cpucode/generics/Generic7.java)
 - [x] [泛型方法打印不同类型的数组元素](src/main/java/com/cpucode/generics/methodTest/GenericMethodTest.java)
 - [x] [泛型方法返回三个可比较对象的最大值](src/main/java/com/cpucode/generics/maximum/MaximumTest.java)
+- [x] [定义一个泛型类](src/main/java/com/cpucode/generics/box/BoxTest.java)
 
 
 - [返回目录](#文件目录)
