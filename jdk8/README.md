@@ -34,8 +34,7 @@
 - [x] [jdk7和jdk8排序对比](src/main/java/com/cpucode/java/jdk8/Jdk8Test.java)
 - [x] [Lambda](src/main/java/com/cpucode/java/mathTest/MathTest.java)
 - [x] [静态局部变量](src/main/java/com/cpucode/java/greeting/GreetingTest.java)
-
-
+- [x] [访问外层的局部变量](src/main/java/com/cpucode/java/converter/ConverterTest.java)
 
 - [返回目录](#文件目录)
 
