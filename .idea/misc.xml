@@ -23,6 +23,7 @@
         <option value="$PROJECT_DIR$/IO/pom.xml" />
         <option value="$PROJECT_DIR$/rpc/pom.xml" />
         <option value="$PROJECT_DIR$/netty/pom.xml" />
+        <option value="$PROJECT_DIR$/generics/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

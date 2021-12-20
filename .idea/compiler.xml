@@ -11,27 +11,28 @@
         <module name="spring-demo" />
         <module name="rpc-server-api" />
         <module name="rpc-client-v2" />
-        <module name="stack" />
+        <module name="pattern" />
         <module name="rpc-client" />
+        <module name="leetcode" />
         <module name="chat-client" />
         <module name="link_list" />
-        <module name="netty-first" />
-        <module name="reflect" />
-        <module name="rpc-server-api-v2" />
-        <module name="test" />
-        <module name="programming" />
-        <module name="thread" />
-        <module name="network" />
         <module name="chat-server" />
+        <module name="rpc-server-provider-v2" />
+        <module name="reflect" />
+        <module name="spring-v2" />
+        <module name="test" />
+        <module name="generics" />
+        <module name="thread" />
+        <module name="netty-first" />
         <module name="netty-core" />
         <module name="jdbc" />
         <module name="nowCoder" />
         <module name="rpc-server-provider" />
-        <module name="spring-v2" />
-        <module name="leetcode" />
+        <module name="stack" />
+        <module name="rpc-server-api-v2" />
         <module name="array" />
-        <module name="rpc-server-provider-v2" />
-        <module name="pattern" />
+        <module name="programming" />
+        <module name="network" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -40,6 +41,8 @@
       <module name="chat-client" target="1.8" />
       <module name="chat-server" target="1.8" />
       <module name="data_algorithm" target="1.8" />
+      <module name="Generic" target="1.5" />
+      <module name="generics" target="1.8" />
       <module name="io" target="1.8" />
       <module name="jdbc" target="1.8" />
       <module name="leetcode" target="1.8" />
