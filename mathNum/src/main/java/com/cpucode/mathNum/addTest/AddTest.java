@@ -1,4 +1,4 @@
-package com.cpucode.mathNum;
+package com.cpucode.mathNum.addTest;
 
 /**
  * 使x能进行加运算，所以要对x进行拆箱
