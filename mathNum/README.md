@@ -14,6 +14,7 @@
 - [x] [转换为各类型](src/main/java/com/cpucode/mathNum/valueTest/ValueTest.java)
 - [x] [将number对象与参数比较](src/main/java/com/cpucode/mathNum/compareTest/CompareTest.java)
 - [x] [判断number对象是否与参数相等](src/main/java/com/cpucode/mathNum/equalsTest/EqualsTest.java)
+- [x] [返回Number对象指定的内置数据类型](src/main/java/com/cpucode/mathNum/valueOfTest/ValueOfTest.java)
 
 
 - [返回目录](../README.md)
