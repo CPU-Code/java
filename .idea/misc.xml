@@ -26,6 +26,7 @@
         <option value="$PROJECT_DIR$/generics/pom.xml" />
         <option value="$PROJECT_DIR$/jdk8/pom.xml" />
         <option value="$PROJECT_DIR$/mathNum/pom.xml" />
+        <option value="$PROJECT_DIR$/objectTest/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

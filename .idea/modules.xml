@@ -31,7 +31,7 @@
       <module fileurl="file://$PROJECT_DIR$/netty/netty-msg-send/netty-msg-send.iml" filepath="$PROJECT_DIR$/netty/netty-msg-send/netty-msg-send.iml" />
       <module fileurl="file://$PROJECT_DIR$/network/network.iml" filepath="$PROJECT_DIR$/network/network.iml" />
       <module fileurl="file://$PROJECT_DIR$/nowCoder/nowCoder.iml" filepath="$PROJECT_DIR$/nowCoder/nowCoder.iml" />
-      <module fileurl="file://$PROJECT_DIR$/object/object.iml" filepath="$PROJECT_DIR$/object/object.iml" />
+      <module fileurl="file://$PROJECT_DIR$/objectTest/objectTest.iml" filepath="$PROJECT_DIR$/objectTest/objectTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern/pattern.iml" filepath="$PROJECT_DIR$/pattern/pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/artConcurrent/programming/programming.iml" filepath="$PROJECT_DIR$/artConcurrent/programming/programming.iml" />
       <module fileurl="file://$PROJECT_DIR$/reflect/reflect.iml" filepath="$PROJECT_DIR$/reflect/reflect.iml" />
