@@ -58,7 +58,7 @@
       <module name="netty-msg-send" target="1.8" />
       <module name="network" target="1.8" />
       <module name="nowCoder" target="1.8" />
-      <module name="objectTest" target="1.5" />
+      <module name="objectTest" target="1.8" />
       <module name="pattern" target="1.8" />
       <module name="programming" target="1.8" />
       <module name="reflect" target="1.8" />

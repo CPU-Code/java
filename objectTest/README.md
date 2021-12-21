@@ -64,6 +64,8 @@
 - [x] [polymorphic4__多态转型异常](src/main/java/com/cpucode/java/polymorphic/polymorphic4.java)
 - [x] [polymorphic5__多态转型异常判断](src/main/java/com/cpucode/java/polymorphic/polymorphic5.java)
 - [x] [polymorphic6__接口多态的综合案例](src/main/java/com/cpucode/java/polymorphic/polymorphic6)
+- [x] [多态的覆盖方法](src/main/java/com/cpucode/java/polymorphic/OverrideTest.java)
+
 
 - [返回object](#面对对象)
 
