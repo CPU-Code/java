@@ -24,6 +24,7 @@
       <module fileurl="file://$PROJECT_DIR$/junit_test/junit_test.iml" filepath="$PROJECT_DIR$/junit_test/junit_test.iml" />
       <module fileurl="file://$PROJECT_DIR$/leetcode/leetcode.iml" filepath="$PROJECT_DIR$/leetcode/leetcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/data_algorithm/link_list/link_list.iml" filepath="$PROJECT_DIR$/data_algorithm/link_list/link_list.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mathNum/mathNum.iml" filepath="$PROJECT_DIR$/mathNum/mathNum.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty/netty.iml" filepath="$PROJECT_DIR$/netty/netty.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty/netty-msg-send/netty-core/netty-core.iml" filepath="$PROJECT_DIR$/netty/netty-msg-send/netty-core/netty-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty/netty-first/netty-first.iml" filepath="$PROJECT_DIR$/netty/netty-first/netty-first.iml" />
