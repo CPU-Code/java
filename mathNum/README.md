@@ -3,7 +3,7 @@
 
 ## 文件目录
 
-- [](#)
+- [数学运算](#数学运算)
 
 -----------
 
@@ -11,7 +11,7 @@
 
 - [x] [加法](src/main/java/com/cpucode/mathNum/addTest/AddTest.java)
 - [x] [算术类型](src/main/java/com/cpucode/mathNum/mathTest/MathTest.java)
-
+- [x] [转换为各类型](src/main/java/com/cpucode/mathNum/valueTest/ValueTest.java)
 
 
 - [返回目录](../README.md)
